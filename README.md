@@ -86,6 +86,11 @@ Put the downloaded files in `raw/` (git-ignored) under these names: `WVS_Cross-N
 `build/ways_of_asking_profiles.py` rebuilds the simulated-respondent profiles into `raw/derived/` (never committed).
 `build/hand_check_eurobarometer.csv` records 20 Eurobarometer values checked by hand against the published pages.
 
+## Licence
+
+The code (`analysis/`, `build/`, `check_numbers.py`) is under the MIT licence in `LICENSE`. The survey wording and
+shares in `data/` and `results/` come from the sources above and remain under their terms.
+
 ## Citation
 
 (to be added with the preprint)
