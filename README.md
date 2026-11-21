@@ -47,7 +47,8 @@ from (the last bracketed number in the reply).
 ## Reproducing the paper
 
 ```
-python3.15 -m venv .venv   # tested with Python 3.15.0 && .venv/bin/pip install -r requirements.txt
+python3.15 -m venv .venv          # tested with Python 3.15.0
+.venv/bin/pip install -r requirements.txt
 .venv/bin/python check_numbers.py
 ```
 
@@ -60,7 +61,21 @@ respondent-level files described below; the others run from `data/` alone.
 |---|---|---|---|
 | World Values Survey, wave 7 | respondent-level data file, version 6.0 (`WVS_Cross-National_Wave_7_csv_v6_0.csv`) | worldvaluessurvey.org (free registration) | question-level shares only; the data file may not be redistributed |
 | General Social Survey 2022, 2024 | NORC data files (2022 Release 4; 2024 Release 3a), Stata format | gss.norc.org | question-level shares only |
-| Eurobarometer, 22 surveys | published data annexes (PDF), October 2025 to October 2026 | europa.eu/eurobarometer; see `build/eurobarometer_sources.csv` | question-level shares and wording, with credit to the European Commission |
+| Eurobarometer, 22 surveys | published data annexes (PDF), October 2025 to October 2026 | europa.eu/eurobarometer; see `build/eurobarometer_sources.csv` | question-level shares and wording, with credit to the European Commission and the European Parliament |
+
+Credits and conditions:
+
+- **World Values Survey.** The data files are free for non-profit use and may not be redistributed; this repository
+  holds only shares computed from them. Data source: Haerpfer, C., Inglehart, R., Moreno, A., Welzel, C., Kizilova, K.,
+  Diez-Medrano, J., Lagos, M., Norris, P., Ponarin, E. and Puranen, B. (eds.) (2022). World Values Survey Wave 7
+  (2017-2022), cross-national data file, version 6.0. Madrid and Vienna: JD Systems Institute and WVSA Secretariat.
+  doi:10.14281/18241.24
+- **General Social Survey.** Davern, M., Bautista, R., Freese, J., Herd, P. and Morgan, S. L. *General Social Survey
+  1972-2022* (2022 Release 4) and *General Social Survey 1972-2024* (2024 Release 3a). Chicago: NORC.
+- **Eurobarometer.** Question wording and "don't know" shares are taken from the published data annexes; each survey's
+  title and DOI are in `build/eurobarometer_sources.csv`. Surveys of the European Commission: © European Union,
+  2025-2026, reused under the Commission's reuse policy (Decision 2011/833/EU; CC BY 4.0). Surveys of the European
+  Parliament (EB049EP, EB050EP, FL015EP): © European Union, 2025-2026 – Source: European Parliament.
 
 ## Respondent-level data
 
