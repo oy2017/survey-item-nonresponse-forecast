@@ -10,6 +10,7 @@ script and reports any line that differs from these files.
 | `appendix_d3_models_and_prompts.txt` | Tables D3 (rewritten prompts), D4 (examples in the prompt), D5 (all models), D6 (open-weight models), D7 (country shares) |
 | `section5_type_of_question.txt` | Section 5.2, Appendix D.4: inside-block scores (Table D8), regressions on past results, rated familiarity and knowledge |
 | `section5_memorization.txt` | Section 5.3, Table 4, Appendix D.5 (Tables D9, D10) |
+| `section5_memorization_naming.txt` | Appendix D.5: Sonnet 5.5 naming Eurobarometer in its replies, and whether those forecasts are closer |
 | `appendix_c_surveys.txt` | Appendix C, Table C1 |
 | `section5_worth.txt` | Section 5.4, Figure 2, Appendix D.6 (Table D11), cost |
 | `ways_of_asking.txt` | Section 6, Table 5, Appendix D.7 (Tables D12 to D14) |

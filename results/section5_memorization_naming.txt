@@ -1,0 +1,16 @@
+=== A. Counts (face-to-face Eurobarometer, Sonnet 5.5, three calls per question) ===
+replies 1122; with a sentence before the number 539; naming Eurobarometer 539; with a sentence but not naming it 0
+questions: 374; no call names it 162; all three name it 145; one or two name it 67
+mean signed error (forecast minus real), all Sonnet 5.5 replies: +1.99 points
+
+=== B. Same question: calls that name Eurobarometer against calls that do not ===
+67 questions in 44 blocks
+error (points), named minus not named: -0.42 [-0.78, -0.09]; named call closer on 42, further on 17, equal on 8
+forecast (points), named minus not named: -0.65
+Spearman correlation with the real share: named 0.754, not named 0.761, difference -0.006 [-0.058, +0.039]
+
+=== C. Split by whether Sonnet 5.5 could have seen the result (training cutoff June 2026) ===
+asked in earlier Eurobarometer waves   replies naming it 0.53; questions where some calls name it  51; error, named minus not named -0.30 [-0.73, +0.11]
+new, first published after June 2026   replies naming it 0.47; questions where some calls name it  13; error, named minus not named -0.69 [-1.13, -0.25]
+new, first published by June 2026      replies naming it 0.20; questions where some calls name it   3; error, named minus not named -1.33
+asked in earlier waves minus new and first published after June 2026: +0.39 [-0.28, +0.97] (negative would mean naming helps more where the result could have been seen)
