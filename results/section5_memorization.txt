@@ -1,0 +1,73 @@
+=== A. Eurobarometer cleaning ===
+  parsed table rows 681; with table numbers inside the question 65 {'STD104': 65}; clean rows 616; each question once 502 {'face-to-face': 374, 'web': 101, 'telephone': 27}
+  questions counted once equal the Eurobarometer qids of questions.csv: True
+  Opus 4.5: forecasts in eb_rows equal forecasts_main on the 502: True
+  Sonnet 4.5: forecasts in eb_rows equal forecasts_main on the 502: True
+  Opus 5.5: forecasts in eb_rows equal forecasts_main on the 502: True
+  Sonnet 5.5: forecasts in eb_rows equal forecasts_main on the 502: True
+
+=== B. Dating ===
+  new questions 100; appearing in more than one survey: 1 [{'qid': 'eb:EB050EP:p68', 'row_survey': 'EB050EP', 'dated_by': 'EB049EP', 'fs_min': '2025-11-06', 'pub_min': '2026-02-04'}]
+  earliest first publication among the 22 surveys: 2025-10-28 (22 surveys); among the 100: 2025-10-28; all 100 published after 31 Aug 2025: True
+  fielded by 31 Aug 2025: 13 questions, fieldwork starts ['2025-05-05'] in surveys {'SP567': 13}
+  fielded after 31 Aug 2025: 87
+
+=== C. Older models: Table D9 and Table 4 row 1 ===
+  fielded after August 2025                          n  87 blocks 37 surveys (rows) 10 (dated by) 10 | opus45 0.825 [0.69, 0.91] opus45_think 0.821 [0.68, 0.90] sonnet45 0.727 [0.54, 0.84] opus 0.889 [0.79, 0.94] sonnet 0.833 [0.69, 0.90]
+  all                                                n 100 blocks 42 surveys (rows) 11 (dated by) 11 | opus45 0.840 [0.71, 0.91] opus45_think 0.830 [0.69, 0.90] sonnet45 0.750 [0.57, 0.86] opus 0.880 [0.77, 0.94] sonnet 0.833 [0.69, 0.91]
+  question length (question text characters): 87 0.137, all 0.230 | prompt characters: 87 0.108, all 0.192
+  inside blocks, fielded after August 2025 (68 questions, 18 blocks): opus45 0.752, opus45_think 0.750, sonnet45 0.544, opus 0.764, sonnet 0.712
+  Opus 4.5 thinking: calls 300, calls per question [3], unreadable 0, calls with thinking 300, model ['claude-opus-4-5-20251101']
+  paired difference on the 87, opus45_think minus opus: -0.068 [-0.165, -0.004]
+  paired difference on the 87, opus45 minus opus: -0.064 [-0.147, -0.010]
+  paired difference on the 87, sonnet45 minus sonnet: -0.105 [-0.239, -0.010]
+  paired difference on the 87, opus45_think minus opus45: -0.003 [-0.045, +0.031]
+
+=== D. Published after the June 2026 cutoff: Table D10 and Table 4 row 2 ===
+  first published after 30 June 2026                 n  53 blocks 21 surveys (rows)  5 (dated by)  5 | opus 0.858 [0.72, 0.95] sonnet 0.807 [0.63, 0.91] opus45 0.781 [0.60, 0.92] sonnet45 0.712 [0.49, 0.86] n_options 0.161 [0.01, 0.35]
+  first published by 30 June 2026                    n  47 blocks 21 surveys (rows)  7 (dated by)  6 | opus 0.864 [0.66, 0.94] sonnet 0.829 [0.59, 0.91] opus45 0.806 [0.55, 0.90] sonnet45 0.710 [0.40, 0.85] n_options -0.236 [-0.57, 0.26]
+  after: question length (text) 0.005, prompt characters -0.019 | dated by {'SP569': 27, 'SP578': 12, 'SP574': 6, 'EB050EP': 4, 'SP577': 4} | rows sit in {'SP569': 27, 'SP578': 12, 'SP574': 6, 'EB050EP': 4, 'SP577': 4}
+  by: question length (text) 0.467, prompt characters 0.406 | dated by {'SP572': 25, 'SP567': 13, 'STD105': 4, 'EB049EP': 3, 'SP571': 1, 'STD104': 1} | rows sit in {'SP572': 25, 'SP567': 13, 'STD105': 4, 'EB049EP': 2, 'EB050EP': 1, 'SP571': 1, 'STD104': 1}
+  fieldwork end of the surveys dating the 53: EB050EP 2026-05-04, SP569 2025-11-30, SP574 2026-05-04, SP577 2026-06-15, SP578 2026-06-15
+  surveys published on 1 July 2026 among the five: ['EB050EP']; without it n 49 | opus 0.851 sonnet 0.804
+  the 53 inside blocks (44 questions, 12 blocks): opus 0.790, sonnet 0.784
+  the 53 inside surveys (53 questions, 5 surveys): opus 0.838, sonnet 0.749
+  largest survey among the 53: SP569 with 27; without it n 26 | opus 0.854 [0.70, 0.95], sonnet 0.733 [0.45, 0.91]
+  wording: 53 questions against 421 clean rows published by 30 June 2026; character similarity of the closest earlier wording, top 6:
+     0.96 | eb:EB050EP:p56: On the whole, are you very satisfied, fairly satisfied, not very satisfied or no
+            ~ eb:STD105:p5: On the whole, are you very satisfied, fairly satisfied, not very satisfied or no
+     0.82 | eb:EB050EP:p32: To what extent do you agree or disagree with each of the following statements? T
+            ~ eb2:EB049EP:p25: To what extent do you agree or disagree with each of the following statements? T
+     0.77 | eb:SP569:p12: Please tell me to what extent you agree or disagree with each of the following s
+            ~ eb:STD105:p268: Please tell to what extent you agree or disagree with each of the following stat
+     0.76 | eb:SP569:p10: Please tell me to what extent you agree or disagree with each of the following s
+            ~ eb:STD105:p131: To what extent do you agree or disagree with each of the following statements? I
+     0.73 | eb:SP569:p19: Please tell me to what extent you agree or disagree with each of the following s
+            ~ eb:STD105:p272: Please tell to what extent you agree or disagree with each of the following stat
+     0.71 | eb:SP569:p22: Please tell me to what extent you agree or disagree with each of the following s
+            ~ eb:STD105:p268: Please tell to what extent you agree or disagree with each of the following stat
+  without the questions at similarity 0.75 or above (4 dropped): n 49 | opus 0.848 sonnet 0.793
+
+=== E. Note on counts ===
+  clean face-to-face rows without a change-since-last-wave column: 104; counted once 100
+     eb2:STD104:p114 (new) is counted as eb:STD105:p165 in STD105, marked 'repeated'; published 2025-12-11 vs 2026-05-08
+     eb2:EB049EP:p32 (new) is counted as eb:EB050EP:p39 in EB050EP, marked 'repeated'; published 2026-02-04 vs 2026-07-01
+     eb2:EB049EP:p33 (new) is counted as eb:EB050EP:p40 in EB050EP, marked 'repeated'; published 2026-02-04 vs 2026-07-01
+     eb2:EB049EP:p35 (new) is counted as eb:EB050EP:p42 in EB050EP, marked 'repeated'; published 2026-02-04 vs 2026-07-01
+
+=== F. The earlier run with a sentence of reasoning (WVS 7 and GSS 2022) ===
+  questions 403 {'wvs7': 238, 'gss2022': 165}; kept 304 {'wvs7': 181, 'gss2022': 123}
+  dropped by rule: {('gss2022', 'GSS corrupt or paradata'): 4, ('gss2022', 'GSS duplicate wording variant'): 38, ('wvs7', 'WVS knowledge-quiz question'): 3, ('wvs7', 'WVS report of own behaviour, not an attitude'): 50, ('wvs7', 'WVS structural artefact'): 4}
+  kept questions equal the WVS 7 + GSS 2022 qids of questions.csv: True
+  Sonnet 5.5 replies 403: with text besides the number 349; naming the survey 336 (83%); naming a specific item 308
+  on the 304 kept: naming the survey 262 of 304
+
+=== G. The 80 reworded questions ===
+  80 questions {'wvs7': 50, 'gss2022': 30}; options count kept equal: 80 of 80
+  opus original 0.823 | opus reworded 0.835 | sonnet original 0.703 | sonnet reworded 0.711
+
+=== H. Llama on the General Social Survey 2024 ===
+  55 questions by module: {'issp_digsoc_2024': 32, 'issp_natid_2024': 15, 'anes_2024': 2, 'core24_acpttg': 1, 'core24_chngdocs': 1, 'core24_dsndntpay': 1, 'core24_feovrwrk': 1, 'core24_marsamey': 1, 'core24_racdif5': 1}
+  digital societies module: n 32, blocks 1 | Llama 3.3 70B 0.737 | Llama 4 Maverick 0.606 | calls per question [3]
+  of the 55 question variables, present in the 2022 data file (1297 variables): []
+  2024 file: 3986 respondents, year [2024], interview date (month*100 + day) from 405 to 1202, missing for 0

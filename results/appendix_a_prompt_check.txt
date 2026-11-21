@@ -1,0 +1,10 @@
+prompts per set: {'eb_face_to_face': 374, 'eb_telephone': 27, 'eb_web': 101, 'gss2022': 123, 'gss2024_interview': 55, 'gss2024_web': 47, 'wvs7': 181}
+not matching the Appendix A template: none
+GSS 2024 web prompt (example):
+SYSTEM: You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5]. 
+USER: Population and mode: a nationally representative self-administered web survey of adults in the United States. Respondents read the question on screen, and 'Can't choose' is explicitly displayed in the list of answer options.
+
+Question: (Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel "totally uncomfortabl e" and '10' means that you would feel "totally comfortable" with this situation.) Being driven in a driverless car.
+On-screen options: 0=totally uncomfortable with this situation; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=totally comfortable with this situation; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4].

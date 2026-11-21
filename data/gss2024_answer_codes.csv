@@ -1,0 +1,103 @@
+qid,subst_codes,dk_code_web
+gss24_int:acpttg,1 2 3,
+gss24_int:aidrive,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:aidrive,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:aimed,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:aimed,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:aiworry,1 2 3 4 5,
+gss24_web:aiworry,1 2 3 4 5,6
+gss24_int:biasnews,1 2 3 4 5,
+gss24_web:biasnews,1 2 3 4 5,6
+gss24_int:bizmoney,1 2 3 4 5,
+gss24_web:bizmoney,1 2 3 4 5,6
+gss24_int:brneffrt,1 2 3 4,
+gss24_web:brneffrt,1 2 3 4,5
+gss24_int:cctv,1 2 3 4,
+gss24_web:cctv,1 2 3 4,5
+gss24_int:chngdocs,1 2 3,
+gss24_int:classtech,1 2 3 4,
+gss24_web:classtech,1 2 3 4,5
+gss24_int:conpow,1 2 3 4 5,
+gss24_web:conpow,1 2 3 4 5,6
+gss24_int:dataprot,1 2 3,
+gss24_web:dataprot,1 2 3,4
+gss24_int:dsndntpay,1 2 3,
+gss24_int:econstat,1 2 3 4 5,
+gss24_int:eductech,1 2 3 4,
+gss24_web:eductech,1 2 3 4,5
+gss24_int:emonitor1,1 2 3 4,
+gss24_web:emonitor1,1 2 3 4,5
+gss24_int:experts,1 2 3 4 5,
+gss24_web:experts,1 2 3 4 5,6
+gss24_int:feovrwrk,1 2 3 4 5,
+gss24_int:fulldem,1 2 3 4 5,
+gss24_web:fulldem,1 2 3 4 5,6
+gss24_int:gendtech,1 2 3 4,
+gss24_web:gendtech,1 2 3 4,5
+gss24_int:harmgood1,1 2 3 4 5,
+gss24_web:harmgood1,1 2 3 4 5,6
+gss24_int:immcrime1,1 2 3 4 5,
+gss24_web:immcrime1,1 2 3 4 5,6
+gss24_int:immideas1,1 2 3 4 5,
+gss24_web:immideas1,1 2 3 4 5,6
+gss24_int:immjobs1,1 2 3 4 5,
+gss24_web:immjobs1,1 2 3 4 5,6
+gss24_int:immwlfare,1 2 3 4 5,
+gss24_web:immwlfare,1 2 3 4 5,6
+gss24_int:incgap1,1 2 3 4 5,
+gss24_web:incgap1,1 2 3 4 5,6
+gss24_int:infodeal,1 2 3 4 5,
+gss24_web:infodeal,1 2 3 4 5,6
+gss24_int:infoprofit,1 2 3 4 5,
+gss24_web:infoprofit,1 2 3 4 5,6
+gss24_int:intcnfrm,1 2 3 4 5,
+gss24_web:intcnfrm,1 2 3 4 5,6
+gss24_int:inthrss,1 2 3 4,
+gss24_web:inthrss,1 2 3 4,5
+gss24_int:intliteracy,1 2 3 4 5,
+gss24_web:intliteracy,1 2 3 4 5,6
+gss24_int:intlnly,1 2 3 4 5,
+gss24_web:intlnly,1 2 3 4 5,6
+gss24_int:intoppo,1 2 3 4 5,
+gss24_web:intoppo,1 2 3 4 5,6
+gss24_int:intpolview,1 2 3 4 5,
+gss24_web:intpolview,1 2 3 4 5,6
+gss24_int:intpub,1 2 3 4 5 6,
+gss24_web:intpub,1 2 3 4 5 6,7
+gss24_int:intrust,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:intrust,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:intscam,1 2 3 4,
+gss24_web:intscam,1 2 3 4,5
+gss24_int:intskill,1 2 3 4 5,
+gss24_web:intskill,1 2 3 4 5,6
+gss24_int:inttrig,1 2 3 4 5,
+gss24_web:inttrig,1 2 3 4 5,6
+gss24_int:intviews,1 2 3 4 5 6,
+gss24_web:intviews,1 2 3 4 5 6,7
+gss24_int:leftrght1,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:leftrght1,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:marsamey,1 2 3 4 5,
+gss24_int:nextgen1,1 2 3 4 5,
+gss24_web:nextgen1,1 2 3 4 5,6
+gss24_int:owndecns,1 2 3 4 5,
+gss24_web:owndecns,1 2 3 4 5,6
+gss24_int:polint,1 2 3 4 5,
+gss24_web:polint,1 2 3 4 5,6
+gss24_int:polintrst,1 2 3,
+gss24_int:racdif5,1 2,
+gss24_int:servpub,1 2 3 4,
+gss24_web:servpub,1 2 3 4,5
+gss24_int:techesy,1 2 3 4 5,
+gss24_web:techesy,1 2 3 4 5,6
+gss24_int:trcong,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:trcong,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:trcourts,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:trcourts,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:trppl,0 1 2 3 4 5 6 7 8 9 10,
+gss24_web:trppl,0 1 2 3 4 5 6 7 8 9 10,11
+gss24_int:urbantech,1 2 3 4,
+gss24_web:urbantech,1 2 3 4,5
+gss24_int:usmca1,1 2 3 4,
+gss24_web:usmca1,1 2 3 4,5
+gss24_int:usmca2,1 2 3 4 5,
+gss24_web:usmca2,1 2 3 4 5,6

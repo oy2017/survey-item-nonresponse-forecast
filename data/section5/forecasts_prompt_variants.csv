@@ -1,0 +1,4489 @@
+qid,model,variant,forecast_pct
+eb:STD105:p3,Opus 5.5,norole,0.2
+eb:STD105:p3,Opus 5.5,minimal,0.0
+eb:STD105:p5,Opus 5.5,nomode,0.4
+eb:STD105:p5,Opus 5.5,norole,0.3
+eb:STD105:p5,Opus 5.5,minimal,1.0
+eb:STD105:p3,Opus 5.5,nomode,0.3
+eb:STD105:p5,Opus 5.5,paraphrase,0.3
+eb:STD105:p3,Opus 5.5,paraphrase,0.3
+eb:STD105:p7,Opus 5.5,nomode,0.3
+eb:STD105:p9,Opus 5.5,nomode,0.7
+eb:STD105:p7,Opus 5.5,minimal,1.0
+eb:STD105:p9,Opus 5.5,norole,0.7
+eb:STD105:p9,Opus 5.5,minimal,1.0
+eb:STD105:p7,Opus 5.5,norole,0.4
+eb:STD105:p7,Opus 5.5,paraphrase,0.5
+eb:STD105:p9,Opus 5.5,paraphrase,0.8
+eb:STD105:p11,Opus 5.5,nomode,0.6
+eb:STD105:p11,Opus 5.5,minimal,1.0
+eb:STD105:p11,Opus 5.5,norole,0.6
+eb:STD105:p15,Opus 5.5,norole,2.0
+eb:STD105:p15,Opus 5.5,nomode,1.4
+eb:STD105:p11,Opus 5.5,paraphrase,0.3
+eb:STD105:p15,Opus 5.5,minimal,1.0
+eb:STD105:p15,Opus 5.5,paraphrase,2.0
+eb:STD105:p17,Opus 5.5,nomode,2.6
+eb:STD105:p17,Opus 5.5,norole,2.5
+eb:STD105:p17,Opus 5.5,minimal,4.0
+eb:STD105:p19,Opus 5.5,norole,11.5
+eb:STD105:p19,Opus 5.5,nomode,9.0
+eb:STD105:p19,Opus 5.5,minimal,11.0
+eb:STD105:p19,Opus 5.5,paraphrase,11.0
+eb:STD105:p17,Opus 5.5,paraphrase,3.2
+eb:STD105:p23,Opus 5.5,norole,1.0
+eb:STD105:p23,Opus 5.5,nomode,1.0
+eb:STD105:p23,Opus 5.5,minimal,1.0
+eb:STD105:p21,Opus 5.5,norole,12.0
+eb:STD105:p21,Opus 5.5,nomode,14.0
+eb:STD105:p23,Opus 5.5,paraphrase,0.9
+eb:STD105:p21,Opus 5.5,paraphrase,10.5
+eb:STD105:p25,Opus 5.5,norole,3.0
+eb:STD105:p21,Opus 5.5,minimal,12.0
+eb:STD105:p25,Opus 5.5,nomode,3.5
+eb:STD105:p25,Opus 5.5,minimal,3.0
+eb:STD105:p27,Opus 5.5,nomode,2.7
+eb:STD105:p27,Opus 5.5,norole,2.4
+eb:STD105:p27,Opus 5.5,minimal,3.0
+eb:STD105:p25,Opus 5.5,paraphrase,3.4
+eb:STD105:p29,Opus 5.5,norole,1.4
+eb:STD105:p27,Opus 5.5,paraphrase,2.4
+eb:STD105:p29,Opus 5.5,nomode,2.0
+eb:STD105:p29,Opus 5.5,paraphrase,1.8
+eb:STD105:p31,Opus 5.5,minimal,5.0
+eb:STD105:p31,Opus 5.5,nomode,4.0
+eb:STD105:p29,Opus 5.5,minimal,2.0
+eb:STD105:p31,Opus 5.5,norole,3.0
+eb:STD105:p33,Opus 5.5,norole,5.0
+eb:STD105:p33,Opus 5.5,nomode,4.5
+eb:STD105:p31,Opus 5.5,paraphrase,4.0
+eb:STD105:p33,Opus 5.5,minimal,5.0
+eb:STD105:p35,Opus 5.5,minimal,2.0
+eb:STD105:p35,Opus 5.5,nomode,2.3
+eb:STD105:p33,Opus 5.5,paraphrase,3.8
+eb:STD105:p37,Opus 5.5,norole,5.0
+eb:STD105:p35,Opus 5.5,norole,1.7
+eb:STD105:p37,Opus 5.5,nomode,5.0
+eb:STD105:p35,Opus 5.5,paraphrase,1.8
+eb:STD105:p37,Opus 5.5,minimal,5.0
+eb:STD105:p37,Opus 5.5,paraphrase,4.5
+eb:STD105:p39,Opus 5.5,minimal,7.0
+eb:STD105:p39,Opus 5.5,norole,7.0
+eb:STD105:p39,Opus 5.5,nomode,4.5
+eb:STD105:p41,Opus 5.5,norole,8.0
+eb:STD105:p41,Opus 5.5,nomode,8.0
+eb:STD105:p39,Opus 5.5,paraphrase,6.5
+eb:STD105:p41,Opus 5.5,paraphrase,8.0
+eb:STD105:p41,Opus 5.5,minimal,10.0
+eb:STD105:p69,Opus 5.5,nomode,5.0
+eb:STD105:p69,Opus 5.5,paraphrase,5.0
+eb:STD105:p69,Opus 5.5,norole,5.0
+eb:STD105:p69,Opus 5.5,minimal,6.0
+eb:STD105:p71,Opus 5.5,norole,5.0
+eb:STD105:p71,Opus 5.5,nomode,6.0
+eb:STD105:p71,Opus 5.5,minimal,6.0
+eb:STD105:p71,Opus 5.5,paraphrase,5.0
+eb:STD105:p73,Opus 5.5,nomode,4.0
+eb:STD105:p73,Opus 5.5,norole,4.3
+eb:STD105:p73,Opus 5.5,minimal,5.0
+eb:STD105:p75,Opus 5.5,norole,3.0
+eb:STD105:p75,Opus 5.5,nomode,2.5
+eb:STD105:p75,Opus 5.5,paraphrase,2.0
+eb:STD105:p73,Opus 5.5,paraphrase,4.6
+eb:STD105:p75,Opus 5.5,minimal,3.0
+eb:STD105:p77,Opus 5.5,nomode,7.0
+eb:STD105:p77,Opus 5.5,norole,7.0
+eb:STD105:p77,Opus 5.5,minimal,7.0
+eb:STD105:p77,Opus 5.5,paraphrase,6.0
+eb:STD105:p79,Opus 5.5,nomode,6.5
+eb:STD105:p79,Opus 5.5,norole,6.0
+eb:STD105:p79,Opus 5.5,minimal,6.0
+eb:STD105:p81,Opus 5.5,norole,2.0
+eb:STD105:p81,Opus 5.5,nomode,2.5
+eb:STD105:p79,Opus 5.5,paraphrase,5.6
+eb:STD105:p83,Opus 5.5,norole,3.5
+eb:STD105:p81,Opus 5.5,minimal,2.0
+eb:STD105:p81,Opus 5.5,paraphrase,2.4
+eb:STD105:p83,Opus 5.5,nomode,5.0
+eb:STD105:p83,Opus 5.5,minimal,4.0
+eb:STD105:p83,Opus 5.5,paraphrase,3.8
+eb:STD105:p85,Opus 5.5,minimal,7.0
+eb:STD105:p85,Opus 5.5,nomode,5.0
+eb:STD105:p85,Opus 5.5,norole,6.5
+eb:STD105:p85,Opus 5.5,paraphrase,5.5
+eb:STD105:p87,Opus 5.5,norole,5.0
+eb:STD105:p87,Opus 5.5,nomode,4.0
+eb:STD105:p87,Opus 5.5,minimal,5.0
+eb:STD105:p89,Opus 5.5,nomode,5.0
+eb:STD105:p89,Opus 5.5,norole,6.0
+eb:STD105:p87,Opus 5.5,paraphrase,4.6
+eb:STD105:p89,Opus 5.5,minimal,6.0
+eb:STD105:p91,Opus 5.5,nomode,7.0
+eb:STD105:p89,Opus 5.5,paraphrase,5.3
+eb:STD105:p91,Opus 5.5,norole,8.0
+eb:STD105:p91,Opus 5.5,minimal,8.0
+eb:STD105:p93,Opus 5.5,nomode,12.0
+eb:STD105:p91,Opus 5.5,paraphrase,8.0
+eb:STD105:p93,Opus 5.5,minimal,14.0
+eb:STD105:p93,Opus 5.5,norole,12.5
+eb:STD105:p95,Opus 5.5,norole,13.0
+eb:STD105:p93,Opus 5.5,paraphrase,11.5
+eb:STD105:p95,Opus 5.5,nomode,12.5
+eb:STD105:p101,Opus 5.5,norole,1.0
+eb:STD105:p95,Opus 5.5,minimal,15.0
+eb:STD105:p101,Opus 5.5,nomode,1.0
+eb:STD105:p101,Opus 5.5,minimal,1.0
+eb:STD105:p101,Opus 5.5,paraphrase,0.9
+eb:STD105:p95,Opus 5.5,paraphrase,13.5
+eb:STD105:p103,Opus 5.5,minimal,2.0
+eb:STD105:p103,Opus 5.5,nomode,2.0
+eb:STD105:p104,Opus 5.5,nomode,6.0
+eb:STD105:p103,Opus 5.5,paraphrase,1.8
+eb:STD105:p103,Opus 5.5,norole,2.5
+eb:STD105:p104,Opus 5.5,norole,6.0
+eb:STD105:p104,Opus 5.5,paraphrase,5.8
+eb:STD105:p111,Opus 5.5,nomode,11.5
+eb:STD105:p104,Opus 5.5,minimal,8.0
+eb:STD105:p111,Opus 5.5,norole,10.0
+eb:STD105:p112,Opus 5.5,norole,9.0
+eb:STD105:p111,Opus 5.5,minimal,17.0
+eb:STD105:p112,Opus 5.5,nomode,9.0
+eb:STD105:p111,Opus 5.5,paraphrase,7.5
+eb:STD105:p112,Opus 5.5,minimal,16.0
+eb:STD105:p113,Opus 5.5,norole,11.0
+eb:STD105:p113,Opus 5.5,nomode,9.5
+eb:STD105:p113,Opus 5.5,paraphrase,9.5
+eb:STD105:p113,Opus 5.5,minimal,17.0
+eb:STD105:p114,Opus 5.5,norole,16.0
+eb:STD105:p114,Opus 5.5,nomode,17.0
+eb:STD105:p112,Opus 5.5,paraphrase,9.5
+eb:STD105:p114,Opus 5.5,minimal,22.0
+eb:STD105:p114,Opus 5.5,paraphrase,13.5
+eb:STD105:p115,Opus 5.5,nomode,9.0
+eb:STD105:p115,Opus 5.5,norole,11.0
+eb:STD105:p115,Opus 5.5,minimal,17.0
+eb:STD105:p116,Opus 5.5,norole,12.0
+eb:STD105:p116,Opus 5.5,nomode,12.0
+eb:STD105:p115,Opus 5.5,paraphrase,9.5
+eb:STD105:p116,Opus 5.5,minimal,19.0
+eb:STD105:p116,Opus 5.5,paraphrase,9.5
+eb:STD105:p124,Opus 5.5,nomode,11.0
+eb:STD105:p124,Opus 5.5,minimal,12.0
+eb:STD105:p124,Opus 5.5,norole,11.0
+eb:STD105:p124,Opus 5.5,paraphrase,11.0
+eb:STD105:p126,Opus 5.5,nomode,14.0
+eb:STD105:p126,Opus 5.5,norole,14.5
+eb:STD105:p126,Opus 5.5,paraphrase,13.5
+eb:STD105:p126,Opus 5.5,minimal,14.0
+eb:STD105:p128,Opus 5.5,norole,17.5
+eb:STD105:p128,Opus 5.5,nomode,18.5
+eb:STD105:p128,Opus 5.5,minimal,19.0
+eb:STD105:p128,Opus 5.5,paraphrase,18.5
+eb:STD105:p130,Opus 5.5,norole,17.0
+eb:STD105:p130,Opus 5.5,nomode,14.0
+eb:STD105:p130,Opus 5.5,minimal,18.0
+eb:STD105:p131,Opus 5.5,nomode,3.0
+eb:STD105:p131,Opus 5.5,norole,2.6
+eb:STD105:p130,Opus 5.5,paraphrase,16.5
+eb:STD105:p131,Opus 5.5,paraphrase,2.2
+eb:STD105:p131,Opus 5.5,minimal,3.0
+eb:STD105:p133,Opus 5.5,norole,6.5
+eb:STD105:p133,Opus 5.5,nomode,8.0
+eb:STD105:p133,Opus 5.5,minimal,6.0
+eb:STD105:p133,Opus 5.5,paraphrase,6.5
+eb:STD105:p135,Opus 5.5,norole,7.5
+eb:STD105:p135,Opus 5.5,nomode,8.0
+eb:STD105:p137,Opus 5.5,norole,8.0
+eb:STD105:p135,Opus 5.5,minimal,8.0
+eb:STD105:p137,Opus 5.5,nomode,8.0
+eb:STD105:p135,Opus 5.5,paraphrase,7.8
+eb:STD105:p139,Opus 5.5,nomode,1.6
+eb:STD105:p137,Opus 5.5,minimal,8.0
+eb:STD105:p139,Opus 5.5,norole,1.6
+eb:STD105:p137,Opus 5.5,paraphrase,7.5
+eb:STD105:p139,Opus 5.5,minimal,2.0
+eb:STD105:p139,Opus 5.5,paraphrase,1.6
+eb:STD105:p141,Opus 5.5,norole,8.0
+eb:STD105:p141,Opus 5.5,minimal,10.0
+eb:STD105:p141,Opus 5.5,nomode,9.0
+eb:STD105:p143,Opus 5.5,norole,4.0
+eb:STD105:p143,Opus 5.5,nomode,4.5
+eb:STD105:p143,Opus 5.5,minimal,4.0
+eb:STD105:p141,Opus 5.5,paraphrase,8.5
+eb:STD105:p145,Opus 5.5,norole,2.6
+eb:STD105:p143,Opus 5.5,paraphrase,4.0
+eb:STD105:p145,Opus 5.5,minimal,2.0
+eb:STD105:p145,Opus 5.5,nomode,3.0
+eb:STD105:p147,Opus 5.5,nomode,7.0
+eb:STD105:p147,Opus 5.5,norole,6.5
+eb:STD105:p145,Opus 5.5,paraphrase,2.4
+eb:STD105:p147,Opus 5.5,minimal,6.0
+eb:STD105:p147,Opus 5.5,paraphrase,6.0
+eb:STD105:p149,Opus 5.5,norole,4.0
+eb:STD105:p149,Opus 5.5,minimal,4.0
+eb:STD105:p151,Opus 5.5,norole,1.0
+eb:STD105:p149,Opus 5.5,nomode,4.0
+eb:STD105:p151,Opus 5.5,nomode,1.0
+eb:STD105:p151,Opus 5.5,minimal,1.0
+eb:STD105:p149,Opus 5.5,paraphrase,3.0
+eb:STD105:p154,Opus 5.5,norole,3.5
+eb:STD105:p153,Opus 5.5,minimal,8.0
+eb:STD105:p151,Opus 5.5,paraphrase,0.6
+eb:STD105:p153,Opus 5.5,nomode,8.0
+eb:STD105:p153,Opus 5.5,paraphrase,6.6
+eb:STD105:p153,Opus 5.5,norole,7.0
+eb:STD105:p154,Opus 5.5,nomode,3.5
+eb:STD105:p154,Opus 5.5,minimal,4.0
+eb:STD105:p154,Opus 5.5,paraphrase,4.0
+eb:STD105:p155,Opus 5.5,nomode,9.0
+eb:STD105:p155,Opus 5.5,minimal,9.0
+eb:STD105:p155,Opus 5.5,norole,8.0
+eb:STD105:p156,Opus 5.5,norole,6.5
+eb:STD105:p156,Opus 5.5,nomode,7.0
+eb:STD105:p156,Opus 5.5,minimal,7.0
+eb:STD105:p155,Opus 5.5,paraphrase,8.6
+eb:STD105:p156,Opus 5.5,paraphrase,6.5
+eb:STD105:p157,Opus 5.5,nomode,12.0
+eb:STD105:p157,Opus 5.5,paraphrase,12.5
+eb:STD105:p157,Opus 5.5,norole,12.0
+eb:STD105:p157,Opus 5.5,minimal,14.0
+eb:STD105:p158,Opus 5.5,norole,8.0
+eb:STD105:p158,Opus 5.5,nomode,8.0
+eb:STD105:p158,Opus 5.5,minimal,8.0
+eb:STD105:p158,Opus 5.5,paraphrase,7.5
+eb:STD105:p159,Opus 5.5,nomode,10.0
+eb:STD105:p159,Opus 5.5,norole,9.0
+eb:STD105:p159,Opus 5.5,minimal,9.0
+eb:STD105:p160,Opus 5.5,norole,10.5
+eb:STD105:p160,Opus 5.5,nomode,11.0
+eb:STD105:p159,Opus 5.5,paraphrase,7.0
+eb:STD105:p160,Opus 5.5,minimal,11.0
+eb:STD105:p161,Opus 5.5,norole,5.0
+eb:STD105:p161,Opus 5.5,nomode,5.0
+eb:STD105:p161,Opus 5.5,minimal,6.0
+eb:STD105:p161,Opus 5.5,paraphrase,4.5
+eb:STD105:p160,Opus 5.5,paraphrase,8.5
+eb:STD105:p162,Opus 5.5,norole,7.0
+eb:STD105:p162,Opus 5.5,nomode,7.0
+eb:STD105:p162,Opus 5.5,minimal,8.0
+eb:STD105:p163,Opus 5.5,norole,10.0
+eb:STD105:p163,Opus 5.5,nomode,9.0
+eb:STD105:p162,Opus 5.5,paraphrase,6.4
+eb:STD105:p163,Opus 5.5,minimal,9.0
+eb:STD105:p163,Opus 5.5,paraphrase,9.5
+eb:STD105:p164,Opus 5.5,norole,5.5
+eb:STD105:p164,Opus 5.5,nomode,6.0
+eb:STD105:p164,Opus 5.5,minimal,6.0
+eb:STD105:p164,Opus 5.5,paraphrase,5.0
+eb:STD105:p165,Opus 5.5,norole,8.0
+eb:STD105:p165,Opus 5.5,nomode,8.0
+eb:STD105:p167,Opus 5.5,norole,12.5
+eb:STD105:p165,Opus 5.5,minimal,8.0
+eb:STD105:p167,Opus 5.5,nomode,12.5
+eb:STD105:p168,Opus 5.5,nomode,10.5
+eb:STD105:p168,Opus 5.5,norole,10.0
+eb:STD105:p167,Opus 5.5,minimal,12.0
+eb:STD105:p165,Opus 5.5,paraphrase,6.0
+eb:STD105:p167,Opus 5.5,paraphrase,13.0
+eb:STD105:p168,Opus 5.5,minimal,9.0
+eb:STD105:p168,Opus 5.5,paraphrase,8.5
+eb:STD105:p169,Opus 5.5,norole,8.0
+eb:STD105:p169,Opus 5.5,nomode,9.0
+eb:STD105:p169,Opus 5.5,minimal,9.0
+eb:STD105:p170,Opus 5.5,norole,8.5
+eb:STD105:p170,Opus 5.5,nomode,7.0
+eb:STD105:p170,Opus 5.5,minimal,7.0
+eb:STD105:p169,Opus 5.5,paraphrase,9.0
+eb:STD105:p172,Opus 5.5,nomode,15.0
+eb:STD105:p170,Opus 5.5,paraphrase,7.5
+eb:STD105:p172,Opus 5.5,norole,17.0
+eb:STD105:p172,Opus 5.5,minimal,19.0
+eb:STD105:p172,Opus 5.5,paraphrase,17.0
+eb:STD105:p173,Opus 5.5,nomode,5.5
+eb:STD105:p174,Opus 5.5,norole,5.0
+eb:STD105:p173,Opus 5.5,minimal,5.0
+eb:STD105:p173,Opus 5.5,norole,6.0
+eb:STD105:p174,Opus 5.5,minimal,5.0
+eb:STD105:p174,Opus 5.5,nomode,5.0
+eb:STD105:p174,Opus 5.5,paraphrase,5.0
+eb:STD105:p173,Opus 5.5,paraphrase,4.6
+eb:STD105:p175,Opus 5.5,norole,5.5
+eb:STD105:p177,Opus 5.5,norole,3.5
+eb:STD105:p175,Opus 5.5,nomode,6.0
+eb:STD105:p175,Opus 5.5,minimal,6.0
+eb:STD105:p177,Opus 5.5,nomode,3.0
+eb:STD105:p177,Opus 5.5,minimal,3.0
+eb:STD105:p175,Opus 5.5,paraphrase,6.0
+eb:STD105:p197,Opus 5.5,nomode,5.0
+eb:STD105:p197,Opus 5.5,norole,5.0
+eb:STD105:p177,Opus 5.5,paraphrase,3.5
+eb:STD105:p199,Opus 5.5,nomode,4.0
+eb:STD105:p197,Opus 5.5,minimal,5.0
+eb:STD105:p197,Opus 5.5,paraphrase,4.5
+eb:STD105:p199,Opus 5.5,norole,5.0
+eb:STD105:p201,Opus 5.5,norole,4.0
+eb:STD105:p201,Opus 5.5,nomode,4.5
+eb:STD105:p199,Opus 5.5,minimal,4.0
+eb:STD105:p203,Opus 5.5,norole,9.0
+eb:STD105:p203,Opus 5.5,nomode,9.5
+eb:STD105:p201,Opus 5.5,paraphrase,4.5
+eb:STD105:p201,Opus 5.5,minimal,5.0
+eb:STD105:p203,Opus 5.5,minimal,7.0
+eb:STD105:p204,Opus 5.5,norole,9.0
+eb:STD105:p199,Opus 5.5,paraphrase,4.5
+eb:STD105:p204,Opus 5.5,nomode,12.0
+eb:STD105:p205,Opus 5.5,norole,11.0
+eb:STD105:p204,Opus 5.5,minimal,11.0
+eb:STD105:p204,Opus 5.5,paraphrase,10.5
+eb:STD105:p203,Opus 5.5,paraphrase,7.5
+eb:STD105:p205,Opus 5.5,nomode,14.0
+eb:STD105:p207,Opus 5.5,norole,11.0
+eb:STD105:p205,Opus 5.5,minimal,14.0
+eb:STD105:p205,Opus 5.5,paraphrase,8.5
+eb:STD105:p207,Opus 5.5,nomode,12.0
+eb:STD105:p207,Opus 5.5,minimal,12.0
+eb:STD105:p208,Opus 5.5,norole,8.5
+eb:STD105:p207,Opus 5.5,paraphrase,11.5
+eb:STD105:p208,Opus 5.5,nomode,9.0
+eb:STD105:p208,Opus 5.5,minimal,9.0
+eb:STD105:p210,Opus 5.5,norole,3.0
+eb:STD105:p210,Opus 5.5,nomode,3.0
+eb:STD105:p208,Opus 5.5,paraphrase,8.5
+eb:STD105:p210,Opus 5.5,minimal,3.0
+eb:STD105:p210,Opus 5.5,paraphrase,2.4
+eb:STD105:p211,Opus 5.5,nomode,5.0
+eb:STD105:p211,Opus 5.5,norole,5.0
+eb:STD105:p211,Opus 5.5,minimal,5.0
+eb:STD105:p213,Opus 5.5,norole,6.0
+eb:STD105:p211,Opus 5.5,paraphrase,5.0
+eb:STD105:p213,Opus 5.5,nomode,5.0
+eb:STD105:p215,Opus 5.5,nomode,9.5
+eb:STD105:p213,Opus 5.5,minimal,6.0
+eb:STD105:p215,Opus 5.5,norole,10.0
+eb:STD105:p215,Opus 5.5,minimal,9.0
+eb:STD105:p213,Opus 5.5,paraphrase,5.0
+eb:STD105:p215,Opus 5.5,paraphrase,8.5
+eb:STD105:p217,Opus 5.5,norole,16.0
+eb:STD105:p217,Opus 5.5,nomode,17.0
+eb:STD105:p219,Opus 5.5,norole,0.3
+eb:STD105:p217,Opus 5.5,minimal,17.0
+eb:STD105:p219,Opus 5.5,nomode,0.4
+eb:STD105:p219,Opus 5.5,paraphrase,0.2
+eb:STD105:p221,Opus 5.5,nomode,0.4
+eb:STD105:p219,Opus 5.5,minimal,0.0
+eb:STD105:p221,Opus 5.5,norole,0.3
+eb:STD105:p217,Opus 5.5,paraphrase,17.5
+eb:STD105:p221,Opus 5.5,minimal,0.0
+eb:STD105:p221,Opus 5.5,paraphrase,0.3
+eb:STD105:p223,Opus 5.5,minimal,2.0
+eb:STD105:p223,Opus 5.5,nomode,1.3
+eb:STD105:p223,Opus 5.5,norole,2.5
+eb:STD105:p225,Opus 5.5,norole,1.2
+eb:STD105:p225,Opus 5.5,nomode,1.5
+eb:STD105:p223,Opus 5.5,paraphrase,1.8
+eb:STD105:p225,Opus 5.5,minimal,1.0
+eb:STD105:p227,Opus 5.5,norole,0.9
+eb:STD105:p227,Opus 5.5,nomode,1.0
+eb:STD105:p225,Opus 5.5,paraphrase,0.9
+eb:STD105:p227,Opus 5.5,minimal,1.0
+eb:STD105:p227,Opus 5.5,paraphrase,0.9
+eb:STD105:p228,Opus 5.5,nomode,1.5
+eb:STD105:p228,Opus 5.5,norole,1.3
+eb:STD105:p229,Opus 5.5,norole,2.0
+eb:STD105:p228,Opus 5.5,minimal,1.0
+eb:STD105:p228,Opus 5.5,paraphrase,0.9
+eb:STD105:p229,Opus 5.5,nomode,2.5
+eb:STD105:p236,Opus 5.5,norole,1.8
+eb:STD105:p229,Opus 5.5,minimal,2.0
+eb:STD105:p229,Opus 5.5,paraphrase,1.6
+eb:STD105:p236,Opus 5.5,nomode,2.5
+eb:STD105:p236,Opus 5.5,minimal,2.0
+eb:STD105:p238,Opus 5.5,nomode,5.5
+eb:STD105:p236,Opus 5.5,paraphrase,1.5
+eb:STD105:p238,Opus 5.5,minimal,6.0
+eb:STD105:p238,Opus 5.5,norole,4.5
+eb:STD105:p249,Opus 5.5,nomode,1.0
+eb:STD105:p249,Opus 5.5,norole,0.8
+eb:STD105:p249,Opus 5.5,minimal,1.0
+eb:STD105:p238,Opus 5.5,paraphrase,4.3
+eb:STD105:p250,Opus 5.5,norole,24.0
+eb:STD105:p249,Opus 5.5,paraphrase,0.9
+eb:STD105:p252,Opus 5.5,norole,10.0
+eb:STD105:p252,Opus 5.5,nomode,11.5
+eb:STD105:p250,Opus 5.5,paraphrase,30.5
+eb:STD105:p250,Opus 5.5,minimal,30.0
+eb:STD105:p250,Opus 5.5,nomode,26.0
+eb:STD105:p252,Opus 5.5,paraphrase,9.5
+eb:STD105:p252,Opus 5.5,minimal,11.0
+eb:STD105:p254,Opus 5.5,norole,9.0
+eb:STD105:p256,Opus 5.5,norole,6.0
+eb:STD105:p254,Opus 5.5,minimal,10.0
+eb:STD105:p254,Opus 5.5,nomode,10.5
+eb:STD105:p254,Opus 5.5,paraphrase,10.2
+eb:STD105:p256,Opus 5.5,nomode,5.0
+eb:STD105:p256,Opus 5.5,minimal,5.0
+eb:STD105:p258,Opus 5.5,norole,6.0
+eb:STD105:p256,Opus 5.5,paraphrase,5.5
+eb:STD105:p258,Opus 5.5,nomode,7.0
+eb:STD105:p258,Opus 5.5,minimal,7.0
+eb:STD105:p259,Opus 5.5,norole,6.5
+eb:STD105:p259,Opus 5.5,minimal,6.0
+eb:STD105:p259,Opus 5.5,nomode,6.5
+eb:STD105:p258,Opus 5.5,paraphrase,6.5
+eb:STD105:p259,Opus 5.5,paraphrase,5.2
+eb:STD105:p261,Opus 5.5,norole,7.0
+eb:STD105:p261,Opus 5.5,minimal,7.0
+eb:STD105:p261,Opus 5.5,paraphrase,6.5
+eb:STD105:p263,Opus 5.5,norole,3.5
+eb:STD105:p261,Opus 5.5,nomode,6.5
+eb:STD105:p263,Opus 5.5,nomode,3.0
+eb:STD105:p263,Opus 5.5,minimal,3.0
+eb:STD105:p263,Opus 5.5,paraphrase,2.4
+eb:STD105:p267,Opus 5.5,norole,8.5
+eb:STD105:p267,Opus 5.5,nomode,8.5
+eb:STD105:p265,Opus 5.5,nomode,4.0
+eb:STD105:p265,Opus 5.5,minimal,4.0
+eb:STD105:p267,Opus 5.5,minimal,8.0
+eb:STD105:p265,Opus 5.5,norole,4.0
+eb:STD105:p265,Opus 5.5,paraphrase,3.4
+eb:STD105:p267,Opus 5.5,paraphrase,8.5
+eb:STD105:p268,Opus 5.5,nomode,4.0
+eb:STD105:p268,Opus 5.5,norole,4.0
+eb:STD105:p269,Opus 5.5,nomode,4.0
+eb:STD105:p269,Opus 5.5,norole,3.5
+eb:STD105:p268,Opus 5.5,minimal,4.0
+eb:STD105:p269,Opus 5.5,minimal,4.0
+eb:STD105:p268,Opus 5.5,paraphrase,3.6
+eb:STD105:p271,Opus 5.5,minimal,6.0
+eb:STD105:p269,Opus 5.5,paraphrase,4.0
+eb:STD105:p271,Opus 5.5,norole,6.0
+eb:STD105:p271,Opus 5.5,paraphrase,6.5
+eb:STD105:p272,Opus 5.5,norole,6.5
+eb:STD105:p271,Opus 5.5,nomode,6.0
+eb:STD105:p272,Opus 5.5,nomode,6.0
+eb:STD105:p273,Opus 5.5,nomode,9.0
+eb:STD105:p273,Opus 5.5,norole,9.0
+eb:STD105:p272,Opus 5.5,minimal,7.0
+eb:STD105:p273,Opus 5.5,paraphrase,8.0
+eb:STD105:p295,Opus 5.5,norole,4.5
+eb:STD105:p273,Opus 5.5,minimal,9.0
+eb:STD105:p272,Opus 5.5,paraphrase,5.5
+eb:STD105:p295,Opus 5.5,minimal,6.0
+eb:STD105:p295,Opus 5.5,nomode,6.5
+eb:SP573:p3,Opus 5.5,nomode,2.0
+eb:STD105:p295,Opus 5.5,paraphrase,5.0
+eb:SP573:p3,Opus 5.5,minimal,2.0
+eb:SP573:p3,Opus 5.5,norole,2.5
+eb:SP573:p4,Opus 5.5,norole,2.0
+eb:SP573:p3,Opus 5.5,paraphrase,1.4
+eb:SP573:p4,Opus 5.5,nomode,2.3
+eb:SP573:p4,Opus 5.5,minimal,3.0
+eb:SP573:p5,Opus 5.5,norole,3.0
+eb:SP573:p4,Opus 5.5,paraphrase,1.7
+eb:SP573:p5,Opus 5.5,nomode,2.3
+eb:SP573:p5,Opus 5.5,minimal,2.0
+eb:SP573:p43,Opus 5.5,nomode,7.0
+eb:SP573:p43,Opus 5.5,norole,8.0
+eb:SP573:p5,Opus 5.5,paraphrase,2.4
+eb:SP573:p44,Opus 5.5,norole,5.0
+eb:SP573:p44,Opus 5.5,nomode,5.4
+eb:SP573:p43,Opus 5.5,paraphrase,7.5
+eb:SP573:p44,Opus 5.5,minimal,6.0
+eb:SP573:p43,Opus 5.5,minimal,7.0
+eb:SP573:p44,Opus 5.5,paraphrase,6.5
+eb:SP573:p45,Opus 5.5,minimal,8.0
+eb:SP573:p45,Opus 5.5,nomode,6.0
+eb:SP573:p45,Opus 5.5,norole,7.0
+eb:SP573:p45,Opus 5.5,paraphrase,6.0
+eb:SP573:p46,Opus 5.5,norole,2.5
+eb:SP573:p46,Opus 5.5,minimal,4.0
+eb:SP573:p46,Opus 5.5,nomode,3.5
+eb:SP573:p47,Opus 5.5,nomode,11.5
+eb:SP573:p47,Opus 5.5,norole,10.0
+eb:SP573:p46,Opus 5.5,paraphrase,2.0
+eb:SP573:p48,Opus 5.5,nomode,11.0
+eb:SP573:p48,Opus 5.5,norole,10.0
+eb:SP573:p47,Opus 5.5,minimal,9.0
+eb:SP573:p47,Opus 5.5,paraphrase,8.5
+eb:SP573:p48,Opus 5.5,minimal,10.0
+eb:SP573:p49,Opus 5.5,nomode,8.0
+eb:SP573:p49,Opus 5.5,norole,6.5
+eb:SP573:p49,Opus 5.5,minimal,8.0
+eb:SP573:p50,Opus 5.5,nomode,8.0
+eb:SP573:p50,Opus 5.5,norole,7.0
+eb:SP573:p48,Opus 5.5,paraphrase,10.5
+eb:SP573:p49,Opus 5.5,paraphrase,5.4
+eb:SP573:p50,Opus 5.5,paraphrase,6.5
+eb:SP573:p51,Opus 5.5,norole,7.0
+eb:SP573:p50,Opus 5.5,minimal,6.0
+eb:SP573:p51,Opus 5.5,nomode,8.0
+eb:SP573:p51,Opus 5.5,minimal,6.0
+eb:SP573:p52,Opus 5.5,norole,14.0
+eb:SP573:p52,Opus 5.5,nomode,15.0
+eb:SP573:p52,Opus 5.5,minimal,14.0
+eb:SP573:p53,Opus 5.5,norole,7.5
+eb:SP573:p51,Opus 5.5,paraphrase,6.0
+eb:SP573:p53,Opus 5.5,nomode,8.0
+eb:SP573:p52,Opus 5.5,paraphrase,11.0
+eb:SP573:p53,Opus 5.5,minimal,8.0
+eb:SP573:p54,Opus 5.5,norole,9.0
+eb:SP573:p54,Opus 5.5,nomode,9.0
+eb:SP573:p53,Opus 5.5,paraphrase,7.8
+eb:SP573:p54,Opus 5.5,minimal,9.0
+eb:SP573:p55,Opus 5.5,nomode,12.0
+eb:SP573:p54,Opus 5.5,paraphrase,8.5
+eb:SP573:p55,Opus 5.5,norole,11.0
+eb:SP573:p56,Opus 5.5,norole,11.0
+eb:SP573:p55,Opus 5.5,minimal,11.0
+eb:SP573:p56,Opus 5.5,nomode,11.0
+eb:SP573:p55,Opus 5.5,paraphrase,11.0
+eb:SP573:p57,Opus 5.5,norole,9.0
+eb:SP573:p57,Opus 5.5,nomode,8.0
+eb:SP573:p57,Opus 5.5,minimal,7.0
+eb:SP573:p58,Opus 5.5,nomode,13.0
+eb:SP573:p58,Opus 5.5,norole,16.0
+eb:SP573:p56,Opus 5.5,minimal,12.0
+eb:SP573:p58,Opus 5.5,minimal,17.0
+eb:SP573:p58,Opus 5.5,paraphrase,12.0
+eb:SP573:p57,Opus 5.5,paraphrase,7.5
+eb:SP573:p56,Opus 5.5,paraphrase,11.5
+eb:SP573:p59,Opus 5.5,nomode,11.0
+eb:SP573:p59,Opus 5.5,norole,12.0
+eb:SP573:p60,Opus 5.5,norole,8.0
+eb:SP573:p60,Opus 5.5,minimal,8.0
+eb:SP573:p60,Opus 5.5,nomode,7.0
+eb:SP573:p59,Opus 5.5,minimal,14.0
+eb:SP573:p59,Opus 5.5,paraphrase,12.0
+eb:SP572:p7,Opus 5.5,nomode,6.0
+eb:SP573:p60,Opus 5.5,paraphrase,6.0
+eb:SP572:p7,Opus 5.5,paraphrase,4.5
+eb:SP572:p7,Opus 5.5,norole,6.0
+eb:SP572:p7,Opus 5.5,minimal,6.0
+eb:SP572:p8,Opus 5.5,norole,3.5
+eb:SP572:p8,Opus 5.5,nomode,3.0
+eb:SP572:p8,Opus 5.5,minimal,4.0
+eb:SP572:p9,Opus 5.5,norole,4.0
+eb:SP572:p9,Opus 5.5,nomode,5.0
+eb:SP572:p9,Opus 5.5,minimal,4.0
+eb:SP572:p8,Opus 5.5,paraphrase,2.4
+eb:SP572:p10,Opus 5.5,nomode,5.0
+eb:SP572:p9,Opus 5.5,paraphrase,2.4
+eb:SP572:p10,Opus 5.5,norole,5.0
+eb:SP572:p10,Opus 5.5,paraphrase,3.5
+eb:SP572:p11,Opus 5.5,norole,3.5
+eb:SP572:p10,Opus 5.5,minimal,4.0
+eb:SP572:p11,Opus 5.5,paraphrase,2.5
+eb:SP572:p11,Opus 5.5,nomode,4.5
+eb:SP572:p12,Opus 5.5,nomode,3.5
+eb:SP572:p12,Opus 5.5,norole,3.0
+eb:SP572:p11,Opus 5.5,minimal,3.0
+eb:SP572:p12,Opus 5.5,minimal,4.0
+eb:SP572:p12,Opus 5.5,paraphrase,3.0
+eb:SP572:p13,Opus 5.5,norole,4.0
+eb:SP572:p13,Opus 5.5,nomode,3.5
+eb:SP572:p13,Opus 5.5,paraphrase,3.6
+eb:SP572:p13,Opus 5.5,minimal,4.0
+eb:SP572:p14,Opus 5.5,norole,8.5
+eb:SP572:p14,Opus 5.5,nomode,8.5
+eb:SP572:p14,Opus 5.5,minimal,9.0
+eb:SP572:p15,Opus 5.5,norole,4.5
+eb:SP572:p15,Opus 5.5,nomode,5.0
+eb:SP572:p15,Opus 5.5,paraphrase,4.0
+eb:SP572:p16,Opus 5.5,norole,10.5
+eb:SP572:p15,Opus 5.5,minimal,5.0
+eb:SP572:p14,Opus 5.5,paraphrase,8.5
+eb:SP572:p16,Opus 5.5,nomode,11.5
+eb:SP572:p16,Opus 5.5,minimal,12.0
+eb:SP572:p17,Opus 5.5,minimal,9.0
+eb:SP572:p17,Opus 5.5,norole,9.0
+eb:SP572:p17,Opus 5.5,nomode,9.0
+eb:SP572:p16,Opus 5.5,paraphrase,9.5
+eb:SP572:p17,Opus 5.5,paraphrase,7.5
+eb:SP572:p18,Opus 5.5,nomode,6.0
+eb:SP572:p18,Opus 5.5,minimal,6.0
+eb:SP572:p19,Opus 5.5,norole,9.0
+eb:SP572:p19,Opus 5.5,nomode,9.0
+eb:SP572:p19,Opus 5.5,minimal,11.0
+eb:SP572:p18,Opus 5.5,norole,5.5
+eb:SP572:p18,Opus 5.5,paraphrase,6.0
+eb:SP572:p19,Opus 5.5,paraphrase,9.0
+eb:SP572:p20,Opus 5.5,norole,11.0
+eb:SP572:p20,Opus 5.5,nomode,12.0
+eb:SP572:p20,Opus 5.5,paraphrase,11.0
+eb:SP572:p20,Opus 5.5,minimal,12.0
+eb:SP572:p21,Opus 5.5,norole,15.0
+eb:SP572:p21,Opus 5.5,nomode,14.0
+eb:SP572:p22,Opus 5.5,norole,10.0
+eb:SP572:p21,Opus 5.5,minimal,13.0
+eb:SP572:p21,Opus 5.5,paraphrase,9.8
+eb:SP572:p22,Opus 5.5,minimal,9.0
+eb:SP572:p22,Opus 5.5,nomode,10.5
+eb:SP572:p22,Opus 5.5,paraphrase,8.5
+eb:SP572:p23,Opus 5.5,nomode,9.0
+eb:SP572:p23,Opus 5.5,norole,11.0
+eb:SP572:p23,Opus 5.5,minimal,11.0
+eb:SP572:p23,Opus 5.5,paraphrase,8.0
+eb:SP572:p27,Opus 5.5,nomode,4.0
+eb:SP572:p27,Opus 5.5,norole,3.0
+eb:SP572:p27,Opus 5.5,minimal,3.0
+eb:SP572:p28,Opus 5.5,norole,2.5
+eb:SP572:p27,Opus 5.5,paraphrase,2.0
+eb:SP572:p28,Opus 5.5,nomode,2.5
+eb:SP572:p28,Opus 5.5,minimal,2.0
+eb:SP572:p31,Opus 5.5,norole,8.0
+eb:SP572:p31,Opus 5.5,nomode,9.0
+eb:SP572:p28,Opus 5.5,paraphrase,1.5
+eb:SP572:p32,Opus 5.5,norole,9.0
+eb:SP572:p31,Opus 5.5,paraphrase,7.0
+eb:SP572:p31,Opus 5.5,minimal,9.0
+eb:SP572:p32,Opus 5.5,nomode,9.0
+eb:SP572:p32,Opus 5.5,minimal,8.0
+eb:SP572:p33,Opus 5.5,nomode,12.0
+eb:SP572:p33,Opus 5.5,norole,11.5
+eb:SP572:p32,Opus 5.5,paraphrase,6.0
+eb:SP572:p34,Opus 5.5,norole,11.0
+eb:SP572:p33,Opus 5.5,minimal,12.0
+eb:SP572:p34,Opus 5.5,nomode,11.5
+eb:SP572:p34,Opus 5.5,minimal,12.0
+eb:SP572:p43,Opus 5.5,norole,2.3
+eb:SP572:p43,Opus 5.5,nomode,2.5
+eb:SP572:p33,Opus 5.5,paraphrase,10.5
+eb:SP572:p34,Opus 5.5,paraphrase,9.5
+eb:SP572:p43,Opus 5.5,minimal,2.0
+eb:SP572:p43,Opus 5.5,paraphrase,2.0
+eb:SP572:p44,Opus 5.5,norole,6.0
+eb:SP572:p44,Opus 5.5,nomode,6.0
+eb:SP572:p44,Opus 5.5,minimal,5.0
+eb:SP578:p3,Opus 5.5,norole,3.0
+eb:SP572:p44,Opus 5.5,paraphrase,4.0
+eb:SP578:p3,Opus 5.5,minimal,3.0
+eb:SP578:p4,Opus 5.5,norole,1.5
+eb:SP578:p3,Opus 5.5,nomode,2.0
+eb:SP578:p3,Opus 5.5,paraphrase,2.5
+eb:SP578:p4,Opus 5.5,nomode,1.8
+eb:SP578:p4,Opus 5.5,minimal,1.0
+eb:SP578:p4,Opus 5.5,paraphrase,1.0
+eb:SP578:p5,Opus 5.5,nomode,12.0
+eb:SP578:p5,Opus 5.5,minimal,16.0
+eb:SP578:p5,Opus 5.5,norole,12.0
+eb:SP578:p6,Opus 5.5,norole,8.5
+eb:SP578:p6,Opus 5.5,nomode,9.5
+eb:SP578:p6,Opus 5.5,paraphrase,8.5
+eb:SP578:p5,Opus 5.5,paraphrase,12.0
+eb:SP578:p7,Opus 5.5,nomode,8.5
+eb:SP578:p6,Opus 5.5,minimal,11.0
+eb:SP578:p7,Opus 5.5,norole,7.5
+eb:SP578:p7,Opus 5.5,paraphrase,6.5
+eb:SP578:p7,Opus 5.5,minimal,9.0
+eb:SP578:p8,Opus 5.5,norole,7.5
+eb:SP578:p8,Opus 5.5,nomode,8.5
+eb:SP578:p8,Opus 5.5,minimal,9.0
+eb:SP578:p9,Opus 5.5,norole,6.0
+eb:SP578:p9,Opus 5.5,nomode,7.0
+eb:SP578:p8,Opus 5.5,paraphrase,8.5
+eb:SP578:p9,Opus 5.5,paraphrase,6.5
+eb:SP578:p13,Opus 5.5,norole,8.0
+eb:SP578:p9,Opus 5.5,minimal,8.0
+eb:SP578:p13,Opus 5.5,nomode,9.0
+eb:SP578:p13,Opus 5.5,minimal,11.0
+eb:SP578:p13,Opus 5.5,paraphrase,6.5
+eb:SP578:p17,Opus 5.5,norole,8.0
+eb:SP578:p17,Opus 5.5,nomode,8.5
+eb:SP578:p17,Opus 5.5,minimal,8.0
+eb:SP578:p17,Opus 5.5,paraphrase,7.5
+eb:SP578:p18,Opus 5.5,nomode,9.0
+eb:SP578:p18,Opus 5.5,norole,9.0
+eb:SP578:p19,Opus 5.5,nomode,9.0
+eb:SP578:p18,Opus 5.5,minimal,9.0
+eb:SP578:p18,Opus 5.5,paraphrase,8.6
+eb:SP578:p19,Opus 5.5,norole,8.0
+eb:SP578:p19,Opus 5.5,minimal,8.0
+eb:SP578:p19,Opus 5.5,paraphrase,6.5
+eb:SP578:p20,Opus 5.5,norole,5.0
+eb:SP578:p20,Opus 5.5,nomode,4.0
+eb:SP574:p15,Opus 5.5,norole,1.2
+eb:SP578:p20,Opus 5.5,minimal,5.0
+eb:SP578:p20,Opus 5.5,paraphrase,3.5
+eb:SP574:p15,Opus 5.5,nomode,1.2
+eb:SP574:p21,Opus 5.5,norole,2.0
+eb:SP574:p15,Opus 5.5,minimal,1.0
+eb:SP574:p21,Opus 5.5,nomode,2.5
+eb:SP574:p21,Opus 5.5,minimal,2.0
+eb:SP574:p21,Opus 5.5,paraphrase,1.6
+eb:SP574:p22,Opus 5.5,nomode,3.6
+eb:SP574:p22,Opus 5.5,norole,3.5
+eb:SP574:p15,Opus 5.5,paraphrase,1.5
+eb:SP574:p22,Opus 5.5,minimal,4.0
+eb:SP574:p23,Opus 5.5,norole,8.5
+eb:SP574:p22,Opus 5.5,paraphrase,3.2
+eb:SP574:p23,Opus 5.5,minimal,7.0
+eb:SP574:p23,Opus 5.5,nomode,7.0
+eb:SP574:p24,Opus 5.5,nomode,3.0
+eb:SP574:p24,Opus 5.5,norole,3.0
+eb:SP574:p23,Opus 5.5,paraphrase,8.6
+eb:SP574:p24,Opus 5.5,minimal,3.0
+eb:SP574:p24,Opus 5.5,paraphrase,2.6
+eb:SP574:p25,Opus 5.5,norole,7.0
+eb:SP574:p25,Opus 5.5,minimal,7.0
+eb:SP574:p25,Opus 5.5,nomode,8.0
+eb:SP574:p26,Opus 5.5,norole,10.5
+eb:SP574:p26,Opus 5.5,nomode,12.0
+eb:SP574:p26,Opus 5.5,minimal,13.0
+eb:SP574:p25,Opus 5.5,paraphrase,8.5
+eb:SP574:p32,Opus 5.5,minimal,3.0
+eb:SP574:p26,Opus 5.5,paraphrase,13.5
+eb:SP574:p32,Opus 5.5,norole,3.5
+eb:SP574:p32,Opus 5.5,nomode,3.2
+eb:SP574:p33,Opus 5.5,norole,7.0
+eb:SP574:p33,Opus 5.5,nomode,8.5
+eb:SP574:p33,Opus 5.5,minimal,8.0
+eb:SP574:p33,Opus 5.5,paraphrase,4.8
+eb:SP574:p34,Opus 5.5,nomode,19.0
+eb:SP574:p32,Opus 5.5,paraphrase,2.0
+eb:SP574:p41,Opus 5.5,norole,6.0
+eb:SP574:p34,Opus 5.5,norole,17.0
+eb:SP574:p41,Opus 5.5,nomode,7.5
+eb:SP574:p34,Opus 5.5,minimal,20.0
+eb:SP574:p34,Opus 5.5,paraphrase,16.0
+eb:SP574:p41,Opus 5.5,paraphrase,6.5
+eb:SP574:p42,Opus 5.5,norole,6.5
+eb:SP574:p42,Opus 5.5,nomode,7.0
+eb:SP574:p41,Opus 5.5,minimal,8.0
+eb:SP574:p42,Opus 5.5,paraphrase,5.6
+eb:SP574:p42,Opus 5.5,minimal,7.0
+eb:SP574:p43,Opus 5.5,nomode,9.0
+eb:SP574:p43,Opus 5.5,norole,8.5
+eb:SP574:p43,Opus 5.5,minimal,8.0
+eb:EB050EP:p3,Opus 5.5,norole,1.6
+eb:EB050EP:p3,Opus 5.5,nomode,2.0
+eb:SP574:p43,Opus 5.5,paraphrase,7.5
+eb:EB050EP:p3,Opus 5.5,minimal,2.0
+eb:EB050EP:p29,Opus 5.5,nomode,4.0
+eb:EB050EP:p29,Opus 5.5,norole,5.0
+eb:EB050EP:p3,Opus 5.5,paraphrase,1.6
+eb:EB050EP:p30,Opus 5.5,norole,3.0
+eb:EB050EP:p29,Opus 5.5,minimal,5.0
+eb:EB050EP:p29,Opus 5.5,paraphrase,4.5
+eb:EB050EP:p30,Opus 5.5,nomode,3.2
+eb:EB050EP:p30,Opus 5.5,minimal,3.0
+eb:EB050EP:p30,Opus 5.5,paraphrase,3.0
+eb:EB050EP:p31,Opus 5.5,norole,8.5
+eb:EB050EP:p31,Opus 5.5,nomode,8.0
+eb:EB050EP:p32,Opus 5.5,norole,6.0
+eb:EB050EP:p31,Opus 5.5,minimal,9.0
+eb:EB050EP:p32,Opus 5.5,nomode,6.0
+eb:EB050EP:p31,Opus 5.5,paraphrase,7.5
+eb:EB050EP:p32,Opus 5.5,paraphrase,5.6
+eb:EB050EP:p39,Opus 5.5,norole,2.0
+eb:EB050EP:p39,Opus 5.5,nomode,2.3
+eb:EB050EP:p39,Opus 5.5,minimal,2.0
+eb:EB050EP:p32,Opus 5.5,minimal,6.0
+eb:EB050EP:p39,Opus 5.5,paraphrase,2.0
+eb:EB050EP:p40,Opus 5.5,nomode,2.6
+eb:EB050EP:p40,Opus 5.5,norole,3.0
+eb:EB050EP:p40,Opus 5.5,minimal,3.0
+eb:EB050EP:p42,Opus 5.5,norole,4.0
+eb:EB050EP:p42,Opus 5.5,nomode,4.0
+eb:EB050EP:p40,Opus 5.5,paraphrase,2.0
+eb:EB050EP:p42,Opus 5.5,minimal,4.0
+eb:EB050EP:p51,Opus 5.5,norole,11.0
+eb:EB050EP:p51,Opus 5.5,nomode,12.0
+eb:EB050EP:p42,Opus 5.5,paraphrase,3.5
+eb:EB050EP:p51,Opus 5.5,minimal,12.0
+eb:EB050EP:p52,Opus 5.5,norole,12.0
+eb:EB050EP:p51,Opus 5.5,paraphrase,9.5
+eb:EB050EP:p52,Opus 5.5,nomode,11.0
+eb:EB050EP:p56,Opus 5.5,norole,0.2
+eb:EB050EP:p56,Opus 5.5,nomode,0.4
+eb:EB050EP:p52,Opus 5.5,minimal,11.0
+eb:EB050EP:p52,Opus 5.5,paraphrase,9.0
+eb:EB050EP:p56,Opus 5.5,minimal,1.0
+eb:EB050EP:p56,Opus 5.5,paraphrase,0.4
+eb:EB050EP:p68,Opus 5.5,minimal,5.0
+eb:EB050EP:p68,Opus 5.5,norole,5.5
+eb:EB050EP:p68,Opus 5.5,nomode,6.0
+eb:EB050EP:p68,Opus 5.5,paraphrase,4.0
+eb:SP579:p3,Opus 5.5,norole,6.0
+eb:SP579:p3,Opus 5.5,nomode,5.0
+eb:SP579:p3,Opus 5.5,paraphrase,5.0
+eb:SP579:p4,Opus 5.5,norole,5.0
+eb:SP579:p3,Opus 5.5,minimal,6.0
+eb:SP579:p4,Opus 5.5,nomode,5.5
+eb:SP579:p5,Opus 5.5,norole,10.0
+eb:SP579:p4,Opus 5.5,minimal,5.0
+eb:SP579:p4,Opus 5.5,paraphrase,4.6
+eb:SP579:p5,Opus 5.5,paraphrase,9.0
+eb:SP579:p5,Opus 5.5,nomode,9.0
+eb:SP579:p6,Opus 5.5,norole,10.5
+eb:SP579:p5,Opus 5.5,minimal,11.0
+eb:SP579:p6,Opus 5.5,nomode,13.0
+eb:SP579:p12,Opus 5.5,norole,2.3
+eb:SP579:p6,Opus 5.5,minimal,13.0
+eb:SP579:p6,Opus 5.5,paraphrase,10.5
+eb:SP579:p12,Opus 5.5,nomode,3.0
+eb:SP579:p12,Opus 5.5,minimal,3.0
+eb:SP579:p13,Opus 5.5,norole,2.0
+eb:SP579:p13,Opus 5.5,nomode,2.2
+eb:SP579:p12,Opus 5.5,paraphrase,3.0
+eb:SP579:p13,Opus 5.5,minimal,2.0
+eb:SP579:p13,Opus 5.5,paraphrase,2.0
+eb:SP579:p14,Opus 5.5,norole,2.8
+eb:SP579:p14,Opus 5.5,nomode,2.6
+eb:SP579:p14,Opus 5.5,minimal,3.0
+eb:SP579:p14,Opus 5.5,paraphrase,3.0
+eb:SP579:p15,Opus 5.5,norole,5.0
+eb:SP579:p15,Opus 5.5,nomode,5.0
+eb:SP579:p15,Opus 5.5,minimal,5.0
+eb:SP577:p3,Opus 5.5,nomode,2.0
+eb:SP579:p15,Opus 5.5,paraphrase,4.0
+eb:SP577:p3,Opus 5.5,minimal,2.0
+eb:SP577:p3,Opus 5.5,norole,1.5
+eb:SP577:p5,Opus 5.5,nomode,11.0
+eb:SP577:p5,Opus 5.5,norole,12.0
+eb:SP577:p3,Opus 5.5,paraphrase,2.0
+eb:SP577:p7,Opus 5.5,nomode,13.0
+eb:SP577:p5,Opus 5.5,minimal,12.0
+eb:SP577:p7,Opus 5.5,norole,13.0
+eb:SP577:p5,Opus 5.5,paraphrase,12.0
+eb:SP577:p7,Opus 5.5,minimal,13.0
+eb:SP577:p8,Opus 5.5,nomode,15.0
+eb:SP577:p8,Opus 5.5,norole,14.5
+eb:SP577:p7,Opus 5.5,paraphrase,12.6
+eb:SP577:p8,Opus 5.5,minimal,16.0
+eb:SP577:p9,Opus 5.5,minimal,11.0
+eb:SP577:p9,Opus 5.5,nomode,10.5
+eb:SP577:p9,Opus 5.5,norole,11.0
+eb:SP577:p10,Opus 5.5,norole,11.0
+eb:SP577:p8,Opus 5.5,paraphrase,17.0
+eb:SP577:p10,Opus 5.5,nomode,11.0
+eb:SP577:p9,Opus 5.5,paraphrase,9.8
+eb:SP577:p10,Opus 5.5,minimal,11.0
+eb:SP577:p11,Opus 5.5,norole,12.5
+eb:SP577:p10,Opus 5.5,paraphrase,7.5
+eb:SP577:p11,Opus 5.5,nomode,13.0
+eb:SP577:p11,Opus 5.5,minimal,12.0
+eb:SP577:p11,Opus 5.5,paraphrase,12.0
+eb:SP577:p12,Opus 5.5,nomode,15.0
+eb:SP577:p12,Opus 5.5,norole,14.0
+eb:SP577:p13,Opus 5.5,nomode,9.0
+eb:SP577:p13,Opus 5.5,norole,9.5
+eb:SP577:p12,Opus 5.5,paraphrase,11.5
+eb:SP577:p12,Opus 5.5,minimal,13.0
+eb:SP577:p13,Opus 5.5,paraphrase,11.0
+eb:SP577:p17,Opus 5.5,norole,6.5
+eb:SP577:p13,Opus 5.5,minimal,10.0
+eb:SP577:p17,Opus 5.5,nomode,6.5
+eb:SP577:p17,Opus 5.5,paraphrase,4.5
+eb:SP577:p18,Opus 5.5,norole,5.0
+eb:SP577:p18,Opus 5.5,nomode,5.0
+eb:SP577:p17,Opus 5.5,minimal,6.0
+eb:SP577:p18,Opus 5.5,paraphrase,3.5
+eb:SP577:p18,Opus 5.5,minimal,5.0
+eb:SP577:p19,Opus 5.5,norole,4.0
+eb:SP577:p19,Opus 5.5,nomode,3.5
+eb:SP577:p19,Opus 5.5,paraphrase,3.0
+eb:SP577:p19,Opus 5.5,minimal,4.0
+eb:SP577:p20,Opus 5.5,nomode,6.0
+eb:SP577:p20,Opus 5.5,norole,5.0
+eb:SP577:p20,Opus 5.5,minimal,6.0
+eb:SP577:p21,Opus 5.5,norole,4.0
+eb:SP577:p20,Opus 5.5,paraphrase,3.5
+eb:SP577:p21,Opus 5.5,nomode,3.5
+eb:SP577:p21,Opus 5.5,minimal,4.0
+eb:SP577:p21,Opus 5.5,paraphrase,3.5
+eb:SP577:p22,Opus 5.5,minimal,2.0
+eb:SP577:p22,Opus 5.5,nomode,3.5
+eb:SP577:p22,Opus 5.5,norole,3.0
+eb:SP577:p23,Opus 5.5,nomode,3.0
+eb:SP577:p22,Opus 5.5,paraphrase,2.6
+eb:SP577:p23,Opus 5.5,norole,3.0
+eb:SP577:p23,Opus 5.5,minimal,3.0
+eb:SP577:p23,Opus 5.5,paraphrase,2.0
+eb:SP577:p25,Opus 5.5,nomode,6.5
+eb:SP577:p24,Opus 5.5,minimal,4.0
+eb:SP577:p25,Opus 5.5,minimal,6.0
+eb:SP577:p24,Opus 5.5,nomode,4.5
+eb:SP577:p25,Opus 5.5,norole,6.0
+eb:SP577:p24,Opus 5.5,paraphrase,4.5
+eb:SP577:p25,Opus 5.5,paraphrase,5.0
+eb:SP577:p24,Opus 5.5,norole,4.0
+eb:SP577:p26,Opus 5.5,nomode,4.0
+eb:SP577:p26,Opus 5.5,norole,4.5
+eb:SP577:p27,Opus 5.5,nomode,7.0
+eb:SP577:p26,Opus 5.5,minimal,4.0
+eb:SP577:p26,Opus 5.5,paraphrase,3.5
+eb:SP577:p27,Opus 5.5,norole,5.5
+eb:SP577:p27,Opus 5.5,minimal,6.0
+eb:SP577:p27,Opus 5.5,paraphrase,5.8
+eb:SP577:p28,Opus 5.5,nomode,18.0
+eb:SP577:p28,Opus 5.5,norole,18.0
+eb:SP577:p28,Opus 5.5,minimal,17.0
+eb:SP577:p29,Opus 5.5,norole,18.0
+eb:SP577:p29,Opus 5.5,nomode,16.0
+eb:SP577:p28,Opus 5.5,paraphrase,17.0
+eb:SP577:p29,Opus 5.5,minimal,17.0
+eb:SP577:p30,Opus 5.5,nomode,17.0
+eb:SP577:p30,Opus 5.5,norole,16.0
+eb:SP577:p29,Opus 5.5,paraphrase,16.0
+eb:SP577:p30,Opus 5.5,minimal,15.0
+eb:SP577:p31,Opus 5.5,norole,14.0
+eb:SP577:p31,Opus 5.5,nomode,15.0
+eb:SP577:p30,Opus 5.5,paraphrase,13.5
+eb:SP577:p32,Opus 5.5,nomode,16.0
+eb:SP577:p32,Opus 5.5,norole,16.0
+eb:SP577:p31,Opus 5.5,minimal,16.0
+eb:SP577:p31,Opus 5.5,paraphrase,14.5
+eb:SP577:p32,Opus 5.5,paraphrase,13.5
+eb:SP577:p32,Opus 5.5,minimal,17.0
+eb:SP577:p33,Opus 5.5,norole,15.0
+eb:SP577:p33,Opus 5.5,nomode,16.0
+eb:SP577:p33,Opus 5.5,minimal,9.0
+eb:SP577:p34,Opus 5.5,nomode,11.5
+eb:SP577:p34,Opus 5.5,norole,13.0
+eb:SP577:p33,Opus 5.5,paraphrase,9.5
+eb:SP577:p34,Opus 5.5,minimal,15.0
+eb:SP577:p35,Opus 5.5,norole,16.5
+eb:SP577:p35,Opus 5.5,nomode,17.0
+eb:SP577:p35,Opus 5.5,minimal,15.0
+eb:SP577:p36,Opus 5.5,nomode,13.0
+eb:SP577:p36,Opus 5.5,norole,16.0
+eb:SP577:p34,Opus 5.5,paraphrase,12.5
+eb:SP577:p35,Opus 5.5,paraphrase,14.5
+eb:SP577:p36,Opus 5.5,minimal,17.0
+eb:SP577:p36,Opus 5.5,paraphrase,13.5
+eb:SP577:p37,Opus 5.5,nomode,12.0
+eb:SP577:p37,Opus 5.5,norole,16.0
+eb:SP577:p37,Opus 5.5,minimal,12.0
+eb:SP577:p38,Opus 5.5,norole,15.0
+eb:SP577:p37,Opus 5.5,paraphrase,16.0
+eb:SP577:p38,Opus 5.5,nomode,16.0
+eb:SP577:p38,Opus 5.5,paraphrase,13.5
+eb:SP577:p38,Opus 5.5,minimal,16.0
+eb:SP577:p39,Opus 5.5,norole,14.0
+eb:SP577:p39,Opus 5.5,paraphrase,14.5
+eb:SP577:p50,Opus 5.5,norole,7.5
+eb:SP577:p39,Opus 5.5,nomode,17.0
+eb:SP577:p50,Opus 5.5,nomode,7.5
+eb:SP577:p39,Opus 5.5,minimal,15.0
+eb:SP577:p51,Opus 5.5,norole,3.0
+eb:SP577:p50,Opus 5.5,paraphrase,6.5
+eb:SP577:p50,Opus 5.5,minimal,7.0
+eb:SP577:p51,Opus 5.5,nomode,3.0
+eb:SP577:p51,Opus 5.5,paraphrase,2.0
+eb:SP577:p51,Opus 5.5,minimal,3.0
+eb:SP577:p52,Opus 5.5,norole,11.0
+eb:SP577:p52,Opus 5.5,nomode,11.0
+eb:SP577:p52,Opus 5.5,paraphrase,8.5
+eb:SP577:p53,Opus 5.5,nomode,8.0
+eb:SP577:p53,Opus 5.5,norole,7.5
+eb:SP577:p52,Opus 5.5,minimal,11.0
+eb:SP577:p54,Opus 5.5,norole,9.0
+eb:SP577:p54,Opus 5.5,nomode,9.5
+eb:SP577:p53,Opus 5.5,minimal,7.0
+eb:SP577:p53,Opus 5.5,paraphrase,7.5
+eb:SP577:p54,Opus 5.5,minimal,11.0
+eb:SP577:p55,Opus 5.5,nomode,10.0
+eb:SP577:p55,Opus 5.5,norole,10.5
+eb:SP577:p54,Opus 5.5,paraphrase,8.0
+eb:SP577:p55,Opus 5.5,minimal,11.0
+eb:SP577:p56,Opus 5.5,norole,5.5
+eb:SP577:p55,Opus 5.5,paraphrase,8.5
+eb:SP577:p56,Opus 5.5,nomode,6.5
+eb:SP577:p56,Opus 5.5,paraphrase,3.5
+eb:SP577:p57,Opus 5.5,norole,6.0
+eb:SP577:p56,Opus 5.5,minimal,6.0
+eb:SP577:p57,Opus 5.5,nomode,6.5
+eb:SP577:p58,Opus 5.5,nomode,12.0
+eb:SP577:p57,Opus 5.5,minimal,6.0
+eb:SP577:p58,Opus 5.5,norole,14.0
+eb:SP577:p57,Opus 5.5,paraphrase,5.0
+eb:SP577:p59,Opus 5.5,nomode,21.0
+eb:SP577:p58,Opus 5.5,paraphrase,9.5
+eb:SP577:p59,Opus 5.5,minimal,17.0
+eb:SP577:p59,Opus 5.5,norole,16.0
+eb:SP577:p58,Opus 5.5,minimal,13.0
+eb:SP577:p59,Opus 5.5,paraphrase,17.0
+eb:SP577:p60,Opus 5.5,norole,7.5
+eb:SP577:p60,Opus 5.5,nomode,6.0
+eb:SP577:p60,Opus 5.5,minimal,9.0
+eb:SP577:p61,Opus 5.5,nomode,19.0
+eb:SP577:p61,Opus 5.5,norole,21.0
+eb:SP577:p60,Opus 5.5,paraphrase,6.5
+eb:SP577:p61,Opus 5.5,minimal,18.0
+eb:SP577:p62,Opus 5.5,nomode,15.0
+eb:SP577:p62,Opus 5.5,norole,15.0
+eb:SP577:p61,Opus 5.5,paraphrase,19.5
+eb:SP577:p67,Opus 5.5,norole,6.0
+eb:SP577:p67,Opus 5.5,nomode,6.0
+eb:SP577:p62,Opus 5.5,minimal,14.0
+eb:SP577:p67,Opus 5.5,minimal,6.0
+eb:SP577:p68,Opus 5.5,norole,7.5
+eb:SP577:p68,Opus 5.5,nomode,8.0
+eb:SP577:p62,Opus 5.5,paraphrase,18.5
+eb:SP577:p67,Opus 5.5,paraphrase,5.0
+eb:SP577:p69,Opus 5.5,nomode,8.0
+eb:SP577:p69,Opus 5.5,norole,6.0
+eb:SP577:p68,Opus 5.5,minimal,7.0
+eb:SP577:p69,Opus 5.5,minimal,6.0
+eb:SP577:p70,Opus 5.5,norole,9.0
+eb:SP577:p69,Opus 5.5,paraphrase,5.6
+eb:SP577:p68,Opus 5.5,paraphrase,5.6
+eb:SP577:p70,Opus 5.5,nomode,9.0
+eb:SP577:p71,Opus 5.5,norole,6.0
+eb:SP577:p71,Opus 5.5,nomode,6.0
+eb:SP577:p70,Opus 5.5,minimal,9.0
+eb:SP577:p70,Opus 5.5,paraphrase,9.5
+eb:SP577:p71,Opus 5.5,minimal,6.0
+eb:SP577:p71,Opus 5.5,paraphrase,4.5
+eb:SP577:p72,Opus 5.5,norole,3.2
+eb:SP577:p72,Opus 5.5,nomode,3.0
+eb:SP577:p72,Opus 5.5,minimal,4.0
+eb:SP577:p73,Opus 5.5,norole,4.5
+eb:SP577:p73,Opus 5.5,nomode,5.0
+eb:SP577:p73,Opus 5.5,minimal,4.0
+eb:SP577:p72,Opus 5.5,paraphrase,2.3
+eb:SP577:p74,Opus 5.5,nomode,18.0
+eb:SP577:p74,Opus 5.5,norole,16.0
+eb:SP577:p74,Opus 5.5,minimal,17.0
+eb:SP577:p75,Opus 5.5,nomode,10.5
+eb:SP577:p74,Opus 5.5,paraphrase,13.5
+eb:SP577:p75,Opus 5.5,norole,8.5
+eb:SP577:p73,Opus 5.5,paraphrase,4.0
+eb:SP577:p76,Opus 5.5,norole,13.0
+eb:SP577:p75,Opus 5.5,minimal,12.0
+eb:SP577:p76,Opus 5.5,nomode,13.0
+eb:SP577:p75,Opus 5.5,paraphrase,8.0
+eb:SP577:p77,Opus 5.5,norole,5.0
+eb:SP577:p76,Opus 5.5,minimal,13.0
+eb:SP577:p77,Opus 5.5,nomode,5.0
+eb:SP577:p76,Opus 5.5,paraphrase,11.5
+eb:SP577:p78,Opus 5.5,norole,3.5
+eb:SP577:p77,Opus 5.5,minimal,5.0
+eb:SP577:p78,Opus 5.5,nomode,3.0
+eb:SP577:p78,Opus 5.5,minimal,4.0
+eb:SP577:p77,Opus 5.5,paraphrase,5.0
+eb:SP577:p78,Opus 5.5,paraphrase,3.0
+eb:SP577:p84,Opus 5.5,norole,9.0
+eb:SP577:p84,Opus 5.5,nomode,11.0
+eb:SP577:p85,Opus 5.5,nomode,1.0
+eb:SP577:p85,Opus 5.5,norole,1.0
+eb:SP577:p85,Opus 5.5,paraphrase,0.8
+eb:SP577:p85,Opus 5.5,minimal,1.0
+eb:SP577:p84,Opus 5.5,minimal,11.0
+eb:SP577:p84,Opus 5.5,paraphrase,10.5
+eb:SP569:p4,Opus 5.5,nomode,6.0
+eb:SP569:p4,Opus 5.5,minimal,7.0
+eb:SP569:p8,Opus 5.5,nomode,11.0
+eb:SP569:p8,Opus 5.5,minimal,12.0
+eb:SP569:p4,Opus 5.5,norole,6.0
+eb:SP569:p4,Opus 5.5,paraphrase,3.4
+eb:SP569:p8,Opus 5.5,norole,10.0
+eb:SP569:p8,Opus 5.5,paraphrase,9.0
+eb:SP569:p10,Opus 5.5,nomode,11.0
+eb:SP569:p9,Opus 5.5,nomode,7.0
+eb:SP569:p9,Opus 5.5,minimal,7.0
+eb:SP569:p9,Opus 5.5,norole,8.0
+eb:SP569:p10,Opus 5.5,norole,12.0
+eb:SP569:p10,Opus 5.5,minimal,11.0
+eb:SP569:p11,Opus 5.5,nomode,13.5
+eb:SP569:p11,Opus 5.5,norole,11.0
+eb:SP569:p11,Opus 5.5,minimal,17.0
+eb:SP569:p10,Opus 5.5,paraphrase,12.0
+eb:SP569:p9,Opus 5.5,paraphrase,7.5
+eb:SP569:p12,Opus 5.5,norole,12.0
+eb:SP569:p11,Opus 5.5,paraphrase,13.0
+eb:SP569:p12,Opus 5.5,nomode,14.0
+eb:SP569:p12,Opus 5.5,minimal,11.0
+eb:SP569:p13,Opus 5.5,nomode,11.0
+eb:SP569:p13,Opus 5.5,norole,14.0
+eb:SP569:p13,Opus 5.5,minimal,14.0
+eb:SP569:p12,Opus 5.5,paraphrase,14.5
+eb:SP569:p13,Opus 5.5,paraphrase,14.0
+eb:SP569:p14,Opus 5.5,norole,18.0
+eb:SP569:p14,Opus 5.5,nomode,23.0
+eb:SP569:p14,Opus 5.5,minimal,19.0
+eb:SP569:p15,Opus 5.5,norole,12.0
+eb:SP569:p14,Opus 5.5,paraphrase,22.0
+eb:SP569:p15,Opus 5.5,paraphrase,14.0
+eb:SP569:p15,Opus 5.5,nomode,14.0
+eb:SP569:p16,Opus 5.5,nomode,14.0
+eb:SP569:p16,Opus 5.5,norole,14.0
+eb:SP569:p15,Opus 5.5,minimal,17.0
+eb:SP569:p16,Opus 5.5,minimal,14.0
+eb:SP569:p17,Opus 5.5,minimal,9.0
+eb:SP569:p16,Opus 5.5,paraphrase,12.5
+eb:SP569:p17,Opus 5.5,norole,9.0
+eb:SP569:p17,Opus 5.5,nomode,9.0
+eb:SP569:p18,Opus 5.5,norole,12.0
+eb:SP569:p18,Opus 5.5,nomode,14.0
+eb:SP569:p17,Opus 5.5,paraphrase,6.5
+eb:SP569:p19,Opus 5.5,nomode,12.0
+eb:SP569:p18,Opus 5.5,paraphrase,11.0
+eb:SP569:p19,Opus 5.5,paraphrase,10.0
+eb:SP569:p19,Opus 5.5,norole,9.0
+eb:SP569:p20,Opus 5.5,norole,9.0
+eb:SP569:p20,Opus 5.5,nomode,7.5
+eb:SP569:p19,Opus 5.5,minimal,11.0
+eb:SP569:p20,Opus 5.5,minimal,7.0
+eb:SP569:p18,Opus 5.5,minimal,12.0
+eb:SP569:p22,Opus 5.5,norole,14.0
+eb:SP569:p20,Opus 5.5,paraphrase,9.5
+eb:SP569:p21,Opus 5.5,nomode,13.0
+eb:SP569:p21,Opus 5.5,norole,9.0
+eb:SP569:p21,Opus 5.5,minimal,11.0
+eb:SP569:p22,Opus 5.5,nomode,17.0
+eb:SP569:p21,Opus 5.5,paraphrase,9.5
+eb:SP569:p22,Opus 5.5,minimal,16.0
+eb:SP569:p22,Opus 5.5,paraphrase,13.5
+eb:SP569:p23,Opus 5.5,norole,14.0
+eb:SP569:p24,Opus 5.5,norole,12.0
+eb:SP569:p24,Opus 5.5,nomode,12.0
+eb:SP569:p23,Opus 5.5,minimal,16.0
+eb:SP569:p23,Opus 5.5,paraphrase,13.0
+eb:SP569:p25,Opus 5.5,norole,11.0
+eb:SP569:p24,Opus 5.5,minimal,14.0
+eb:SP569:p26,Opus 5.5,norole,17.0
+eb:SP569:p24,Opus 5.5,paraphrase,9.0
+eb:SP569:p25,Opus 5.5,minimal,11.0
+eb:SP569:p25,Opus 5.5,nomode,11.0
+eb:SP569:p26,Opus 5.5,nomode,16.0
+eb:SP569:p26,Opus 5.5,minimal,15.0
+eb:SP569:p27,Opus 5.5,norole,5.0
+eb:SP569:p27,Opus 5.5,nomode,4.5
+eb:SP569:p27,Opus 5.5,paraphrase,4.0
+eb:SP569:p27,Opus 5.5,minimal,6.0
+eb:SP569:p28,Opus 5.5,nomode,9.0
+eb:SP569:p23,Opus 5.5,nomode,13.0
+eb:SP569:p28,Opus 5.5,paraphrase,9.0
+eb:SP569:p28,Opus 5.5,norole,10.0
+eb:SP569:p26,Opus 5.5,paraphrase,16.0
+eb:SP569:p29,Opus 5.5,nomode,9.0
+eb:SP569:p29,Opus 5.5,norole,11.0
+eb:SP569:p30,Opus 5.5,norole,14.0
+eb:SP569:p30,Opus 5.5,nomode,16.0
+eb:SP569:p29,Opus 5.5,minimal,12.0
+eb:SP569:p25,Opus 5.5,paraphrase,9.0
+eb:SP569:p30,Opus 5.5,minimal,12.0
+eb:SP569:p28,Opus 5.5,minimal,9.0
+eb:SP569:p31,Opus 5.5,nomode,14.0
+eb:SP569:p30,Opus 5.5,paraphrase,11.0
+eb:SP569:p31,Opus 5.5,norole,13.0
+eb:SP569:p32,Opus 5.5,norole,9.0
+eb:SP569:p31,Opus 5.5,paraphrase,13.0
+eb:SP569:p32,Opus 5.5,minimal,9.0
+eb:SP569:p31,Opus 5.5,minimal,12.0
+eb:SP569:p33,Opus 5.5,norole,9.0
+eb:SP569:p29,Opus 5.5,paraphrase,9.0
+eb:SP569:p33,Opus 5.5,nomode,10.5
+eb:SP569:p33,Opus 5.5,minimal,10.0
+eb:SP571:p4,Opus 5.5,nomode,1.2
+eb:SP571:p4,Opus 5.5,norole,0.9
+eb:SP569:p33,Opus 5.5,paraphrase,9.0
+eb:SP571:p4,Opus 5.5,paraphrase,1.0
+eb:SP571:p4,Opus 5.5,minimal,1.0
+eb:SP571:p5,Opus 5.5,norole,2.1
+eb:SP571:p5,Opus 5.5,nomode,1.8
+eb:SP571:p6,Opus 5.5,norole,3.0
+eb:SP569:p32,Opus 5.5,paraphrase,5.8
+eb:SP571:p5,Opus 5.5,minimal,2.0
+eb:SP571:p5,Opus 5.5,paraphrase,1.6
+eb:SP569:p32,Opus 5.5,nomode,9.0
+eb:SP571:p7,Opus 5.5,nomode,4.0
+eb:SP571:p7,Opus 5.5,norole,4.5
+eb:SP571:p6,Opus 5.5,paraphrase,3.0
+eb:SP571:p6,Opus 5.5,nomode,3.0
+eb:SP571:p7,Opus 5.5,paraphrase,4.0
+eb:SP571:p8,Opus 5.5,nomode,2.3
+eb:SP571:p8,Opus 5.5,norole,2.3
+eb:SP571:p8,Opus 5.5,minimal,2.0
+eb:SP571:p8,Opus 5.5,paraphrase,2.0
+eb:SP571:p6,Opus 5.5,minimal,3.0
+eb:SP571:p7,Opus 5.5,minimal,4.0
+eb:SP571:p10,Opus 5.5,minimal,2.0
+eb:SP571:p10,Opus 5.5,norole,2.0
+eb:SP571:p9,Opus 5.5,norole,5.0
+eb:SP571:p9,Opus 5.5,minimal,6.0
+eb:SP571:p10,Opus 5.5,paraphrase,1.6
+eb:SP571:p10,Opus 5.5,nomode,2.3
+eb:SP571:p9,Opus 5.5,nomode,6.0
+eb:SP571:p11,Opus 5.5,norole,2.5
+eb:SP571:p11,Opus 5.5,minimal,3.0
+eb:SP571:p12,Opus 5.5,norole,6.5
+eb:SP571:p11,Opus 5.5,paraphrase,2.0
+eb:SP571:p12,Opus 5.5,minimal,9.0
+eb:SP571:p9,Opus 5.5,paraphrase,3.6
+eb:SP571:p12,Opus 5.5,nomode,8.5
+eb:SP571:p13,Opus 5.5,nomode,3.0
+eb:SP571:p13,Opus 5.5,norole,3.0
+eb:SP571:p12,Opus 5.5,paraphrase,7.5
+eb:SP571:p14,Opus 5.5,norole,4.0
+eb:SP571:p14,Opus 5.5,nomode,4.0
+eb:SP571:p11,Opus 5.5,nomode,2.5
+eb:SP571:p14,Opus 5.5,minimal,4.0
+eb:SP571:p13,Opus 5.5,paraphrase,2.6
+eb:SP571:p15,Opus 5.5,nomode,6.0
+eb:SP571:p15,Opus 5.5,minimal,6.0
+eb:SP571:p15,Opus 5.5,norole,5.5
+eb:SP571:p14,Opus 5.5,paraphrase,3.5
+eb:SP571:p15,Opus 5.5,paraphrase,4.5
+eb:SP571:p23,Opus 5.5,minimal,2.0
+eb:SP571:p23,Opus 5.5,norole,2.0
+eb:SP571:p24,Opus 5.5,norole,3.0
+eb:SP571:p23,Opus 5.5,paraphrase,1.3
+eb:SP571:p24,Opus 5.5,nomode,3.0
+eb:SP571:p24,Opus 5.5,paraphrase,2.1
+eb:SP571:p24,Opus 5.5,minimal,4.0
+eb:SP571:p25,Opus 5.5,nomode,5.0
+eb:SP571:p25,Opus 5.5,norole,4.5
+eb:SP571:p25,Opus 5.5,paraphrase,5.0
+eb:SP571:p26,Opus 5.5,nomode,5.5
+eb:SP571:p26,Opus 5.5,norole,6.0
+eb:SP571:p13,Opus 5.5,minimal,3.0
+eb:SP571:p23,Opus 5.5,nomode,2.0
+eb:SP571:p26,Opus 5.5,minimal,5.0
+eb:SP571:p25,Opus 5.5,minimal,5.0
+eb:SP571:p26,Opus 5.5,paraphrase,5.8
+eb:SP571:p27,Opus 5.5,norole,2.6
+eb:SP571:p27,Opus 5.5,nomode,3.0
+eb:SP571:p28,Opus 5.5,norole,4.0
+eb:SP571:p27,Opus 5.5,minimal,3.0
+eb:SP571:p28,Opus 5.5,nomode,4.0
+eb:SP571:p29,Opus 5.5,norole,4.0
+eb:SP571:p27,Opus 5.5,paraphrase,2.0
+eb:SP571:p28,Opus 5.5,minimal,4.0
+eb:SP571:p29,Opus 5.5,nomode,4.0
+eb:SP571:p28,Opus 5.5,paraphrase,4.0
+eb:SP571:p29,Opus 5.5,minimal,5.0
+eb:SP571:p29,Opus 5.5,paraphrase,3.6
+eb:SP570:p10,Opus 5.5,nomode,6.0
+eb:SP570:p10,Opus 5.5,norole,6.0
+eb:SP570:p12,Opus 5.5,nomode,15.0
+eb:SP570:p10,Opus 5.5,minimal,5.0
+eb:SP570:p12,Opus 5.5,norole,16.0
+eb:SP570:p12,Opus 5.5,minimal,14.0
+eb:SP570:p12,Opus 5.5,paraphrase,13.0
+eb:SP570:p13,Opus 5.5,nomode,14.0
+eb:SP570:p13,Opus 5.5,minimal,12.0
+eb:SP570:p13,Opus 5.5,norole,12.0
+eb:SP570:p10,Opus 5.5,paraphrase,6.0
+eb:SP570:p13,Opus 5.5,paraphrase,16.5
+eb:SP570:p14,Opus 5.5,norole,14.0
+eb:SP570:p14,Opus 5.5,nomode,13.0
+eb:SP570:p14,Opus 5.5,minimal,14.0
+eb:SP570:p14,Opus 5.5,paraphrase,11.5
+eb:SP570:p15,Opus 5.5,norole,12.0
+eb:SP570:p16,Opus 5.5,norole,11.0
+eb:SP570:p15,Opus 5.5,minimal,14.0
+eb:SP570:p15,Opus 5.5,paraphrase,11.5
+eb:SP570:p16,Opus 5.5,nomode,14.0
+eb:SP570:p16,Opus 5.5,paraphrase,13.5
+eb:SP570:p16,Opus 5.5,minimal,14.0
+eb:SP570:p17,Opus 5.5,norole,19.0
+eb:SP570:p17,Opus 5.5,nomode,16.0
+eb:SP570:p17,Opus 5.5,paraphrase,16.0
+eb:SP570:p17,Opus 5.5,minimal,19.0
+eb:SP570:p18,Opus 5.5,nomode,19.0
+eb:SP570:p18,Opus 5.5,norole,18.0
+eb:SP570:p18,Opus 5.5,paraphrase,21.0
+eb:SP570:p15,Opus 5.5,nomode,14.0
+eb:SP570:p18,Opus 5.5,minimal,16.0
+eb:SP570:p19,Opus 5.5,nomode,9.0
+eb:SP570:p19,Opus 5.5,norole,8.0
+eb:SP570:p19,Opus 5.5,paraphrase,8.0
+eb:SP570:p19,Opus 5.5,minimal,9.0
+eb:SP570:p20,Opus 5.5,nomode,18.0
+eb:SP570:p20,Opus 5.5,norole,15.0
+eb:SP570:p20,Opus 5.5,minimal,12.0
+eb:SP570:p22,Opus 5.5,norole,10.0
+eb:SP570:p22,Opus 5.5,nomode,10.0
+eb:SP570:p20,Opus 5.5,paraphrase,11.5
+eb:SP570:p23,Opus 5.5,minimal,13.0
+eb:SP570:p23,Opus 5.5,nomode,17.0
+eb:SP570:p22,Opus 5.5,minimal,7.0
+eb:SP570:p23,Opus 5.5,norole,18.0
+eb:SP570:p22,Opus 5.5,paraphrase,6.5
+eb:SP570:p24,Opus 5.5,norole,19.0
+eb:SP570:p23,Opus 5.5,paraphrase,14.0
+eb:SP570:p24,Opus 5.5,minimal,18.0
+eb:SP570:p24,Opus 5.5,nomode,22.0
+eb:SP570:p25,Opus 5.5,norole,22.0
+eb:SP570:p25,Opus 5.5,nomode,21.0
+eb:SP570:p25,Opus 5.5,minimal,21.0
+eb:SP570:p24,Opus 5.5,paraphrase,17.0
+eb2:SP567:p5,Opus 5.5,norole,1.5
+eb:SP570:p26,Opus 5.5,norole,10.0
+eb:SP570:p26,Opus 5.5,minimal,14.0
+eb:SP570:p26,Opus 5.5,nomode,9.0
+eb2:SP567:p5,Opus 5.5,nomode,1.5
+eb:SP570:p25,Opus 5.5,paraphrase,21.0
+eb2:SP567:p5,Opus 5.5,minimal,2.0
+eb2:SP567:p9,Opus 5.5,norole,4.0
+eb2:SP567:p5,Opus 5.5,paraphrase,1.2
+eb:SP570:p26,Opus 5.5,paraphrase,11.5
+eb2:SP567:p9,Opus 5.5,nomode,5.0
+eb2:SP567:p9,Opus 5.5,paraphrase,4.0
+eb2:SP567:p33,Opus 5.5,norole,22.0
+eb2:SP567:p9,Opus 5.5,minimal,5.0
+eb2:SP567:p33,Opus 5.5,nomode,22.0
+eb2:SP567:p33,Opus 5.5,minimal,19.0
+eb2:SP567:p34,Opus 5.5,nomode,11.0
+eb2:SP567:p35,Opus 5.5,norole,9.0
+eb2:SP567:p35,Opus 5.5,nomode,9.0
+eb2:SP567:p34,Opus 5.5,norole,9.5
+eb2:SP567:p34,Opus 5.5,minimal,10.0
+eb2:SP567:p33,Opus 5.5,paraphrase,19.0
+eb2:SP567:p34,Opus 5.5,paraphrase,11.0
+eb2:SP567:p35,Opus 5.5,minimal,12.0
+eb2:SP567:p36,Opus 5.5,minimal,12.0
+eb2:SP567:p36,Opus 5.5,norole,11.0
+eb2:SP567:p36,Opus 5.5,nomode,11.0
+eb2:SP567:p36,Opus 5.5,paraphrase,10.5
+eb2:SP567:p37,Opus 5.5,norole,9.0
+eb2:SP567:p35,Opus 5.5,paraphrase,8.0
+eb2:SP567:p37,Opus 5.5,nomode,9.5
+eb2:SP567:p39,Opus 5.5,norole,0.4
+eb2:SP567:p39,Opus 5.5,nomode,0.4
+eb2:SP567:p37,Opus 5.5,paraphrase,7.5
+eb2:SP567:p37,Opus 5.5,minimal,9.0
+eb2:SP567:p39,Opus 5.5,paraphrase,0.3
+eb2:SP567:p40,Opus 5.5,norole,0.4
+eb2:SP567:p39,Opus 5.5,minimal,1.0
+eb2:SP567:p40,Opus 5.5,nomode,0.5
+eb2:SP567:p40,Opus 5.5,minimal,0.0
+eb2:SP567:p41,Opus 5.5,norole,1.0
+eb2:SP567:p41,Opus 5.5,nomode,1.3
+eb2:SP567:p40,Opus 5.5,paraphrase,0.6
+eb2:SP567:p41,Opus 5.5,minimal,1.0
+eb2:SP567:p42,Opus 5.5,norole,1.4
+eb2:SP567:p42,Opus 5.5,nomode,1.5
+eb2:SP567:p42,Opus 5.5,minimal,2.0
+eb2:SP567:p43,Opus 5.5,nomode,2.1
+eb2:SP567:p41,Opus 5.5,paraphrase,1.0
+eb2:SP567:p43,Opus 5.5,norole,2.5
+eb2:SP567:p42,Opus 5.5,paraphrase,1.3
+eb2:SP567:p43,Opus 5.5,minimal,2.0
+eb2:SP567:p43,Opus 5.5,paraphrase,1.5
+eb2:SP567:p44,Opus 5.5,nomode,4.0
+eb2:SP567:p44,Opus 5.5,norole,3.0
+eb2:SP567:p44,Opus 5.5,minimal,3.0
+eb2:STD104:p104,Opus 5.5,nomode,8.5
+eb2:STD104:p104,Opus 5.5,norole,9.0
+eb2:STD104:p104,Opus 5.5,minimal,9.0
+eb2:SP567:p44,Opus 5.5,paraphrase,2.1
+eb2:STD104:p105,Opus 5.5,norole,6.5
+eb2:STD104:p105,Opus 5.5,nomode,6.0
+eb2:STD104:p116,Opus 5.5,norole,5.5
+eb2:STD104:p104,Opus 5.5,paraphrase,8.0
+eb2:STD104:p105,Opus 5.5,paraphrase,5.5
+eb2:STD104:p116,Opus 5.5,nomode,7.0
+eb2:STD104:p116,Opus 5.5,minimal,6.0
+eb2:STD104:p105,Opus 5.5,minimal,7.0
+eb2:STD104:p116,Opus 5.5,paraphrase,7.4
+eb2:STD104:p119,Opus 5.5,norole,8.0
+eb2:STD104:p119,Opus 5.5,nomode,8.5
+eb2:STD104:p142,Opus 5.5,norole,7.0
+eb2:STD104:p119,Opus 5.5,minimal,9.0
+eb2:STD104:p142,Opus 5.5,nomode,7.0
+eb2:STD104:p142,Opus 5.5,minimal,7.0
+eb2:STD104:p175,Opus 5.5,norole,3.5
+eb2:STD104:p119,Opus 5.5,paraphrase,8.5
+eb2:STD104:p175,Opus 5.5,nomode,4.0
+eb2:STD104:p142,Opus 5.5,paraphrase,6.5
+eb2:STD104:p175,Opus 5.5,minimal,4.0
+eb2:STD104:p175,Opus 5.5,paraphrase,3.5
+eb2:STD104:p195,Opus 5.5,norole,9.0
+eb2:STD104:p195,Opus 5.5,nomode,8.5
+eb2:STD104:p202,Opus 5.5,nomode,10.5
+eb2:STD104:p202,Opus 5.5,norole,10.0
+eb2:STD104:p203,Opus 5.5,nomode,8.0
+eb2:STD104:p195,Opus 5.5,minimal,9.0
+eb2:STD104:p202,Opus 5.5,minimal,9.0
+eb2:STD104:p195,Opus 5.5,paraphrase,8.0
+eb2:STD104:p202,Opus 5.5,paraphrase,10.5
+eb2:STD104:p203,Opus 5.5,paraphrase,7.0
+eb2:STD104:p203,Opus 5.5,minimal,10.0
+eb2:STD104:p204,Opus 5.5,norole,5.0
+eb2:STD104:p204,Opus 5.5,nomode,7.0
+eb2:STD104:p204,Opus 5.5,minimal,6.0
+eb2:STD104:p203,Opus 5.5,norole,9.0
+eb2:STD104:p206,Opus 5.5,nomode,7.0
+eb2:STD104:p206,Opus 5.5,minimal,6.0
+eb2:STD104:p206,Opus 5.5,norole,6.5
+eb2:STD104:p207,Opus 5.5,nomode,6.0
+eb2:STD104:p204,Opus 5.5,paraphrase,6.5
+eb2:STD104:p207,Opus 5.5,norole,5.0
+eb2:STD104:p207,Opus 5.5,paraphrase,4.6
+eb2:STD104:p209,Opus 5.5,nomode,1.3
+eb2:STD104:p209,Opus 5.5,norole,1.0
+eb2:STD104:p207,Opus 5.5,minimal,5.0
+eb2:STD104:p231,Opus 5.5,nomode,6.5
+eb2:STD104:p231,Opus 5.5,norole,8.0
+eb2:STD104:p209,Opus 5.5,minimal,1.0
+eb2:STD104:p206,Opus 5.5,paraphrase,5.5
+eb2:STD104:p209,Opus 5.5,paraphrase,1.0
+eb2:STD104:p231,Opus 5.5,paraphrase,7.5
+eb2:STD104:p235,Opus 5.5,norole,3.2
+eb2:STD104:p231,Opus 5.5,minimal,8.0
+eb2:STD104:p233,Opus 5.5,paraphrase,8.0
+eb2:STD104:p235,Opus 5.5,nomode,4.0
+eb2:STD104:p233,Opus 5.5,norole,8.0
+eb2:STD104:p235,Opus 5.5,paraphrase,4.0
+eb2:STD104:p237,Opus 5.5,norole,12.0
+eb2:STD104:p233,Opus 5.5,nomode,7.5
+eb2:STD104:p233,Opus 5.5,minimal,7.0
+eb2:STD104:p237,Opus 5.5,nomode,14.0
+eb2:STD104:p235,Opus 5.5,minimal,4.0
+eb2:STD104:p239,Opus 5.5,nomode,13.5
+eb2:STD104:p237,Opus 5.5,minimal,16.0
+eb2:STD104:p239,Opus 5.5,norole,13.0
+eb2:STD104:p237,Opus 5.5,paraphrase,11.5
+eb2:STD104:p239,Opus 5.5,minimal,12.0
+eb2:STD104:p257,Opus 5.5,norole,13.0
+eb2:STD104:p257,Opus 5.5,nomode,14.5
+eb2:STD104:p258,Opus 5.5,norole,20.0
+eb2:STD104:p258,Opus 5.5,nomode,19.0
+eb2:STD104:p239,Opus 5.5,paraphrase,12.0
+eb2:STD104:p257,Opus 5.5,paraphrase,14.5
+eb2:STD104:p258,Opus 5.5,paraphrase,21.0
+eb2:STD104:p258,Opus 5.5,minimal,22.0
+eb2:STD104:p259,Opus 5.5,nomode,16.0
+eb2:STD104:p259,Opus 5.5,paraphrase,15.0
+eb2:STD104:p260,Opus 5.5,nomode,13.0
+eb2:STD104:p257,Opus 5.5,minimal,15.0
+eb2:STD104:p259,Opus 5.5,minimal,17.0
+eb2:STD104:p260,Opus 5.5,minimal,14.0
+eb2:STD104:p260,Opus 5.5,norole,13.5
+eb2:STD104:p260,Opus 5.5,paraphrase,14.5
+eb2:STD104:p261,Opus 5.5,norole,3.5
+eb2:STD104:p259,Opus 5.5,norole,17.0
+eb2:STD104:p263,Opus 5.5,norole,5.0
+eb2:STD104:p261,Opus 5.5,paraphrase,3.1
+eb2:STD104:p263,Opus 5.5,nomode,6.0
+eb2:STD104:p265,Opus 5.5,norole,6.0
+eb2:STD104:p265,Opus 5.5,minimal,6.0
+eb2:STD104:p263,Opus 5.5,paraphrase,3.6
+eb2:STD104:p265,Opus 5.5,nomode,6.5
+eb2:STD104:p261,Opus 5.5,nomode,5.0
+eb2:STD104:p261,Opus 5.5,minimal,4.0
+eb2:STD104:p265,Opus 5.5,paraphrase,3.6
+eb2:STD104:p267,Opus 5.5,norole,8.5
+eb2:STD104:p267,Opus 5.5,nomode,8.5
+eb2:STD104:p267,Opus 5.5,minimal,9.0
+eb2:STD104:p269,Opus 5.5,norole,4.5
+eb2:STD104:p263,Opus 5.5,minimal,4.0
+eb2:STD104:p271,Opus 5.5,norole,5.0
+eb2:STD104:p269,Opus 5.5,minimal,4.0
+eb2:STD104:p269,Opus 5.5,nomode,5.5
+eb2:STD104:p269,Opus 5.5,paraphrase,4.6
+eb2:STD104:p271,Opus 5.5,paraphrase,5.6
+eb2:STD104:p271,Opus 5.5,minimal,6.0
+eb2:STD104:p267,Opus 5.5,paraphrase,7.0
+eb2:STD104:p273,Opus 5.5,minimal,3.0
+eb2:STD104:p273,Opus 5.5,nomode,4.0
+eb2:STD104:p273,Opus 5.5,norole,5.0
+eb2:STD104:p273,Opus 5.5,paraphrase,4.0
+eb2:STD104:p275,Opus 5.5,nomode,5.0
+eb2:EB049EP:p25,Opus 5.5,norole,6.5
+eb2:STD104:p275,Opus 5.5,minimal,6.0
+eb2:EB049EP:p25,Opus 5.5,minimal,5.0
+eb2:EB049EP:p25,Opus 5.5,paraphrase,6.5
+eb2:EB049EP:p36,Opus 5.5,nomode,6.0
+eb2:STD104:p275,Opus 5.5,paraphrase,4.5
+eb2:EB049EP:p36,Opus 5.5,norole,6.0
+eb2:STD104:p275,Opus 5.5,norole,4.0
+eb2:EB049EP:p36,Opus 5.5,paraphrase,5.0
+eb2:EB049EP:p36,Opus 5.5,minimal,6.0
+eb2:EB049EP:p25,Opus 5.5,nomode,6.0
+eb2:STD104:p271,Opus 5.5,nomode,5.0
+eb:STD105:p3,Sonnet 5.5,nomode,0.8
+eb:STD105:p5,Sonnet 5.5,minimal,1.0
+eb:STD105:p3,Sonnet 5.5,norole,0.5
+eb:STD105:p5,Sonnet 5.5,nomode,0.7
+eb:STD105:p3,Sonnet 5.5,minimal,1.0
+eb:STD105:p5,Sonnet 5.5,paraphrase,0.6
+eb:STD105:p5,Sonnet 5.5,norole,0.4
+eb:STD105:p3,Sonnet 5.5,paraphrase,0.5
+eb:STD105:p7,Sonnet 5.5,nomode,1.2
+eb:STD105:p7,Sonnet 5.5,paraphrase,0.8
+eb:STD105:p9,Sonnet 5.5,minimal,2.0
+eb:STD105:p7,Sonnet 5.5,norole,0.7
+eb:STD105:p7,Sonnet 5.5,minimal,1.0
+eb:STD105:p9,Sonnet 5.5,nomode,1.6
+eb:STD105:p9,Sonnet 5.5,norole,1.5
+eb:STD105:p9,Sonnet 5.5,paraphrase,1.0
+eb:STD105:p11,Sonnet 5.5,nomode,1.5
+eb:STD105:p11,Sonnet 5.5,norole,1.2
+eb:STD105:p11,Sonnet 5.5,paraphrase,0.9
+eb:STD105:p15,Sonnet 5.5,nomode,1.0
+eb:STD105:p11,Sonnet 5.5,minimal,1.0
+eb:STD105:p17,Sonnet 5.5,norole,1.5
+eb:STD105:p15,Sonnet 5.5,minimal,1.0
+eb:STD105:p15,Sonnet 5.5,norole,0.9
+eb:STD105:p15,Sonnet 5.5,paraphrase,1.0
+eb:STD105:p17,Sonnet 5.5,nomode,1.5
+eb:STD105:p17,Sonnet 5.5,minimal,2.0
+eb:STD105:p19,Sonnet 5.5,nomode,7.5
+eb:STD105:p19,Sonnet 5.5,norole,7.0
+eb:STD105:p17,Sonnet 5.5,paraphrase,1.5
+eb:STD105:p19,Sonnet 5.5,minimal,6.0
+eb:STD105:p21,Sonnet 5.5,norole,2.5
+eb:STD105:p21,Sonnet 5.5,nomode,3.0
+eb:STD105:p23,Sonnet 5.5,norole,0.9
+eb:STD105:p21,Sonnet 5.5,minimal,2.0
+eb:STD105:p19,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p23,Sonnet 5.5,nomode,0.9
+eb:STD105:p23,Sonnet 5.5,minimal,1.0
+eb:STD105:p21,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p25,Sonnet 5.5,nomode,2.5
+eb:STD105:p25,Sonnet 5.5,norole,2.5
+eb:STD105:p23,Sonnet 5.5,paraphrase,0.8
+eb:STD105:p25,Sonnet 5.5,minimal,2.0
+eb:STD105:p27,Sonnet 5.5,minimal,3.0
+eb:STD105:p27,Sonnet 5.5,paraphrase,3.5
+eb:STD105:p27,Sonnet 5.5,nomode,3.0
+eb:STD105:p25,Sonnet 5.5,paraphrase,3.0
+eb:STD105:p27,Sonnet 5.5,norole,3.0
+eb:STD105:p29,Sonnet 5.5,norole,1.8
+eb:STD105:p29,Sonnet 5.5,nomode,2.6
+eb:STD105:p29,Sonnet 5.5,minimal,3.0
+eb:STD105:p31,Sonnet 5.5,norole,4.0
+eb:STD105:p29,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p31,Sonnet 5.5,nomode,3.5
+eb:STD105:p33,Sonnet 5.5,nomode,5.0
+eb:STD105:p31,Sonnet 5.5,minimal,4.0
+eb:STD105:p33,Sonnet 5.5,norole,5.0
+eb:STD105:p31,Sonnet 5.5,paraphrase,5.4
+eb:STD105:p33,Sonnet 5.5,minimal,4.0
+eb:STD105:p33,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p37,Sonnet 5.5,norole,5.0
+eb:STD105:p35,Sonnet 5.5,norole,4.0
+eb:STD105:p35,Sonnet 5.5,nomode,3.5
+eb:STD105:p37,Sonnet 5.5,nomode,6.0
+eb:STD105:p35,Sonnet 5.5,minimal,4.0
+eb:STD105:p35,Sonnet 5.5,paraphrase,3.5
+eb:STD105:p37,Sonnet 5.5,minimal,6.0
+eb:STD105:p37,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p39,Sonnet 5.5,minimal,6.0
+eb:STD105:p39,Sonnet 5.5,nomode,5.0
+eb:STD105:p39,Sonnet 5.5,paraphrase,7.5
+eb:STD105:p39,Sonnet 5.5,norole,5.0
+eb:STD105:p41,Sonnet 5.5,nomode,7.5
+eb:STD105:p41,Sonnet 5.5,norole,8.0
+eb:STD105:p69,Sonnet 5.5,nomode,4.5
+eb:STD105:p69,Sonnet 5.5,minimal,7.0
+eb:STD105:p41,Sonnet 5.5,minimal,7.0
+eb:STD105:p69,Sonnet 5.5,norole,5.0
+eb:STD105:p41,Sonnet 5.5,paraphrase,11.0
+eb:STD105:p69,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p71,Sonnet 5.5,norole,5.5
+eb:STD105:p71,Sonnet 5.5,nomode,6.5
+eb:STD105:p71,Sonnet 5.5,minimal,9.0
+eb:STD105:p71,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p73,Sonnet 5.5,nomode,4.6
+eb:STD105:p73,Sonnet 5.5,minimal,6.0
+eb:STD105:p73,Sonnet 5.5,norole,4.5
+eb:STD105:p75,Sonnet 5.5,norole,2.3
+eb:STD105:p75,Sonnet 5.5,minimal,4.0
+eb:STD105:p73,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p75,Sonnet 5.5,nomode,2.3
+eb:STD105:p77,Sonnet 5.5,nomode,6.0
+eb:STD105:p75,Sonnet 5.5,paraphrase,2.0
+eb:STD105:p77,Sonnet 5.5,minimal,8.0
+eb:STD105:p77,Sonnet 5.5,norole,7.5
+eb:STD105:p79,Sonnet 5.5,minimal,7.0
+eb:STD105:p81,Sonnet 5.5,nomode,3.5
+eb:STD105:p81,Sonnet 5.5,norole,2.5
+eb:STD105:p79,Sonnet 5.5,nomode,6.0
+eb:STD105:p77,Sonnet 5.5,paraphrase,7.5
+eb:STD105:p79,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p81,Sonnet 5.5,minimal,3.0
+eb:STD105:p85,Sonnet 5.5,nomode,6.0
+eb:STD105:p83,Sonnet 5.5,minimal,8.0
+eb:STD105:p83,Sonnet 5.5,norole,5.0
+eb:STD105:p83,Sonnet 5.5,nomode,4.5
+eb:STD105:p79,Sonnet 5.5,norole,5.0
+eb:STD105:p83,Sonnet 5.5,paraphrase,4.0
+eb:STD105:p85,Sonnet 5.5,norole,9.0
+eb:STD105:p85,Sonnet 5.5,minimal,10.0
+eb:STD105:p87,Sonnet 5.5,minimal,7.0
+eb:STD105:p87,Sonnet 5.5,nomode,3.5
+eb:STD105:p89,Sonnet 5.5,nomode,4.5
+eb:STD105:p87,Sonnet 5.5,norole,5.0
+eb:STD105:p81,Sonnet 5.5,paraphrase,3.5
+eb:STD105:p85,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p89,Sonnet 5.5,norole,6.0
+eb:STD105:p89,Sonnet 5.5,minimal,7.0
+eb:STD105:p89,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p91,Sonnet 5.5,minimal,8.0
+eb:STD105:p91,Sonnet 5.5,nomode,8.0
+eb:STD105:p93,Sonnet 5.5,nomode,11.5
+eb:STD105:p91,Sonnet 5.5,norole,10.5
+eb:STD105:p93,Sonnet 5.5,norole,13.0
+eb:STD105:p93,Sonnet 5.5,minimal,13.0
+eb:STD105:p91,Sonnet 5.5,paraphrase,11.5
+eb:STD105:p93,Sonnet 5.5,paraphrase,12.0
+eb:STD105:p87,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p95,Sonnet 5.5,nomode,17.0
+eb:STD105:p95,Sonnet 5.5,norole,19.0
+eb:STD105:p95,Sonnet 5.5,minimal,15.0
+eb:STD105:p101,Sonnet 5.5,nomode,2.3
+eb:STD105:p101,Sonnet 5.5,minimal,1.0
+eb:STD105:p101,Sonnet 5.5,norole,1.5
+eb:STD105:p95,Sonnet 5.5,paraphrase,15.0
+eb:STD105:p103,Sonnet 5.5,nomode,3.0
+eb:STD105:p103,Sonnet 5.5,norole,2.6
+eb:STD105:p101,Sonnet 5.5,paraphrase,1.5
+eb:STD105:p103,Sonnet 5.5,minimal,4.0
+eb:STD105:p103,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p104,Sonnet 5.5,minimal,8.0
+eb:STD105:p104,Sonnet 5.5,norole,7.5
+eb:STD105:p104,Sonnet 5.5,nomode,7.0
+eb:STD105:p111,Sonnet 5.5,minimal,9.0
+eb:STD105:p111,Sonnet 5.5,norole,7.0
+eb:STD105:p112,Sonnet 5.5,nomode,8.5
+eb:STD105:p111,Sonnet 5.5,nomode,7.0
+eb:STD105:p111,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p104,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p112,Sonnet 5.5,minimal,8.0
+eb:STD105:p113,Sonnet 5.5,nomode,7.5
+eb:STD105:p112,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p113,Sonnet 5.5,minimal,8.0
+eb:STD105:p112,Sonnet 5.5,norole,9.0
+eb:STD105:p113,Sonnet 5.5,norole,7.0
+eb:STD105:p114,Sonnet 5.5,nomode,13.5
+eb:STD105:p113,Sonnet 5.5,paraphrase,10.0
+eb:STD105:p115,Sonnet 5.5,nomode,10.5
+eb:STD105:p114,Sonnet 5.5,minimal,12.0
+eb:STD105:p114,Sonnet 5.5,norole,10.5
+eb:STD105:p115,Sonnet 5.5,minimal,8.0
+eb:STD105:p116,Sonnet 5.5,nomode,11.0
+eb:STD105:p115,Sonnet 5.5,norole,7.5
+eb:STD105:p116,Sonnet 5.5,minimal,12.0
+eb:STD105:p114,Sonnet 5.5,paraphrase,12.0
+eb:STD105:p115,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p116,Sonnet 5.5,paraphrase,9.5
+eb:STD105:p116,Sonnet 5.5,norole,11.0
+eb:STD105:p124,Sonnet 5.5,minimal,14.0
+eb:STD105:p124,Sonnet 5.5,nomode,10.5
+eb:STD105:p124,Sonnet 5.5,norole,13.0
+eb:STD105:p126,Sonnet 5.5,norole,14.0
+eb:STD105:p126,Sonnet 5.5,minimal,14.0
+eb:STD105:p124,Sonnet 5.5,paraphrase,12.0
+eb:STD105:p126,Sonnet 5.5,nomode,12.0
+eb:STD105:p128,Sonnet 5.5,norole,16.0
+eb:STD105:p126,Sonnet 5.5,paraphrase,14.5
+eb:STD105:p128,Sonnet 5.5,nomode,16.0
+eb:STD105:p128,Sonnet 5.5,minimal,16.0
+eb:STD105:p130,Sonnet 5.5,norole,17.0
+eb:STD105:p130,Sonnet 5.5,nomode,18.0
+eb:STD105:p128,Sonnet 5.5,paraphrase,16.0
+eb:STD105:p130,Sonnet 5.5,paraphrase,21.0
+eb:STD105:p131,Sonnet 5.5,norole,2.3
+eb:STD105:p131,Sonnet 5.5,minimal,2.0
+eb:STD105:p130,Sonnet 5.5,minimal,20.0
+eb:STD105:p131,Sonnet 5.5,nomode,2.3
+eb:STD105:p131,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p135,Sonnet 5.5,nomode,8.5
+eb:STD105:p133,Sonnet 5.5,nomode,7.5
+eb:STD105:p133,Sonnet 5.5,norole,8.0
+eb:STD105:p133,Sonnet 5.5,minimal,7.0
+eb:STD105:p133,Sonnet 5.5,paraphrase,9.0
+eb:STD105:p135,Sonnet 5.5,minimal,9.0
+eb:STD105:p135,Sonnet 5.5,norole,10.0
+eb:STD105:p137,Sonnet 5.5,minimal,6.0
+eb:STD105:p137,Sonnet 5.5,nomode,8.5
+eb:STD105:p135,Sonnet 5.5,paraphrase,12.0
+eb:STD105:p139,Sonnet 5.5,norole,2.6
+eb:STD105:p137,Sonnet 5.5,norole,7.5
+eb:STD105:p137,Sonnet 5.5,paraphrase,7.0
+eb:STD105:p139,Sonnet 5.5,nomode,2.6
+eb:STD105:p141,Sonnet 5.5,nomode,9.0
+eb:STD105:p139,Sonnet 5.5,minimal,3.0
+eb:STD105:p141,Sonnet 5.5,norole,9.0
+eb:STD105:p141,Sonnet 5.5,minimal,10.0
+eb:STD105:p139,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p143,Sonnet 5.5,norole,4.5
+eb:STD105:p141,Sonnet 5.5,paraphrase,9.0
+eb:STD105:p143,Sonnet 5.5,nomode,5.5
+eb:STD105:p143,Sonnet 5.5,minimal,5.0
+eb:STD105:p143,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p145,Sonnet 5.5,minimal,5.0
+eb:STD105:p147,Sonnet 5.5,nomode,8.0
+eb:STD105:p145,Sonnet 5.5,norole,2.5
+eb:STD105:p145,Sonnet 5.5,nomode,2.5
+eb:STD105:p147,Sonnet 5.5,norole,6.0
+eb:STD105:p149,Sonnet 5.5,norole,6.0
+eb:STD105:p147,Sonnet 5.5,minimal,7.0
+eb:STD105:p147,Sonnet 5.5,paraphrase,7.0
+eb:STD105:p145,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p149,Sonnet 5.5,nomode,6.0
+eb:STD105:p149,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p149,Sonnet 5.5,minimal,6.0
+eb:STD105:p151,Sonnet 5.5,nomode,1.5
+eb:STD105:p151,Sonnet 5.5,minimal,3.0
+eb:STD105:p151,Sonnet 5.5,norole,1.2
+eb:STD105:p153,Sonnet 5.5,minimal,9.0
+eb:STD105:p153,Sonnet 5.5,nomode,6.0
+eb:STD105:p153,Sonnet 5.5,norole,5.0
+eb:STD105:p153,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p151,Sonnet 5.5,paraphrase,1.3
+eb:STD105:p154,Sonnet 5.5,nomode,4.5
+eb:STD105:p154,Sonnet 5.5,norole,3.2
+eb:STD105:p154,Sonnet 5.5,minimal,4.0
+eb:STD105:p155,Sonnet 5.5,nomode,9.0
+eb:STD105:p155,Sonnet 5.5,norole,8.5
+eb:STD105:p154,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p156,Sonnet 5.5,nomode,6.0
+eb:STD105:p155,Sonnet 5.5,minimal,10.0
+eb:STD105:p156,Sonnet 5.5,norole,6.0
+eb:STD105:p156,Sonnet 5.5,paraphrase,7.5
+eb:STD105:p155,Sonnet 5.5,paraphrase,9.5
+eb:STD105:p157,Sonnet 5.5,nomode,14.0
+eb:STD105:p156,Sonnet 5.5,minimal,7.0
+eb:STD105:p157,Sonnet 5.5,norole,14.0
+eb:STD105:p157,Sonnet 5.5,minimal,14.0
+eb:STD105:p158,Sonnet 5.5,norole,8.0
+eb:STD105:p158,Sonnet 5.5,nomode,4.8
+eb:STD105:p159,Sonnet 5.5,norole,9.0
+eb:STD105:p158,Sonnet 5.5,paraphrase,7.0
+eb:STD105:p158,Sonnet 5.5,minimal,6.0
+eb:STD105:p157,Sonnet 5.5,paraphrase,17.0
+eb:STD105:p159,Sonnet 5.5,nomode,6.5
+eb:STD105:p159,Sonnet 5.5,minimal,9.0
+eb:STD105:p160,Sonnet 5.5,norole,9.5
+eb:STD105:p160,Sonnet 5.5,minimal,9.0
+eb:STD105:p159,Sonnet 5.5,paraphrase,7.0
+eb:STD105:p161,Sonnet 5.5,nomode,2.5
+eb:STD105:p161,Sonnet 5.5,norole,3.5
+eb:STD105:p160,Sonnet 5.5,nomode,8.0
+eb:STD105:p160,Sonnet 5.5,paraphrase,9.0
+eb:STD105:p161,Sonnet 5.5,minimal,6.0
+eb:STD105:p162,Sonnet 5.5,minimal,5.0
+eb:STD105:p163,Sonnet 5.5,norole,14.0
+eb:STD105:p161,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p163,Sonnet 5.5,nomode,11.0
+eb:STD105:p162,Sonnet 5.5,nomode,5.0
+eb:STD105:p162,Sonnet 5.5,norole,5.0
+eb:STD105:p162,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p163,Sonnet 5.5,minimal,10.0
+eb:STD105:p164,Sonnet 5.5,norole,6.0
+eb:STD105:p163,Sonnet 5.5,paraphrase,14.0
+eb:STD105:p164,Sonnet 5.5,nomode,5.0
+eb:STD105:p164,Sonnet 5.5,minimal,8.0
+eb:STD105:p164,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p165,Sonnet 5.5,norole,7.0
+eb:STD105:p165,Sonnet 5.5,minimal,7.0
+eb:STD105:p165,Sonnet 5.5,nomode,5.0
+eb:STD105:p167,Sonnet 5.5,nomode,11.0
+eb:STD105:p167,Sonnet 5.5,norole,9.0
+eb:STD105:p168,Sonnet 5.5,nomode,12.0
+eb:STD105:p165,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p168,Sonnet 5.5,norole,9.0
+eb:STD105:p167,Sonnet 5.5,paraphrase,12.0
+eb:STD105:p168,Sonnet 5.5,paraphrase,9.0
+eb:STD105:p169,Sonnet 5.5,nomode,8.5
+eb:STD105:p167,Sonnet 5.5,minimal,11.0
+eb:STD105:p168,Sonnet 5.5,minimal,10.0
+eb:STD105:p169,Sonnet 5.5,paraphrase,9.0
+eb:STD105:p169,Sonnet 5.5,norole,7.0
+eb:STD105:p169,Sonnet 5.5,minimal,10.0
+eb:STD105:p170,Sonnet 5.5,minimal,6.0
+eb:STD105:p170,Sonnet 5.5,norole,7.0
+eb:STD105:p170,Sonnet 5.5,nomode,7.0
+eb:STD105:p172,Sonnet 5.5,norole,15.0
+eb:STD105:p170,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p172,Sonnet 5.5,nomode,17.0
+eb:STD105:p172,Sonnet 5.5,minimal,17.0
+eb:STD105:p172,Sonnet 5.5,paraphrase,16.0
+eb:STD105:p173,Sonnet 5.5,nomode,4.0
+eb:STD105:p173,Sonnet 5.5,minimal,4.0
+eb:STD105:p174,Sonnet 5.5,nomode,4.0
+eb:STD105:p174,Sonnet 5.5,minimal,5.0
+eb:STD105:p174,Sonnet 5.5,norole,4.0
+eb:STD105:p173,Sonnet 5.5,norole,5.0
+eb:STD105:p173,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p175,Sonnet 5.5,minimal,7.0
+eb:STD105:p175,Sonnet 5.5,nomode,6.0
+eb:STD105:p177,Sonnet 5.5,nomode,3.5
+eb:STD105:p174,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p175,Sonnet 5.5,norole,5.0
+eb:STD105:p177,Sonnet 5.5,minimal,4.0
+eb:STD105:p175,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p197,Sonnet 5.5,nomode,4.5
+eb:STD105:p177,Sonnet 5.5,norole,2.5
+eb:STD105:p177,Sonnet 5.5,paraphrase,3.0
+eb:STD105:p197,Sonnet 5.5,norole,4.5
+eb:STD105:p199,Sonnet 5.5,nomode,4.5
+eb:STD105:p197,Sonnet 5.5,minimal,6.0
+eb:STD105:p201,Sonnet 5.5,nomode,6.0
+eb:STD105:p201,Sonnet 5.5,norole,5.5
+eb:STD105:p197,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p199,Sonnet 5.5,norole,4.5
+eb:STD105:p199,Sonnet 5.5,minimal,4.0
+eb:STD105:p203,Sonnet 5.5,nomode,11.0
+eb:STD105:p203,Sonnet 5.5,norole,7.0
+eb:STD105:p203,Sonnet 5.5,minimal,8.0
+eb:STD105:p199,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p203,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p201,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p201,Sonnet 5.5,minimal,4.0
+eb:STD105:p204,Sonnet 5.5,nomode,12.0
+eb:STD105:p204,Sonnet 5.5,norole,9.0
+eb:STD105:p205,Sonnet 5.5,nomode,14.0
+eb:STD105:p204,Sonnet 5.5,paraphrase,10.0
+eb:STD105:p207,Sonnet 5.5,nomode,8.0
+eb:STD105:p205,Sonnet 5.5,paraphrase,10.5
+eb:STD105:p204,Sonnet 5.5,minimal,12.0
+eb:STD105:p207,Sonnet 5.5,norole,9.0
+eb:STD105:p205,Sonnet 5.5,minimal,12.0
+eb:STD105:p205,Sonnet 5.5,norole,11.5
+eb:STD105:p207,Sonnet 5.5,minimal,8.0
+eb:STD105:p207,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p208,Sonnet 5.5,nomode,9.0
+eb:STD105:p208,Sonnet 5.5,norole,9.0
+eb:STD105:p208,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p208,Sonnet 5.5,minimal,8.0
+eb:STD105:p210,Sonnet 5.5,norole,2.0
+eb:STD105:p210,Sonnet 5.5,nomode,3.0
+eb:STD105:p211,Sonnet 5.5,nomode,4.5
+eb:STD105:p210,Sonnet 5.5,minimal,3.0
+eb:STD105:p210,Sonnet 5.5,paraphrase,2.3
+eb:STD105:p211,Sonnet 5.5,minimal,6.0
+eb:STD105:p211,Sonnet 5.5,norole,3.8
+eb:STD105:p213,Sonnet 5.5,minimal,9.0
+eb:STD105:p215,Sonnet 5.5,nomode,7.0
+eb:STD105:p211,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p213,Sonnet 5.5,norole,4.5
+eb:STD105:p213,Sonnet 5.5,nomode,4.3
+eb:STD105:p215,Sonnet 5.5,norole,9.0
+eb:STD105:p215,Sonnet 5.5,minimal,12.0
+eb:STD105:p213,Sonnet 5.5,paraphrase,5.0
+eb:STD105:p215,Sonnet 5.5,paraphrase,8.5
+eb:STD105:p217,Sonnet 5.5,norole,14.0
+eb:STD105:p219,Sonnet 5.5,nomode,1.0
+eb:STD105:p217,Sonnet 5.5,nomode,16.5
+eb:STD105:p219,Sonnet 5.5,norole,0.4
+eb:STD105:p217,Sonnet 5.5,minimal,14.0
+eb:STD105:p219,Sonnet 5.5,minimal,1.0
+eb:STD105:p221,Sonnet 5.5,nomode,1.0
+eb:STD105:p217,Sonnet 5.5,paraphrase,19.5
+eb:STD105:p221,Sonnet 5.5,norole,0.5
+eb:STD105:p221,Sonnet 5.5,paraphrase,0.8
+eb:STD105:p223,Sonnet 5.5,norole,3.5
+eb:STD105:p221,Sonnet 5.5,minimal,1.0
+eb:STD105:p219,Sonnet 5.5,paraphrase,0.5
+eb:STD105:p223,Sonnet 5.5,nomode,3.0
+eb:STD105:p223,Sonnet 5.5,minimal,3.0
+eb:STD105:p225,Sonnet 5.5,norole,2.6
+eb:STD105:p223,Sonnet 5.5,paraphrase,3.5
+eb:STD105:p227,Sonnet 5.5,norole,1.1
+eb:STD105:p225,Sonnet 5.5,minimal,3.0
+eb:STD105:p225,Sonnet 5.5,nomode,2.5
+eb:STD105:p227,Sonnet 5.5,nomode,1.5
+eb:STD105:p225,Sonnet 5.5,paraphrase,3.0
+eb:STD105:p227,Sonnet 5.5,minimal,1.0
+eb:STD105:p228,Sonnet 5.5,norole,2.5
+eb:STD105:p229,Sonnet 5.5,norole,2.5
+eb:STD105:p228,Sonnet 5.5,nomode,2.6
+eb:STD105:p227,Sonnet 5.5,paraphrase,1.3
+eb:STD105:p228,Sonnet 5.5,minimal,2.0
+eb:STD105:p229,Sonnet 5.5,nomode,2.5
+eb:STD105:p236,Sonnet 5.5,nomode,4.5
+eb:STD105:p228,Sonnet 5.5,paraphrase,2.4
+eb:STD105:p229,Sonnet 5.5,minimal,3.0
+eb:STD105:p236,Sonnet 5.5,norole,3.5
+eb:STD105:p236,Sonnet 5.5,minimal,6.0
+eb:STD105:p236,Sonnet 5.5,paraphrase,4.0
+eb:STD105:p238,Sonnet 5.5,nomode,6.0
+eb:STD105:p229,Sonnet 5.5,paraphrase,2.9
+eb:STD105:p238,Sonnet 5.5,norole,4.0
+eb:STD105:p249,Sonnet 5.5,norole,1.5
+eb:STD105:p249,Sonnet 5.5,nomode,2.3
+eb:STD105:p238,Sonnet 5.5,minimal,4.0
+eb:STD105:p238,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p249,Sonnet 5.5,minimal,2.0
+eb:STD105:p249,Sonnet 5.5,paraphrase,2.0
+eb:STD105:p250,Sonnet 5.5,nomode,20.0
+eb:STD105:p250,Sonnet 5.5,norole,14.5
+eb:STD105:p252,Sonnet 5.5,norole,17.0
+eb:STD105:p250,Sonnet 5.5,minimal,22.0
+eb:STD105:p252,Sonnet 5.5,nomode,12.0
+eb:STD105:p250,Sonnet 5.5,paraphrase,17.0
+eb:STD105:p252,Sonnet 5.5,minimal,14.0
+eb:STD105:p252,Sonnet 5.5,paraphrase,13.0
+eb:STD105:p254,Sonnet 5.5,nomode,11.5
+eb:STD105:p254,Sonnet 5.5,norole,12.0
+eb:STD105:p256,Sonnet 5.5,nomode,4.5
+eb:STD105:p254,Sonnet 5.5,minimal,9.0
+eb:STD105:p254,Sonnet 5.5,paraphrase,10.5
+eb:STD105:p256,Sonnet 5.5,minimal,5.0
+eb:STD105:p256,Sonnet 5.5,paraphrase,4.5
+eb:STD105:p256,Sonnet 5.5,norole,4.5
+eb:STD105:p258,Sonnet 5.5,norole,5.0
+eb:STD105:p258,Sonnet 5.5,nomode,6.0
+eb:STD105:p259,Sonnet 5.5,norole,5.0
+eb:STD105:p261,Sonnet 5.5,nomode,6.0
+eb:STD105:p258,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p258,Sonnet 5.5,minimal,7.0
+eb:STD105:p259,Sonnet 5.5,nomode,5.2
+eb:STD105:p259,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p259,Sonnet 5.5,minimal,4.0
+eb:STD105:p261,Sonnet 5.5,norole,4.0
+eb:STD105:p263,Sonnet 5.5,norole,2.0
+eb:STD105:p261,Sonnet 5.5,minimal,4.0
+eb:STD105:p263,Sonnet 5.5,nomode,3.0
+eb:STD105:p263,Sonnet 5.5,paraphrase,2.5
+eb:STD105:p263,Sonnet 5.5,minimal,2.0
+eb:STD105:p265,Sonnet 5.5,norole,2.6
+eb:STD105:p261,Sonnet 5.5,paraphrase,5.5
+eb:STD105:p265,Sonnet 5.5,nomode,2.3
+eb:STD105:p265,Sonnet 5.5,minimal,2.0
+eb:STD105:p267,Sonnet 5.5,norole,6.0
+eb:STD105:p268,Sonnet 5.5,norole,4.5
+eb:STD105:p268,Sonnet 5.5,nomode,3.0
+eb:STD105:p267,Sonnet 5.5,minimal,9.0
+eb:STD105:p267,Sonnet 5.5,nomode,6.0
+eb:STD105:p267,Sonnet 5.5,paraphrase,8.0
+eb:STD105:p265,Sonnet 5.5,paraphrase,4.0
+eb:STD105:p269,Sonnet 5.5,nomode,5.0
+eb:STD105:p269,Sonnet 5.5,minimal,4.0
+eb:STD105:p268,Sonnet 5.5,minimal,4.0
+eb:STD105:p268,Sonnet 5.5,paraphrase,4.0
+eb:STD105:p269,Sonnet 5.5,norole,4.5
+eb:STD105:p271,Sonnet 5.5,norole,5.0
+eb:STD105:p271,Sonnet 5.5,nomode,4.6
+eb:STD105:p272,Sonnet 5.5,nomode,5.0
+eb:STD105:p269,Sonnet 5.5,paraphrase,3.5
+eb:STD105:p271,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p272,Sonnet 5.5,norole,4.2
+eb:STD105:p271,Sonnet 5.5,minimal,4.0
+eb:STD105:p272,Sonnet 5.5,paraphrase,6.0
+eb:STD105:p272,Sonnet 5.5,minimal,6.0
+eb:STD105:p273,Sonnet 5.5,norole,4.0
+eb:STD105:p295,Sonnet 5.5,norole,2.5
+eb:STD105:p273,Sonnet 5.5,nomode,5.0
+eb:STD105:p295,Sonnet 5.5,nomode,4.0
+eb:STD105:p273,Sonnet 5.5,minimal,4.0
+eb:STD105:p273,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p295,Sonnet 5.5,minimal,4.0
+eb:SP573:p3,Sonnet 5.5,nomode,1.8
+eb:SP573:p3,Sonnet 5.5,norole,1.5
+eb:STD105:p295,Sonnet 5.5,paraphrase,5.0
+eb:SP573:p3,Sonnet 5.5,paraphrase,1.0
+eb:SP573:p3,Sonnet 5.5,minimal,2.0
+eb:SP573:p4,Sonnet 5.5,norole,1.8
+eb:SP573:p4,Sonnet 5.5,nomode,2.4
+eb:SP573:p5,Sonnet 5.5,minimal,3.0
+eb:SP573:p4,Sonnet 5.5,minimal,2.0
+eb:SP573:p5,Sonnet 5.5,nomode,3.0
+eb:SP573:p4,Sonnet 5.5,paraphrase,1.5
+eb:SP573:p5,Sonnet 5.5,norole,2.3
+eb:SP573:p43,Sonnet 5.5,nomode,6.0
+eb:SP573:p5,Sonnet 5.5,paraphrase,2.0
+eb:SP573:p44,Sonnet 5.5,minimal,6.0
+eb:SP573:p43,Sonnet 5.5,minimal,5.0
+eb:SP573:p43,Sonnet 5.5,paraphrase,8.0
+eb:SP573:p43,Sonnet 5.5,norole,6.0
+eb:SP573:p44,Sonnet 5.5,nomode,4.5
+eb:SP573:p44,Sonnet 5.5,norole,5.0
+eb:SP573:p44,Sonnet 5.5,paraphrase,6.0
+eb:SP573:p45,Sonnet 5.5,nomode,6.0
+eb:SP573:p45,Sonnet 5.5,minimal,7.0
+eb:SP573:p45,Sonnet 5.5,norole,7.0
+eb:SP573:p46,Sonnet 5.5,norole,2.5
+eb:SP573:p45,Sonnet 5.5,paraphrase,8.0
+eb:SP573:p46,Sonnet 5.5,nomode,2.6
+eb:SP573:p46,Sonnet 5.5,minimal,2.0
+eb:SP573:p46,Sonnet 5.5,paraphrase,2.7
+eb:SP573:p47,Sonnet 5.5,nomode,12.5
+eb:SP573:p48,Sonnet 5.5,nomode,12.0
+eb:SP573:p47,Sonnet 5.5,norole,9.0
+eb:SP573:p48,Sonnet 5.5,minimal,13.0
+eb:SP573:p47,Sonnet 5.5,paraphrase,9.0
+eb:SP573:p47,Sonnet 5.5,minimal,11.0
+eb:SP573:p48,Sonnet 5.5,norole,8.0
+eb:SP573:p48,Sonnet 5.5,paraphrase,10.0
+eb:SP573:p49,Sonnet 5.5,norole,7.0
+eb:SP573:p49,Sonnet 5.5,nomode,9.5
+eb:SP573:p50,Sonnet 5.5,norole,6.0
+eb:SP573:p50,Sonnet 5.5,nomode,4.3
+eb:SP573:p49,Sonnet 5.5,minimal,11.0
+eb:SP573:p49,Sonnet 5.5,paraphrase,10.5
+eb:SP573:p50,Sonnet 5.5,minimal,7.0
+eb:SP573:p51,Sonnet 5.5,nomode,4.0
+eb:SP573:p51,Sonnet 5.5,norole,3.9
+eb:SP573:p50,Sonnet 5.5,paraphrase,6.0
+eb:SP573:p51,Sonnet 5.5,paraphrase,4.8
+eb:SP573:p52,Sonnet 5.5,nomode,16.5
+eb:SP573:p52,Sonnet 5.5,norole,14.0
+eb:SP573:p52,Sonnet 5.5,minimal,14.0
+eb:SP573:p51,Sonnet 5.5,minimal,5.0
+eb:SP573:p53,Sonnet 5.5,norole,6.0
+eb:SP573:p52,Sonnet 5.5,paraphrase,18.0
+eb:SP573:p53,Sonnet 5.5,nomode,4.5
+eb:SP573:p53,Sonnet 5.5,minimal,7.0
+eb:SP573:p53,Sonnet 5.5,paraphrase,7.0
+eb:SP573:p54,Sonnet 5.5,norole,11.0
+eb:SP573:p54,Sonnet 5.5,minimal,9.0
+eb:SP573:p55,Sonnet 5.5,nomode,9.0
+eb:SP573:p55,Sonnet 5.5,norole,9.5
+eb:SP573:p54,Sonnet 5.5,paraphrase,11.5
+eb:SP573:p54,Sonnet 5.5,nomode,14.0
+eb:SP573:p55,Sonnet 5.5,paraphrase,12.0
+eb:SP573:p55,Sonnet 5.5,minimal,13.0
+eb:SP573:p56,Sonnet 5.5,norole,12.0
+eb:SP573:p57,Sonnet 5.5,nomode,9.0
+eb:SP573:p56,Sonnet 5.5,nomode,14.0
+eb:SP573:p57,Sonnet 5.5,norole,6.5
+eb:SP573:p56,Sonnet 5.5,minimal,14.0
+eb:SP573:p57,Sonnet 5.5,paraphrase,9.0
+eb:SP573:p56,Sonnet 5.5,paraphrase,17.0
+eb:SP573:p57,Sonnet 5.5,minimal,7.0
+eb:SP573:p58,Sonnet 5.5,nomode,17.0
+eb:SP573:p58,Sonnet 5.5,norole,12.5
+eb:SP573:p58,Sonnet 5.5,minimal,17.0
+eb:SP573:p59,Sonnet 5.5,nomode,19.0
+eb:SP573:p59,Sonnet 5.5,norole,17.0
+eb:SP573:p58,Sonnet 5.5,paraphrase,14.0
+eb:SP573:p60,Sonnet 5.5,norole,9.0
+eb:SP573:p59,Sonnet 5.5,minimal,22.0
+eb:SP573:p59,Sonnet 5.5,paraphrase,14.0
+eb:SP573:p60,Sonnet 5.5,nomode,11.0
+eb:SP572:p7,Sonnet 5.5,nomode,6.5
+eb:SP573:p60,Sonnet 5.5,minimal,10.0
+eb:SP572:p7,Sonnet 5.5,norole,2.5
+eb:SP572:p8,Sonnet 5.5,minimal,3.0
+eb:SP572:p8,Sonnet 5.5,nomode,3.5
+eb:SP572:p7,Sonnet 5.5,minimal,4.0
+eb:SP572:p8,Sonnet 5.5,norole,2.3
+eb:SP572:p9,Sonnet 5.5,norole,3.0
+eb:SP572:p7,Sonnet 5.5,paraphrase,3.0
+eb:SP572:p9,Sonnet 5.5,nomode,3.5
+eb:SP573:p60,Sonnet 5.5,paraphrase,9.5
+eb:SP572:p8,Sonnet 5.5,paraphrase,2.0
+eb:SP572:p10,Sonnet 5.5,norole,4.5
+eb:SP572:p9,Sonnet 5.5,paraphrase,2.3
+eb:SP572:p9,Sonnet 5.5,minimal,3.0
+eb:SP572:p10,Sonnet 5.5,nomode,5.0
+eb:SP572:p10,Sonnet 5.5,minimal,4.0
+eb:SP572:p11,Sonnet 5.5,nomode,3.0
+eb:SP572:p11,Sonnet 5.5,norole,1.6
+eb:SP572:p10,Sonnet 5.5,paraphrase,3.5
+eb:SP572:p12,Sonnet 5.5,nomode,3.5
+eb:SP572:p12,Sonnet 5.5,norole,3.5
+eb:SP572:p13,Sonnet 5.5,norole,4.0
+eb:SP572:p13,Sonnet 5.5,nomode,5.5
+eb:SP572:p11,Sonnet 5.5,paraphrase,2.3
+eb:SP572:p11,Sonnet 5.5,minimal,2.0
+eb:SP572:p12,Sonnet 5.5,minimal,3.0
+eb:SP572:p13,Sonnet 5.5,paraphrase,4.0
+eb:SP572:p12,Sonnet 5.5,paraphrase,4.0
+eb:SP572:p13,Sonnet 5.5,minimal,4.0
+eb:SP572:p14,Sonnet 5.5,norole,5.5
+eb:SP572:p14,Sonnet 5.5,nomode,7.5
+eb:SP572:p14,Sonnet 5.5,paraphrase,7.5
+eb:SP572:p15,Sonnet 5.5,nomode,4.0
+eb:SP572:p15,Sonnet 5.5,norole,3.0
+eb:SP572:p14,Sonnet 5.5,minimal,5.0
+eb:SP572:p16,Sonnet 5.5,nomode,14.0
+eb:SP572:p15,Sonnet 5.5,paraphrase,3.0
+eb:SP572:p17,Sonnet 5.5,norole,5.0
+eb:SP572:p15,Sonnet 5.5,minimal,4.0
+eb:SP572:p17,Sonnet 5.5,paraphrase,6.0
+eb:SP572:p16,Sonnet 5.5,norole,9.0
+eb:SP572:p17,Sonnet 5.5,nomode,6.0
+eb:SP572:p16,Sonnet 5.5,minimal,9.0
+eb:SP572:p16,Sonnet 5.5,paraphrase,10.5
+eb:SP572:p17,Sonnet 5.5,minimal,4.0
+eb:SP572:p18,Sonnet 5.5,nomode,3.5
+eb:SP572:p19,Sonnet 5.5,nomode,8.0
+eb:SP572:p19,Sonnet 5.5,minimal,5.0
+eb:SP572:p19,Sonnet 5.5,paraphrase,7.0
+eb:SP572:p18,Sonnet 5.5,minimal,3.0
+eb:SP572:p19,Sonnet 5.5,norole,8.0
+eb:SP572:p18,Sonnet 5.5,paraphrase,3.2
+eb:SP572:p18,Sonnet 5.5,norole,3.2
+eb:SP572:p20,Sonnet 5.5,nomode,7.0
+eb:SP572:p20,Sonnet 5.5,norole,8.0
+eb:SP572:p20,Sonnet 5.5,paraphrase,8.0
+eb:SP572:p21,Sonnet 5.5,nomode,14.0
+eb:SP572:p20,Sonnet 5.5,minimal,8.0
+eb:SP572:p21,Sonnet 5.5,norole,8.0
+eb:SP572:p22,Sonnet 5.5,nomode,8.0
+eb:SP572:p21,Sonnet 5.5,minimal,10.0
+eb:SP572:p21,Sonnet 5.5,paraphrase,9.0
+eb:SP572:p22,Sonnet 5.5,minimal,7.0
+eb:SP572:p22,Sonnet 5.5,norole,7.0
+eb:SP572:p27,Sonnet 5.5,nomode,2.5
+eb:SP572:p23,Sonnet 5.5,nomode,9.0
+eb:SP572:p23,Sonnet 5.5,norole,8.0
+eb:SP572:p23,Sonnet 5.5,minimal,6.0
+eb:SP572:p22,Sonnet 5.5,paraphrase,8.0
+eb:SP572:p27,Sonnet 5.5,minimal,3.0
+eb:SP572:p27,Sonnet 5.5,norole,2.5
+eb:SP572:p28,Sonnet 5.5,norole,1.5
+eb:SP572:p23,Sonnet 5.5,paraphrase,8.0
+eb:SP572:p28,Sonnet 5.5,nomode,3.0
+eb:SP572:p28,Sonnet 5.5,paraphrase,1.5
+eb:SP572:p31,Sonnet 5.5,nomode,9.0
+eb:SP572:p27,Sonnet 5.5,paraphrase,1.5
+eb:SP572:p28,Sonnet 5.5,minimal,2.0
+eb:SP572:p31,Sonnet 5.5,norole,10.5
+eb:SP572:p32,Sonnet 5.5,nomode,8.0
+eb:SP572:p32,Sonnet 5.5,minimal,8.0
+eb:SP572:p31,Sonnet 5.5,minimal,7.0
+eb:SP572:p31,Sonnet 5.5,paraphrase,6.0
+eb:SP572:p33,Sonnet 5.5,nomode,14.0
+eb:SP572:p32,Sonnet 5.5,norole,7.0
+eb:SP572:p34,Sonnet 5.5,nomode,9.0
+eb:SP572:p32,Sonnet 5.5,paraphrase,8.0
+eb:SP572:p33,Sonnet 5.5,norole,12.0
+eb:SP572:p33,Sonnet 5.5,minimal,10.0
+eb:SP572:p34,Sonnet 5.5,minimal,8.0
+eb:SP572:p43,Sonnet 5.5,nomode,3.5
+eb:SP572:p33,Sonnet 5.5,paraphrase,10.0
+eb:SP572:p34,Sonnet 5.5,norole,9.0
+eb:SP572:p34,Sonnet 5.5,paraphrase,9.0
+eb:SP572:p43,Sonnet 5.5,norole,2.3
+eb:SP572:p44,Sonnet 5.5,nomode,4.5
+eb:SP572:p43,Sonnet 5.5,minimal,3.0
+eb:SP572:p44,Sonnet 5.5,minimal,4.0
+eb:SP572:p44,Sonnet 5.5,norole,5.0
+eb:SP572:p44,Sonnet 5.5,paraphrase,3.0
+eb:SP578:p3,Sonnet 5.5,norole,2.1
+eb:SP572:p43,Sonnet 5.5,paraphrase,2.5
+eb:SP578:p3,Sonnet 5.5,nomode,2.5
+eb:SP578:p3,Sonnet 5.5,minimal,2.0
+eb:SP578:p4,Sonnet 5.5,nomode,2.5
+eb:SP578:p3,Sonnet 5.5,paraphrase,3.0
+eb:SP578:p4,Sonnet 5.5,minimal,4.0
+eb:SP578:p4,Sonnet 5.5,norole,1.8
+eb:SP578:p4,Sonnet 5.5,paraphrase,1.3
+eb:SP578:p5,Sonnet 5.5,norole,9.0
+eb:SP578:p5,Sonnet 5.5,minimal,14.0
+eb:SP578:p5,Sonnet 5.5,nomode,8.5
+eb:SP578:p6,Sonnet 5.5,nomode,11.5
+eb:SP578:p5,Sonnet 5.5,paraphrase,9.0
+eb:SP578:p6,Sonnet 5.5,minimal,10.0
+eb:SP578:p6,Sonnet 5.5,norole,9.0
+eb:SP578:p7,Sonnet 5.5,nomode,12.0
+eb:SP578:p6,Sonnet 5.5,paraphrase,11.0
+eb:SP578:p7,Sonnet 5.5,norole,9.0
+eb:SP578:p8,Sonnet 5.5,nomode,10.0
+eb:SP578:p7,Sonnet 5.5,minimal,8.0
+eb:SP578:p8,Sonnet 5.5,norole,9.0
+eb:SP578:p9,Sonnet 5.5,norole,6.0
+eb:SP578:p7,Sonnet 5.5,paraphrase,8.0
+eb:SP578:p8,Sonnet 5.5,minimal,8.0
+eb:SP578:p9,Sonnet 5.5,nomode,6.5
+eb:SP578:p8,Sonnet 5.5,paraphrase,7.0
+eb:SP578:p13,Sonnet 5.5,nomode,7.5
+eb:SP578:p9,Sonnet 5.5,paraphrase,6.5
+eb:SP578:p13,Sonnet 5.5,norole,6.5
+eb:SP578:p9,Sonnet 5.5,minimal,7.0
+eb:SP578:p13,Sonnet 5.5,minimal,8.0
+eb:SP578:p17,Sonnet 5.5,nomode,6.0
+eb:SP578:p17,Sonnet 5.5,norole,6.0
+eb:SP578:p13,Sonnet 5.5,paraphrase,6.5
+eb:SP578:p17,Sonnet 5.5,minimal,7.0
+eb:SP578:p18,Sonnet 5.5,nomode,11.0
+eb:SP578:p18,Sonnet 5.5,minimal,8.0
+eb:SP578:p18,Sonnet 5.5,norole,9.0
+eb:SP578:p19,Sonnet 5.5,nomode,8.0
+eb:SP578:p17,Sonnet 5.5,paraphrase,7.0
+eb:SP578:p18,Sonnet 5.5,paraphrase,8.0
+eb:SP578:p19,Sonnet 5.5,minimal,7.0
+eb:SP578:p20,Sonnet 5.5,nomode,3.5
+eb:SP578:p19,Sonnet 5.5,norole,7.0
+eb:SP574:p15,Sonnet 5.5,norole,2.1
+eb:SP578:p19,Sonnet 5.5,paraphrase,7.5
+eb:SP578:p20,Sonnet 5.5,norole,2.3
+eb:SP578:p20,Sonnet 5.5,minimal,2.0
+eb:SP574:p15,Sonnet 5.5,nomode,3.5
+eb:SP578:p20,Sonnet 5.5,paraphrase,2.6
+eb:SP574:p21,Sonnet 5.5,norole,1.2
+eb:SP574:p15,Sonnet 5.5,minimal,3.0
+eb:SP574:p21,Sonnet 5.5,minimal,3.0
+eb:SP574:p21,Sonnet 5.5,nomode,1.5
+eb:SP574:p15,Sonnet 5.5,paraphrase,3.5
+eb:SP574:p21,Sonnet 5.5,paraphrase,1.5
+eb:SP574:p22,Sonnet 5.5,norole,2.3
+eb:SP574:p22,Sonnet 5.5,nomode,3.0
+eb:SP574:p22,Sonnet 5.5,paraphrase,3.0
+eb:SP574:p22,Sonnet 5.5,minimal,4.0
+eb:SP574:p23,Sonnet 5.5,nomode,6.0
+eb:SP574:p23,Sonnet 5.5,norole,6.0
+eb:SP574:p24,Sonnet 5.5,norole,2.0
+eb:SP574:p25,Sonnet 5.5,nomode,7.5
+eb:SP574:p23,Sonnet 5.5,minimal,7.0
+eb:SP574:p24,Sonnet 5.5,nomode,2.3
+eb:SP574:p24,Sonnet 5.5,minimal,2.0
+eb:SP574:p23,Sonnet 5.5,paraphrase,6.0
+eb:SP574:p26,Sonnet 5.5,nomode,9.0
+eb:SP574:p24,Sonnet 5.5,paraphrase,2.0
+eb:SP574:p25,Sonnet 5.5,norole,4.5
+eb:SP574:p25,Sonnet 5.5,minimal,3.0
+eb:SP574:p25,Sonnet 5.5,paraphrase,4.0
+eb:SP574:p26,Sonnet 5.5,norole,9.0
+eb:SP574:p32,Sonnet 5.5,paraphrase,1.0
+eb:SP574:p26,Sonnet 5.5,minimal,10.0
+eb:SP574:p32,Sonnet 5.5,norole,1.6
+eb:SP574:p32,Sonnet 5.5,nomode,1.8
+eb:SP574:p32,Sonnet 5.5,minimal,3.0
+eb:SP574:p26,Sonnet 5.5,paraphrase,9.0
+eb:SP574:p33,Sonnet 5.5,norole,4.0
+eb:SP574:p33,Sonnet 5.5,nomode,4.5
+eb:SP574:p33,Sonnet 5.5,minimal,6.0
+eb:SP574:p34,Sonnet 5.5,norole,11.5
+eb:SP574:p33,Sonnet 5.5,paraphrase,4.0
+eb:SP574:p41,Sonnet 5.5,norole,4.0
+eb:SP574:p41,Sonnet 5.5,nomode,6.0
+eb:SP574:p34,Sonnet 5.5,paraphrase,12.0
+eb:SP574:p34,Sonnet 5.5,nomode,13.5
+eb:SP574:p41,Sonnet 5.5,minimal,5.0
+eb:SP574:p34,Sonnet 5.5,minimal,17.0
+eb:SP574:p41,Sonnet 5.5,paraphrase,5.0
+eb:SP574:p42,Sonnet 5.5,minimal,2.0
+eb:SP574:p43,Sonnet 5.5,norole,6.0
+eb:SP574:p42,Sonnet 5.5,nomode,3.0
+eb:SP574:p42,Sonnet 5.5,norole,3.0
+eb:SP574:p43,Sonnet 5.5,minimal,4.0
+eb:SP574:p43,Sonnet 5.5,nomode,8.0
+eb:SP574:p42,Sonnet 5.5,paraphrase,3.0
+eb:SP574:p43,Sonnet 5.5,paraphrase,7.0
+eb:EB050EP:p3,Sonnet 5.5,minimal,6.0
+eb:EB050EP:p29,Sonnet 5.5,nomode,4.5
+eb:EB050EP:p29,Sonnet 5.5,norole,4.5
+eb:EB050EP:p3,Sonnet 5.5,nomode,5.0
+eb:EB050EP:p29,Sonnet 5.5,minimal,6.0
+eb:EB050EP:p3,Sonnet 5.5,norole,3.5
+eb:EB050EP:p3,Sonnet 5.5,paraphrase,3.0
+eb:EB050EP:p29,Sonnet 5.5,paraphrase,6.0
+eb:EB050EP:p30,Sonnet 5.5,minimal,3.0
+eb:EB050EP:p30,Sonnet 5.5,norole,4.0
+eb:EB050EP:p31,Sonnet 5.5,nomode,9.0
+eb:EB050EP:p31,Sonnet 5.5,minimal,6.0
+eb:EB050EP:p30,Sonnet 5.5,nomode,4.0
+eb:EB050EP:p30,Sonnet 5.5,paraphrase,5.5
+eb:EB050EP:p31,Sonnet 5.5,norole,9.0
+eb:EB050EP:p32,Sonnet 5.5,norole,4.5
+eb:EB050EP:p32,Sonnet 5.5,nomode,6.0
+eb:EB050EP:p31,Sonnet 5.5,paraphrase,9.0
+eb:EB050EP:p32,Sonnet 5.5,minimal,3.0
+eb:EB050EP:p39,Sonnet 5.5,nomode,2.0
+eb:EB050EP:p40,Sonnet 5.5,nomode,3.5
+eb:EB050EP:p39,Sonnet 5.5,minimal,2.0
+eb:EB050EP:p40,Sonnet 5.5,norole,2.5
+eb:EB050EP:p39,Sonnet 5.5,paraphrase,1.5
+eb:EB050EP:p39,Sonnet 5.5,norole,1.5
+eb:EB050EP:p32,Sonnet 5.5,paraphrase,5.0
+eb:EB050EP:p40,Sonnet 5.5,minimal,3.0
+eb:EB050EP:p42,Sonnet 5.5,norole,4.0
+eb:EB050EP:p42,Sonnet 5.5,minimal,6.0
+eb:EB050EP:p51,Sonnet 5.5,nomode,17.0
+eb:EB050EP:p42,Sonnet 5.5,nomode,4.1
+eb:EB050EP:p40,Sonnet 5.5,paraphrase,2.5
+eb:EB050EP:p51,Sonnet 5.5,norole,11.0
+eb:EB050EP:p51,Sonnet 5.5,minimal,14.0
+eb:EB050EP:p42,Sonnet 5.5,paraphrase,4.0
+eb:EB050EP:p51,Sonnet 5.5,paraphrase,11.5
+eb:EB050EP:p52,Sonnet 5.5,norole,11.0
+eb:EB050EP:p56,Sonnet 5.5,norole,0.6
+eb:EB050EP:p52,Sonnet 5.5,nomode,13.0
+eb:EB050EP:p56,Sonnet 5.5,nomode,0.8
+eb:EB050EP:p56,Sonnet 5.5,minimal,1.0
+eb:EB050EP:p52,Sonnet 5.5,minimal,13.0
+eb:EB050EP:p52,Sonnet 5.5,paraphrase,14.0
+eb:EB050EP:p56,Sonnet 5.5,paraphrase,0.4
+eb:EB050EP:p68,Sonnet 5.5,nomode,7.5
+eb:SP579:p3,Sonnet 5.5,nomode,5.0
+eb:SP579:p3,Sonnet 5.5,norole,4.5
+eb:EB050EP:p68,Sonnet 5.5,minimal,5.0
+eb:EB050EP:p68,Sonnet 5.5,norole,4.5
+eb:SP579:p3,Sonnet 5.5,paraphrase,5.0
+eb:SP579:p3,Sonnet 5.5,minimal,4.0
+eb:EB050EP:p68,Sonnet 5.5,paraphrase,4.5
+eb:SP579:p5,Sonnet 5.5,nomode,7.0
+eb:SP579:p4,Sonnet 5.5,nomode,4.5
+eb:SP579:p4,Sonnet 5.5,norole,4.0
+eb:SP579:p5,Sonnet 5.5,norole,8.0
+eb:SP579:p4,Sonnet 5.5,minimal,4.0
+eb:SP579:p4,Sonnet 5.5,paraphrase,4.5
+eb:SP579:p5,Sonnet 5.5,paraphrase,8.5
+eb:SP579:p5,Sonnet 5.5,minimal,8.0
+eb:SP579:p12,Sonnet 5.5,norole,2.1
+eb:SP579:p12,Sonnet 5.5,nomode,3.0
+eb:SP579:p6,Sonnet 5.5,norole,10.5
+eb:SP579:p6,Sonnet 5.5,paraphrase,9.0
+eb:SP579:p6,Sonnet 5.5,minimal,11.0
+eb:SP579:p6,Sonnet 5.5,nomode,9.0
+eb:SP579:p12,Sonnet 5.5,paraphrase,2.0
+eb:SP579:p12,Sonnet 5.5,minimal,2.0
+eb:SP579:p13,Sonnet 5.5,norole,1.6
+eb:SP579:p13,Sonnet 5.5,nomode,2.3
+eb:SP579:p14,Sonnet 5.5,nomode,3.0
+eb:SP579:p14,Sonnet 5.5,minimal,3.0
+eb:SP579:p13,Sonnet 5.5,minimal,2.0
+eb:SP579:p14,Sonnet 5.5,norole,2.5
+eb:SP579:p13,Sonnet 5.5,paraphrase,2.1
+eb:SP579:p15,Sonnet 5.5,norole,3.5
+eb:SP579:p15,Sonnet 5.5,minimal,3.0
+eb:SP577:p3,Sonnet 5.5,nomode,2.5
+eb:SP579:p15,Sonnet 5.5,nomode,3.5
+eb:SP579:p14,Sonnet 5.5,paraphrase,2.5
+eb:SP577:p3,Sonnet 5.5,norole,1.2
+eb:SP579:p15,Sonnet 5.5,paraphrase,3.5
+eb:SP577:p5,Sonnet 5.5,norole,5.0
+eb:SP577:p3,Sonnet 5.5,paraphrase,1.5
+eb:SP577:p5,Sonnet 5.5,nomode,7.0
+eb:SP577:p3,Sonnet 5.5,minimal,1.0
+eb:SP577:p5,Sonnet 5.5,minimal,3.0
+eb:SP577:p5,Sonnet 5.5,paraphrase,5.0
+eb:SP577:p7,Sonnet 5.5,norole,9.5
+eb:SP577:p7,Sonnet 5.5,paraphrase,9.0
+eb:SP577:p7,Sonnet 5.5,nomode,9.0
+eb:SP577:p8,Sonnet 5.5,minimal,12.0
+eb:SP577:p7,Sonnet 5.5,minimal,11.0
+eb:SP577:p8,Sonnet 5.5,nomode,13.0
+eb:SP577:p8,Sonnet 5.5,norole,9.0
+eb:SP577:p8,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p10,Sonnet 5.5,norole,5.4
+eb:SP577:p9,Sonnet 5.5,minimal,7.0
+eb:SP577:p9,Sonnet 5.5,norole,8.0
+eb:SP577:p9,Sonnet 5.5,nomode,10.5
+eb:SP577:p10,Sonnet 5.5,minimal,6.0
+eb:SP577:p9,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p10,Sonnet 5.5,nomode,7.5
+eb:SP577:p10,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p12,Sonnet 5.5,norole,9.0
+eb:SP577:p11,Sonnet 5.5,nomode,9.6
+eb:SP577:p11,Sonnet 5.5,minimal,9.0
+eb:SP577:p11,Sonnet 5.5,paraphrase,10.0
+eb:SP577:p11,Sonnet 5.5,norole,10.0
+eb:SP577:p13,Sonnet 5.5,nomode,7.0
+eb:SP577:p12,Sonnet 5.5,nomode,10.5
+eb:SP577:p17,Sonnet 5.5,nomode,7.0
+eb:SP577:p12,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p12,Sonnet 5.5,minimal,8.0
+eb:SP577:p13,Sonnet 5.5,norole,5.0
+eb:SP577:p13,Sonnet 5.5,paraphrase,5.0
+eb:SP577:p17,Sonnet 5.5,norole,5.0
+eb:SP577:p13,Sonnet 5.5,minimal,5.0
+eb:SP577:p17,Sonnet 5.5,paraphrase,5.3
+eb:SP577:p18,Sonnet 5.5,norole,4.0
+eb:SP577:p17,Sonnet 5.5,minimal,5.0
+eb:SP577:p19,Sonnet 5.5,nomode,4.5
+eb:SP577:p19,Sonnet 5.5,norole,2.1
+eb:SP577:p18,Sonnet 5.5,minimal,4.0
+eb:SP577:p18,Sonnet 5.5,nomode,4.2
+eb:SP577:p18,Sonnet 5.5,paraphrase,3.5
+eb:SP577:p20,Sonnet 5.5,nomode,6.0
+eb:SP577:p20,Sonnet 5.5,norole,3.2
+eb:SP577:p19,Sonnet 5.5,paraphrase,2.3
+eb:SP577:p21,Sonnet 5.5,nomode,4.5
+eb:SP577:p19,Sonnet 5.5,minimal,2.0
+eb:SP577:p21,Sonnet 5.5,norole,3.8
+eb:SP577:p20,Sonnet 5.5,minimal,3.0
+eb:SP577:p20,Sonnet 5.5,paraphrase,3.0
+eb:SP577:p21,Sonnet 5.5,paraphrase,3.0
+eb:SP577:p22,Sonnet 5.5,nomode,2.3
+eb:SP577:p21,Sonnet 5.5,minimal,3.0
+eb:SP577:p23,Sonnet 5.5,nomode,3.5
+eb:SP577:p22,Sonnet 5.5,norole,1.4
+eb:SP577:p22,Sonnet 5.5,paraphrase,0.8
+eb:SP577:p23,Sonnet 5.5,norole,1.2
+eb:SP577:p22,Sonnet 5.5,minimal,1.0
+eb:SP577:p23,Sonnet 5.5,minimal,1.0
+eb:SP577:p23,Sonnet 5.5,paraphrase,1.2
+eb:SP577:p24,Sonnet 5.5,nomode,3.5
+eb:SP577:p24,Sonnet 5.5,norole,3.0
+eb:SP577:p25,Sonnet 5.5,norole,5.0
+eb:SP577:p25,Sonnet 5.5,minimal,5.0
+eb:SP577:p24,Sonnet 5.5,minimal,3.0
+eb:SP577:p25,Sonnet 5.5,paraphrase,4.5
+eb:SP577:p25,Sonnet 5.5,nomode,6.5
+eb:SP577:p26,Sonnet 5.5,norole,2.3
+eb:SP577:p24,Sonnet 5.5,paraphrase,2.5
+eb:SP577:p26,Sonnet 5.5,nomode,3.0
+eb:SP577:p27,Sonnet 5.5,norole,4.0
+eb:SP577:p26,Sonnet 5.5,minimal,2.0
+eb:SP577:p27,Sonnet 5.5,minimal,6.0
+eb:SP577:p27,Sonnet 5.5,nomode,6.0
+eb:SP577:p27,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p28,Sonnet 5.5,norole,9.0
+eb:SP577:p26,Sonnet 5.5,paraphrase,2.0
+eb:SP577:p28,Sonnet 5.5,nomode,14.0
+eb:SP577:p29,Sonnet 5.5,nomode,9.0
+eb:SP577:p28,Sonnet 5.5,minimal,10.0
+eb:SP577:p28,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p29,Sonnet 5.5,norole,8.0
+eb:SP577:p30,Sonnet 5.5,norole,9.0
+eb:SP577:p29,Sonnet 5.5,paraphrase,8.0
+eb:SP577:p29,Sonnet 5.5,minimal,10.0
+eb:SP577:p30,Sonnet 5.5,nomode,6.0
+eb:SP577:p31,Sonnet 5.5,nomode,9.0
+eb:SP577:p30,Sonnet 5.5,minimal,7.0
+eb:SP577:p32,Sonnet 5.5,nomode,11.0
+eb:SP577:p31,Sonnet 5.5,norole,7.0
+eb:SP577:p30,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p31,Sonnet 5.5,paraphrase,5.6
+eb:SP577:p32,Sonnet 5.5,norole,8.0
+eb:SP577:p31,Sonnet 5.5,minimal,7.0
+eb:SP577:p32,Sonnet 5.5,minimal,12.0
+eb:SP577:p33,Sonnet 5.5,nomode,5.0
+eb:SP577:p32,Sonnet 5.5,paraphrase,8.0
+eb:SP577:p34,Sonnet 5.5,norole,6.0
+eb:SP577:p33,Sonnet 5.5,norole,3.0
+eb:SP577:p34,Sonnet 5.5,nomode,7.0
+eb:SP577:p33,Sonnet 5.5,paraphrase,4.5
+eb:SP577:p35,Sonnet 5.5,norole,9.0
+eb:SP577:p34,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p33,Sonnet 5.5,minimal,3.0
+eb:SP577:p34,Sonnet 5.5,minimal,9.0
+eb:SP577:p35,Sonnet 5.5,nomode,9.0
+eb:SP577:p36,Sonnet 5.5,nomode,14.0
+eb:SP577:p35,Sonnet 5.5,paraphrase,8.0
+eb:SP577:p35,Sonnet 5.5,minimal,8.0
+eb:SP577:p36,Sonnet 5.5,norole,10.0
+eb:SP577:p37,Sonnet 5.5,norole,6.0
+eb:SP577:p37,Sonnet 5.5,nomode,9.0
+eb:SP577:p36,Sonnet 5.5,minimal,9.0
+eb:SP577:p36,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p37,Sonnet 5.5,minimal,6.0
+eb:SP577:p37,Sonnet 5.5,paraphrase,8.5
+eb:SP577:p38,Sonnet 5.5,nomode,9.0
+eb:SP577:p38,Sonnet 5.5,minimal,11.0
+eb:SP577:p38,Sonnet 5.5,norole,9.0
+eb:SP577:p39,Sonnet 5.5,nomode,12.0
+eb:SP577:p39,Sonnet 5.5,norole,13.0
+eb:SP577:p38,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p50,Sonnet 5.5,nomode,8.0
+eb:SP577:p51,Sonnet 5.5,nomode,3.5
+eb:SP577:p50,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p50,Sonnet 5.5,minimal,10.0
+eb:SP577:p39,Sonnet 5.5,minimal,13.0
+eb:SP577:p50,Sonnet 5.5,norole,6.0
+eb:SP577:p39,Sonnet 5.5,paraphrase,10.5
+eb:SP577:p51,Sonnet 5.5,norole,3.2
+eb:SP577:p53,Sonnet 5.5,nomode,9.0
+eb:SP577:p51,Sonnet 5.5,paraphrase,3.6
+eb:SP577:p51,Sonnet 5.5,minimal,4.0
+eb:SP577:p52,Sonnet 5.5,minimal,12.0
+eb:SP577:p52,Sonnet 5.5,nomode,10.5
+eb:SP577:p52,Sonnet 5.5,norole,8.5
+eb:SP577:p53,Sonnet 5.5,norole,6.0
+eb:SP577:p52,Sonnet 5.5,paraphrase,9.0
+eb:SP577:p54,Sonnet 5.5,nomode,7.5
+eb:SP577:p54,Sonnet 5.5,minimal,6.0
+eb:SP577:p53,Sonnet 5.5,paraphrase,8.0
+eb:SP577:p55,Sonnet 5.5,norole,8.5
+eb:SP577:p53,Sonnet 5.5,minimal,6.0
+eb:SP577:p55,Sonnet 5.5,nomode,7.0
+eb:SP577:p54,Sonnet 5.5,norole,6.0
+eb:SP577:p54,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p56,Sonnet 5.5,nomode,7.5
+eb:SP577:p56,Sonnet 5.5,norole,7.0
+eb:SP577:p55,Sonnet 5.5,minimal,10.0
+eb:SP577:p57,Sonnet 5.5,norole,4.0
+eb:SP577:p55,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p56,Sonnet 5.5,paraphrase,7.5
+eb:SP577:p57,Sonnet 5.5,nomode,4.5
+eb:SP577:p56,Sonnet 5.5,minimal,9.0
+eb:SP577:p58,Sonnet 5.5,minimal,9.0
+eb:SP577:p58,Sonnet 5.5,nomode,12.0
+eb:SP577:p58,Sonnet 5.5,norole,12.0
+eb:SP577:p57,Sonnet 5.5,minimal,4.0
+eb:SP577:p59,Sonnet 5.5,nomode,14.0
+eb:SP577:p57,Sonnet 5.5,paraphrase,4.0
+eb:SP577:p59,Sonnet 5.5,norole,11.0
+eb:SP577:p58,Sonnet 5.5,paraphrase,11.0
+eb:SP577:p60,Sonnet 5.5,minimal,6.0
+eb:SP577:p61,Sonnet 5.5,nomode,17.0
+eb:SP577:p59,Sonnet 5.5,minimal,10.0
+eb:SP577:p59,Sonnet 5.5,paraphrase,10.5
+eb:SP577:p60,Sonnet 5.5,nomode,4.5
+eb:SP577:p61,Sonnet 5.5,norole,13.0
+eb:SP577:p60,Sonnet 5.5,norole,3.0
+eb:SP577:p60,Sonnet 5.5,paraphrase,3.9
+eb:SP577:p61,Sonnet 5.5,minimal,17.0
+eb:SP577:p62,Sonnet 5.5,minimal,12.0
+eb:SP577:p62,Sonnet 5.5,nomode,16.0
+eb:SP577:p62,Sonnet 5.5,norole,10.5
+eb:SP577:p67,Sonnet 5.5,nomode,9.0
+eb:SP577:p61,Sonnet 5.5,paraphrase,13.5
+eb:SP577:p62,Sonnet 5.5,paraphrase,11.5
+eb:SP577:p67,Sonnet 5.5,norole,6.0
+eb:SP577:p67,Sonnet 5.5,minimal,5.0
+eb:SP577:p69,Sonnet 5.5,nomode,6.5
+eb:SP577:p69,Sonnet 5.5,norole,4.0
+eb:SP577:p67,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p68,Sonnet 5.5,nomode,9.0
+eb:SP577:p68,Sonnet 5.5,minimal,8.0
+eb:SP577:p68,Sonnet 5.5,norole,5.5
+eb:SP577:p68,Sonnet 5.5,paraphrase,7.0
+eb:SP577:p69,Sonnet 5.5,minimal,6.0
+eb:SP577:p69,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p71,Sonnet 5.5,norole,4.0
+eb:SP577:p70,Sonnet 5.5,norole,8.0
+eb:SP577:p70,Sonnet 5.5,minimal,9.0
+eb:SP577:p70,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p71,Sonnet 5.5,nomode,6.0
+eb:SP577:p70,Sonnet 5.5,nomode,8.0
+eb:SP577:p71,Sonnet 5.5,minimal,6.0
+eb:SP577:p72,Sonnet 5.5,nomode,3.5
+eb:SP577:p71,Sonnet 5.5,paraphrase,6.0
+eb:SP577:p72,Sonnet 5.5,norole,2.1
+eb:SP577:p72,Sonnet 5.5,minimal,3.0
+eb:SP577:p72,Sonnet 5.5,paraphrase,2.4
+eb:SP577:p73,Sonnet 5.5,norole,4.0
+eb:SP577:p74,Sonnet 5.5,norole,13.0
+eb:SP577:p73,Sonnet 5.5,nomode,4.5
+eb:SP577:p73,Sonnet 5.5,minimal,4.0
+eb:SP577:p74,Sonnet 5.5,nomode,19.5
+eb:SP577:p74,Sonnet 5.5,minimal,20.0
+eb:SP577:p73,Sonnet 5.5,paraphrase,5.5
+eb:SP577:p75,Sonnet 5.5,nomode,7.0
+eb:SP577:p74,Sonnet 5.5,paraphrase,16.5
+eb:SP577:p75,Sonnet 5.5,norole,6.0
+eb:SP577:p75,Sonnet 5.5,minimal,5.0
+eb:SP577:p76,Sonnet 5.5,nomode,9.0
+eb:SP577:p76,Sonnet 5.5,norole,7.0
+eb:SP577:p75,Sonnet 5.5,paraphrase,5.5
+eb:SP577:p77,Sonnet 5.5,nomode,3.5
+eb:SP577:p76,Sonnet 5.5,paraphrase,9.0
+eb:SP577:p76,Sonnet 5.5,minimal,9.0
+eb:SP577:p77,Sonnet 5.5,norole,3.5
+eb:SP577:p78,Sonnet 5.5,norole,3.0
+eb:SP577:p78,Sonnet 5.5,nomode,3.5
+eb:SP577:p77,Sonnet 5.5,minimal,4.0
+eb:SP577:p78,Sonnet 5.5,minimal,3.0
+eb:SP577:p84,Sonnet 5.5,minimal,12.0
+eb:SP577:p84,Sonnet 5.5,nomode,14.0
+eb:SP577:p77,Sonnet 5.5,paraphrase,2.6
+eb:SP577:p85,Sonnet 5.5,norole,1.0
+eb:SP577:p85,Sonnet 5.5,nomode,1.5
+eb:SP577:p84,Sonnet 5.5,norole,8.0
+eb:SP577:p78,Sonnet 5.5,paraphrase,2.5
+eb:SP577:p85,Sonnet 5.5,minimal,2.0
+eb:SP569:p4,Sonnet 5.5,norole,4.0
+eb:SP577:p84,Sonnet 5.5,paraphrase,9.0
+eb:SP569:p4,Sonnet 5.5,minimal,6.0
+eb:SP569:p4,Sonnet 5.5,nomode,6.5
+eb:SP577:p85,Sonnet 5.5,paraphrase,1.2
+eb:SP569:p8,Sonnet 5.5,nomode,9.0
+eb:SP569:p4,Sonnet 5.5,paraphrase,4.3
+eb:SP569:p8,Sonnet 5.5,norole,9.0
+eb:SP569:p9,Sonnet 5.5,minimal,7.0
+eb:SP569:p8,Sonnet 5.5,minimal,9.0
+eb:SP569:p8,Sonnet 5.5,paraphrase,9.0
+eb:SP569:p9,Sonnet 5.5,norole,5.0
+eb:SP569:p9,Sonnet 5.5,nomode,6.0
+eb:SP569:p10,Sonnet 5.5,nomode,11.5
+eb:SP569:p10,Sonnet 5.5,norole,9.0
+eb:SP569:p9,Sonnet 5.5,paraphrase,7.0
+eb:SP569:p11,Sonnet 5.5,nomode,12.0
+eb:SP569:p10,Sonnet 5.5,minimal,9.0
+eb:SP569:p11,Sonnet 5.5,norole,10.0
+eb:SP569:p10,Sonnet 5.5,paraphrase,9.0
+eb:SP569:p11,Sonnet 5.5,paraphrase,12.0
+eb:SP569:p11,Sonnet 5.5,minimal,13.0
+eb:SP569:p12,Sonnet 5.5,nomode,11.5
+eb:SP569:p12,Sonnet 5.5,norole,11.0
+eb:SP569:p12,Sonnet 5.5,minimal,11.0
+eb:SP569:p13,Sonnet 5.5,norole,16.0
+eb:SP569:p13,Sonnet 5.5,minimal,14.0
+eb:SP569:p12,Sonnet 5.5,paraphrase,12.0
+eb:SP569:p14,Sonnet 5.5,norole,12.0
+eb:SP569:p14,Sonnet 5.5,nomode,13.5
+eb:SP569:p13,Sonnet 5.5,nomode,12.0
+eb:SP569:p13,Sonnet 5.5,paraphrase,11.5
+eb:SP569:p14,Sonnet 5.5,minimal,12.0
+eb:SP569:p16,Sonnet 5.5,norole,12.0
+eb:SP569:p15,Sonnet 5.5,minimal,12.0
+eb:SP569:p14,Sonnet 5.5,paraphrase,12.0
+eb:SP569:p16,Sonnet 5.5,nomode,11.0
+eb:SP569:p15,Sonnet 5.5,nomode,11.0
+eb:SP569:p15,Sonnet 5.5,norole,12.0
+eb:SP569:p15,Sonnet 5.5,paraphrase,13.0
+eb:SP569:p16,Sonnet 5.5,minimal,10.0
+eb:SP569:p17,Sonnet 5.5,norole,9.0
+eb:SP569:p17,Sonnet 5.5,nomode,9.0
+eb:SP569:p16,Sonnet 5.5,paraphrase,11.0
+eb:SP569:p18,Sonnet 5.5,nomode,17.0
+eb:SP569:p17,Sonnet 5.5,minimal,6.0
+eb:SP569:p18,Sonnet 5.5,norole,14.0
+eb:SP569:p17,Sonnet 5.5,paraphrase,6.0
+eb:SP569:p18,Sonnet 5.5,minimal,14.0
+eb:SP569:p18,Sonnet 5.5,paraphrase,14.0
+eb:SP569:p19,Sonnet 5.5,norole,8.5
+eb:SP569:p20,Sonnet 5.5,norole,6.0
+eb:SP569:p19,Sonnet 5.5,minimal,12.0
+eb:SP569:p19,Sonnet 5.5,nomode,10.5
+eb:SP569:p19,Sonnet 5.5,paraphrase,13.0
+eb:SP569:p20,Sonnet 5.5,nomode,7.0
+eb:SP569:p21,Sonnet 5.5,nomode,11.5
+eb:SP569:p20,Sonnet 5.5,paraphrase,8.0
+eb:SP569:p22,Sonnet 5.5,nomode,17.0
+eb:SP569:p21,Sonnet 5.5,norole,7.0
+eb:SP569:p20,Sonnet 5.5,minimal,9.0
+eb:SP569:p21,Sonnet 5.5,minimal,10.0
+eb:SP569:p22,Sonnet 5.5,norole,11.0
+eb:SP569:p21,Sonnet 5.5,paraphrase,9.0
+eb:SP569:p22,Sonnet 5.5,minimal,14.0
+eb:SP569:p22,Sonnet 5.5,paraphrase,13.0
+eb:SP569:p23,Sonnet 5.5,minimal,9.0
+eb:SP569:p24,Sonnet 5.5,norole,9.0
+eb:SP569:p24,Sonnet 5.5,nomode,9.0
+eb:SP569:p23,Sonnet 5.5,paraphrase,12.0
+eb:SP569:p23,Sonnet 5.5,norole,11.0
+eb:SP569:p25,Sonnet 5.5,nomode,8.5
+eb:SP569:p24,Sonnet 5.5,minimal,7.0
+eb:SP569:p25,Sonnet 5.5,minimal,8.0
+eb:SP569:p25,Sonnet 5.5,norole,8.0
+eb:SP569:p26,Sonnet 5.5,nomode,18.0
+eb:SP569:p25,Sonnet 5.5,paraphrase,6.0
+eb:SP569:p23,Sonnet 5.5,nomode,10.5
+eb:SP569:p26,Sonnet 5.5,norole,12.0
+eb:SP569:p27,Sonnet 5.5,norole,3.6
+eb:SP569:p27,Sonnet 5.5,minimal,7.0
+eb:SP569:p26,Sonnet 5.5,paraphrase,16.5
+eb:SP569:p28,Sonnet 5.5,norole,7.0
+eb:SP569:p27,Sonnet 5.5,nomode,6.0
+eb:SP569:p27,Sonnet 5.5,paraphrase,4.0
+eb:SP569:p28,Sonnet 5.5,nomode,7.5
+eb:SP569:p24,Sonnet 5.5,paraphrase,8.0
+eb:SP569:p28,Sonnet 5.5,paraphrase,9.0
+eb:SP569:p29,Sonnet 5.5,minimal,12.0
+eb:SP569:p29,Sonnet 5.5,nomode,9.0
+eb:SP569:p28,Sonnet 5.5,minimal,8.0
+eb:SP569:p29,Sonnet 5.5,paraphrase,7.0
+eb:SP569:p30,Sonnet 5.5,norole,14.0
+eb:SP569:p30,Sonnet 5.5,minimal,8.0
+eb:SP569:p30,Sonnet 5.5,nomode,17.0
+eb:SP569:p26,Sonnet 5.5,minimal,14.0
+eb:SP569:p31,Sonnet 5.5,norole,11.0
+eb:SP569:p32,Sonnet 5.5,norole,8.0
+eb:SP569:p31,Sonnet 5.5,minimal,12.0
+eb:SP569:p30,Sonnet 5.5,paraphrase,13.0
+eb:SP569:p32,Sonnet 5.5,minimal,7.0
+eb:SP569:p32,Sonnet 5.5,nomode,7.5
+eb:SP569:p31,Sonnet 5.5,paraphrase,12.0
+eb:SP569:p32,Sonnet 5.5,paraphrase,7.0
+eb:SP569:p33,Sonnet 5.5,nomode,9.0
+eb:SP569:p33,Sonnet 5.5,norole,8.5
+eb:SP569:p33,Sonnet 5.5,paraphrase,8.5
+eb:SP569:p33,Sonnet 5.5,minimal,9.0
+eb:SP571:p4,Sonnet 5.5,norole,1.0
+eb:SP569:p31,Sonnet 5.5,nomode,14.0
+eb:SP571:p4,Sonnet 5.5,nomode,1.0
+eb:SP571:p4,Sonnet 5.5,minimal,1.0
+eb:SP571:p4,Sonnet 5.5,paraphrase,1.0
+eb:SP571:p5,Sonnet 5.5,nomode,2.6
+eb:SP571:p5,Sonnet 5.5,paraphrase,2.4
+eb:SP571:p5,Sonnet 5.5,minimal,3.0
+eb:SP571:p6,Sonnet 5.5,minimal,4.0
+eb:SP569:p29,Sonnet 5.5,norole,8.0
+eb:SP571:p6,Sonnet 5.5,nomode,4.5
+eb:SP571:p6,Sonnet 5.5,norole,4.3
+eb:SP571:p6,Sonnet 5.5,paraphrase,4.0
+eb:SP571:p7,Sonnet 5.5,nomode,4.1
+eb:SP571:p7,Sonnet 5.5,norole,3.5
+eb:SP571:p8,Sonnet 5.5,nomode,3.0
+eb:SP571:p7,Sonnet 5.5,minimal,3.0
+eb:SP571:p8,Sonnet 5.5,norole,2.5
+eb:SP571:p8,Sonnet 5.5,minimal,3.0
+eb:SP571:p5,Sonnet 5.5,norole,3.0
+eb:SP571:p7,Sonnet 5.5,paraphrase,3.0
+eb:SP571:p8,Sonnet 5.5,paraphrase,3.0
+eb:SP571:p9,Sonnet 5.5,nomode,5.0
+eb:SP571:p9,Sonnet 5.5,minimal,4.0
+eb:SP571:p10,Sonnet 5.5,nomode,2.5
+eb:SP571:p10,Sonnet 5.5,norole,3.0
+eb:SP571:p10,Sonnet 5.5,minimal,2.0
+eb:SP571:p11,Sonnet 5.5,norole,3.4
+eb:SP571:p11,Sonnet 5.5,nomode,5.5
+eb:SP571:p9,Sonnet 5.5,norole,5.0
+eb:SP571:p9,Sonnet 5.5,paraphrase,5.0
+eb:SP571:p11,Sonnet 5.5,minimal,3.0
+eb:SP571:p13,Sonnet 5.5,norole,3.5
+eb:SP571:p12,Sonnet 5.5,nomode,10.5
+eb:SP571:p12,Sonnet 5.5,norole,9.0
+eb:SP571:p12,Sonnet 5.5,minimal,12.0
+eb:SP571:p12,Sonnet 5.5,paraphrase,11.0
+eb:SP571:p13,Sonnet 5.5,paraphrase,2.5
+eb:SP571:p14,Sonnet 5.5,norole,4.0
+eb:SP571:p14,Sonnet 5.5,minimal,4.0
+eb:SP571:p11,Sonnet 5.5,paraphrase,3.5
+eb:SP571:p15,Sonnet 5.5,nomode,9.0
+eb:SP571:p15,Sonnet 5.5,norole,6.0
+eb:SP571:p10,Sonnet 5.5,paraphrase,2.5
+eb:SP571:p23,Sonnet 5.5,norole,1.6
+eb:SP571:p15,Sonnet 5.5,paraphrase,6.0
+eb:SP571:p23,Sonnet 5.5,nomode,2.1
+eb:SP571:p13,Sonnet 5.5,nomode,2.6
+eb:SP571:p13,Sonnet 5.5,minimal,4.0
+eb:SP571:p24,Sonnet 5.5,nomode,2.5
+eb:SP571:p23,Sonnet 5.5,minimal,2.0
+eb:SP571:p14,Sonnet 5.5,paraphrase,4.0
+eb:SP571:p24,Sonnet 5.5,minimal,2.0
+eb:SP571:p25,Sonnet 5.5,nomode,7.0
+eb:SP571:p24,Sonnet 5.5,norole,2.1
+eb:SP571:p15,Sonnet 5.5,minimal,5.0
+eb:SP571:p25,Sonnet 5.5,norole,6.0
+eb:SP571:p25,Sonnet 5.5,minimal,6.0
+eb:SP571:p14,Sonnet 5.5,nomode,4.0
+eb:SP571:p26,Sonnet 5.5,minimal,4.0
+eb:SP571:p25,Sonnet 5.5,paraphrase,5.0
+eb:SP571:p26,Sonnet 5.5,paraphrase,6.0
+eb:SP571:p27,Sonnet 5.5,norole,2.1
+eb:SP571:p23,Sonnet 5.5,paraphrase,1.8
+eb:SP571:p27,Sonnet 5.5,nomode,3.0
+eb:SP571:p24,Sonnet 5.5,paraphrase,1.8
+eb:SP571:p28,Sonnet 5.5,nomode,6.0
+eb:SP571:p28,Sonnet 5.5,norole,3.6
+eb:SP571:p28,Sonnet 5.5,paraphrase,4.0
+eb:SP571:p29,Sonnet 5.5,norole,4.5
+eb:SP571:p29,Sonnet 5.5,nomode,5.0
+eb:SP571:p26,Sonnet 5.5,nomode,7.5
+eb:SP571:p27,Sonnet 5.5,minimal,2.0
+eb:SP571:p29,Sonnet 5.5,minimal,3.0
+eb:SP571:p29,Sonnet 5.5,paraphrase,5.0
+eb:SP570:p10,Sonnet 5.5,nomode,13.0
+eb:SP571:p27,Sonnet 5.5,paraphrase,1.8
+eb:SP571:p26,Sonnet 5.5,norole,6.0
+eb:SP570:p10,Sonnet 5.5,minimal,9.0
+eb:SP570:p12,Sonnet 5.5,norole,14.0
+eb:SP570:p12,Sonnet 5.5,nomode,12.0
+eb:SP570:p10,Sonnet 5.5,paraphrase,11.0
+eb:SP570:p12,Sonnet 5.5,minimal,14.0
+eb:SP570:p10,Sonnet 5.5,norole,8.0
+eb:SP570:p13,Sonnet 5.5,norole,12.0
+eb:SP570:p12,Sonnet 5.5,paraphrase,14.0
+eb:SP570:p13,Sonnet 5.5,minimal,14.0
+eb:SP570:p14,Sonnet 5.5,norole,14.0
+eb:SP570:p13,Sonnet 5.5,nomode,11.0
+eb:SP570:p14,Sonnet 5.5,nomode,11.5
+eb:SP571:p28,Sonnet 5.5,minimal,4.0
+eb:SP570:p13,Sonnet 5.5,paraphrase,14.0
+eb:SP570:p15,Sonnet 5.5,nomode,17.0
+eb:SP570:p14,Sonnet 5.5,minimal,13.0
+eb:SP570:p14,Sonnet 5.5,paraphrase,16.5
+eb:SP570:p15,Sonnet 5.5,norole,10.0
+eb:SP570:p15,Sonnet 5.5,minimal,17.0
+eb:SP570:p15,Sonnet 5.5,paraphrase,14.0
+eb:SP570:p16,Sonnet 5.5,norole,17.0
+eb:SP570:p16,Sonnet 5.5,minimal,17.0
+eb:SP570:p17,Sonnet 5.5,norole,14.5
+eb:SP570:p17,Sonnet 5.5,nomode,14.5
+eb:SP570:p16,Sonnet 5.5,paraphrase,16.0
+eb:SP570:p18,Sonnet 5.5,nomode,17.0
+eb:SP570:p17,Sonnet 5.5,minimal,9.0
+eb:SP570:p18,Sonnet 5.5,norole,17.0
+eb:SP570:p17,Sonnet 5.5,paraphrase,13.0
+eb:SP570:p16,Sonnet 5.5,nomode,17.0
+eb:SP570:p19,Sonnet 5.5,nomode,9.0
+eb:SP570:p19,Sonnet 5.5,minimal,10.0
+eb:SP570:p19,Sonnet 5.5,norole,9.0
+eb:SP570:p20,Sonnet 5.5,norole,15.0
+eb:SP570:p19,Sonnet 5.5,paraphrase,14.0
+eb:SP570:p18,Sonnet 5.5,paraphrase,18.0
+eb:SP570:p20,Sonnet 5.5,minimal,20.0
+eb:SP570:p22,Sonnet 5.5,norole,7.0
+eb:SP570:p22,Sonnet 5.5,nomode,7.0
+eb:SP570:p18,Sonnet 5.5,minimal,20.0
+eb:SP570:p20,Sonnet 5.5,paraphrase,15.0
+eb:SP570:p22,Sonnet 5.5,minimal,6.0
+eb:SP570:p20,Sonnet 5.5,nomode,16.0
+eb:SP570:p23,Sonnet 5.5,nomode,12.0
+eb:SP570:p23,Sonnet 5.5,norole,13.0
+eb:SP570:p22,Sonnet 5.5,paraphrase,10.0
+eb:SP570:p23,Sonnet 5.5,minimal,10.0
+eb:SP570:p24,Sonnet 5.5,norole,18.0
+eb:SP570:p24,Sonnet 5.5,nomode,17.0
+eb:SP570:p24,Sonnet 5.5,minimal,26.0
+eb:SP570:p25,Sonnet 5.5,nomode,17.0
+eb:SP570:p25,Sonnet 5.5,minimal,20.0
+eb:SP570:p24,Sonnet 5.5,paraphrase,19.0
+eb:SP570:p25,Sonnet 5.5,norole,14.0
+eb:SP570:p26,Sonnet 5.5,norole,10.5
+eb:SP570:p25,Sonnet 5.5,paraphrase,24.0
+eb2:SP567:p5,Sonnet 5.5,norole,1.5
+eb2:SP567:p5,Sonnet 5.5,nomode,1.5
+eb:SP570:p26,Sonnet 5.5,minimal,12.0
+eb:SP570:p23,Sonnet 5.5,paraphrase,12.0
+eb2:SP567:p5,Sonnet 5.5,paraphrase,1.0
+eb2:SP567:p9,Sonnet 5.5,norole,3.5
+eb:SP570:p26,Sonnet 5.5,paraphrase,15.0
+eb2:SP567:p5,Sonnet 5.5,minimal,2.0
+eb2:SP567:p9,Sonnet 5.5,nomode,4.5
+eb2:SP567:p9,Sonnet 5.5,minimal,5.0
+eb2:SP567:p9,Sonnet 5.5,paraphrase,4.5
+eb2:SP567:p33,Sonnet 5.5,norole,22.0
+eb2:SP567:p33,Sonnet 5.5,nomode,27.0
+eb2:SP567:p34,Sonnet 5.5,norole,9.0
+eb2:SP567:p33,Sonnet 5.5,minimal,25.0
+eb2:SP567:p33,Sonnet 5.5,paraphrase,31.0
+eb2:SP567:p34,Sonnet 5.5,nomode,14.0
+eb2:SP567:p35,Sonnet 5.5,nomode,9.0
+eb2:SP567:p35,Sonnet 5.5,norole,8.0
+eb2:SP567:p34,Sonnet 5.5,paraphrase,9.5
+eb2:SP567:p35,Sonnet 5.5,minimal,7.0
+eb2:SP567:p34,Sonnet 5.5,minimal,8.0
+eb2:SP567:p36,Sonnet 5.5,minimal,9.0
+eb2:SP567:p35,Sonnet 5.5,paraphrase,8.5
+eb2:SP567:p36,Sonnet 5.5,norole,9.0
+eb2:SP567:p36,Sonnet 5.5,nomode,11.0
+eb2:SP567:p37,Sonnet 5.5,nomode,9.0
+eb2:SP567:p36,Sonnet 5.5,paraphrase,9.5
+eb2:SP567:p37,Sonnet 5.5,norole,7.5
+eb2:SP567:p39,Sonnet 5.5,norole,0.5
+eb2:SP567:p39,Sonnet 5.5,paraphrase,0.6
+eb:SP570:p26,Sonnet 5.5,nomode,11.5
+eb2:SP567:p37,Sonnet 5.5,minimal,7.0
+eb2:SP567:p37,Sonnet 5.5,paraphrase,8.5
+eb2:SP567:p39,Sonnet 5.5,minimal,1.0
+eb2:SP567:p40,Sonnet 5.5,nomode,0.9
+eb2:SP567:p40,Sonnet 5.5,minimal,1.0
+eb2:SP567:p40,Sonnet 5.5,norole,0.6
+eb2:SP567:p41,Sonnet 5.5,nomode,2.3
+eb2:SP567:p40,Sonnet 5.5,paraphrase,0.6
+eb2:SP567:p41,Sonnet 5.5,minimal,2.0
+eb2:SP567:p41,Sonnet 5.5,norole,1.5
+eb2:SP567:p42,Sonnet 5.5,nomode,3.5
+eb2:SP567:p42,Sonnet 5.5,norole,2.0
+eb2:SP567:p42,Sonnet 5.5,minimal,2.0
+eb2:SP567:p43,Sonnet 5.5,norole,3.0
+eb2:SP567:p41,Sonnet 5.5,paraphrase,1.0
+eb2:SP567:p42,Sonnet 5.5,paraphrase,2.5
+eb2:SP567:p44,Sonnet 5.5,norole,3.5
+eb2:SP567:p44,Sonnet 5.5,nomode,4.5
+eb2:SP567:p43,Sonnet 5.5,minimal,2.0
+eb2:SP567:p43,Sonnet 5.5,paraphrase,2.0
+eb2:SP567:p44,Sonnet 5.5,paraphrase,3.8
+eb2:SP567:p44,Sonnet 5.5,minimal,3.0
+eb2:STD104:p104,Sonnet 5.5,norole,8.0
+eb2:STD104:p104,Sonnet 5.5,nomode,8.5
+eb2:STD104:p104,Sonnet 5.5,minimal,8.0
+eb2:STD104:p105,Sonnet 5.5,minimal,7.0
+eb2:STD104:p105,Sonnet 5.5,nomode,4.5
+eb2:SP567:p43,Sonnet 5.5,nomode,3.5
+eb2:SP567:p39,Sonnet 5.5,nomode,0.8
+eb2:STD104:p116,Sonnet 5.5,norole,6.0
+eb2:STD104:p105,Sonnet 5.5,paraphrase,7.0
+eb2:STD104:p116,Sonnet 5.5,nomode,8.0
+eb2:STD104:p116,Sonnet 5.5,minimal,8.0
+eb2:STD104:p116,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p119,Sonnet 5.5,nomode,9.0
+eb2:STD104:p119,Sonnet 5.5,minimal,8.0
+eb2:STD104:p119,Sonnet 5.5,norole,6.5
+eb2:STD104:p142,Sonnet 5.5,nomode,6.5
+eb2:STD104:p119,Sonnet 5.5,paraphrase,7.0
+eb2:STD104:p142,Sonnet 5.5,norole,6.5
+eb2:STD104:p175,Sonnet 5.5,nomode,5.0
+eb2:STD104:p142,Sonnet 5.5,minimal,8.0
+eb2:STD104:p175,Sonnet 5.5,norole,4.2
+eb2:STD104:p142,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p175,Sonnet 5.5,minimal,5.0
+eb2:STD104:p175,Sonnet 5.5,paraphrase,4.5
+eb2:STD104:p195,Sonnet 5.5,norole,7.0
+eb2:STD104:p195,Sonnet 5.5,nomode,6.0
+eb2:STD104:p104,Sonnet 5.5,paraphrase,9.5
+eb2:STD104:p195,Sonnet 5.5,minimal,6.0
+eb2:STD104:p202,Sonnet 5.5,norole,10.0
+eb2:STD104:p202,Sonnet 5.5,nomode,9.0
+eb2:STD104:p105,Sonnet 5.5,norole,5.5
+eb2:STD104:p202,Sonnet 5.5,paraphrase,8.0
+eb2:STD104:p203,Sonnet 5.5,nomode,6.0
+eb2:STD104:p203,Sonnet 5.5,norole,6.0
+eb2:STD104:p195,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p202,Sonnet 5.5,minimal,9.0
+eb2:STD104:p204,Sonnet 5.5,nomode,6.0
+eb2:STD104:p203,Sonnet 5.5,minimal,6.0
+eb2:STD104:p206,Sonnet 5.5,nomode,6.0
+eb2:STD104:p204,Sonnet 5.5,norole,5.0
+eb2:STD104:p203,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p204,Sonnet 5.5,minimal,4.0
+eb2:STD104:p206,Sonnet 5.5,norole,5.0
+eb2:STD104:p204,Sonnet 5.5,paraphrase,4.6
+eb2:STD104:p206,Sonnet 5.5,paraphrase,5.0
+eb2:STD104:p207,Sonnet 5.5,nomode,3.5
+eb2:STD104:p209,Sonnet 5.5,nomode,1.5
+eb2:STD104:p207,Sonnet 5.5,norole,2.6
+eb2:STD104:p207,Sonnet 5.5,minimal,2.0
+eb2:STD104:p207,Sonnet 5.5,paraphrase,3.0
+eb2:STD104:p209,Sonnet 5.5,norole,1.2
+eb2:STD104:p231,Sonnet 5.5,nomode,7.5
+eb2:STD104:p209,Sonnet 5.5,paraphrase,1.0
+eb2:STD104:p209,Sonnet 5.5,minimal,1.0
+eb2:STD104:p231,Sonnet 5.5,norole,7.0
+eb2:STD104:p231,Sonnet 5.5,paraphrase,7.5
+eb2:STD104:p231,Sonnet 5.5,minimal,8.0
+eb2:STD104:p233,Sonnet 5.5,nomode,7.0
+eb2:STD104:p233,Sonnet 5.5,norole,8.0
+eb2:STD104:p233,Sonnet 5.5,minimal,9.0
+eb2:STD104:p235,Sonnet 5.5,norole,4.5
+eb2:STD104:p235,Sonnet 5.5,nomode,5.0
+eb2:STD104:p233,Sonnet 5.5,paraphrase,8.0
+eb2:STD104:p235,Sonnet 5.5,minimal,5.0
+eb2:STD104:p237,Sonnet 5.5,norole,13.5
+eb2:STD104:p237,Sonnet 5.5,nomode,11.5
+eb2:STD104:p237,Sonnet 5.5,minimal,13.0
+eb2:STD104:p237,Sonnet 5.5,paraphrase,11.5
+eb2:STD104:p239,Sonnet 5.5,nomode,12.0
+eb2:STD104:p206,Sonnet 5.5,minimal,4.0
+eb2:STD104:p239,Sonnet 5.5,norole,12.0
+eb2:STD104:p239,Sonnet 5.5,minimal,13.0
+eb2:STD104:p257,Sonnet 5.5,nomode,8.0
+eb2:STD104:p257,Sonnet 5.5,norole,8.5
+eb2:STD104:p239,Sonnet 5.5,paraphrase,11.0
+eb2:STD104:p257,Sonnet 5.5,minimal,12.0
+eb2:STD104:p258,Sonnet 5.5,norole,8.0
+eb2:STD104:p259,Sonnet 5.5,nomode,8.0
+eb2:STD104:p257,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p259,Sonnet 5.5,norole,5.5
+eb2:STD104:p258,Sonnet 5.5,minimal,10.0
+eb2:STD104:p258,Sonnet 5.5,paraphrase,11.0
+eb2:STD104:p260,Sonnet 5.5,nomode,11.0
+eb2:STD104:p259,Sonnet 5.5,minimal,7.0
+eb2:STD104:p259,Sonnet 5.5,paraphrase,8.0
+eb2:STD104:p235,Sonnet 5.5,paraphrase,3.5
+eb2:STD104:p260,Sonnet 5.5,minimal,9.0
+eb2:STD104:p261,Sonnet 5.5,norole,2.6
+eb2:STD104:p261,Sonnet 5.5,nomode,3.5
+eb2:STD104:p260,Sonnet 5.5,paraphrase,10.0
+eb2:STD104:p261,Sonnet 5.5,minimal,5.0
+eb2:STD104:p263,Sonnet 5.5,nomode,4.5
+eb2:STD104:p261,Sonnet 5.5,paraphrase,3.5
+eb2:STD104:p263,Sonnet 5.5,norole,3.2
+eb2:STD104:p263,Sonnet 5.5,minimal,6.0
+eb2:STD104:p265,Sonnet 5.5,nomode,6.0
+eb2:STD104:p260,Sonnet 5.5,norole,7.0
+eb2:STD104:p263,Sonnet 5.5,paraphrase,3.5
+eb2:STD104:p265,Sonnet 5.5,norole,4.3
+eb2:STD104:p265,Sonnet 5.5,minimal,5.0
+eb2:STD104:p267,Sonnet 5.5,nomode,12.0
+eb2:STD104:p258,Sonnet 5.5,nomode,7.0
+eb2:STD104:p267,Sonnet 5.5,norole,9.0
+eb2:STD104:p265,Sonnet 5.5,paraphrase,4.0
+eb2:STD104:p267,Sonnet 5.5,paraphrase,9.0
+eb2:STD104:p267,Sonnet 5.5,minimal,10.0
+eb2:STD104:p269,Sonnet 5.5,minimal,3.0
+eb2:STD104:p269,Sonnet 5.5,nomode,2.6
+eb2:STD104:p269,Sonnet 5.5,norole,3.9
+eb2:STD104:p271,Sonnet 5.5,norole,4.0
+eb2:STD104:p271,Sonnet 5.5,nomode,4.0
+eb2:STD104:p269,Sonnet 5.5,paraphrase,6.0
+eb2:STD104:p273,Sonnet 5.5,minimal,3.0
+eb2:STD104:p273,Sonnet 5.5,nomode,3.5
+eb2:STD104:p273,Sonnet 5.5,norole,2.5
+eb2:STD104:p271,Sonnet 5.5,paraphrase,5.5
+eb2:STD104:p271,Sonnet 5.5,minimal,7.0
+eb2:STD104:p273,Sonnet 5.5,paraphrase,4.0
+eb2:STD104:p275,Sonnet 5.5,nomode,4.0
+eb2:STD104:p275,Sonnet 5.5,norole,3.0
+eb2:EB049EP:p25,Sonnet 5.5,nomode,7.0
+eb2:EB049EP:p25,Sonnet 5.5,norole,5.0
+eb2:STD104:p275,Sonnet 5.5,minimal,6.0
+eb2:EB049EP:p25,Sonnet 5.5,minimal,5.0
+eb2:EB049EP:p36,Sonnet 5.5,norole,5.0
+eb2:EB049EP:p36,Sonnet 5.5,nomode,6.0
+eb2:EB049EP:p36,Sonnet 5.5,paraphrase,7.0
+eb2:EB049EP:p36,Sonnet 5.5,minimal,7.0
+eb2:STD104:p275,Sonnet 5.5,paraphrase,5.5
+eb2:EB049EP:p25,Sonnet 5.5,paraphrase,6.5
+eb:STD105:p3,Gemini Flash thinking,nomode,0.6
+eb:STD105:p3,Gemini Flash thinking,norole,0.6
+eb:STD105:p3,Gemini Flash thinking,paraphrase,0.5
+eb:STD105:p5,Gemini Flash thinking,norole,0.5
+eb:STD105:p5,Gemini Flash thinking,nomode,0.4
+eb:STD105:p5,Gemini Flash thinking,minimal,1.0
+eb:STD105:p7,Gemini Flash thinking,norole,0.8
+eb:STD105:p5,Gemini Flash thinking,paraphrase,0.3
+eb:STD105:p7,Gemini Flash thinking,nomode,0.8
+eb:STD105:p7,Gemini Flash thinking,minimal,1.0
+eb:STD105:p9,Gemini Flash thinking,norole,1.0
+eb:STD105:p7,Gemini Flash thinking,paraphrase,0.6
+eb:STD105:p9,Gemini Flash thinking,nomode,1.3
+eb:STD105:p9,Gemini Flash thinking,minimal,1.0
+eb:STD105:p9,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p11,Gemini Flash thinking,norole,0.8
+eb:STD105:p11,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p3,Gemini Flash thinking,minimal,1.0
+eb:STD105:p11,Gemini Flash thinking,nomode,0.8
+eb:STD105:p15,Gemini Flash thinking,norole,1.5
+eb:STD105:p11,Gemini Flash thinking,minimal,1.0
+eb:STD105:p15,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p15,Gemini Flash thinking,nomode,1.5
+eb:STD105:p17,Gemini Flash thinking,norole,1.5
+eb:STD105:p17,Gemini Flash thinking,nomode,2.0
+eb:STD105:p17,Gemini Flash thinking,minimal,2.0
+eb:STD105:p15,Gemini Flash thinking,minimal,1.0
+eb:STD105:p19,Gemini Flash thinking,norole,7.8
+eb:STD105:p19,Gemini Flash thinking,minimal,8.0
+eb:STD105:p17,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p19,Gemini Flash thinking,nomode,8.0
+eb:STD105:p19,Gemini Flash thinking,paraphrase,8.5
+eb:STD105:p21,Gemini Flash thinking,nomode,
+eb:STD105:p23,Gemini Flash thinking,norole,0.7
+eb:STD105:p21,Gemini Flash thinking,norole,6.8
+eb:STD105:p21,Gemini Flash thinking,paraphrase,19.0
+eb:STD105:p23,Gemini Flash thinking,nomode,0.8
+eb:STD105:p23,Gemini Flash thinking,minimal,1.0
+eb:STD105:p25,Gemini Flash thinking,nomode,2.8
+eb:STD105:p25,Gemini Flash thinking,norole,1.8
+eb:STD105:p25,Gemini Flash thinking,minimal,2.0
+eb:STD105:p25,Gemini Flash thinking,paraphrase,2.5
+eb:STD105:p23,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p21,Gemini Flash thinking,minimal,5.0
+eb:STD105:p27,Gemini Flash thinking,nomode,2.5
+eb:STD105:p27,Gemini Flash thinking,norole,2.8
+eb:STD105:p27,Gemini Flash thinking,minimal,2.0
+eb:STD105:p29,Gemini Flash thinking,norole,1.5
+eb:STD105:p27,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p29,Gemini Flash thinking,nomode,1.8
+eb:STD105:p31,Gemini Flash thinking,norole,4.0
+eb:STD105:p29,Gemini Flash thinking,minimal,2.0
+eb:STD105:p29,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p31,Gemini Flash thinking,nomode,4.0
+eb:STD105:p33,Gemini Flash thinking,nomode,5.0
+eb:STD105:p31,Gemini Flash thinking,paraphrase,3.5
+eb:STD105:p31,Gemini Flash thinking,minimal,3.0
+eb:STD105:p33,Gemini Flash thinking,norole,4.0
+eb:STD105:p33,Gemini Flash thinking,minimal,4.0
+eb:STD105:p33,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p35,Gemini Flash thinking,nomode,2.0
+eb:STD105:p35,Gemini Flash thinking,minimal,2.0
+eb:STD105:p37,Gemini Flash thinking,norole,4.0
+eb:STD105:p35,Gemini Flash thinking,paraphrase,1.4
+eb:STD105:p37,Gemini Flash thinking,nomode,4.8
+eb:STD105:p37,Gemini Flash thinking,paraphrase,4.1
+eb:STD105:p37,Gemini Flash thinking,minimal,4.0
+eb:STD105:p39,Gemini Flash thinking,norole,5.5
+eb:STD105:p35,Gemini Flash thinking,norole,1.8
+eb:STD105:p39,Gemini Flash thinking,nomode,5.1
+eb:STD105:p39,Gemini Flash thinking,paraphrase,8.3
+eb:STD105:p41,Gemini Flash thinking,nomode,8.4
+eb:STD105:p39,Gemini Flash thinking,minimal,13.0
+eb:STD105:p41,Gemini Flash thinking,norole,8.5
+eb:STD105:p41,Gemini Flash thinking,paraphrase,8.0
+eb:STD105:p41,Gemini Flash thinking,minimal,8.0
+eb:STD105:p69,Gemini Flash thinking,nomode,5.1
+eb:STD105:p69,Gemini Flash thinking,norole,4.2
+eb:STD105:p71,Gemini Flash thinking,nomode,5.8
+eb:STD105:p69,Gemini Flash thinking,minimal,6.0
+eb:STD105:p69,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p71,Gemini Flash thinking,minimal,5.0
+eb:STD105:p73,Gemini Flash thinking,norole,5.0
+eb:STD105:p73,Gemini Flash thinking,nomode,5.5
+eb:STD105:p71,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p75,Gemini Flash thinking,norole,3.0
+eb:STD105:p73,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p73,Gemini Flash thinking,minimal,5.0
+eb:STD105:p75,Gemini Flash thinking,nomode,3.5
+eb:STD105:p75,Gemini Flash thinking,minimal,4.0
+eb:STD105:p75,Gemini Flash thinking,paraphrase,3.8
+eb:STD105:p77,Gemini Flash thinking,norole,7.0
+eb:STD105:p77,Gemini Flash thinking,nomode,6.2
+eb:STD105:p71,Gemini Flash thinking,norole,6.0
+eb:STD105:p77,Gemini Flash thinking,minimal,7.0
+eb:STD105:p79,Gemini Flash thinking,norole,6.0
+eb:STD105:p77,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p79,Gemini Flash thinking,nomode,7.4
+eb:STD105:p79,Gemini Flash thinking,minimal,7.0
+eb:STD105:p81,Gemini Flash thinking,norole,2.0
+eb:STD105:p79,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p81,Gemini Flash thinking,nomode,3.0
+eb:STD105:p81,Gemini Flash thinking,minimal,3.0
+eb:STD105:p83,Gemini Flash thinking,nomode,4.2
+eb:STD105:p83,Gemini Flash thinking,norole,4.0
+eb:STD105:p81,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p85,Gemini Flash thinking,norole,3.0
+eb:STD105:p85,Gemini Flash thinking,nomode,5.0
+eb:STD105:p83,Gemini Flash thinking,paraphrase,
+eb:STD105:p83,Gemini Flash thinking,minimal,3.0
+eb:STD105:p85,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p85,Gemini Flash thinking,minimal,5.0
+eb:STD105:p87,Gemini Flash thinking,norole,5.0
+eb:STD105:p87,Gemini Flash thinking,nomode,5.2
+eb:STD105:p87,Gemini Flash thinking,minimal,6.0
+eb:STD105:p89,Gemini Flash thinking,norole,6.0
+eb:STD105:p89,Gemini Flash thinking,nomode,5.2
+eb:STD105:p87,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p89,Gemini Flash thinking,minimal,6.0
+eb:STD105:p91,Gemini Flash thinking,norole,8.0
+eb:STD105:p91,Gemini Flash thinking,minimal,8.0
+eb:STD105:p91,Gemini Flash thinking,nomode,7.8
+eb:STD105:p93,Gemini Flash thinking,norole,12.0
+eb:STD105:p89,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p93,Gemini Flash thinking,nomode,12.8
+eb:STD105:p91,Gemini Flash thinking,paraphrase,8.0
+eb:STD105:p93,Gemini Flash thinking,paraphrase,13.0
+eb:STD105:p95,Gemini Flash thinking,nomode,11.2
+eb:STD105:p95,Gemini Flash thinking,norole,14.0
+eb:STD105:p95,Gemini Flash thinking,minimal,14.0
+eb:STD105:p101,Gemini Flash thinking,nomode,1.0
+eb:STD105:p93,Gemini Flash thinking,minimal,11.0
+eb:STD105:p101,Gemini Flash thinking,minimal,1.0
+eb:STD105:p101,Gemini Flash thinking,norole,1.0
+eb:STD105:p95,Gemini Flash thinking,paraphrase,13.0
+eb:STD105:p101,Gemini Flash thinking,paraphrase,
+eb:STD105:p103,Gemini Flash thinking,norole,3.0
+eb:STD105:p103,Gemini Flash thinking,nomode,2.8
+eb:STD105:p103,Gemini Flash thinking,paraphrase,2.3
+eb:STD105:p104,Gemini Flash thinking,nomode,8.0
+eb:STD105:p104,Gemini Flash thinking,norole,8.0
+eb:STD105:p103,Gemini Flash thinking,minimal,3.0
+eb:STD105:p111,Gemini Flash thinking,norole,6.8
+eb:STD105:p104,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p104,Gemini Flash thinking,minimal,7.0
+eb:STD105:p111,Gemini Flash thinking,nomode,4.8
+eb:STD105:p112,Gemini Flash thinking,norole,5.2
+eb:STD105:p111,Gemini Flash thinking,minimal,7.0
+eb:STD105:p111,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p112,Gemini Flash thinking,nomode,4.8
+eb:STD105:p112,Gemini Flash thinking,minimal,7.0
+eb:STD105:p113,Gemini Flash thinking,norole,5.0
+eb:STD105:p112,Gemini Flash thinking,paraphrase,6.4
+eb:STD105:p113,Gemini Flash thinking,minimal,6.0
+eb:STD105:p113,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p114,Gemini Flash thinking,norole,8.2
+eb:STD105:p113,Gemini Flash thinking,nomode,4.6
+eb:STD105:p114,Gemini Flash thinking,nomode,7.5
+eb:STD105:p114,Gemini Flash thinking,minimal,7.0
+eb:STD105:p115,Gemini Flash thinking,nomode,6.1
+eb:STD105:p114,Gemini Flash thinking,paraphrase,8.0
+eb:STD105:p115,Gemini Flash thinking,norole,7.8
+eb:STD105:p116,Gemini Flash thinking,norole,5.5
+eb:STD105:p116,Gemini Flash thinking,nomode,5.8
+eb:STD105:p115,Gemini Flash thinking,minimal,9.0
+eb:STD105:p115,Gemini Flash thinking,paraphrase,7.1
+eb:STD105:p116,Gemini Flash thinking,minimal,8.0
+eb:STD105:p124,Gemini Flash thinking,nomode,12.5
+eb:STD105:p124,Gemini Flash thinking,norole,11.5
+eb:STD105:p116,Gemini Flash thinking,paraphrase,6.8
+eb:STD105:p126,Gemini Flash thinking,norole,15.0
+eb:STD105:p124,Gemini Flash thinking,minimal,13.0
+eb:STD105:p124,Gemini Flash thinking,paraphrase,13.8
+eb:STD105:p126,Gemini Flash thinking,nomode,14.0
+eb:STD105:p126,Gemini Flash thinking,minimal,15.0
+eb:STD105:p128,Gemini Flash thinking,norole,15.0
+eb:STD105:p126,Gemini Flash thinking,paraphrase,15.0
+eb:STD105:p128,Gemini Flash thinking,nomode,15.5
+eb:STD105:p128,Gemini Flash thinking,minimal,14.0
+eb:STD105:p130,Gemini Flash thinking,nomode,17.0
+eb:STD105:p128,Gemini Flash thinking,paraphrase,13.0
+eb:STD105:p130,Gemini Flash thinking,norole,19.0
+eb:STD105:p131,Gemini Flash thinking,norole,2.0
+eb:STD105:p131,Gemini Flash thinking,nomode,2.0
+eb:STD105:p130,Gemini Flash thinking,minimal,16.0
+eb:STD105:p130,Gemini Flash thinking,paraphrase,18.0
+eb:STD105:p131,Gemini Flash thinking,minimal,2.0
+eb:STD105:p133,Gemini Flash thinking,norole,6.5
+eb:STD105:p133,Gemini Flash thinking,nomode,6.5
+eb:STD105:p133,Gemini Flash thinking,minimal,6.0
+eb:STD105:p133,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p131,Gemini Flash thinking,paraphrase,1.8
+eb:STD105:p135,Gemini Flash thinking,nomode,4.0
+eb:STD105:p135,Gemini Flash thinking,norole,5.0
+eb:STD105:p135,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p137,Gemini Flash thinking,norole,7.2
+eb:STD105:p137,Gemini Flash thinking,nomode,5.8
+eb:STD105:p137,Gemini Flash thinking,minimal,6.0
+eb:STD105:p137,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p139,Gemini Flash thinking,norole,3.0
+eb:STD105:p139,Gemini Flash thinking,nomode,2.8
+eb:STD105:p139,Gemini Flash thinking,minimal,2.0
+eb:STD105:p135,Gemini Flash thinking,minimal,5.0
+eb:STD105:p139,Gemini Flash thinking,paraphrase,2.5
+eb:STD105:p141,Gemini Flash thinking,nomode,8.0
+eb:STD105:p141,Gemini Flash thinking,norole,8.0
+eb:STD105:p141,Gemini Flash thinking,minimal,8.0
+eb:STD105:p141,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p143,Gemini Flash thinking,nomode,5.0
+eb:STD105:p143,Gemini Flash thinking,norole,5.0
+eb:STD105:p143,Gemini Flash thinking,minimal,5.0
+eb:STD105:p143,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p145,Gemini Flash thinking,norole,2.1
+eb:STD105:p145,Gemini Flash thinking,nomode,2.1
+eb:STD105:p145,Gemini Flash thinking,minimal,3.0
+eb:STD105:p147,Gemini Flash thinking,norole,6.0
+eb:STD105:p145,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p147,Gemini Flash thinking,nomode,5.5
+eb:STD105:p149,Gemini Flash thinking,nomode,4.5
+eb:STD105:p147,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p147,Gemini Flash thinking,minimal,5.0
+eb:STD105:p149,Gemini Flash thinking,minimal,4.0
+eb:STD105:p151,Gemini Flash thinking,norole,0.6
+eb:STD105:p149,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p151,Gemini Flash thinking,nomode,0.7
+eb:STD105:p149,Gemini Flash thinking,norole,5.0
+eb:STD105:p151,Gemini Flash thinking,minimal,1.0
+eb:STD105:p151,Gemini Flash thinking,paraphrase,0.6
+eb:STD105:p153,Gemini Flash thinking,nomode,6.2
+eb:STD105:p153,Gemini Flash thinking,norole,6.0
+eb:STD105:p154,Gemini Flash thinking,nomode,2.5
+eb:STD105:p153,Gemini Flash thinking,minimal,6.0
+eb:STD105:p153,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p154,Gemini Flash thinking,norole,3.0
+eb:STD105:p154,Gemini Flash thinking,minimal,2.0
+eb:STD105:p155,Gemini Flash thinking,norole,7.0
+eb:STD105:p154,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p155,Gemini Flash thinking,nomode,8.4
+eb:STD105:p156,Gemini Flash thinking,norole,7.0
+eb:STD105:p155,Gemini Flash thinking,minimal,8.0
+eb:STD105:p155,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p156,Gemini Flash thinking,nomode,8.0
+eb:STD105:p156,Gemini Flash thinking,minimal,7.0
+eb:STD105:p157,Gemini Flash thinking,norole,11.0
+eb:STD105:p156,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p157,Gemini Flash thinking,nomode,10.0
+eb:STD105:p157,Gemini Flash thinking,minimal,13.0
+eb:STD105:p158,Gemini Flash thinking,nomode,7.0
+eb:STD105:p157,Gemini Flash thinking,paraphrase,10.0
+eb:STD105:p158,Gemini Flash thinking,norole,7.0
+eb:STD105:p158,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p158,Gemini Flash thinking,minimal,7.0
+eb:STD105:p159,Gemini Flash thinking,nomode,7.8
+eb:STD105:p159,Gemini Flash thinking,norole,8.0
+eb:STD105:p160,Gemini Flash thinking,norole,9.0
+eb:STD105:p159,Gemini Flash thinking,minimal,8.0
+eb:STD105:p160,Gemini Flash thinking,nomode,10.0
+eb:STD105:p159,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p160,Gemini Flash thinking,minimal,9.0
+eb:STD105:p161,Gemini Flash thinking,nomode,3.2
+eb:STD105:p161,Gemini Flash thinking,norole,3.0
+eb:STD105:p160,Gemini Flash thinking,paraphrase,10.0
+eb:STD105:p161,Gemini Flash thinking,minimal,4.0
+eb:STD105:p162,Gemini Flash thinking,norole,5.0
+eb:STD105:p161,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p162,Gemini Flash thinking,nomode,5.1
+eb:STD105:p162,Gemini Flash thinking,minimal,5.0
+eb:STD105:p163,Gemini Flash thinking,nomode,9.0
+eb:STD105:p163,Gemini Flash thinking,norole,7.5
+eb:STD105:p162,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p163,Gemini Flash thinking,minimal,8.0
+eb:STD105:p164,Gemini Flash thinking,nomode,5.8
+eb:STD105:p163,Gemini Flash thinking,paraphrase,9.0
+eb:STD105:p164,Gemini Flash thinking,norole,6.0
+eb:STD105:p165,Gemini Flash thinking,norole,4.0
+eb:STD105:p165,Gemini Flash thinking,nomode,4.8
+eb:STD105:p165,Gemini Flash thinking,minimal,5.0
+eb:STD105:p165,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p167,Gemini Flash thinking,norole,9.0
+eb:STD105:p167,Gemini Flash thinking,nomode,10.5
+eb:STD105:p167,Gemini Flash thinking,paraphrase,9.0
+eb:STD105:p168,Gemini Flash thinking,norole,4.5
+eb:STD105:p167,Gemini Flash thinking,minimal,10.0
+eb:STD105:p168,Gemini Flash thinking,nomode,6.0
+eb:STD105:p168,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p169,Gemini Flash thinking,norole,7.0
+eb:STD105:p169,Gemini Flash thinking,nomode,6.5
+eb:STD105:p169,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p168,Gemini Flash thinking,minimal,
+eb:STD105:p169,Gemini Flash thinking,minimal,6.0
+eb:STD105:p170,Gemini Flash thinking,norole,6.0
+eb:STD105:p170,Gemini Flash thinking,nomode,5.5
+eb:STD105:p164,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p170,Gemini Flash thinking,paraphrase,4.5
+eb:STD105:p170,Gemini Flash thinking,minimal,4.0
+eb:STD105:p172,Gemini Flash thinking,nomode,11.5
+eb:STD105:p172,Gemini Flash thinking,norole,8.0
+eb:STD105:p164,Gemini Flash thinking,minimal,6.0
+eb:STD105:p172,Gemini Flash thinking,paraphrase,11.0
+eb:STD105:p172,Gemini Flash thinking,minimal,9.0
+eb:STD105:p173,Gemini Flash thinking,minimal,6.0
+eb:STD105:p173,Gemini Flash thinking,nomode,4.8
+eb:STD105:p173,Gemini Flash thinking,norole,5.0
+eb:STD105:p173,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p174,Gemini Flash thinking,norole,6.0
+eb:STD105:p174,Gemini Flash thinking,minimal,6.0
+eb:STD105:p175,Gemini Flash thinking,norole,6.0
+eb:STD105:p174,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p175,Gemini Flash thinking,minimal,5.0
+eb:STD105:p175,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p175,Gemini Flash thinking,nomode,6.0
+eb:STD105:p177,Gemini Flash thinking,norole,3.0
+eb:STD105:p177,Gemini Flash thinking,nomode,3.1
+eb:STD105:p177,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p174,Gemini Flash thinking,nomode,5.5
+eb:STD105:p177,Gemini Flash thinking,minimal,3.0
+eb:STD105:p197,Gemini Flash thinking,paraphrase,
+eb:STD105:p197,Gemini Flash thinking,nomode,3.1
+eb:STD105:p197,Gemini Flash thinking,minimal,3.0
+eb:STD105:p199,Gemini Flash thinking,nomode,4.5
+eb:STD105:p197,Gemini Flash thinking,norole,4.0
+eb:STD105:p199,Gemini Flash thinking,norole,4.0
+eb:STD105:p199,Gemini Flash thinking,minimal,5.0
+eb:STD105:p201,Gemini Flash thinking,norole,3.5
+eb:STD105:p199,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p201,Gemini Flash thinking,nomode,3.5
+eb:STD105:p201,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p203,Gemini Flash thinking,nomode,10.5
+eb:STD105:p201,Gemini Flash thinking,minimal,3.0
+eb:STD105:p203,Gemini Flash thinking,norole,9.0
+eb:STD105:p204,Gemini Flash thinking,norole,8.8
+eb:STD105:p204,Gemini Flash thinking,nomode,8.5
+eb:STD105:p203,Gemini Flash thinking,paraphrase,11.0
+eb:STD105:p203,Gemini Flash thinking,minimal,10.0
+eb:STD105:p205,Gemini Flash thinking,norole,11.0
+eb:STD105:p204,Gemini Flash thinking,minimal,11.0
+eb:STD105:p204,Gemini Flash thinking,paraphrase,11.2
+eb:STD105:p205,Gemini Flash thinking,nomode,14.5
+eb:STD105:p207,Gemini Flash thinking,norole,8.2
+eb:STD105:p205,Gemini Flash thinking,minimal,15.0
+eb:STD105:p207,Gemini Flash thinking,nomode,9.8
+eb:STD105:p205,Gemini Flash thinking,paraphrase,15.0
+eb:STD105:p208,Gemini Flash thinking,norole,6.0
+eb:STD105:p207,Gemini Flash thinking,paraphrase,11.0
+eb:STD105:p208,Gemini Flash thinking,nomode,7.1
+eb:STD105:p207,Gemini Flash thinking,minimal,12.0
+eb:STD105:p208,Gemini Flash thinking,minimal,8.0
+eb:STD105:p210,Gemini Flash thinking,nomode,2.1
+eb:STD105:p208,Gemini Flash thinking,paraphrase,8.0
+eb:STD105:p210,Gemini Flash thinking,norole,2.0
+eb:STD105:p210,Gemini Flash thinking,minimal,2.0
+eb:STD105:p210,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p211,Gemini Flash thinking,nomode,4.0
+eb:STD105:p213,Gemini Flash thinking,norole,4.0
+eb:STD105:p211,Gemini Flash thinking,norole,4.0
+eb:STD105:p211,Gemini Flash thinking,minimal,5.0
+eb:STD105:p211,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p213,Gemini Flash thinking,nomode,4.5
+eb:STD105:p215,Gemini Flash thinking,norole,8.0
+eb:STD105:p213,Gemini Flash thinking,minimal,6.0
+eb:STD105:p213,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p215,Gemini Flash thinking,nomode,7.5
+eb:STD105:p217,Gemini Flash thinking,norole,13.0
+eb:STD105:p215,Gemini Flash thinking,minimal,12.0
+eb:STD105:p215,Gemini Flash thinking,paraphrase,9.0
+eb:STD105:p217,Gemini Flash thinking,nomode,14.0
+eb:STD105:p217,Gemini Flash thinking,minimal,18.0
+eb:STD105:p219,Gemini Flash thinking,norole,0.6
+eb:STD105:p217,Gemini Flash thinking,paraphrase,18.0
+eb:STD105:p219,Gemini Flash thinking,nomode,0.8
+eb:STD105:p219,Gemini Flash thinking,minimal,1.0
+eb:STD105:p221,Gemini Flash thinking,norole,0.8
+eb:STD105:p221,Gemini Flash thinking,nomode,0.8
+eb:STD105:p219,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p221,Gemini Flash thinking,minimal,1.0
+eb:STD105:p223,Gemini Flash thinking,norole,1.5
+eb:STD105:p223,Gemini Flash thinking,nomode,2.7
+eb:STD105:p221,Gemini Flash thinking,paraphrase,0.7
+eb:STD105:p223,Gemini Flash thinking,minimal,2.0
+eb:STD105:p223,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p225,Gemini Flash thinking,nomode,1.8
+eb:STD105:p225,Gemini Flash thinking,norole,1.8
+eb:STD105:p227,Gemini Flash thinking,norole,1.0
+eb:STD105:p225,Gemini Flash thinking,minimal,2.0
+eb:STD105:p225,Gemini Flash thinking,paraphrase,1.4
+eb:STD105:p227,Gemini Flash thinking,nomode,1.0
+eb:STD105:p227,Gemini Flash thinking,minimal,1.0
+eb:STD105:p228,Gemini Flash thinking,norole,1.0
+eb:STD105:p227,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p228,Gemini Flash thinking,nomode,1.0
+eb:STD105:p228,Gemini Flash thinking,minimal,1.0
+eb:STD105:p229,Gemini Flash thinking,nomode,1.2
+eb:STD105:p229,Gemini Flash thinking,norole,1.0
+eb:STD105:p228,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p229,Gemini Flash thinking,minimal,1.0
+eb:STD105:p236,Gemini Flash thinking,norole,2.0
+eb:STD105:p236,Gemini Flash thinking,nomode,2.5
+eb:STD105:p229,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p238,Gemini Flash thinking,norole,5.0
+eb:STD105:p238,Gemini Flash thinking,nomode,4.8
+eb:STD105:p236,Gemini Flash thinking,minimal,2.0
+eb:STD105:p236,Gemini Flash thinking,paraphrase,
+eb:STD105:p249,Gemini Flash thinking,norole,1.2
+eb:STD105:p249,Gemini Flash thinking,nomode,1.5
+eb:STD105:p238,Gemini Flash thinking,paraphrase,4.0
+eb:STD105:p238,Gemini Flash thinking,minimal,
+eb:STD105:p250,Gemini Flash thinking,nomode,18.5
+eb:STD105:p249,Gemini Flash thinking,paraphrase,1.0
+eb:STD105:p249,Gemini Flash thinking,minimal,1.0
+eb:STD105:p250,Gemini Flash thinking,norole,26.5
+eb:STD105:p252,Gemini Flash thinking,nomode,9.0
+eb:STD105:p252,Gemini Flash thinking,norole,9.5
+eb:STD105:p250,Gemini Flash thinking,paraphrase,13.0
+eb:STD105:p250,Gemini Flash thinking,minimal,15.0
+eb:STD105:p252,Gemini Flash thinking,paraphrase,10.0
+eb:STD105:p254,Gemini Flash thinking,norole,7.0
+eb:STD105:p254,Gemini Flash thinking,nomode,8.2
+eb:STD105:p252,Gemini Flash thinking,minimal,9.0
+eb:STD105:p254,Gemini Flash thinking,paraphrase,
+eb:STD105:p256,Gemini Flash thinking,nomode,5.1
+eb:STD105:p254,Gemini Flash thinking,minimal,6.0
+eb:STD105:p256,Gemini Flash thinking,norole,4.0
+eb:STD105:p256,Gemini Flash thinking,minimal,5.0
+eb:STD105:p256,Gemini Flash thinking,paraphrase,5.0
+eb:STD105:p258,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p258,Gemini Flash thinking,norole,7.0
+eb:STD105:p258,Gemini Flash thinking,minimal,6.0
+eb:STD105:p258,Gemini Flash thinking,nomode,8.0
+eb:STD105:p259,Gemini Flash thinking,norole,5.0
+eb:STD105:p259,Gemini Flash thinking,nomode,5.0
+eb:STD105:p259,Gemini Flash thinking,minimal,7.0
+eb:STD105:p259,Gemini Flash thinking,paraphrase,
+eb:STD105:p261,Gemini Flash thinking,nomode,5.0
+eb:STD105:p261,Gemini Flash thinking,norole,5.0
+eb:STD105:p261,Gemini Flash thinking,minimal,5.0
+eb:STD105:p261,Gemini Flash thinking,paraphrase,
+eb:STD105:p263,Gemini Flash thinking,norole,2.0
+eb:STD105:p263,Gemini Flash thinking,nomode,2.0
+eb:STD105:p263,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p263,Gemini Flash thinking,minimal,2.0
+eb:STD105:p265,Gemini Flash thinking,norole,2.0
+eb:STD105:p265,Gemini Flash thinking,nomode,3.5
+eb:STD105:p265,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p265,Gemini Flash thinking,minimal,3.0
+eb:STD105:p267,Gemini Flash thinking,norole,8.0
+eb:STD105:p267,Gemini Flash thinking,paraphrase,8.0
+eb:STD105:p267,Gemini Flash thinking,minimal,7.0
+eb:STD105:p268,Gemini Flash thinking,norole,3.0
+eb:STD105:p268,Gemini Flash thinking,nomode,3.0
+eb:STD105:p268,Gemini Flash thinking,minimal,3.0
+eb:STD105:p268,Gemini Flash thinking,paraphrase,3.0
+eb:STD105:p269,Gemini Flash thinking,nomode,2.7
+eb:STD105:p269,Gemini Flash thinking,norole,3.0
+eb:STD105:p271,Gemini Flash thinking,norole,4.0
+eb:STD105:p269,Gemini Flash thinking,paraphrase,2.0
+eb:STD105:p269,Gemini Flash thinking,minimal,3.0
+eb:STD105:p271,Gemini Flash thinking,nomode,5.2
+eb:STD105:p271,Gemini Flash thinking,paraphrase,
+eb:STD105:p271,Gemini Flash thinking,minimal,5.0
+eb:STD105:p267,Gemini Flash thinking,nomode,8.5
+eb:STD105:p272,Gemini Flash thinking,norole,7.0
+eb:STD105:p272,Gemini Flash thinking,nomode,6.0
+eb:STD105:p272,Gemini Flash thinking,minimal,6.0
+eb:STD105:p273,Gemini Flash thinking,nomode,5.8
+eb:STD105:p272,Gemini Flash thinking,paraphrase,7.0
+eb:STD105:p273,Gemini Flash thinking,norole,7.0
+eb:STD105:p273,Gemini Flash thinking,paraphrase,6.0
+eb:STD105:p295,Gemini Flash thinking,nomode,4.8
+eb:STD105:p295,Gemini Flash thinking,norole,5.0
+eb:STD105:p273,Gemini Flash thinking,minimal,5.0
+eb:STD105:p295,Gemini Flash thinking,minimal,5.0
+eb:STD105:p295,Gemini Flash thinking,paraphrase,5.2
+eb:SP573:p3,Gemini Flash thinking,nomode,2.1
+eb:SP573:p3,Gemini Flash thinking,norole,1.0
+eb:SP573:p4,Gemini Flash thinking,norole,1.5
+eb:SP573:p4,Gemini Flash thinking,nomode,2.2
+eb:SP573:p3,Gemini Flash thinking,minimal,1.0
+eb:SP573:p3,Gemini Flash thinking,paraphrase,1.0
+eb:SP573:p4,Gemini Flash thinking,paraphrase,2.0
+eb:SP573:p5,Gemini Flash thinking,norole,2.0
+eb:SP573:p4,Gemini Flash thinking,minimal,2.0
+eb:SP573:p5,Gemini Flash thinking,nomode,2.1
+eb:SP573:p43,Gemini Flash thinking,norole,7.0
+eb:SP573:p43,Gemini Flash thinking,nomode,7.0
+eb:SP573:p5,Gemini Flash thinking,minimal,2.0
+eb:SP573:p43,Gemini Flash thinking,minimal,7.0
+eb:SP573:p5,Gemini Flash thinking,paraphrase,2.0
+eb:SP573:p43,Gemini Flash thinking,paraphrase,8.0
+eb:SP573:p44,Gemini Flash thinking,nomode,6.0
+eb:SP573:p44,Gemini Flash thinking,minimal,5.0
+eb:SP573:p44,Gemini Flash thinking,norole,6.0
+eb:SP573:p45,Gemini Flash thinking,norole,6.0
+eb:SP573:p44,Gemini Flash thinking,paraphrase,6.0
+eb:SP573:p45,Gemini Flash thinking,paraphrase,6.0
+eb:SP573:p45,Gemini Flash thinking,nomode,6.0
+eb:SP573:p45,Gemini Flash thinking,minimal,6.0
+eb:SP573:p46,Gemini Flash thinking,norole,2.0
+eb:SP573:p46,Gemini Flash thinking,paraphrase,2.0
+eb:SP573:p46,Gemini Flash thinking,minimal,2.0
+eb:SP573:p47,Gemini Flash thinking,norole,11.0
+eb:SP573:p46,Gemini Flash thinking,nomode,2.0
+eb:SP573:p47,Gemini Flash thinking,nomode,14.0
+eb:SP573:p47,Gemini Flash thinking,minimal,14.0
+eb:SP573:p48,Gemini Flash thinking,norole,8.0
+eb:SP573:p47,Gemini Flash thinking,paraphrase,
+eb:SP573:p48,Gemini Flash thinking,nomode,9.0
+eb:SP573:p48,Gemini Flash thinking,paraphrase,8.0
+eb:SP573:p48,Gemini Flash thinking,minimal,8.0
+eb:SP573:p49,Gemini Flash thinking,norole,6.0
+eb:SP573:p49,Gemini Flash thinking,minimal,7.0
+eb:SP573:p50,Gemini Flash thinking,norole,6.0
+eb:SP573:p49,Gemini Flash thinking,paraphrase,6.0
+eb:SP573:p50,Gemini Flash thinking,nomode,6.0
+eb:SP573:p49,Gemini Flash thinking,nomode,8.0
+eb:SP573:p50,Gemini Flash thinking,paraphrase,5.8
+eb:SP573:p50,Gemini Flash thinking,minimal,6.0
+eb:SP573:p51,Gemini Flash thinking,norole,5.0
+eb:SP573:p51,Gemini Flash thinking,nomode,5.0
+eb:SP573:p51,Gemini Flash thinking,minimal,4.0
+eb:SP573:p51,Gemini Flash thinking,paraphrase,5.0
+eb:SP573:p52,Gemini Flash thinking,nomode,11.5
+eb:SP573:p52,Gemini Flash thinking,norole,14.0
+eb:SP573:p52,Gemini Flash thinking,paraphrase,
+eb:SP573:p52,Gemini Flash thinking,minimal,13.0
+eb:SP573:p53,Gemini Flash thinking,nomode,5.1
+eb:SP573:p53,Gemini Flash thinking,norole,6.0
+eb:SP573:p53,Gemini Flash thinking,minimal,4.0
+eb:SP573:p53,Gemini Flash thinking,paraphrase,5.0
+eb:SP573:p54,Gemini Flash thinking,norole,6.0
+eb:SP573:p54,Gemini Flash thinking,nomode,7.8
+eb:SP573:p54,Gemini Flash thinking,paraphrase,7.0
+eb:SP573:p54,Gemini Flash thinking,minimal,7.0
+eb:SP573:p55,Gemini Flash thinking,paraphrase,9.0
+eb:SP573:p55,Gemini Flash thinking,norole,11.0
+eb:SP573:p55,Gemini Flash thinking,nomode,12.0
+eb:SP573:p56,Gemini Flash thinking,nomode,10.0
+eb:SP573:p55,Gemini Flash thinking,minimal,15.0
+eb:SP573:p56,Gemini Flash thinking,paraphrase,12.0
+eb:SP573:p57,Gemini Flash thinking,nomode,5.5
+eb:SP573:p56,Gemini Flash thinking,minimal,10.0
+eb:SP573:p56,Gemini Flash thinking,norole,10.0
+eb:SP573:p57,Gemini Flash thinking,norole,5.0
+eb:SP573:p58,Gemini Flash thinking,norole,11.0
+eb:SP573:p57,Gemini Flash thinking,paraphrase,6.0
+eb:SP573:p58,Gemini Flash thinking,nomode,9.0
+eb:SP573:p58,Gemini Flash thinking,minimal,12.0
+eb:SP573:p57,Gemini Flash thinking,minimal,6.0
+eb:SP573:p58,Gemini Flash thinking,paraphrase,
+eb:SP573:p59,Gemini Flash thinking,norole,16.0
+eb:SP573:p59,Gemini Flash thinking,paraphrase,11.0
+eb:SP573:p60,Gemini Flash thinking,norole,9.0
+eb:SP573:p59,Gemini Flash thinking,nomode,16.0
+eb:SP573:p59,Gemini Flash thinking,minimal,18.0
+eb:SP573:p60,Gemini Flash thinking,paraphrase,8.0
+eb:SP573:p60,Gemini Flash thinking,nomode,10.5
+eb:SP572:p7,Gemini Flash thinking,paraphrase,5.0
+eb:SP572:p7,Gemini Flash thinking,norole,5.0
+eb:SP573:p60,Gemini Flash thinking,minimal,8.0
+eb:SP572:p7,Gemini Flash thinking,minimal,5.0
+eb:SP572:p8,Gemini Flash thinking,norole,1.8
+eb:SP572:p8,Gemini Flash thinking,nomode,1.8
+eb:SP572:p7,Gemini Flash thinking,nomode,5.5
+eb:SP572:p9,Gemini Flash thinking,norole,1.5
+eb:SP572:p9,Gemini Flash thinking,nomode,2.1
+eb:SP572:p8,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p8,Gemini Flash thinking,minimal,1.0
+eb:SP572:p10,Gemini Flash thinking,norole,2.1
+eb:SP572:p9,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p10,Gemini Flash thinking,minimal,2.0
+eb:SP572:p9,Gemini Flash thinking,minimal,2.0
+eb:SP572:p10,Gemini Flash thinking,nomode,3.2
+eb:SP572:p11,Gemini Flash thinking,nomode,2.1
+eb:SP572:p10,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p11,Gemini Flash thinking,norole,2.0
+eb:SP572:p12,Gemini Flash thinking,nomode,2.1
+eb:SP572:p11,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p11,Gemini Flash thinking,minimal,2.0
+eb:SP572:p12,Gemini Flash thinking,minimal,1.0
+eb:SP572:p12,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p13,Gemini Flash thinking,norole,2.0
+eb:SP572:p13,Gemini Flash thinking,nomode,3.8
+eb:SP572:p12,Gemini Flash thinking,norole,2.0
+eb:SP572:p13,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p14,Gemini Flash thinking,paraphrase,8.0
+eb:SP572:p14,Gemini Flash thinking,minimal,8.0
+eb:SP572:p14,Gemini Flash thinking,norole,7.0
+eb:SP572:p14,Gemini Flash thinking,nomode,7.5
+eb:SP572:p13,Gemini Flash thinking,minimal,2.0
+eb:SP572:p15,Gemini Flash thinking,nomode,4.2
+eb:SP572:p15,Gemini Flash thinking,minimal,3.0
+eb:SP572:p16,Gemini Flash thinking,norole,5.2
+eb:SP572:p16,Gemini Flash thinking,nomode,5.8
+eb:SP572:p16,Gemini Flash thinking,minimal,7.0
+eb:SP572:p16,Gemini Flash thinking,paraphrase,7.0
+eb:SP572:p15,Gemini Flash thinking,norole,3.0
+eb:SP572:p17,Gemini Flash thinking,nomode,4.8
+eb:SP572:p17,Gemini Flash thinking,paraphrase,6.0
+eb:SP572:p17,Gemini Flash thinking,minimal,7.0
+eb:SP572:p15,Gemini Flash thinking,paraphrase,3.0
+eb:SP572:p17,Gemini Flash thinking,norole,5.0
+eb:SP572:p18,Gemini Flash thinking,nomode,2.5
+eb:SP572:p18,Gemini Flash thinking,norole,3.0
+eb:SP572:p19,Gemini Flash thinking,nomode,6.2
+eb:SP572:p19,Gemini Flash thinking,paraphrase,7.0
+eb:SP572:p19,Gemini Flash thinking,minimal,8.0
+eb:SP572:p19,Gemini Flash thinking,norole,7.2
+eb:SP572:p20,Gemini Flash thinking,norole,9.0
+eb:SP572:p18,Gemini Flash thinking,minimal,2.0
+eb:SP572:p18,Gemini Flash thinking,paraphrase,3.0
+eb:SP572:p20,Gemini Flash thinking,nomode,7.5
+eb:SP572:p20,Gemini Flash thinking,paraphrase,8.0
+eb:SP572:p20,Gemini Flash thinking,minimal,8.0
+eb:SP572:p21,Gemini Flash thinking,paraphrase,10.1
+eb:SP572:p22,Gemini Flash thinking,norole,5.0
+eb:SP572:p21,Gemini Flash thinking,minimal,10.0
+eb:SP572:p21,Gemini Flash thinking,norole,9.0
+eb:SP572:p22,Gemini Flash thinking,nomode,6.0
+eb:SP572:p21,Gemini Flash thinking,nomode,9.1
+eb:SP572:p22,Gemini Flash thinking,minimal,5.0
+eb:SP572:p23,Gemini Flash thinking,paraphrase,7.0
+eb:SP572:p23,Gemini Flash thinking,minimal,5.0
+eb:SP572:p22,Gemini Flash thinking,paraphrase,8.0
+eb:SP572:p23,Gemini Flash thinking,norole,5.2
+eb:SP572:p23,Gemini Flash thinking,nomode,5.8
+eb:SP572:p27,Gemini Flash thinking,nomode,1.2
+eb:SP572:p28,Gemini Flash thinking,norole,1.0
+eb:SP572:p27,Gemini Flash thinking,paraphrase,0.6
+eb:SP572:p27,Gemini Flash thinking,minimal,1.0
+eb:SP572:p28,Gemini Flash thinking,paraphrase,0.4
+eb:SP572:p28,Gemini Flash thinking,minimal,1.0
+eb:SP572:p27,Gemini Flash thinking,norole,1.2
+eb:SP572:p28,Gemini Flash thinking,nomode,1.2
+eb:SP572:p31,Gemini Flash thinking,paraphrase,4.0
+eb:SP572:p31,Gemini Flash thinking,minimal,6.0
+eb:SP572:p32,Gemini Flash thinking,norole,4.0
+eb:SP572:p32,Gemini Flash thinking,paraphrase,5.0
+eb:SP572:p31,Gemini Flash thinking,nomode,4.0
+eb:SP572:p31,Gemini Flash thinking,norole,5.0
+eb:SP572:p33,Gemini Flash thinking,nomode,10.5
+eb:SP572:p33,Gemini Flash thinking,paraphrase,11.0
+eb:SP572:p33,Gemini Flash thinking,norole,10.0
+eb:SP572:p32,Gemini Flash thinking,nomode,5.5
+eb:SP572:p34,Gemini Flash thinking,norole,6.0
+eb:SP572:p32,Gemini Flash thinking,minimal,4.0
+eb:SP572:p34,Gemini Flash thinking,paraphrase,7.0
+eb:SP572:p34,Gemini Flash thinking,nomode,7.8
+eb:SP572:p43,Gemini Flash thinking,nomode,1.8
+eb:SP572:p43,Gemini Flash thinking,norole,2.1
+eb:SP572:p34,Gemini Flash thinking,minimal,7.0
+eb:SP572:p43,Gemini Flash thinking,paraphrase,2.0
+eb:SP572:p44,Gemini Flash thinking,nomode,5.0
+eb:SP572:p43,Gemini Flash thinking,minimal,2.0
+eb:SP572:p44,Gemini Flash thinking,norole,3.5
+eb:SP572:p33,Gemini Flash thinking,minimal,8.0
+eb:SP578:p3,Gemini Flash thinking,norole,1.5
+eb:SP572:p44,Gemini Flash thinking,paraphrase,3.0
+eb:SP572:p44,Gemini Flash thinking,minimal,3.0
+eb:SP578:p4,Gemini Flash thinking,norole,1.0
+eb:SP578:p3,Gemini Flash thinking,minimal,
+eb:SP578:p3,Gemini Flash thinking,paraphrase,2.0
+eb:SP578:p3,Gemini Flash thinking,nomode,1.5
+eb:SP578:p4,Gemini Flash thinking,nomode,1.0
+eb:SP578:p5,Gemini Flash thinking,norole,9.0
+eb:SP578:p4,Gemini Flash thinking,paraphrase,1.0
+eb:SP578:p4,Gemini Flash thinking,minimal,1.0
+eb:SP578:p5,Gemini Flash thinking,minimal,9.0
+eb:SP578:p6,Gemini Flash thinking,norole,8.5
+eb:SP578:p5,Gemini Flash thinking,paraphrase,11.0
+eb:SP578:p6,Gemini Flash thinking,paraphrase,8.0
+eb:SP578:p5,Gemini Flash thinking,nomode,10.0
+eb:SP578:p6,Gemini Flash thinking,nomode,8.5
+eb:SP578:p6,Gemini Flash thinking,minimal,11.0
+eb:SP578:p7,Gemini Flash thinking,norole,6.0
+eb:SP578:p7,Gemini Flash thinking,nomode,5.4
+eb:SP578:p7,Gemini Flash thinking,minimal,5.0
+eb:SP578:p8,Gemini Flash thinking,nomode,5.2
+eb:SP578:p8,Gemini Flash thinking,minimal,8.0
+eb:SP578:p8,Gemini Flash thinking,paraphrase,7.0
+eb:SP578:p9,Gemini Flash thinking,norole,4.0
+eb:SP578:p9,Gemini Flash thinking,nomode,5.1
+eb:SP578:p9,Gemini Flash thinking,paraphrase,7.0
+eb:SP578:p8,Gemini Flash thinking,norole,6.0
+eb:SP578:p7,Gemini Flash thinking,paraphrase,6.8
+eb:SP578:p13,Gemini Flash thinking,norole,5.0
+eb:SP578:p9,Gemini Flash thinking,minimal,4.0
+eb:SP578:p13,Gemini Flash thinking,nomode,5.4
+eb:SP578:p17,Gemini Flash thinking,norole,7.0
+eb:SP578:p13,Gemini Flash thinking,paraphrase,6.0
+eb:SP578:p13,Gemini Flash thinking,minimal,7.0
+eb:SP578:p17,Gemini Flash thinking,nomode,6.2
+eb:SP578:p17,Gemini Flash thinking,paraphrase,6.2
+eb:SP578:p18,Gemini Flash thinking,norole,6.5
+eb:SP578:p18,Gemini Flash thinking,nomode,8.2
+eb:SP578:p19,Gemini Flash thinking,norole,7.2
+eb:SP578:p18,Gemini Flash thinking,paraphrase,6.0
+eb:SP578:p19,Gemini Flash thinking,nomode,10.5
+eb:SP578:p19,Gemini Flash thinking,minimal,8.0
+eb:SP578:p19,Gemini Flash thinking,paraphrase,7.0
+eb:SP578:p20,Gemini Flash thinking,norole,2.8
+eb:SP578:p20,Gemini Flash thinking,nomode,2.8
+eb:SP578:p20,Gemini Flash thinking,paraphrase,3.0
+eb:SP578:p20,Gemini Flash thinking,minimal,4.0
+eb:SP578:p17,Gemini Flash thinking,minimal,6.0
+eb:SP574:p15,Gemini Flash thinking,norole,1.0
+eb:SP574:p15,Gemini Flash thinking,minimal,2.0
+eb:SP574:p15,Gemini Flash thinking,paraphrase,1.0
+eb:SP578:p18,Gemini Flash thinking,minimal,7.0
+eb:SP574:p15,Gemini Flash thinking,nomode,1.8
+eb:SP574:p21,Gemini Flash thinking,nomode,2.1
+eb:SP574:p21,Gemini Flash thinking,paraphrase,3.0
+eb:SP574:p21,Gemini Flash thinking,minimal,3.0
+eb:SP574:p21,Gemini Flash thinking,norole,3.0
+eb:SP574:p22,Gemini Flash thinking,norole,3.0
+eb:SP574:p22,Gemini Flash thinking,paraphrase,3.0
+eb:SP574:p22,Gemini Flash thinking,minimal,3.0
+eb:SP574:p23,Gemini Flash thinking,nomode,7.2
+eb:SP574:p23,Gemini Flash thinking,paraphrase,13.0
+eb:SP574:p23,Gemini Flash thinking,minimal,10.0
+eb:SP574:p23,Gemini Flash thinking,norole,10.0
+eb:SP574:p22,Gemini Flash thinking,nomode,3.0
+eb:SP574:p24,Gemini Flash thinking,norole,2.0
+eb:SP574:p24,Gemini Flash thinking,minimal,2.0
+eb:SP574:p25,Gemini Flash thinking,norole,7.0
+eb:SP574:p24,Gemini Flash thinking,paraphrase,2.0
+eb:SP574:p25,Gemini Flash thinking,nomode,6.0
+eb:SP574:p25,Gemini Flash thinking,minimal,8.0
+eb:SP574:p26,Gemini Flash thinking,norole,9.0
+eb:SP574:p26,Gemini Flash thinking,nomode,9.0
+eb:SP574:p24,Gemini Flash thinking,nomode,2.0
+eb:SP574:p25,Gemini Flash thinking,paraphrase,8.0
+eb:SP574:p26,Gemini Flash thinking,minimal,11.0
+eb:SP574:p32,Gemini Flash thinking,norole,1.2
+eb:SP574:p32,Gemini Flash thinking,paraphrase,1.0
+eb:SP574:p33,Gemini Flash thinking,norole,2.5
+eb:SP574:p32,Gemini Flash thinking,nomode,1.8
+eb:SP574:p33,Gemini Flash thinking,paraphrase,2.0
+eb:SP574:p33,Gemini Flash thinking,nomode,2.1
+eb:SP574:p32,Gemini Flash thinking,minimal,1.0
+eb:SP574:p34,Gemini Flash thinking,nomode,14.0
+eb:SP574:p26,Gemini Flash thinking,paraphrase,10.0
+eb:SP574:p34,Gemini Flash thinking,minimal,27.0
+eb:SP574:p34,Gemini Flash thinking,paraphrase,14.2
+eb:SP574:p41,Gemini Flash thinking,norole,5.0
+eb:SP574:p41,Gemini Flash thinking,nomode,5.8
+eb:SP574:p33,Gemini Flash thinking,minimal,2.0
+eb:SP574:p41,Gemini Flash thinking,paraphrase,
+eb:SP574:p42,Gemini Flash thinking,norole,1.5
+eb:SP574:p41,Gemini Flash thinking,minimal,8.0
+eb:SP574:p42,Gemini Flash thinking,nomode,2.8
+eb:SP574:p42,Gemini Flash thinking,minimal,3.0
+eb:SP574:p43,Gemini Flash thinking,norole,8.0
+eb:SP574:p43,Gemini Flash thinking,nomode,7.2
+eb:SP574:p42,Gemini Flash thinking,paraphrase,2.0
+eb:SP574:p43,Gemini Flash thinking,paraphrase,6.0
+eb:SP574:p43,Gemini Flash thinking,minimal,8.0
+eb:EB050EP:p3,Gemini Flash thinking,norole,4.0
+eb:EB050EP:p3,Gemini Flash thinking,minimal,3.0
+eb:EB050EP:p3,Gemini Flash thinking,nomode,3.0
+eb:EB050EP:p3,Gemini Flash thinking,paraphrase,2.0
+eb:EB050EP:p29,Gemini Flash thinking,norole,4.0
+eb:EB050EP:p29,Gemini Flash thinking,nomode,4.2
+eb:EB050EP:p30,Gemini Flash thinking,norole,3.0
+eb:EB050EP:p29,Gemini Flash thinking,minimal,4.0
+eb:EB050EP:p30,Gemini Flash thinking,nomode,3.0
+eb:EB050EP:p30,Gemini Flash thinking,paraphrase,3.0
+eb:EB050EP:p30,Gemini Flash thinking,minimal,3.0
+eb:EB050EP:p31,Gemini Flash thinking,nomode,7.8
+eb:EB050EP:p29,Gemini Flash thinking,paraphrase,4.0
+eb:EB050EP:p31,Gemini Flash thinking,norole,8.0
+eb:EB050EP:p31,Gemini Flash thinking,paraphrase,7.0
+eb:SP574:p34,Gemini Flash thinking,norole,18.5
+eb:EB050EP:p32,Gemini Flash thinking,nomode,5.0
+eb:EB050EP:p32,Gemini Flash thinking,paraphrase,
+eb:EB050EP:p31,Gemini Flash thinking,minimal,5.0
+eb:EB050EP:p32,Gemini Flash thinking,norole,4.0
+eb:EB050EP:p39,Gemini Flash thinking,nomode,1.5
+eb:EB050EP:p32,Gemini Flash thinking,minimal,5.0
+eb:EB050EP:p39,Gemini Flash thinking,norole,1.2
+eb:EB050EP:p39,Gemini Flash thinking,paraphrase,1.0
+eb:EB050EP:p39,Gemini Flash thinking,minimal,1.0
+eb:EB050EP:p40,Gemini Flash thinking,minimal,3.0
+eb:EB050EP:p42,Gemini Flash thinking,norole,4.0
+eb:EB050EP:p40,Gemini Flash thinking,norole,3.0
+eb:EB050EP:p40,Gemini Flash thinking,nomode,3.0
+eb:EB050EP:p42,Gemini Flash thinking,paraphrase,4.3
+eb:EB050EP:p42,Gemini Flash thinking,minimal,4.0
+eb:EB050EP:p51,Gemini Flash thinking,norole,8.0
+eb:EB050EP:p40,Gemini Flash thinking,paraphrase,3.0
+eb:EB050EP:p51,Gemini Flash thinking,nomode,8.5
+eb:EB050EP:p42,Gemini Flash thinking,nomode,4.0
+eb:EB050EP:p51,Gemini Flash thinking,paraphrase,6.2
+eb:EB050EP:p51,Gemini Flash thinking,minimal,7.0
+eb:EB050EP:p52,Gemini Flash thinking,norole,8.5
+eb:EB050EP:p52,Gemini Flash thinking,paraphrase,9.2
+eb:EB050EP:p52,Gemini Flash thinking,nomode,9.8
+eb:EB050EP:p56,Gemini Flash thinking,norole,0.5
+eb:EB050EP:p52,Gemini Flash thinking,minimal,8.0
+eb:EB050EP:p56,Gemini Flash thinking,nomode,0.5
+eb:EB050EP:p56,Gemini Flash thinking,minimal,1.0
+eb:EB050EP:p68,Gemini Flash thinking,norole,4.8
+eb:EB050EP:p68,Gemini Flash thinking,nomode,4.5
+eb:EB050EP:p68,Gemini Flash thinking,paraphrase,3.8
+eb:EB050EP:p68,Gemini Flash thinking,minimal,5.0
+eb:EB050EP:p56,Gemini Flash thinking,paraphrase,0.6
+eb:SP579:p3,Gemini Flash thinking,norole,4.0
+eb:SP579:p4,Gemini Flash thinking,norole,4.5
+eb:SP579:p3,Gemini Flash thinking,minimal,4.0
+eb:SP579:p4,Gemini Flash thinking,nomode,4.8
+eb:SP579:p4,Gemini Flash thinking,paraphrase,4.0
+eb:SP579:p4,Gemini Flash thinking,minimal,4.0
+eb:SP579:p3,Gemini Flash thinking,nomode,4.5
+eb:SP579:p5,Gemini Flash thinking,norole,8.0
+eb:SP579:p3,Gemini Flash thinking,paraphrase,4.0
+eb:SP579:p5,Gemini Flash thinking,nomode,11.5
+eb:SP579:p6,Gemini Flash thinking,norole,11.0
+eb:SP579:p5,Gemini Flash thinking,paraphrase,9.0
+eb:SP579:p6,Gemini Flash thinking,nomode,9.2
+eb:SP579:p5,Gemini Flash thinking,minimal,12.0
+eb:SP579:p6,Gemini Flash thinking,paraphrase,11.0
+eb:SP579:p12,Gemini Flash thinking,norole,2.0
+eb:SP579:p6,Gemini Flash thinking,minimal,11.0
+eb:SP579:p12,Gemini Flash thinking,nomode,1.8
+eb:SP579:p12,Gemini Flash thinking,paraphrase,2.0
+eb:SP579:p13,Gemini Flash thinking,nomode,1.5
+eb:SP579:p13,Gemini Flash thinking,norole,2.0
+eb:SP579:p12,Gemini Flash thinking,minimal,2.0
+eb:SP579:p13,Gemini Flash thinking,minimal,1.0
+eb:SP579:p14,Gemini Flash thinking,norole,3.0
+eb:SP579:p14,Gemini Flash thinking,nomode,2.0
+eb:SP579:p13,Gemini Flash thinking,paraphrase,2.0
+eb:SP579:p14,Gemini Flash thinking,paraphrase,3.0
+eb:SP579:p15,Gemini Flash thinking,nomode,4.0
+eb:SP579:p14,Gemini Flash thinking,minimal,2.0
+eb:SP579:p15,Gemini Flash thinking,norole,3.0
+eb:SP577:p3,Gemini Flash thinking,norole,2.0
+eb:SP579:p15,Gemini Flash thinking,minimal,3.0
+eb:SP579:p15,Gemini Flash thinking,paraphrase,4.0
+eb:SP577:p3,Gemini Flash thinking,minimal,2.0
+eb:SP577:p3,Gemini Flash thinking,nomode,3.0
+eb:SP577:p5,Gemini Flash thinking,norole,13.5
+eb:SP577:p3,Gemini Flash thinking,paraphrase,2.0
+eb:SP577:p5,Gemini Flash thinking,paraphrase,15.0
+eb:SP577:p5,Gemini Flash thinking,minimal,15.0
+eb:SP577:p5,Gemini Flash thinking,nomode,9.0
+eb:SP577:p7,Gemini Flash thinking,norole,11.0
+eb:SP577:p7,Gemini Flash thinking,nomode,13.0
+eb:SP577:p7,Gemini Flash thinking,paraphrase,13.0
+eb:SP577:p7,Gemini Flash thinking,minimal,13.0
+eb:SP577:p8,Gemini Flash thinking,nomode,12.0
+eb:SP577:p8,Gemini Flash thinking,norole,14.5
+eb:SP577:p8,Gemini Flash thinking,paraphrase,9.0
+eb:SP577:p8,Gemini Flash thinking,minimal,14.0
+eb:SP577:p9,Gemini Flash thinking,nomode,8.5
+eb:SP577:p9,Gemini Flash thinking,norole,12.0
+eb:SP577:p10,Gemini Flash thinking,nomode,8.0
+eb:SP577:p9,Gemini Flash thinking,paraphrase,7.0
+eb:SP577:p9,Gemini Flash thinking,minimal,9.0
+eb:SP577:p10,Gemini Flash thinking,norole,8.0
+eb:SP577:p10,Gemini Flash thinking,minimal,7.0
+eb:SP577:p11,Gemini Flash thinking,nomode,9.5
+eb:SP577:p11,Gemini Flash thinking,norole,9.0
+eb:SP577:p10,Gemini Flash thinking,paraphrase,7.0
+eb:SP577:p11,Gemini Flash thinking,minimal,8.0
+eb:SP577:p11,Gemini Flash thinking,paraphrase,
+eb:SP577:p12,Gemini Flash thinking,norole,13.0
+eb:SP577:p12,Gemini Flash thinking,minimal,14.0
+eb:SP577:p13,Gemini Flash thinking,norole,8.0
+eb:SP577:p13,Gemini Flash thinking,nomode,7.0
+eb:SP577:p13,Gemini Flash thinking,paraphrase,7.0
+eb:SP577:p13,Gemini Flash thinking,minimal,7.0
+eb:SP577:p17,Gemini Flash thinking,norole,4.0
+eb:SP577:p17,Gemini Flash thinking,nomode,4.0
+eb:SP577:p12,Gemini Flash thinking,nomode,13.0
+eb:SP577:p12,Gemini Flash thinking,paraphrase,10.0
+eb:SP577:p18,Gemini Flash thinking,norole,5.0
+eb:SP577:p17,Gemini Flash thinking,minimal,3.0
+eb:SP577:p18,Gemini Flash thinking,nomode,3.8
+eb:SP577:p19,Gemini Flash thinking,norole,4.5
+eb:SP577:p18,Gemini Flash thinking,minimal,4.0
+eb:SP577:p18,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p17,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p20,Gemini Flash thinking,norole,4.0
+eb:SP577:p20,Gemini Flash thinking,nomode,4.5
+eb:SP577:p19,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p19,Gemini Flash thinking,nomode,3.2
+eb:SP577:p20,Gemini Flash thinking,paraphrase,4.0
+eb:SP577:p21,Gemini Flash thinking,norole,4.0
+eb:SP577:p21,Gemini Flash thinking,nomode,4.1
+eb:SP577:p20,Gemini Flash thinking,minimal,4.0
+eb:SP577:p19,Gemini Flash thinking,minimal,4.0
+eb:SP577:p21,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p22,Gemini Flash thinking,nomode,2.5
+eb:SP577:p21,Gemini Flash thinking,minimal,4.0
+eb:SP577:p22,Gemini Flash thinking,minimal,2.0
+eb:SP577:p23,Gemini Flash thinking,norole,2.0
+eb:SP577:p23,Gemini Flash thinking,nomode,2.3
+eb:SP577:p22,Gemini Flash thinking,norole,3.0
+eb:SP577:p22,Gemini Flash thinking,paraphrase,2.0
+eb:SP577:p23,Gemini Flash thinking,paraphrase,2.0
+eb:SP577:p23,Gemini Flash thinking,minimal,2.0
+eb:SP577:p24,Gemini Flash thinking,minimal,4.0
+eb:SP577:p24,Gemini Flash thinking,paraphrase,4.0
+eb:SP577:p24,Gemini Flash thinking,nomode,3.1
+eb:SP577:p24,Gemini Flash thinking,norole,3.0
+eb:SP577:p25,Gemini Flash thinking,norole,5.0
+eb:SP577:p25,Gemini Flash thinking,nomode,5.2
+eb:SP577:p25,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p25,Gemini Flash thinking,minimal,5.0
+eb:SP577:p26,Gemini Flash thinking,norole,3.0
+eb:SP577:p26,Gemini Flash thinking,nomode,3.5
+eb:SP577:p26,Gemini Flash thinking,minimal,3.0
+eb:SP577:p26,Gemini Flash thinking,paraphrase,2.0
+eb:SP577:p27,Gemini Flash thinking,nomode,5.2
+eb:SP577:p27,Gemini Flash thinking,paraphrase,6.0
+eb:SP577:p28,Gemini Flash thinking,nomode,12.5
+eb:SP577:p27,Gemini Flash thinking,norole,5.0
+eb:SP577:p28,Gemini Flash thinking,norole,12.0
+eb:SP577:p27,Gemini Flash thinking,minimal,3.0
+eb:SP577:p28,Gemini Flash thinking,paraphrase,14.0
+eb:SP577:p28,Gemini Flash thinking,minimal,15.0
+eb:SP577:p29,Gemini Flash thinking,paraphrase,11.0
+eb:SP577:p29,Gemini Flash thinking,norole,14.0
+eb:SP577:p29,Gemini Flash thinking,nomode,11.2
+eb:SP577:p30,Gemini Flash thinking,norole,11.0
+eb:SP577:p30,Gemini Flash thinking,nomode,10.0
+eb:SP577:p30,Gemini Flash thinking,minimal,13.0
+eb:SP577:p30,Gemini Flash thinking,paraphrase,12.0
+eb:SP577:p31,Gemini Flash thinking,nomode,12.5
+eb:SP577:p29,Gemini Flash thinking,minimal,13.0
+eb:SP577:p31,Gemini Flash thinking,minimal,15.0
+eb:SP577:p31,Gemini Flash thinking,norole,13.0
+eb:SP577:p31,Gemini Flash thinking,paraphrase,16.0
+eb:SP577:p32,Gemini Flash thinking,norole,14.0
+eb:SP577:p32,Gemini Flash thinking,nomode,14.0
+eb:SP577:p33,Gemini Flash thinking,norole,7.0
+eb:SP577:p32,Gemini Flash thinking,paraphrase,16.0
+eb:SP577:p33,Gemini Flash thinking,minimal,5.0
+eb:SP577:p32,Gemini Flash thinking,minimal,18.0
+eb:SP577:p33,Gemini Flash thinking,nomode,6.5
+eb:SP577:p34,Gemini Flash thinking,norole,10.0
+eb:SP577:p34,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p33,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p35,Gemini Flash thinking,norole,10.0
+eb:SP577:p35,Gemini Flash thinking,nomode,12.0
+eb:SP577:p35,Gemini Flash thinking,paraphrase,14.0
+eb:SP577:p35,Gemini Flash thinking,minimal,11.0
+eb:SP577:p34,Gemini Flash thinking,nomode,7.0
+eb:SP577:p36,Gemini Flash thinking,norole,13.0
+eb:SP577:p36,Gemini Flash thinking,nomode,15.0
+eb:SP577:p36,Gemini Flash thinking,minimal,13.0
+eb:SP577:p36,Gemini Flash thinking,paraphrase,14.0
+eb:SP577:p34,Gemini Flash thinking,minimal,8.0
+eb:SP577:p37,Gemini Flash thinking,nomode,9.5
+eb:SP577:p37,Gemini Flash thinking,norole,8.0
+eb:SP577:p37,Gemini Flash thinking,minimal,9.0
+eb:SP577:p38,Gemini Flash thinking,norole,13.0
+eb:SP577:p37,Gemini Flash thinking,paraphrase,
+eb:SP577:p38,Gemini Flash thinking,nomode,13.5
+eb:SP577:p38,Gemini Flash thinking,minimal,14.0
+eb:SP577:p39,Gemini Flash thinking,nomode,13.0
+eb:SP577:p39,Gemini Flash thinking,paraphrase,17.0
+eb:SP577:p39,Gemini Flash thinking,minimal,19.0
+eb:SP577:p50,Gemini Flash thinking,norole,6.0
+eb:SP577:p50,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p38,Gemini Flash thinking,paraphrase,17.0
+eb:SP577:p39,Gemini Flash thinking,norole,16.5
+eb:SP577:p50,Gemini Flash thinking,nomode,5.0
+eb:SP577:p50,Gemini Flash thinking,minimal,6.0
+eb:SP577:p51,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p51,Gemini Flash thinking,nomode,3.8
+eb:SP577:p51,Gemini Flash thinking,minimal,3.0
+eb:SP577:p51,Gemini Flash thinking,norole,3.0
+eb:SP577:p52,Gemini Flash thinking,norole,
+eb:SP577:p52,Gemini Flash thinking,paraphrase,9.0
+eb:SP577:p52,Gemini Flash thinking,minimal,9.0
+eb:SP577:p53,Gemini Flash thinking,nomode,5.0
+eb:SP577:p53,Gemini Flash thinking,norole,6.0
+eb:SP577:p53,Gemini Flash thinking,paraphrase,4.0
+eb:SP577:p53,Gemini Flash thinking,minimal,5.0
+eb:SP577:p54,Gemini Flash thinking,nomode,7.5
+eb:SP577:p54,Gemini Flash thinking,norole,6.0
+eb:SP577:p52,Gemini Flash thinking,nomode,10.0
+eb:SP577:p54,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p55,Gemini Flash thinking,norole,6.0
+eb:SP577:p54,Gemini Flash thinking,minimal,7.0
+eb:SP577:p55,Gemini Flash thinking,nomode,7.8
+eb:SP577:p55,Gemini Flash thinking,paraphrase,7.0
+eb:SP577:p56,Gemini Flash thinking,norole,4.0
+eb:SP577:p55,Gemini Flash thinking,minimal,6.0
+eb:SP577:p56,Gemini Flash thinking,nomode,4.5
+eb:SP577:p57,Gemini Flash thinking,norole,6.0
+eb:SP577:p57,Gemini Flash thinking,nomode,5.8
+eb:SP577:p56,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p56,Gemini Flash thinking,minimal,3.0
+eb:SP577:p58,Gemini Flash thinking,norole,14.0
+eb:SP577:p57,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p58,Gemini Flash thinking,nomode,11.5
+eb:SP577:p57,Gemini Flash thinking,minimal,7.0
+eb:SP577:p58,Gemini Flash thinking,minimal,12.0
+eb:SP577:p58,Gemini Flash thinking,paraphrase,11.0
+eb:SP577:p59,Gemini Flash thinking,nomode,15.2
+eb:SP577:p59,Gemini Flash thinking,norole,15.5
+eb:SP577:p59,Gemini Flash thinking,paraphrase,20.0
+eb:SP577:p59,Gemini Flash thinking,minimal,18.0
+eb:SP577:p60,Gemini Flash thinking,norole,4.0
+eb:SP577:p60,Gemini Flash thinking,nomode,4.5
+eb:SP577:p60,Gemini Flash thinking,paraphrase,5.8
+eb:SP577:p61,Gemini Flash thinking,nomode,14.2
+eb:SP577:p61,Gemini Flash thinking,paraphrase,19.0
+eb:SP577:p60,Gemini Flash thinking,minimal,4.0
+eb:SP577:p61,Gemini Flash thinking,norole,14.0
+eb:SP577:p61,Gemini Flash thinking,minimal,17.0
+eb:SP577:p62,Gemini Flash thinking,nomode,12.0
+eb:SP577:p62,Gemini Flash thinking,paraphrase,15.0
+eb:SP577:p62,Gemini Flash thinking,minimal,14.0
+eb:SP577:p62,Gemini Flash thinking,norole,10.0
+eb:SP577:p67,Gemini Flash thinking,norole,5.0
+eb:SP577:p67,Gemini Flash thinking,nomode,6.8
+eb:SP577:p67,Gemini Flash thinking,minimal,7.0
+eb:SP577:p68,Gemini Flash thinking,norole,7.0
+eb:SP577:p67,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p68,Gemini Flash thinking,nomode,5.5
+eb:SP577:p68,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p69,Gemini Flash thinking,norole,6.0
+eb:SP577:p69,Gemini Flash thinking,nomode,6.8
+eb:SP577:p68,Gemini Flash thinking,minimal,7.0
+eb:SP577:p69,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p70,Gemini Flash thinking,nomode,8.5
+eb:SP577:p69,Gemini Flash thinking,minimal,6.0
+eb:SP577:p70,Gemini Flash thinking,norole,12.0
+eb:SP577:p70,Gemini Flash thinking,paraphrase,8.0
+eb:SP577:p71,Gemini Flash thinking,norole,5.0
+eb:SP577:p71,Gemini Flash thinking,nomode,5.5
+eb:SP577:p70,Gemini Flash thinking,minimal,11.0
+eb:SP577:p72,Gemini Flash thinking,norole,3.0
+eb:SP577:p72,Gemini Flash thinking,nomode,2.5
+eb:SP577:p71,Gemini Flash thinking,paraphrase,7.0
+eb:SP577:p71,Gemini Flash thinking,minimal,5.0
+eb:SP577:p72,Gemini Flash thinking,minimal,3.0
+eb:SP577:p72,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p73,Gemini Flash thinking,nomode,4.8
+eb:SP577:p73,Gemini Flash thinking,paraphrase,6.0
+eb:SP577:p73,Gemini Flash thinking,minimal,4.0
+eb:SP577:p73,Gemini Flash thinking,norole,4.5
+eb:SP577:p74,Gemini Flash thinking,norole,15.0
+eb:SP577:p74,Gemini Flash thinking,nomode,19.8
+eb:SP577:p74,Gemini Flash thinking,minimal,14.0
+eb:SP577:p75,Gemini Flash thinking,norole,8.0
+eb:SP577:p74,Gemini Flash thinking,paraphrase,15.0
+eb:SP577:p75,Gemini Flash thinking,nomode,6.5
+eb:SP577:p76,Gemini Flash thinking,nomode,12.0
+eb:SP577:p75,Gemini Flash thinking,minimal,10.0
+eb:SP577:p75,Gemini Flash thinking,paraphrase,6.0
+eb:SP577:p76,Gemini Flash thinking,norole,14.0
+eb:SP577:p76,Gemini Flash thinking,minimal,11.0
+eb:SP577:p76,Gemini Flash thinking,paraphrase,14.0
+eb:SP577:p77,Gemini Flash thinking,norole,4.0
+eb:SP577:p77,Gemini Flash thinking,nomode,3.5
+eb:SP577:p77,Gemini Flash thinking,minimal,4.0
+eb:SP577:p77,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p78,Gemini Flash thinking,norole,2.0
+eb:SP577:p78,Gemini Flash thinking,nomode,2.5
+eb:SP577:p84,Gemini Flash thinking,nomode,5.0
+eb:SP577:p84,Gemini Flash thinking,norole,5.0
+eb:SP577:p78,Gemini Flash thinking,minimal,3.0
+eb:SP577:p78,Gemini Flash thinking,paraphrase,3.0
+eb:SP577:p85,Gemini Flash thinking,nomode,1.4
+eb:SP577:p85,Gemini Flash thinking,norole,1.2
+eb:SP577:p84,Gemini Flash thinking,minimal,5.0
+eb:SP577:p84,Gemini Flash thinking,paraphrase,5.0
+eb:SP577:p85,Gemini Flash thinking,minimal,1.0
+eb:SP577:p85,Gemini Flash thinking,paraphrase,1.0
+eb:SP569:p4,Gemini Flash thinking,nomode,4.0
+eb:SP569:p4,Gemini Flash thinking,norole,4.0
+eb:SP569:p4,Gemini Flash thinking,minimal,2.0
+eb:SP569:p4,Gemini Flash thinking,paraphrase,5.0
+eb:SP569:p8,Gemini Flash thinking,norole,8.0
+eb:SP569:p8,Gemini Flash thinking,nomode,8.0
+eb:SP569:p9,Gemini Flash thinking,norole,6.0
+eb:SP569:p8,Gemini Flash thinking,minimal,8.0
+eb:SP569:p8,Gemini Flash thinking,paraphrase,8.0
+eb:SP569:p9,Gemini Flash thinking,nomode,5.0
+eb:SP569:p10,Gemini Flash thinking,nomode,12.5
+eb:SP569:p9,Gemini Flash thinking,paraphrase,6.0
+eb:SP569:p9,Gemini Flash thinking,minimal,8.0
+eb:SP569:p10,Gemini Flash thinking,norole,10.0
+eb:SP569:p10,Gemini Flash thinking,paraphrase,10.0
+eb:SP569:p11,Gemini Flash thinking,norole,8.0
+eb:SP569:p10,Gemini Flash thinking,minimal,12.0
+eb:SP569:p11,Gemini Flash thinking,nomode,11.5
+eb:SP569:p11,Gemini Flash thinking,paraphrase,9.0
+eb:SP569:p12,Gemini Flash thinking,nomode,10.5
+eb:SP569:p12,Gemini Flash thinking,norole,13.5
+eb:SP569:p11,Gemini Flash thinking,minimal,13.0
+eb:SP569:p13,Gemini Flash thinking,norole,8.5
+eb:SP569:p13,Gemini Flash thinking,nomode,8.5
+eb:SP569:p12,Gemini Flash thinking,paraphrase,9.0
+eb:SP569:p12,Gemini Flash thinking,minimal,15.0
+eb:SP569:p13,Gemini Flash thinking,paraphrase,8.3
+eb:SP569:p14,Gemini Flash thinking,norole,17.0
+eb:SP569:p13,Gemini Flash thinking,minimal,13.0
+eb:SP569:p14,Gemini Flash thinking,nomode,18.2
+eb:SP569:p14,Gemini Flash thinking,paraphrase,21.0
+eb:SP569:p15,Gemini Flash thinking,nomode,11.2
+eb:SP569:p15,Gemini Flash thinking,norole,8.0
+eb:SP569:p14,Gemini Flash thinking,minimal,24.0
+eb:SP569:p15,Gemini Flash thinking,minimal,11.0
+eb:SP569:p15,Gemini Flash thinking,paraphrase,14.0
+eb:SP569:p16,Gemini Flash thinking,nomode,14.5
+eb:SP569:p16,Gemini Flash thinking,norole,14.5
+eb:SP569:p16,Gemini Flash thinking,minimal,9.0
+eb:SP569:p17,Gemini Flash thinking,norole,6.0
+eb:SP569:p17,Gemini Flash thinking,nomode,5.5
+eb:SP569:p16,Gemini Flash thinking,paraphrase,11.0
+eb:SP569:p17,Gemini Flash thinking,minimal,5.0
+eb:SP569:p18,Gemini Flash thinking,nomode,8.7
+eb:SP569:p18,Gemini Flash thinking,norole,6.5
+eb:SP569:p17,Gemini Flash thinking,paraphrase,
+eb:SP569:p19,Gemini Flash thinking,norole,8.0
+eb:SP569:p18,Gemini Flash thinking,minimal,8.0
+eb:SP569:p18,Gemini Flash thinking,paraphrase,8.0
+eb:SP569:p19,Gemini Flash thinking,nomode,7.0
+eb:SP569:p20,Gemini Flash thinking,norole,5.0
+eb:SP569:p19,Gemini Flash thinking,paraphrase,7.0
+eb:SP569:p19,Gemini Flash thinking,minimal,7.0
+eb:SP569:p20,Gemini Flash thinking,nomode,6.5
+eb:SP569:p20,Gemini Flash thinking,paraphrase,4.0
+eb:SP569:p21,Gemini Flash thinking,norole,9.0
+eb:SP569:p20,Gemini Flash thinking,minimal,4.0
+eb:SP569:p21,Gemini Flash thinking,nomode,8.6
+eb:SP569:p21,Gemini Flash thinking,minimal,9.0
+eb:SP569:p21,Gemini Flash thinking,paraphrase,
+eb:SP569:p22,Gemini Flash thinking,nomode,13.2
+eb:SP569:p22,Gemini Flash thinking,norole,13.0
+eb:SP569:p22,Gemini Flash thinking,paraphrase,12.0
+eb:SP569:p23,Gemini Flash thinking,nomode,11.5
+eb:SP569:p23,Gemini Flash thinking,norole,14.0
+eb:SP569:p22,Gemini Flash thinking,minimal,8.0
+eb:SP569:p24,Gemini Flash thinking,norole,8.0
+eb:SP569:p24,Gemini Flash thinking,nomode,11.5
+eb:SP569:p23,Gemini Flash thinking,paraphrase,13.0
+eb:SP569:p23,Gemini Flash thinking,minimal,
+eb:SP569:p25,Gemini Flash thinking,nomode,6.8
+eb:SP569:p25,Gemini Flash thinking,norole,8.0
+eb:SP569:p24,Gemini Flash thinking,paraphrase,7.0
+eb:SP569:p24,Gemini Flash thinking,minimal,9.0
+eb:SP569:p26,Gemini Flash thinking,nomode,16.5
+eb:SP569:p26,Gemini Flash thinking,norole,14.5
+eb:SP569:p25,Gemini Flash thinking,minimal,5.0
+eb:SP569:p25,Gemini Flash thinking,paraphrase,6.0
+eb:SP569:p27,Gemini Flash thinking,norole,2.5
+eb:SP569:p27,Gemini Flash thinking,nomode,3.2
+eb:SP569:p26,Gemini Flash thinking,paraphrase,18.0
+eb:SP569:p26,Gemini Flash thinking,minimal,15.0
+eb:SP569:p28,Gemini Flash thinking,norole,6.2
+eb:SP569:p27,Gemini Flash thinking,minimal,3.0
+eb:SP569:p27,Gemini Flash thinking,paraphrase,3.0
+eb:SP569:p28,Gemini Flash thinking,nomode,8.2
+eb:SP569:p28,Gemini Flash thinking,paraphrase,7.0
+eb:SP569:p28,Gemini Flash thinking,minimal,6.0
+eb:SP569:p29,Gemini Flash thinking,nomode,5.8
+eb:SP569:p29,Gemini Flash thinking,norole,6.0
+eb:SP569:p30,Gemini Flash thinking,norole,10.5
+eb:SP569:p30,Gemini Flash thinking,nomode,9.2
+eb:SP569:p29,Gemini Flash thinking,minimal,6.0
+eb:SP569:p29,Gemini Flash thinking,paraphrase,7.0
+eb:SP569:p31,Gemini Flash thinking,norole,13.5
+eb:SP569:p30,Gemini Flash thinking,paraphrase,8.2
+eb:SP569:p30,Gemini Flash thinking,minimal,12.0
+eb:SP569:p31,Gemini Flash thinking,nomode,13.5
+eb:SP569:p31,Gemini Flash thinking,paraphrase,18.0
+eb:SP569:p31,Gemini Flash thinking,minimal,19.0
+eb:SP569:p32,Gemini Flash thinking,nomode,5.2
+eb:SP569:p32,Gemini Flash thinking,norole,5.0
+eb:SP569:p32,Gemini Flash thinking,minimal,5.0
+eb:SP569:p33,Gemini Flash thinking,norole,7.4
+eb:SP569:p32,Gemini Flash thinking,paraphrase,6.0
+eb:SP569:p33,Gemini Flash thinking,nomode,8.2
+eb:SP569:p33,Gemini Flash thinking,minimal,10.0
+eb:SP569:p33,Gemini Flash thinking,paraphrase,7.0
+eb:SP571:p4,Gemini Flash thinking,nomode,1.0
+eb:SP571:p4,Gemini Flash thinking,norole,1.0
+eb:SP571:p4,Gemini Flash thinking,minimal,1.0
+eb:SP571:p4,Gemini Flash thinking,paraphrase,1.0
+eb:SP571:p5,Gemini Flash thinking,nomode,1.8
+eb:SP571:p5,Gemini Flash thinking,norole,2.0
+eb:SP571:p5,Gemini Flash thinking,minimal,2.0
+eb:SP571:p5,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p6,Gemini Flash thinking,nomode,2.5
+eb:SP571:p6,Gemini Flash thinking,norole,3.0
+eb:SP571:p6,Gemini Flash thinking,paraphrase,3.0
+eb:SP571:p6,Gemini Flash thinking,minimal,3.0
+eb:SP571:p7,Gemini Flash thinking,nomode,3.0
+eb:SP571:p7,Gemini Flash thinking,norole,3.0
+eb:SP571:p7,Gemini Flash thinking,paraphrase,3.0
+eb:SP571:p8,Gemini Flash thinking,norole,2.0
+eb:SP571:p8,Gemini Flash thinking,nomode,2.0
+eb:SP571:p7,Gemini Flash thinking,minimal,3.0
+eb:SP571:p8,Gemini Flash thinking,minimal,2.0
+eb:SP571:p8,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p9,Gemini Flash thinking,nomode,5.0
+eb:SP571:p9,Gemini Flash thinking,norole,5.0
+eb:SP571:p9,Gemini Flash thinking,paraphrase,7.0
+eb:SP571:p9,Gemini Flash thinking,minimal,5.0
+eb:SP571:p10,Gemini Flash thinking,nomode,1.8
+eb:SP571:p10,Gemini Flash thinking,minimal,1.0
+eb:SP571:p10,Gemini Flash thinking,norole,1.6
+eb:SP571:p10,Gemini Flash thinking,paraphrase,1.0
+eb:SP571:p11,Gemini Flash thinking,norole,2.0
+eb:SP571:p11,Gemini Flash thinking,nomode,2.1
+eb:SP571:p11,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p11,Gemini Flash thinking,minimal,2.0
+eb:SP571:p12,Gemini Flash thinking,nomode,7.8
+eb:SP571:p12,Gemini Flash thinking,norole,6.5
+eb:SP571:p13,Gemini Flash thinking,nomode,2.5
+eb:SP571:p13,Gemini Flash thinking,norole,3.0
+eb:SP571:p12,Gemini Flash thinking,paraphrase,8.0
+eb:SP571:p12,Gemini Flash thinking,minimal,8.0
+eb:SP571:p13,Gemini Flash thinking,minimal,2.0
+eb:SP571:p13,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p14,Gemini Flash thinking,nomode,5.0
+eb:SP571:p14,Gemini Flash thinking,norole,5.0
+eb:SP571:p14,Gemini Flash thinking,minimal,4.0
+eb:SP571:p14,Gemini Flash thinking,paraphrase,5.0
+eb:SP571:p15,Gemini Flash thinking,nomode,4.8
+eb:SP571:p15,Gemini Flash thinking,norole,6.0
+eb:SP571:p23,Gemini Flash thinking,norole,1.2
+eb:SP571:p15,Gemini Flash thinking,paraphrase,7.0
+eb:SP571:p15,Gemini Flash thinking,minimal,4.0
+eb:SP571:p23,Gemini Flash thinking,nomode,1.5
+eb:SP571:p23,Gemini Flash thinking,minimal,1.0
+eb:SP571:p24,Gemini Flash thinking,norole,1.5
+eb:SP571:p23,Gemini Flash thinking,paraphrase,1.0
+eb:SP571:p24,Gemini Flash thinking,nomode,1.8
+eb:SP571:p24,Gemini Flash thinking,minimal,1.0
+eb:SP571:p25,Gemini Flash thinking,norole,2.8
+eb:SP571:p25,Gemini Flash thinking,nomode,3.2
+eb:SP571:p24,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p25,Gemini Flash thinking,paraphrase,3.0
+eb:SP571:p26,Gemini Flash thinking,nomode,5.2
+eb:SP571:p26,Gemini Flash thinking,norole,5.0
+eb:SP571:p27,Gemini Flash thinking,norole,2.0
+eb:SP571:p26,Gemini Flash thinking,minimal,5.0
+eb:SP571:p26,Gemini Flash thinking,paraphrase,3.0
+eb:SP571:p27,Gemini Flash thinking,nomode,1.8
+eb:SP571:p27,Gemini Flash thinking,paraphrase,1.0
+eb:SP571:p27,Gemini Flash thinking,minimal,1.0
+eb:SP571:p28,Gemini Flash thinking,norole,2.0
+eb:SP571:p25,Gemini Flash thinking,minimal,2.0
+eb:SP571:p28,Gemini Flash thinking,minimal,2.0
+eb:SP571:p28,Gemini Flash thinking,nomode,2.5
+eb:SP571:p28,Gemini Flash thinking,paraphrase,2.0
+eb:SP571:p29,Gemini Flash thinking,norole,3.0
+eb:SP571:p29,Gemini Flash thinking,nomode,3.2
+eb:SP571:p29,Gemini Flash thinking,minimal,3.0
+eb:SP570:p10,Gemini Flash thinking,norole,11.0
+eb:SP571:p29,Gemini Flash thinking,paraphrase,2.1
+eb:SP570:p10,Gemini Flash thinking,nomode,14.0
+eb:SP570:p10,Gemini Flash thinking,paraphrase,14.0
+eb:SP570:p10,Gemini Flash thinking,minimal,15.0
+eb:SP570:p12,Gemini Flash thinking,norole,12.0
+eb:SP570:p12,Gemini Flash thinking,nomode,11.5
+eb:SP570:p12,Gemini Flash thinking,minimal,17.0
+eb:SP570:p12,Gemini Flash thinking,paraphrase,11.0
+eb:SP570:p13,Gemini Flash thinking,norole,12.0
+eb:SP570:p13,Gemini Flash thinking,nomode,11.0
+eb:SP570:p13,Gemini Flash thinking,paraphrase,11.0
+eb:SP570:p13,Gemini Flash thinking,minimal,18.0
+eb:SP570:p14,Gemini Flash thinking,norole,12.0
+eb:SP570:p14,Gemini Flash thinking,nomode,16.5
+eb:SP570:p14,Gemini Flash thinking,paraphrase,17.0
+eb:SP570:p14,Gemini Flash thinking,minimal,19.0
+eb:SP570:p15,Gemini Flash thinking,norole,12.0
+eb:SP570:p15,Gemini Flash thinking,nomode,13.0
+eb:SP570:p15,Gemini Flash thinking,minimal,17.0
+eb:SP570:p15,Gemini Flash thinking,paraphrase,17.0
+eb:SP570:p16,Gemini Flash thinking,norole,14.0
+eb:SP570:p16,Gemini Flash thinking,minimal,17.0
+eb:SP570:p16,Gemini Flash thinking,nomode,18.0
+eb:SP570:p16,Gemini Flash thinking,paraphrase,18.0
+eb:SP570:p17,Gemini Flash thinking,norole,14.0
+eb:SP570:p17,Gemini Flash thinking,minimal,11.0
+eb:SP570:p17,Gemini Flash thinking,paraphrase,20.0
+eb:SP570:p17,Gemini Flash thinking,nomode,17.0
+eb:SP570:p18,Gemini Flash thinking,norole,19.0
+eb:SP570:p18,Gemini Flash thinking,nomode,18.0
+eb:SP570:p19,Gemini Flash thinking,norole,12.0
+eb:SP570:p18,Gemini Flash thinking,paraphrase,17.0
+eb:SP570:p18,Gemini Flash thinking,minimal,19.0
+eb:SP570:p19,Gemini Flash thinking,minimal,10.0
+eb:SP570:p19,Gemini Flash thinking,nomode,11.5
+eb:SP570:p19,Gemini Flash thinking,paraphrase,9.0
+eb:SP570:p20,Gemini Flash thinking,norole,17.0
+eb:SP570:p20,Gemini Flash thinking,nomode,17.5
+eb:SP570:p20,Gemini Flash thinking,minimal,11.0
+eb:SP570:p22,Gemini Flash thinking,norole,6.0
+eb:SP570:p20,Gemini Flash thinking,paraphrase,12.0
+eb:SP570:p22,Gemini Flash thinking,nomode,7.0
+eb:SP570:p22,Gemini Flash thinking,paraphrase,8.0
+eb:SP570:p22,Gemini Flash thinking,minimal,2.0
+eb:SP570:p23,Gemini Flash thinking,norole,11.0
+eb:SP570:p23,Gemini Flash thinking,nomode,9.0
+eb:SP570:p23,Gemini Flash thinking,minimal,18.0
+eb:SP570:p23,Gemini Flash thinking,paraphrase,17.0
+eb:SP570:p24,Gemini Flash thinking,norole,24.0
+eb:SP570:p24,Gemini Flash thinking,nomode,19.0
+eb:SP570:p24,Gemini Flash thinking,minimal,21.0
+eb:SP570:p24,Gemini Flash thinking,paraphrase,24.0
+eb:SP570:p25,Gemini Flash thinking,norole,24.0
+eb:SP570:p25,Gemini Flash thinking,nomode,12.4
+eb:SP570:p25,Gemini Flash thinking,paraphrase,27.0
+eb:SP570:p25,Gemini Flash thinking,minimal,25.0
+eb:SP570:p26,Gemini Flash thinking,nomode,19.0
+eb:SP570:p26,Gemini Flash thinking,norole,20.0
+eb:SP570:p26,Gemini Flash thinking,minimal,7.0
+eb:SP570:p26,Gemini Flash thinking,paraphrase,9.0
+eb2:SP567:p5,Gemini Flash thinking,nomode,0.8
+eb2:SP567:p5,Gemini Flash thinking,norole,0.2
+eb2:SP567:p9,Gemini Flash thinking,nomode,1.5
+eb2:SP567:p9,Gemini Flash thinking,norole,1.2
+eb2:SP567:p5,Gemini Flash thinking,paraphrase,0.6
+eb2:SP567:p5,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p33,Gemini Flash thinking,nomode,15.2
+eb2:SP567:p33,Gemini Flash thinking,norole,16.0
+eb2:SP567:p9,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p9,Gemini Flash thinking,paraphrase,1.0
+eb2:SP567:p33,Gemini Flash thinking,paraphrase,16.0
+eb2:SP567:p33,Gemini Flash thinking,minimal,16.0
+eb2:SP567:p34,Gemini Flash thinking,nomode,9.5
+eb2:SP567:p34,Gemini Flash thinking,norole,10.0
+eb2:SP567:p35,Gemini Flash thinking,nomode,6.5
+eb2:SP567:p34,Gemini Flash thinking,minimal,8.0
+eb2:SP567:p34,Gemini Flash thinking,paraphrase,10.0
+eb2:SP567:p35,Gemini Flash thinking,norole,7.0
+eb2:SP567:p35,Gemini Flash thinking,minimal,6.0
+eb2:SP567:p36,Gemini Flash thinking,nomode,7.5
+eb2:SP567:p35,Gemini Flash thinking,paraphrase,7.0
+eb2:SP567:p36,Gemini Flash thinking,norole,8.2
+eb2:SP567:p36,Gemini Flash thinking,minimal,7.0
+eb2:SP567:p37,Gemini Flash thinking,norole,6.0
+eb2:SP567:p37,Gemini Flash thinking,nomode,7.5
+eb2:SP567:p36,Gemini Flash thinking,paraphrase,7.0
+eb2:SP567:p39,Gemini Flash thinking,norole,0.3
+eb2:SP567:p37,Gemini Flash thinking,paraphrase,9.0
+eb2:SP567:p37,Gemini Flash thinking,minimal,7.0
+eb2:SP567:p39,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p39,Gemini Flash thinking,nomode,0.4
+eb2:SP567:p40,Gemini Flash thinking,norole,0.3
+eb2:SP567:p40,Gemini Flash thinking,nomode,0.5
+eb2:SP567:p39,Gemini Flash thinking,paraphrase,0.3
+eb2:SP567:p40,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p40,Gemini Flash thinking,paraphrase,0.4
+eb2:SP567:p41,Gemini Flash thinking,nomode,0.8
+eb2:SP567:p41,Gemini Flash thinking,norole,0.8
+eb2:SP567:p41,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p42,Gemini Flash thinking,norole,1.0
+eb2:SP567:p42,Gemini Flash thinking,nomode,1.5
+eb2:SP567:p41,Gemini Flash thinking,paraphrase,0.8
+eb2:SP567:p42,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p42,Gemini Flash thinking,paraphrase,1.1
+eb2:SP567:p43,Gemini Flash thinking,nomode,1.0
+eb2:SP567:p43,Gemini Flash thinking,norole,1.0
+eb2:SP567:p43,Gemini Flash thinking,minimal,1.0
+eb2:SP567:p43,Gemini Flash thinking,paraphrase,1.0
+eb2:SP567:p44,Gemini Flash thinking,norole,1.5
+eb2:SP567:p44,Gemini Flash thinking,nomode,1.8
+eb2:SP567:p44,Gemini Flash thinking,paraphrase,1.8
+eb2:STD104:p104,Gemini Flash thinking,norole,7.5
+eb2:SP567:p44,Gemini Flash thinking,minimal,2.0
+eb2:STD104:p104,Gemini Flash thinking,nomode,7.8
+eb2:STD104:p105,Gemini Flash thinking,nomode,7.0
+eb2:STD104:p104,Gemini Flash thinking,paraphrase,8.0
+eb2:STD104:p104,Gemini Flash thinking,minimal,8.0
+eb2:STD104:p105,Gemini Flash thinking,minimal,7.0
+eb2:STD104:p105,Gemini Flash thinking,norole,7.0
+eb2:STD104:p116,Gemini Flash thinking,norole,5.0
+eb2:STD104:p105,Gemini Flash thinking,paraphrase,7.0
+eb2:STD104:p116,Gemini Flash thinking,nomode,4.6
+eb2:STD104:p119,Gemini Flash thinking,norole,8.0
+eb2:STD104:p116,Gemini Flash thinking,paraphrase,6.0
+eb2:STD104:p116,Gemini Flash thinking,minimal,6.0
+eb2:STD104:p119,Gemini Flash thinking,nomode,6.5
+eb2:STD104:p119,Gemini Flash thinking,paraphrase,8.0
+eb2:STD104:p142,Gemini Flash thinking,nomode,5.5
+eb2:STD104:p119,Gemini Flash thinking,minimal,
+eb2:STD104:p142,Gemini Flash thinking,norole,5.0
+eb2:STD104:p175,Gemini Flash thinking,norole,4.0
+eb2:STD104:p142,Gemini Flash thinking,minimal,6.0
+eb2:STD104:p175,Gemini Flash thinking,nomode,4.0
+eb2:STD104:p142,Gemini Flash thinking,paraphrase,5.0
+eb2:STD104:p175,Gemini Flash thinking,minimal,5.0
+eb2:STD104:p195,Gemini Flash thinking,nomode,8.5
+eb2:STD104:p195,Gemini Flash thinking,norole,8.0
+eb2:STD104:p175,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p202,Gemini Flash thinking,nomode,5.5
+eb2:STD104:p195,Gemini Flash thinking,minimal,8.0
+eb2:STD104:p202,Gemini Flash thinking,norole,7.0
+eb2:STD104:p195,Gemini Flash thinking,paraphrase,8.0
+eb2:STD104:p202,Gemini Flash thinking,minimal,8.0
+eb2:STD104:p203,Gemini Flash thinking,nomode,7.0
+eb2:STD104:p203,Gemini Flash thinking,norole,7.0
+eb2:STD104:p202,Gemini Flash thinking,paraphrase,6.0
+eb2:STD104:p203,Gemini Flash thinking,minimal,6.0
+eb2:STD104:p204,Gemini Flash thinking,norole,5.0
+eb2:STD104:p203,Gemini Flash thinking,paraphrase,6.0
+eb2:STD104:p204,Gemini Flash thinking,nomode,4.5
+eb2:STD104:p204,Gemini Flash thinking,minimal,4.0
+eb2:STD104:p206,Gemini Flash thinking,norole,7.0
+eb2:STD104:p206,Gemini Flash thinking,nomode,5.4
+eb2:STD104:p204,Gemini Flash thinking,paraphrase,5.0
+eb2:STD104:p206,Gemini Flash thinking,paraphrase,5.0
+eb2:STD104:p206,Gemini Flash thinking,minimal,5.0
+eb2:STD104:p207,Gemini Flash thinking,norole,3.0
+eb2:STD104:p207,Gemini Flash thinking,nomode,4.0
+eb2:STD104:p209,Gemini Flash thinking,norole,1.0
+eb2:STD104:p207,Gemini Flash thinking,paraphrase,
+eb2:STD104:p207,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p209,Gemini Flash thinking,minimal,1.0
+eb2:STD104:p209,Gemini Flash thinking,nomode,1.0
+eb2:STD104:p209,Gemini Flash thinking,paraphrase,1.0
+eb2:STD104:p231,Gemini Flash thinking,norole,5.0
+eb2:STD104:p231,Gemini Flash thinking,minimal,7.0
+eb2:STD104:p231,Gemini Flash thinking,nomode,5.1
+eb2:STD104:p231,Gemini Flash thinking,paraphrase,5.0
+eb2:STD104:p233,Gemini Flash thinking,norole,5.0
+eb2:STD104:p233,Gemini Flash thinking,nomode,4.8
+eb2:STD104:p233,Gemini Flash thinking,minimal,5.0
+eb2:STD104:p235,Gemini Flash thinking,nomode,4.0
+eb2:STD104:p233,Gemini Flash thinking,paraphrase,6.0
+eb2:STD104:p235,Gemini Flash thinking,norole,3.0
+eb2:STD104:p235,Gemini Flash thinking,minimal,4.0
+eb2:STD104:p235,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p237,Gemini Flash thinking,nomode,9.0
+eb2:STD104:p237,Gemini Flash thinking,norole,9.0
+eb2:STD104:p237,Gemini Flash thinking,paraphrase,11.0
+eb2:STD104:p237,Gemini Flash thinking,minimal,11.0
+eb2:STD104:p239,Gemini Flash thinking,norole,9.0
+eb2:STD104:p239,Gemini Flash thinking,nomode,9.0
+eb2:STD104:p239,Gemini Flash thinking,minimal,8.0
+eb2:STD104:p239,Gemini Flash thinking,paraphrase,10.0
+eb2:STD104:p257,Gemini Flash thinking,nomode,6.2
+eb2:STD104:p257,Gemini Flash thinking,norole,7.5
+eb2:STD104:p257,Gemini Flash thinking,minimal,6.0
+eb2:STD104:p257,Gemini Flash thinking,paraphrase,7.0
+eb2:STD104:p258,Gemini Flash thinking,norole,7.2
+eb2:STD104:p258,Gemini Flash thinking,nomode,7.0
+eb2:STD104:p259,Gemini Flash thinking,nomode,6.5
+eb2:STD104:p258,Gemini Flash thinking,paraphrase,7.0
+eb2:STD104:p258,Gemini Flash thinking,minimal,9.0
+eb2:STD104:p259,Gemini Flash thinking,norole,9.0
+eb2:STD104:p260,Gemini Flash thinking,nomode,7.5
+eb2:STD104:p259,Gemini Flash thinking,paraphrase,7.0
+eb2:STD104:p259,Gemini Flash thinking,minimal,9.0
+eb2:STD104:p260,Gemini Flash thinking,norole,7.0
+eb2:STD104:p261,Gemini Flash thinking,norole,2.0
+eb2:STD104:p260,Gemini Flash thinking,minimal,8.0
+eb2:STD104:p261,Gemini Flash thinking,nomode,2.5
+eb2:STD104:p261,Gemini Flash thinking,minimal,2.0
+eb2:STD104:p261,Gemini Flash thinking,paraphrase,3.2
+eb2:STD104:p263,Gemini Flash thinking,norole,3.0
+eb2:STD104:p263,Gemini Flash thinking,nomode,5.5
+eb2:STD104:p260,Gemini Flash thinking,paraphrase,8.0
+eb2:STD104:p263,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p265,Gemini Flash thinking,nomode,5.0
+eb2:STD104:p263,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p265,Gemini Flash thinking,norole,4.0
+eb2:STD104:p267,Gemini Flash thinking,nomode,6.8
+eb2:STD104:p267,Gemini Flash thinking,norole,7.5
+eb2:STD104:p265,Gemini Flash thinking,paraphrase,4.0
+eb2:STD104:p265,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p269,Gemini Flash thinking,norole,3.0
+eb2:STD104:p269,Gemini Flash thinking,nomode,3.0
+eb2:STD104:p267,Gemini Flash thinking,minimal,6.0
+eb2:STD104:p269,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p267,Gemini Flash thinking,paraphrase,7.4
+eb2:STD104:p269,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p271,Gemini Flash thinking,norole,5.0
+eb2:STD104:p271,Gemini Flash thinking,nomode,4.0
+eb2:STD104:p273,Gemini Flash thinking,norole,3.0
+eb2:STD104:p271,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p271,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p273,Gemini Flash thinking,minimal,3.0
+eb2:STD104:p273,Gemini Flash thinking,nomode,3.0
+eb2:STD104:p275,Gemini Flash thinking,norole,5.0
+eb2:STD104:p273,Gemini Flash thinking,paraphrase,3.0
+eb2:STD104:p275,Gemini Flash thinking,nomode,4.0
+eb2:STD104:p275,Gemini Flash thinking,paraphrase,5.0
+eb2:STD104:p275,Gemini Flash thinking,minimal,5.0
+eb2:EB049EP:p25,Gemini Flash thinking,nomode,5.8
+eb2:EB049EP:p25,Gemini Flash thinking,norole,5.0
+eb2:EB049EP:p25,Gemini Flash thinking,paraphrase,6.8
+eb2:EB049EP:p25,Gemini Flash thinking,minimal,4.0
+eb2:EB049EP:p36,Gemini Flash thinking,norole,4.0
+eb2:EB049EP:p36,Gemini Flash thinking,nomode,4.5
+eb2:EB049EP:p36,Gemini Flash thinking,minimal,4.0
+eb2:EB049EP:p36,Gemini Flash thinking,paraphrase,3.0

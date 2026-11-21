@@ -1,0 +1,58 @@
+=== Ceiling: STD104 (autumn 2025) and STD105 (spring 2026) share 84 questions; real share of one wave against the other: Spearman 0.964, mean absolute difference 0.39 points
+
+=== Table D11: flag as many questions as there are problem questions (the highest values by each method) ===
+  374 face-to-face questions: 40 questions with a real share of at least 10%
+     Opus 5.5                                                   catches  46.8% | AUC 0.887
+     Sonnet 5.5                                                 catches  49.3% | AUC 0.882
+     Gemini Flash, thinking                                     catches  47.5% | AUC 0.884
+     Haiku 5.5                                                  catches  30.9% | AUC 0.787
+     question length (question line)                            catches  10.0% | AUC 0.463
+     regression, embeddings, all modes (svr)                    catches  22.5% | AUC 0.670
+     regression, embeddings, face-to-face only (kernel ridge)   catches  30.0% | AUC 0.679
+     sampled pilot of 50 answers per question                   catches  51.4% | AUC 0.885
+     sampled pilot of 200 answers per question                  catches  70.3% | AUC 0.963
+     random flagging (expected share)                           catches  10.7%
+  374 face-to-face questions: 81 questions with a real share of at least 8%
+     Opus 5.5                                                   catches  72.2% | AUC 0.929
+     Sonnet 5.5                                                 catches  65.0% | AUC 0.890
+     Gemini Flash, thinking                                     catches  67.2% | AUC 0.897
+     Haiku 5.5                                                  catches  50.0% | AUC 0.778
+     question length (question line)                            catches  19.8% | AUC 0.495
+     regression, embeddings, all modes (svr)                    catches  39.5% | AUC 0.704
+     regression, embeddings, face-to-face only (kernel ridge)   catches  38.3% | AUC 0.713
+     sampled pilot of 50 answers per question                   catches  61.2% | AUC 0.868
+     sampled pilot of 200 answers per question                  catches  77.2% | AUC 0.955
+     random flagging (expected share)                           catches  21.7%
+  100 new questions: 15 questions with a real share of at least 10%
+     Opus 5.5                                                   catches  66.7% | AUC 0.880
+     Sonnet 5.5                                                 catches  53.3% | AUC 0.851
+     Gemini Flash, thinking                                     catches  60.0% | AUC 0.888
+     Haiku 5.5                                                  catches  20.0% | AUC 0.688
+     question length (question line)                            catches  13.3% | AUC 0.510
+     regression, embeddings, all modes (svr)                    catches  26.7% | AUC 0.708
+     regression, embeddings, face-to-face only (kernel ridge)   catches  53.3% | AUC 0.843
+     sampled pilot of 50 answers per question                   catches  58.2% | AUC 0.887
+     sampled pilot of 200 answers per question                  catches  75.4% | AUC 0.964
+     random flagging (expected share)                           catches  15.0%
+  100 new questions: 27 questions with a real share of at least 8%
+     Opus 5.5                                                   catches  70.4% | AUC 0.907
+     Sonnet 5.5                                                 catches  66.7% | AUC 0.882
+     Gemini Flash, thinking                                     catches  67.6% | AUC 0.902
+     Haiku 5.5                                                  catches  51.8% | AUC 0.758
+     question length (question line)                            catches  18.5% | AUC 0.479
+     regression, embeddings, all modes (svr)                    catches  48.1% | AUC 0.729
+     regression, embeddings, face-to-face only (kernel ridge)   catches  51.9% | AUC 0.837
+     sampled pilot of 50 answers per question                   catches  66.4% | AUC 0.874
+     sampled pilot of 200 answers per question                  catches  80.7% | AUC 0.957
+     random flagging (expected share)                           catches  27.0%
+  whole-prompt length (question + options), 374, 10%: catches 10.0%
+  whole-prompt length (question + options), 100 new, 10%: catches 13.3%
+
+=== Cost of the first Eurobarometer run (753 calls per model; list prices per million tokens as in the run script: Sonnet 5.5 $2 in / $10 out, Opus 5.5 $4 in / $20 out) ===
+  claude-sonnet-5-5: 753 calls, $0.8921, i.e. 11.8 US cents per 100 questions at one call each
+  claude-opus-5-5: 753 calls, $2.5904, i.e. 34.4 US cents per 100 questions at one call each
+
+=== Figure 2 bar values (374 face-to-face questions) ===
+  question length: question line 0.161, whole prompt 0.150
+  word-count regressions 0.265 to 0.329; embedding regressions, all modes 0.293 to 0.544; face-to-face only 0.410 to 0.533
+  forecasts (mean of three calls): Sonnet 5.5 0.813, Opus 5.5 0.887; pilots: see table3_intervals_and_pilots.py (k=50 0.749, k=200 0.916); ceiling above

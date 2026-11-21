@@ -1,0 +1,20 @@
+Table 2: questions per set
+                   questions  blocks  surveys
+set                                          
+wvs7                     181      21        1
+gss2022                  123      12        1
+gss2024_interview         55       9        1
+gss2024_web               47       2        1
+eb_face_to_face          374     118       14
+eb_web                   101      50        6
+eb_telephone              27      19        2
+total 908
+
+Table 1: block STD105:QA1, 7 questions, Spearman 0.79
+  real   11%  forecast  12.7%  eb:STD105:p21  How would you judge the current situation in each of the following? Your personal job situ
+  real    8%  forecast  10.3%  eb:STD105:p19  How would you judge the current situation in each of the following? The situation of the E
+  real    4%  forecast   2.5%  eb:STD105:p25  How would you judge the current situation in each of the following? The employment situati
+  real    3%  forecast   2.7%  eb:STD105:p27  How would you judge the current situation in each of the following? The provision of publi
+  real    2%  forecast   2.7%  eb:STD105:p17  How would you judge the current situation in each of the following? The situation of the (
+  real    2%  forecast   1.0%  eb:STD105:p23  How would you judge the current situation in each of the following? The financial situatio
+  real    1%  forecast   1.9%  eb:STD105:p15  How would you judge the current situation in each of the following? The situation in (OUR 

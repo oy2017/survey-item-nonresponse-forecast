@@ -1,0 +1,73 @@
+questions 359 {'wvs7': 181, 'gss2022': 123, 'gss2024': 55} | blocks {'gss2022': 12, 'gss2024': 9, 'wvs7': 21} | real mean share 3.52%
+calls for ways 1, 1b and 2: 71800 | per model and way {('Gemini Flash', '1'): 7180, ('Gemini Flash', '1b'): 7180, ('Gemini Flash', '2'): 7180, ('Opus 5.5', '1'): 3590, ('Opus 5.5', '2'): 3590, ('Sonnet 5.5', '1'): 17950, ('Sonnet 5.5', '1b'): 17950, ('Sonnet 5.5', '2'): 7180}
+profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, ('Gemini Flash', '2'): 20, ('Opus 5.5', '1'): 10, ('Opus 5.5', '2'): 10, ('Sonnet 5.5', '1'): 50, ('Sonnet 5.5', '1b'): 50, ('Sonnet 5.5', '2'): 20} | unreadable {'Gemini Flash': 59, 'Opus 5.5': 0, 'Sonnet 5.5': 30}
+
+=== Table D12: Spearman with the real shares by survey (average share or stated chance) ===
+  Opus 5.5     way 1  none said | 0.036 (0.08%) | 0.372 (1.10%) | questions with any 'don't know': 0, 1, 9
+  Opus 5.5     way 2  0.721 (5.38%) | 0.717 (4.98%) | 0.893 (8.90%)
+  Opus 5.5     way 3  0.707 (2.94%) | 0.840 (3.06%) | 0.927 (3.95%)
+  Sonnet 5.5   way 1  none said | -0.056 (0.05%) | 0.369 (1.06%) | questions with any 'don't know': 0, 1, 11
+  Sonnet 5.5   way 1b 0.231 (0.84%) | 0.042 (1.11%) | 0.500 (3.64%) | questions with any 'don't know': 1, 8, 43
+  Sonnet 5.5   way 2  0.682 (6.22%) | 0.558 (6.26%) | 0.822 (12.58%)
+  Sonnet 5.5   way 3  0.759 (2.63%) | 0.771 (2.40%) | 0.840 (4.09%)
+  Gemini Flash way 1  none said | -0.133 (1.03%) | 0.368 (0.88%) | questions with any 'don't know': 0, 4, 11
+  Gemini Flash way 1b 0.231 (0.09%) | -0.056 (2.71%) | 0.521 (2.46%) | questions with any 'don't know': 1, 11, 26
+  Gemini Flash way 2  0.618 (3.76%) | 0.553 (4.02%) | 0.784 (11.01%)
+  Gemini Flash way 3  0.833 (2.30%) | 0.661 (2.70%) | 0.843 (4.14%)
+
+=== Table 5 and Table D13: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===
+  Opus 5.5: way 1 0.204 [0.077, 0.485] (0.58%) | way 2 0.777 [0.603, 0.817] (7.02%) | way 3 0.825 [0.672, 0.864] (3.49%)
+      way 2 minus way 1: +0.573 [+0.2179, +0.6869]
+      way 3 minus way 2: +0.048 [-0.0058, +0.1437]
+      way 2 minus way 1 on only the surveys where way 1 can be scored (gss2022, wvs7): +0.601
+      way 2 level / real mean share: 1.99
+  Sonnet 5.5: way 1 0.157 [-0.024, 0.517] (0.55%) | way 1b 0.258 [0.159, 0.368] (2.34%) | way 2 0.687 [0.461, 0.763] (9.44%) | way 3 0.790 [0.654, 0.838] (3.29%)
+      way 2 minus way 1: +0.531 [+0.0731, +0.7178]
+      way 3 minus way 2: +0.103 [+0.0195, +0.2404]
+      way 2 minus way 1 on only the surveys where way 1 can be scored (gss2022, wvs7): +0.533
+      way 2 level / real mean share: 2.68
+  Gemini Flash: way 1 0.117 [-0.010, 0.428] (0.80%) | way 1b 0.232 [0.117, 0.353] (2.18%) | way 2 0.652 [0.484, 0.747] (7.51%) | way 3 0.779 [0.597, 0.831] (3.37%)
+      way 2 minus way 1: +0.535 [+0.1876, +0.6869]
+      way 3 minus way 2: +0.127 [+0.0196, +0.1864]
+      way 2 minus way 1 on only the surveys where way 1 can be scored (gss2022, wvs7): +0.552
+      way 2 level / real mean share: 2.13
+  Check: Opus 5.5 way 3 with only the first of its three GSS 2024 calls: way 3 0.824 (3.50%) | way 3 minus way 2 +0.047 [+0.0007, +0.1580]
+
+=== Table D14: way 2, person-question pairs with a real answer, three surveys pooled ===
+  Opus 5.5     pairs 2745 (real 'don't know' 129) | AUC 0.643 | with each question's average removed 0.535
+  Sonnet 5.5   pairs 5516 (real 'don't know' 230) | AUC 0.627 | with each question's average removed 0.527
+  Gemini Flash pairs 5512 (real 'don't know' 230) | AUC 0.621 | with each question's average removed 0.520
+
+=== Real people behind the profiles, scored like way 1 (first n profiles; Spearman with the full-sample shares) ===
+  first 10: gss2024 0.319, gss2022 0.399, wvs7 0.479 | mean of gss2022 and wvs7 0.439 | mean of all three 0.399 | their 'don't know' rate, pooled 4.70%
+  first 20: gss2024 0.470, gss2022 0.494, wvs7 0.552 | mean of gss2022 and wvs7 0.523 | mean of all three 0.505 | their 'don't know' rate, pooled 4.17%
+  first 50: gss2024 0.557, gss2022 0.601, wvs7 0.777 | mean of gss2022 and wvs7 0.689 | mean of all three 0.645 | their 'don't know' rate, pooled 3.77%
+  profiles used in way 1 per model: {'Opus 5.5': np.int64(10), 'Sonnet 5.5': np.int64(50), 'Gemini Flash': np.int64(20)}
+  gss2024: the 50 people gave 1297 answers, 82 'don't know' (6.32%), 26 of 50 at least once
+  gss2022: the 50 people gave 3811 answers, 154 'don't know' (4.04%), 38 of 50 at least once
+  wvs7: the 50 people gave 8734 answers, 286 'don't know' (3.27%), 23 of 50 at least once
+  GSS 2024 profiles by mode: first 20 {1: 17, 2: 3}, other 30 {4: 25, 1: 5} (1 face-to-face, 2 telephone, 4 web)
+
+=== Way 2: one profile alone, agreement between profiles, agreement with way 3 ===
+  Opus 5.5     all profiles 0.777 | first profile alone 0.685 | GSS 2024 mean pairwise agreement between profiles 0.751 | way 2 against way 3 0.872
+  Sonnet 5.5   all profiles 0.687 | first profile alone 0.635 | GSS 2024 mean pairwise agreement between profiles 0.808 | way 2 against way 3 0.752
+  Gemini Flash all profiles 0.652 | first profile alone 0.530 | GSS 2024 mean pairwise agreement between profiles 0.483 | way 2 against way 3 0.713
+
+=== GSS 2024 first run: simulated respondents ===
+  way 1                    Sonnet 5.5 answers 5100 | interview: 2750 calls, 'don't know' 0 (0.00%), on 0 questions, unreadable 0 | web: 2350 calls, 'don't know' 0 (0.00%), on 0 questions, unreadable 0
+  way 1                    Opus 5.5   answers 2040 | interview: 1100 calls, 'don't know' 0 (0.00%), on 0 questions, unreadable 0 | web: 940 calls, 'don't know' 0 (0.00%), on 0 questions, unreadable 0
+  way 1b                   Sonnet 5.5 answers 5100 | interview: 2750 calls, 'don't know' 21 (0.76%), on 1 questions, unreadable 0 | web: 2350 calls, 'don't know' 24 (1.02%), on 1 questions, unreadable 0
+  way 1b                   Opus 5.5   answers 1100 | interview: 1100 calls, 'don't know' 0 (0.00%), on 0 questions, unreadable 0
+  way 1b, richer profile   Sonnet 5.5 answers 2750 | interview: 2750 calls, 'don't know' 23 (0.84%), on 1 questions, unreadable 0
+  way 1b, richer profile   Opus 5.5   answers 1100 | interview: 1100 calls, 'don't know' 1 (0.09%), on 1 questions, unreadable 0
+  real mean share: 55 interviewer-run 5.66%, 47 web 8.53%
+
+=== Open-weight models as simulated respondents (interviewer-run questions for the token probabilities) ===
+  Llama 3.3 70B    way 1                    answers 2040, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 65.5%, mean probability 0.0000357% | largest possible probability on the other calls 2.07e-12% | Spearman of the question mean with real shares 0.239
+  Llama 3.3 70B    way 1b                   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 71.2%, mean probability 0.0001428% | largest possible probability on the other calls 8.99e-12% | Spearman of the question mean with real shares 0.274
+  Llama 3.3 70B    way 1b, richer profile   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 73.5%, mean probability 0.0001152% | largest possible probability on the other calls 6.29e-13% | Spearman of the question mean with real shares 0.273
+  Llama 4 Maverick way 1                    answers 2040, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 69.5%, mean probability 0.0000044% | largest possible probability on the other calls 4.66e-13% | Spearman of the question mean with real shares 0.280
+  Llama 4 Maverick way 1b                   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 79.4%, mean probability 0.0405557% | largest possible probability on the other calls 3.20e-13% | Spearman of the question mean with real shares 0.237
+  Llama 4 Maverick way 1b, richer profile   answers 1100, 'don't know' 2 | interviewer calls 1100: DK among the 20 likeliest on 75.8%, mean probability 0.1540011% | largest possible probability on the other calls 7.30e-13% | Spearman of the question mean with real shares 0.188
+  Llama 3.3 70B way 2: calls 1100 (readable 1100, profiles 20) | Spearman 0.448 [0.16, 0.77] | mean stated chance 13.245%
+  Llama 3.3 70B way 3 (mean of 3 forecast calls): Spearman 0.689 [0.19, 0.76] | mean forecast 3.24% | real mean 5.66% | blocks 9

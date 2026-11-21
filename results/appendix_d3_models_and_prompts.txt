@@ -1,0 +1,67 @@
+=== Table D3: four rewritten prompts, 374 face-to-face Eurobarometer questions, one call per question ===
+
+  Opus 5.5: original, one call 0.873 | survey-resampled [0.78, 0.91] | block-resampled [0.82, 0.91] | true first call on all 374 0.873 | inside blocks 0.734 | mean forecast 7.58% (real 5.01%) | average of calls 0.887
+    norole     0.887 | survey-resampled [0.80, 0.92] | block-resampled [0.84, 0.92] | minus original one call +0.014 survey-resampled [+0.00, +0.02] block-resampled [+0.004, +0.025] | inside blocks 0.787 | mean forecast 7.61% | no readable number 0
+    nomode     0.877 | survey-resampled [0.79, 0.91] | block-resampled [0.83, 0.91] | minus original one call +0.005 survey-resampled [-0.00, +0.01] block-resampled [-0.007, +0.017] | inside blocks 0.738 | mean forecast 7.83% | no readable number 0
+    paraphrase 0.886 | survey-resampled [0.80, 0.91] | block-resampled [0.84, 0.92] | minus original one call +0.013 survey-resampled [-0.00, +0.03] block-resampled [+0.001, +0.026] | inside blocks 0.757 | mean forecast 7.08% | no readable number 0
+    minimal    0.869 | survey-resampled [0.79, 0.90] | block-resampled [0.81, 0.91] | minus original one call -0.003 survey-resampled [-0.02, +0.02] block-resampled [-0.032, +0.016] | inside blocks 0.763 | mean forecast 7.98% | no readable number 0
+
+  Sonnet 5.5: original, one call 0.806 | survey-resampled [0.73, 0.85] | block-resampled [0.75, 0.86] | true first call on all 374 0.806 | inside blocks 0.711 | mean forecast 6.96% (real 5.01%) | average of calls 0.813
+    norole     0.816 | survey-resampled [0.75, 0.85] | block-resampled [0.76, 0.86] | minus original one call +0.010 survey-resampled [-0.01, +0.04] block-resampled [-0.019, +0.038] | inside blocks 0.716 | mean forecast 6.39% | no readable number 0
+    nomode     0.798 | survey-resampled [0.71, 0.84] | block-resampled [0.74, 0.85] | minus original one call -0.008 survey-resampled [-0.05, +0.02] block-resampled [-0.032, +0.018] | inside blocks 0.708 | mean forecast 7.22% | no readable number 0
+    paraphrase 0.824 | survey-resampled [0.75, 0.86] | block-resampled [0.77, 0.86] | minus original one call +0.018 survey-resampled [-0.02, +0.06] block-resampled [-0.019, +0.055] | inside blocks 0.748 | mean forecast 6.85% | no readable number 0
+    minimal    0.769 | survey-resampled [0.70, 0.81] | block-resampled [0.71, 0.83] | minus original one call -0.037 survey-resampled [-0.08, +0.02] block-resampled [-0.084, +0.005] | inside blocks 0.643 | mean forecast 7.00% | no readable number 0
+
+  Gemini Flash thinking: original, one call 0.842 | survey-resampled [0.78, 0.88] | block-resampled [0.79, 0.89] | true first call on all 374 0.842 | inside blocks 0.746 | mean forecast 6.27% (real 5.01%) | average of calls 0.842
+    norole     0.854 | survey-resampled [0.78, 0.88] | block-resampled [0.80, 0.89] | minus original one call +0.012 survey-resampled [-0.02, +0.03] block-resampled [-0.014, +0.035] | inside blocks 0.715 | mean forecast 6.28% | no readable number 1
+    nomode     0.865 | survey-resampled [0.79, 0.90] | block-resampled [0.82, 0.90] | minus original one call +0.023 survey-resampled [-0.01, +0.04] block-resampled [-0.006, +0.046] | inside blocks 0.736 | mean forecast 6.35% | no readable number 1
+    paraphrase 0.845 | survey-resampled [0.73, 0.87] | block-resampled [0.76, 0.87] | minus original one call +0.003 survey-resampled [-0.06, +0.01] block-resampled [-0.056, +0.023] | inside blocks 0.719 | mean forecast 6.43% | no readable number 18
+    minimal    0.844 | survey-resampled [0.75, 0.88] | block-resampled [0.79, 0.88] | minus original one call +0.002 survey-resampled [-0.04, +0.02] block-resampled [-0.031, +0.024] | inside blocks 0.685 | mean forecast 6.52% | no readable number 5
+
+  range over the 12 rewritten-prompt scores: 0.769 to 0.887
+
+=== Table D4: ten example questions with their real shares in the prompt (mean of three calls) ===
+  Opus 5.5   gss2024  no examples 0.707, error 2.95, mean forecast 2.94% (real 5.66%)
+      examples from the same  programme: 0.772 | as scored (GSS blocks / EB surveys) [0.32, 0.81] change +0.065 [-0.24, +0.14] | blocks [0.32, 0.81] change [-0.24, +0.14] | error 3.10 | mean of examples shown 2.67%
+      examples from the other programme: 0.731 | as scored (GSS blocks / EB surveys) [0.39, 0.83] change +0.024 [-0.04, +0.06] | blocks [0.39, 0.83] change [-0.04, +0.06] | error 3.30 | mean of examples shown 4.40%
+  Opus 5.5   ebnew    no examples 0.880, error 2.78, mean forecast 8.17% (real 5.59%)
+      examples from the same  programme: 0.875 | as scored (GSS blocks / EB surveys) [0.82, 0.92] change -0.005 [-0.03, +0.02] | blocks [0.75, 0.94] change [-0.03, +0.02] | error 1.91 | mean of examples shown 4.27%
+      examples from the other programme: 0.872 | as scored (GSS blocks / EB surveys) [0.82, 0.91] change -0.008 [-0.03, +0.01] | blocks [0.75, 0.94] change [-0.03, +0.01] | error 2.83 | mean of examples shown 3.72%
+  Sonnet 5.5 gss2024  no examples 0.759, error 3.23, mean forecast 2.63% (real 5.66%)
+      examples from the same  programme: 0.740 | as scored (GSS blocks / EB surveys) [0.53, 0.92] change -0.019 [-0.09, +0.07] | blocks [0.53, 0.92] change [-0.09, +0.07] | error 3.16 | mean of examples shown 2.67%
+      examples from the other programme: 0.780 | as scored (GSS blocks / EB surveys) [0.50, 0.91] change +0.021 [-0.14, +0.07] | blocks [0.50, 0.91] change [-0.14, +0.07] | error 3.56 | mean of examples shown 4.40%
+  Sonnet 5.5 ebnew    no examples 0.833, error 2.54, mean forecast 7.66% (real 5.59%)
+      examples from the same  programme: 0.857 | as scored (GSS blocks / EB surveys) [0.77, 0.90] change +0.024 [-0.04, +0.08] | blocks [0.74, 0.92] change [-0.02, +0.08] | error 2.04 | mean of examples shown 4.27%
+      examples from the other programme: 0.866 | as scored (GSS blocks / EB surveys) [0.77, 0.91] change +0.033 [-0.04, +0.10] | blocks [0.76, 0.92] change [-0.02, +0.10] | error 2.49 | mean of examples shown 3.72%
+  Haiku 5.5  gss2024  no examples 0.579, error 2.70, mean forecast 4.46% (real 5.66%)
+      examples from the same  programme: 0.668 | as scored (GSS blocks / EB surveys) [0.22, 0.76] change +0.089 [-0.47, +0.38] | blocks [0.22, 0.76] change [-0.47, +0.38] | error 2.89 | mean of examples shown 2.67%
+      examples from the other programme: 0.620 | as scored (GSS blocks / EB surveys) [0.20, 0.73] change +0.041 [-0.35, +0.22] | blocks [0.20, 0.73] change [-0.35, +0.22] | error 3.02 | mean of examples shown 4.40%
+  Haiku 5.5  ebnew    no examples 0.518, error 2.87, mean forecast 6.45% (real 5.59%)
+      examples from the same  programme: 0.179 | as scored (GSS blocks / EB surveys) [-0.09, 0.45] change -0.339 [-0.45, +0.03] | blocks [-0.12, 0.43] change [-0.56, -0.13] | error 2.96 | mean of examples shown 4.27%
+      examples from the other programme: 0.474 | as scored (GSS blocks / EB surveys) [0.08, 0.61] change -0.044 [-0.15, +0.08] | blocks [0.20, 0.65] change [-0.16, +0.06] | error 2.81 | mean of examples shown 3.72%
+
+=== Table D5: all models on the 374 face-to-face Eurobarometer questions (interval: blocks) | inside blocks, version (a) ===
+  Haiku 5.5                        0.490 [0.36, 0.61] | inside blocks 0.311 (326 questions, 70 blocks)
+  Llama 3.3 70B                    0.553 [0.45, 0.65] | inside blocks 0.225 (326 questions, 70 blocks)
+  Llama 4 Maverick                 0.580 [0.47, 0.67] | inside blocks 0.426 (326 questions, 70 blocks)
+  Sonnet 4.5                       0.735 [0.65, 0.81] | inside blocks 0.610 (326 questions, 70 blocks)
+  Gemini Flash-Lite                0.771 [0.70, 0.83] | inside blocks 0.648 (326 questions, 70 blocks)
+  Opus 4.5                         0.803 [0.74, 0.86] | inside blocks 0.693 (326 questions, 70 blocks)
+  Sonnet 5.5                       0.813 [0.76, 0.86] | inside blocks 0.721 (326 questions, 70 blocks)
+  Gemini Flash without thinking    0.816 [0.76, 0.86] | inside blocks 0.634 (326 questions, 70 blocks)
+  Gemini Flash with thinking       0.842 [0.79, 0.89] | inside blocks 0.746 (326 questions, 70 blocks)
+  Opus 5.5                         0.887 [0.84, 0.92] | inside blocks 0.784 (326 questions, 70 blocks)
+  thinking on General Social Survey 2024: Gemini Flash with 0.851, without 0.833, difference +0.018 [-0.21, +0.10]
+  thinking on the 374: inside blocks with 0.746, without 0.634
+
+=== Table D6: open-weight models (mean of three calls; interval: blocks) ===
+  General Social Survey 2024, interviewer (55)   | Llama 3.3 70B 0.689 [0.19, 0.76] | Llama 4 Maverick 0.538 [-0.01, 0.61] | Opus 5.5 mean 0.707, first call 0.706
+  Eurobarometer face-to-face (374)               | Llama 3.3 70B 0.553 [0.45, 0.65] inside blocks 0.225 | Llama 4 Maverick 0.580 [0.47, 0.67] inside blocks 0.426 | Opus 5.5 mean 0.887, first call 0.873
+  Eurobarometer, new questions (100)             | Llama 3.3 70B 0.631 [0.43, 0.77] inside blocks 0.280 | Llama 4 Maverick 0.686 [0.47, 0.82] inside blocks 0.405 | Opus 5.5 mean 0.880, first call 0.866
+
+=== Table D7: the EU-wide forecast against each country's own shares ===
+  clean rows 616; country rows read 566 ({'face-to-face': 438, 'web': 101, 'telephone': 27}); not read 50 ({'face-to-face': 50}, 11 surveys)
+  face-to-face, all rows             n 438 | Opus 5.5 median 0.799 (lowest 0.681), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.732 (lowest 0.629), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.755 (lowest 0.667), beats both simple baselines in 27 of 27 | question length median 0.202, prompt length median 0.176 | real EU-wide share against each country: median 0.860, lowest 0.771, highest 0.925
+  new questions, all rows            n  94 | Opus 5.5 median 0.777 (lowest 0.627), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.728 (lowest 0.614), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.784 (lowest 0.644), beats both simple baselines in 27 of 27 | question length median 0.224, prompt length median 0.176 | real EU-wide share against each country: median 0.848, lowest 0.742, highest 0.948
+  web                                n 101 | Opus 5.5 median 0.669 (lowest 0.427), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.610 (lowest 0.393), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.626 (lowest 0.396), beats both simple baselines in 27 of 27 | question length median 0.341, prompt length median 0.306 | real EU-wide share against each country: median 0.901, lowest 0.459, highest 0.952
+  face-to-face, each question once   n 330 | Opus 5.5 median 0.761 (lowest 0.637), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.709 (lowest 0.591), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.732 (lowest 0.636), beats both simple baselines in 27 of 27 | question length median 0.176, prompt length median 0.158 | real EU-wide share against each country: median 0.842, lowest 0.723, highest 0.913

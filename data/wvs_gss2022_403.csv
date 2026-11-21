@@ -1,0 +1,404 @@
+item_id,dataset,var,is_quiz,kept,excluded_reason,question_text
+wvs7:Q1,wvs7,Q1,False,True,,How important in your life is: Family?
+wvs7:Q2,wvs7,Q2,False,True,,How important in your life is: Friends?
+wvs7:Q3,wvs7,Q3,False,True,,How important in your life is: Leisure time?
+wvs7:Q4,wvs7,Q4,False,True,,How important in your life is: Politics?
+wvs7:Q5,wvs7,Q5,False,True,,How important in your life is: Work?
+wvs7:Q6,wvs7,Q6,False,True,,How important in your life is: Religion?
+wvs7:Q27,wvs7,Q27,False,True,,One of main goals in life has been to make my parents proud
+wvs7:Q28,wvs7,Q28,False,True,,Pre-school child suffers with working mother
+wvs7:Q29,wvs7,Q29,False,True,,Men make better political leaders than women do
+wvs7:Q30,wvs7,Q30,False,True,,University is more important for a boy than for a girl
+wvs7:Q31,wvs7,Q31,False,True,,Men make better business executives than women do
+wvs7:Q32,wvs7,Q32,False,True,,Being a housewife just as fulfilling
+wvs7:Q33,wvs7,Q33,False,True,,Jobs scarce: Men should have more right to a job than women
+wvs7:Q34,wvs7,Q34,False,True,,Jobs scarce: Employers should give priority to (nation) people than immigrants
+wvs7:Q35,wvs7,Q35,False,True,,Problem if women have more income than husband
+wvs7:Q36,wvs7,Q36,False,True,,Homosexual couples are as good parents as other couples
+wvs7:Q37,wvs7,Q37,False,True,,Duty towards society to have children
+wvs7:Q38,wvs7,Q38,False,True,,It is children duty to take care of ill parent
+wvs7:Q39,wvs7,Q39,False,True,,People who don't work turn lazy
+wvs7:Q40,wvs7,Q40,False,True,,Work is a duty towards society
+wvs7:Q41,wvs7,Q41,False,True,,Work should  always come first even if it means less spare time
+wvs7:Q42,wvs7,Q42,False,True,,Basic kinds of attitudes concerning society
+wvs7:Q43,wvs7,Q43,False,True,,Future changes: Less importance placed on work
+wvs7:Q44,wvs7,Q44,False,True,,Future changes: More emphasis on technology
+wvs7:Q45,wvs7,Q45,False,True,,Future changes: Greater respect for authority
+wvs7:Q46,wvs7,Q46,False,True,,Feeling of happiness
+wvs7:Q47,wvs7,Q47,False,True,,State of health (subjective)
+wvs7:Q48,wvs7,Q48,False,True,,How much freedom of choice and control
+wvs7:Q49,wvs7,Q49,False,True,,Satisfaction with your life
+wvs7:Q50,wvs7,Q50,False,True,,Satisfaction with financial situation of household
+wvs7:Q51,wvs7,Q51,False,False,"WVS report of own behaviour, not an attitude",Frequency you/family (last 12 month): Gone without enough food to eat
+wvs7:Q52,wvs7,Q52,False,False,"WVS report of own behaviour, not an attitude",Frequency you/family (last 12 month): Felt unsafe from crime in your own home
+wvs7:Q53,wvs7,Q53,False,False,"WVS report of own behaviour, not an attitude",Frequency you/family (last 12 month): Gone without needed medicine or treatment
+wvs7:Q54,wvs7,Q54,False,False,"WVS report of own behaviour, not an attitude",Frequency you/family (last 12 month): Gone without a cash income
+wvs7:Q55,wvs7,Q55,False,False,"WVS report of own behaviour, not an attitude","In the last 12 month, how often have you or your family: Gone without a safe she"
+wvs7:Q56,wvs7,Q56,False,True,,Standard of living comparing with your parents
+wvs7:Q57,wvs7,Q57,False,True,,Most people can be trusted
+wvs7:Q58,wvs7,Q58,False,True,,How much do you trust people from this group: Your family?
+wvs7:Q59,wvs7,Q59,False,True,,How much do you trust people from this group: Your neighborhood?
+wvs7:Q60,wvs7,Q60,False,True,,How much do you trust people from this group: People you know personally?
+wvs7:Q61,wvs7,Q61,False,True,,How much do you trust people from this group: People you meet for the first time?
+wvs7:Q62,wvs7,Q62,False,True,,How much do you trust people from this group: People of another religion?
+wvs7:Q63,wvs7,Q63,False,True,,How much do you trust people from this group: People of another nationality?
+wvs7:Q64,wvs7,Q64,False,True,,How much confidence do you have in: Churches?
+wvs7:Q65,wvs7,Q65,False,True,,How much confidence do you have in: Armed Forces?
+wvs7:Q66,wvs7,Q66,False,True,,How much confidence do you have in: The Press?
+wvs7:Q67,wvs7,Q67,False,True,,How much confidence do you have in: Television?
+wvs7:Q68,wvs7,Q68,False,True,,How much confidence do you have in: Labor Unions?
+wvs7:Q69,wvs7,Q69,False,True,,How much confidence do you have in: The Police?
+wvs7:Q70,wvs7,Q70,False,True,,How much confidence do you have in: Justice System/Courts?
+wvs7:Q71,wvs7,Q71,False,True,,How much confidence do you have in: The Government?
+wvs7:Q72,wvs7,Q72,False,True,,How much confidence do you have in: The Political Parties?
+wvs7:Q73,wvs7,Q73,False,True,,How much confidence do you have in: Parliament?
+wvs7:Q74,wvs7,Q74,False,True,,How much confidence do you have in: The Civil Services?
+wvs7:Q75,wvs7,Q75,False,True,,How much confidence do you have in: Universities?
+wvs7:Q76,wvs7,Q76,False,True,,How much confidence do you have in: Elections?
+wvs7:Q77,wvs7,Q77,False,True,,How much confidence do you have in: Major Companies?
+wvs7:Q78,wvs7,Q78,False,True,,How much confidence do you have in: Banks?
+wvs7:Q79,wvs7,Q79,False,True,,How much confidence do you have in: The Environmental Protection Movement?
+wvs7:Q80,wvs7,Q80,False,True,,How much confidence do you have in: The Women's Movement?
+wvs7:Q81,wvs7,Q81,False,True,,How much confidence do you have in: Charitable or humanitarian organizations?
+wvs7:Q83,wvs7,Q83,False,True,,How much confidence do you have in: The United Nations (UN)?
+wvs7:Q84,wvs7,Q84,False,True,,How much confidence do you have in: International Monetary Found (IMF)?
+wvs7:Q85,wvs7,Q85,False,True,,How much confidence do you have in: International Criminal Court (ICC)?
+wvs7:Q86,wvs7,Q86,False,True,,How much confidence do you have in: North Atlantic Treaty Organization (NATO)?
+wvs7:Q87,wvs7,Q87,False,True,,How much confidence do you have in: The World Bank (WB)?
+wvs7:Q88,wvs7,Q88,False,True,,How much confidence do you have in: The World Health Organization (WHO)?
+wvs7:Q89,wvs7,Q89,False,True,,How much confidence do you have in: The World Trade Organization (WTO)?
+wvs7:Q90,wvs7,Q90,False,True,,International organizations: being effective vs being democratic
+wvs7:Q91,wvs7,Q91,True,False,WVS knowledge-quiz question,Countries with the permanent seats on the UN Security Council
+wvs7:Q92,wvs7,Q92,True,False,WVS knowledge-quiz question,Where are the headquarters of the International Monetary Fund (IMF) located?
+wvs7:Q93,wvs7,Q93,True,False,WVS knowledge-quiz question,Which of the following problems does the organization Amnesty International deal
+wvs7:Q94,wvs7,Q94,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: church or religious org?"
+wvs7:Q95,wvs7,Q95,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: sport or recreational org?"
+wvs7:Q96,wvs7,Q96,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: art, music, educational org?"
+wvs7:Q97,wvs7,Q97,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: labor union?"
+wvs7:Q98,wvs7,Q98,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: political party?"
+wvs7:Q99,wvs7,Q99,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: environmental organization?"
+wvs7:Q100,wvs7,Q100,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: professional organization?"
+wvs7:Q101,wvs7,Q101,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: charitable/humanitarian organization?"
+wvs7:Q102,wvs7,Q102,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: consumer organization?"
+wvs7:Q103,wvs7,Q103,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: self-help group, mutual aid group?"
+wvs7:Q104,wvs7,Q104,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: women's group?"
+wvs7:Q105,wvs7,Q105,False,False,"WVS report of own behaviour, not an attitude","Are you an active member, an inactive member, or not a member of: other organization?"
+wvs7:Q106,wvs7,Q106,False,True,,Incomes should be made more equal vs There should be greater incentives for indi
+wvs7:Q107,wvs7,Q107,False,True,,Private vs state ownership of business
+wvs7:Q108,wvs7,Q108,False,True,,Government's vs individual's responsibility
+wvs7:Q109,wvs7,Q109,False,True,,Competition good or harmful
+wvs7:Q110,wvs7,Q110,False,True,,Success: hard work vs luck
+wvs7:Q111,wvs7,Q111,False,True,,Protecting environment vs. Economic growth
+wvs7:Q112,wvs7,Q112,False,True,,Perceptions of corruption in the country
+wvs7:Q113,wvs7,Q113,False,True,,Involved in corruption: State authorities
+wvs7:Q114,wvs7,Q114,False,True,,Involved in corruption: Business executives
+wvs7:Q115,wvs7,Q115,False,True,,Involved in corruption: Local authorities
+wvs7:Q116,wvs7,Q116,False,True,,Involved in corruption: Civil service providers
+wvs7:Q117,wvs7,Q117,False,True,,Involved in corruption: Journalists and media
+wvs7:Q118,wvs7,Q118,False,False,"WVS report of own behaviour, not an attitude","Frequency ordinary people pay a bribe, give a gift or do a favor to local offici"
+wvs7:Q119,wvs7,Q119,False,True,,"How strongly do you agree or disagree with the statement: On the whole, women are less corrupt than men?"
+wvs7:Q120,wvs7,Q120,False,True,,Risk to be held accountable for giving or receiving a bribe
+wvs7:Q121,wvs7,Q121,False,True,,Impact of immigrants on the development of the country
+wvs7:Q122,wvs7,Q122,False,True,,Immigration in your country: Fills useful jobs in the workforce
+wvs7:Q123,wvs7,Q123,False,True,,Immigration in your country: Strengthens cultural diversity
+wvs7:Q124,wvs7,Q124,False,True,,Immigration in your country: Increases the crime rate
+wvs7:Q125,wvs7,Q125,False,True,,Immigration in your country: Gives asylum to political refugees
+wvs7:Q126,wvs7,Q126,False,True,,Immigration in your country: Increases the risks of terrorism
+wvs7:Q127,wvs7,Q127,False,True,,Immigration in your country: Helps poor people establish new lives
+wvs7:Q128,wvs7,Q128,False,True,,Immigration in your country: Increases unemployment
+wvs7:Q129,wvs7,Q129,False,True,,Immigration in your country: Leads to social conflict
+wvs7:Q130,wvs7,Q130,False,True,,Immigration policy preference
+wvs7:Q131,wvs7,Q131,False,True,,Secure in neighborhood
+wvs7:Q132,wvs7,Q132,False,True,,Frequency in your neighborhood: Robberies
+wvs7:Q133,wvs7,Q133,False,True,,Frequency in your neighborhood: Alcohol consumed in the streets
+wvs7:Q134,wvs7,Q134,False,True,,Frequency in your neighborhood: Police or military interfere with people's priva
+wvs7:Q135,wvs7,Q135,False,True,,Frequency in your neighborhood: Racist behavior
+wvs7:Q136,wvs7,Q136,False,True,,Frequency in your neighborhood: Drug sale in streets
+wvs7:Q137,wvs7,Q137,False,True,,Frequency in your neighborhood: Street violence and fights
+wvs7:Q138,wvs7,Q138,False,True,,Frequency in your neighborhood: Sexual harassment
+wvs7:Q139,wvs7,Q139,False,False,"WVS report of own behaviour, not an attitude",Things done for reasons of security: Didn't carry much money
+wvs7:Q140,wvs7,Q140,False,False,"WVS report of own behaviour, not an attitude",Things done for reasons of security: Preferred not to go out at night
+wvs7:Q141,wvs7,Q141,False,False,"WVS report of own behaviour, not an attitude","Things done for reasons of security: Carried a knife, gun or other weapon"
+wvs7:Q142,wvs7,Q142,False,False,"WVS report of own behaviour, not an attitude",To what degree are you worried about the following situation: Losing my job or not finding a job?
+wvs7:Q143,wvs7,Q143,False,False,"WVS report of own behaviour, not an attitude",To what degree are you worried about the following situation: Not being able to give one's children a good education?
+wvs7:Q144,wvs7,Q144,False,False,"WVS report of own behaviour, not an attitude",Respondent was victim of a crime during the past year
+wvs7:Q145,wvs7,Q145,False,False,"WVS report of own behaviour, not an attitude",Respondent's family was victim of a crime during last year
+wvs7:Q146,wvs7,Q146,False,True,,To what degree are you worried about the following situation: A war involving my country?
+wvs7:Q147,wvs7,Q147,False,True,,To what degree are you worried about the following situation: A terrorist attack?
+wvs7:Q148,wvs7,Q148,False,True,,To what degree are you worried about the following situation: A civil war?
+wvs7:Q149,wvs7,Q149,False,True,,Freedom and Equality - Which more important
+wvs7:Q150,wvs7,Q150,False,True,,Freedom and security - Which more important
+wvs7:Q151,wvs7,Q151,False,True,,Willingness to fight for country
+wvs7:Q152,wvs7,Q152,False,True,,Aims of country: first choice
+wvs7:Q153,wvs7,Q153,False,False,WVS structural artefact,Aims of country: second choice
+wvs7:Q154,wvs7,Q154,False,True,,Aims of respondent: first choice
+wvs7:Q155,wvs7,Q155,False,False,WVS structural artefact,Aims of respondent: second choice
+wvs7:Q156,wvs7,Q156,False,True,,Most important: first choice
+wvs7:Q157,wvs7,Q157,False,False,WVS structural artefact,Most important: second choice
+wvs7:Q158,wvs7,Q158,False,True,,"Science and technology are making our lives healthier, easier, and more comforta"
+wvs7:Q159,wvs7,Q159,False,True,,"Because of science and technology, there will be more opportunities for the next"
+wvs7:Q160,wvs7,Q160,False,True,,We depend too much on science and not enough on faith
+wvs7:Q161,wvs7,Q161,False,True,,One of the bad effects of science is that it breaks down people's ideas of right
+wvs7:Q162,wvs7,Q162,False,True,,It is not important for me to know about science in my daily life
+wvs7:Q163,wvs7,Q163,False,True,,"The world is better off, or worse off, because of science and technology"
+wvs7:Q164,wvs7,Q164,False,True,,Importance of God
+wvs7:Q165,wvs7,Q165,False,True,,Believe in: God
+wvs7:Q166,wvs7,Q166,False,True,,Believe in: life after death
+wvs7:Q167,wvs7,Q167,False,True,,Believe in: hell
+wvs7:Q168,wvs7,Q168,False,True,,Believe in: heaven
+wvs7:Q169,wvs7,Q169,False,True,,"Whenever science and religion conflict,  religion is always right"
+wvs7:Q170,wvs7,Q170,False,True,,The only acceptable religion  is my religion
+wvs7:Q171,wvs7,Q171,False,False,"WVS report of own behaviour, not an attitude",How often do you attend religious services
+wvs7:Q172,wvs7,Q172,False,False,"WVS report of own behaviour, not an attitude",How often do you pray
+wvs7:Q173,wvs7,Q173,False,True,,Religious person
+wvs7:Q174,wvs7,Q174,False,True,,Meaning of religion: To follow religious norms and ceremonies vs To do good to o
+wvs7:Q175,wvs7,Q175,False,True,,Meaning of religion: To make sense of life after death vs To make sense of life
+wvs7:Q176,wvs7,Q176,False,True,,How strongly do you agree or disagree with the statement: Nowadays one often has trouble deciding which moral rules a?
+wvs7:Q177,wvs7,Q177,False,True,,Please tell me how justifiable you think the following is: Claiming government benefits to which you are not entitled?
+wvs7:Q178,wvs7,Q178,False,True,,Please tell me how justifiable you think the following is: Avoiding a fare on public transport?
+wvs7:Q179,wvs7,Q179,False,True,,Please tell me how justifiable you think the following is: Stealing property?
+wvs7:Q180,wvs7,Q180,False,True,,Please tell me how justifiable you think the following is: Cheating on taxes?
+wvs7:Q181,wvs7,Q181,False,True,,Please tell me how justifiable you think the following is: Someone accepting a bribe in the course of their duties?
+wvs7:Q182,wvs7,Q182,False,True,,Please tell me how justifiable you think the following is: Homosexuality?
+wvs7:Q183,wvs7,Q183,False,True,,Please tell me how justifiable you think the following is: Prostitution?
+wvs7:Q184,wvs7,Q184,False,True,,Please tell me how justifiable you think the following is: Abortion?
+wvs7:Q185,wvs7,Q185,False,True,,Please tell me how justifiable you think the following is: Divorce?
+wvs7:Q186,wvs7,Q186,False,True,,Please tell me how justifiable you think the following is: Sex before marriage?
+wvs7:Q187,wvs7,Q187,False,True,,Please tell me how justifiable you think the following is: Suicide?
+wvs7:Q188,wvs7,Q188,False,True,,Please tell me how justifiable you think the following is: Euthanasia?
+wvs7:Q189,wvs7,Q189,False,True,,Please tell me how justifiable you think the following is: For a man to beat his wife?
+wvs7:Q190,wvs7,Q190,False,True,,Please tell me how justifiable you think the following is: Parents beating children?
+wvs7:Q191,wvs7,Q191,False,True,,Please tell me how justifiable you think the following is: Violence against other people?
+wvs7:Q192,wvs7,Q192,False,True,,"Please tell me how justifiable you think the following is: Terrorism as a political, ideological or religious mean?"
+wvs7:Q193,wvs7,Q193,False,True,,Please tell me how justifiable you think the following is: Having casual sex?
+wvs7:Q194,wvs7,Q194,False,True,,Please tell me how justifiable you think the following is: Political violence?
+wvs7:Q195,wvs7,Q195,False,True,,Please tell me how justifiable you think the following is: Death penalty?
+wvs7:Q196,wvs7,Q196,False,True,,Government has the right: Keep people under video surveillance in public areas
+wvs7:Q197,wvs7,Q197,False,True,,Government has the right: Monitor all e-mails and any other information exchange
+wvs7:Q198,wvs7,Q198,False,True,,Government has the right: Collect information about anyone living in [COUNTRY] w
+wvs7:Q199,wvs7,Q199,False,True,,Interest in politics
+wvs7:Q200,wvs7,Q200,False,False,"WVS report of own behaviour, not an attitude",How often discusses political matters with friends
+wvs7:Q201,wvs7,Q201,False,False,"WVS report of own behaviour, not an attitude",Information source: Daily newspaper
+wvs7:Q202,wvs7,Q202,False,False,"WVS report of own behaviour, not an attitude",Information source: TV news
+wvs7:Q203,wvs7,Q203,False,False,"WVS report of own behaviour, not an attitude",Information source: Radio news
+wvs7:Q204,wvs7,Q204,False,False,"WVS report of own behaviour, not an attitude",Information source: Mobile phone
+wvs7:Q205,wvs7,Q205,False,False,"WVS report of own behaviour, not an attitude",Information source: Email
+wvs7:Q206,wvs7,Q206,False,False,"WVS report of own behaviour, not an attitude",Information source: Internet
+wvs7:Q207,wvs7,Q207,False,False,"WVS report of own behaviour, not an attitude","Information source: Social media (Facebook, Twitter, etc.)"
+wvs7:Q208,wvs7,Q208,False,False,"WVS report of own behaviour, not an attitude",Information source: Talk with friends or colleagues
+wvs7:Q209,wvs7,Q209,False,False,"WVS report of own behaviour, not an attitude","Have you done, might you do, or would you never under any circumstances do this political action: Signing a petition?"
+wvs7:Q210,wvs7,Q210,False,False,"WVS report of own behaviour, not an attitude","Have you done, might you do, or would you never under any circumstances do this political action: Joining in boycotts?"
+wvs7:Q211,wvs7,Q211,False,False,"WVS report of own behaviour, not an attitude","Have you done, might you do, or would you never under any circumstances do this political action: Attending lawful/peaceful demonstrations?"
+wvs7:Q212,wvs7,Q212,False,False,"WVS report of own behaviour, not an attitude","Have you done, might you do, or would you never under any circumstances do this political action: Joining unofficial strikes?"
+wvs7:Q213,wvs7,Q213,False,False,"WVS report of own behaviour, not an attitude",Social activism: Donating to a group or campaign
+wvs7:Q214,wvs7,Q214,False,False,"WVS report of own behaviour, not an attitude",Social activism: Contacting a government official
+wvs7:Q215,wvs7,Q215,False,False,"WVS report of own behaviour, not an attitude",Social activism: Encouraging others to take action about political issues
+wvs7:Q216,wvs7,Q216,False,False,"WVS report of own behaviour, not an attitude",Social activism: Encouraging others to vote
+wvs7:Q217,wvs7,Q217,False,False,"WVS report of own behaviour, not an attitude",Political actions online: Searching information about politics and political eve
+wvs7:Q218,wvs7,Q218,False,False,"WVS report of own behaviour, not an attitude",Political actions online: Signing an electronic petition
+wvs7:Q219,wvs7,Q219,False,False,"WVS report of own behaviour, not an attitude",Political actions online: Encouraging other people to take any form of political
+wvs7:Q220,wvs7,Q220,False,False,"WVS report of own behaviour, not an attitude","Political actions online: Organizing political activities, events, protests"
+wvs7:Q221,wvs7,Q221,False,False,"WVS report of own behaviour, not an attitude",Vote in elections: local level
+wvs7:Q222,wvs7,Q222,False,False,"WVS report of own behaviour, not an attitude",Vote in elections: national level
+wvs7:Q223,wvs7,Q223,False,False,WVS structural artefact,Which party would you vote for if there were a national election tomorrow
+wvs7:Q224,wvs7,Q224,False,True,,How often in country's elections: Votes are counted fairly
+wvs7:Q225,wvs7,Q225,False,True,,How often in country's elections: Opposition candidates are prevented from runni
+wvs7:Q226,wvs7,Q226,False,True,,How often in country's elections: TV news favors the governing party
+wvs7:Q227,wvs7,Q227,False,True,,How often in country's elections: Voters are bribed
+wvs7:Q228,wvs7,Q228,False,True,,How often in country's elections: Journalists provide fair coverage of elections
+wvs7:Q229,wvs7,Q229,False,True,,How often in country's elections: Election officials are fair
+wvs7:Q230,wvs7,Q230,False,True,,How often in country's elections: Rich people buy elections
+wvs7:Q231,wvs7,Q231,False,True,,How often in country's elections: Voters are threatened with  violence at the po
+wvs7:Q232,wvs7,Q232,False,True,,How often in country's elections: Voters are offered a genuine choice in the ele
+wvs7:Q233,wvs7,Q233,False,True,,How often in country's elections: Women have equal opportunities to run the offi
+wvs7:Q234,wvs7,Q234,False,True,,Some people think that having honest elections makes a lot of difference in thei
+wvs7:Q235,wvs7,Q235,False,True,,How good or bad do you think this way of governing this country is: Having a strong leader who does not have to bother with parlia?
+wvs7:Q236,wvs7,Q236,False,True,,"How good or bad do you think this way of governing this country is: Having experts, not government, make decisions according to wh?"
+wvs7:Q237,wvs7,Q237,False,True,,How good or bad do you think this way of governing this country is: Having the army rule?
+wvs7:Q238,wvs7,Q238,False,True,,How good or bad do you think this way of governing this country is: Having a democratic political system?
+wvs7:Q239,wvs7,Q239,False,True,,How good or bad do you think this way of governing this country is: Having a system governed by religious law in which there are n?
+wvs7:Q240,wvs7,Q240,False,True,,Left-right political scale
+wvs7:Q241,wvs7,Q241,False,True,,How essential a characteristic of democracy is the following: Governments tax the rich and subsidize the poor?
+wvs7:Q242,wvs7,Q242,False,True,,How essential a characteristic of democracy is the following: Religious authorities interpret the laws?
+wvs7:Q243,wvs7,Q243,False,True,,How essential a characteristic of democracy is the following: People choose their leaders in free elections?
+wvs7:Q244,wvs7,Q244,False,True,,How essential a characteristic of democracy is the following: People receive state aid for unemployment?
+wvs7:Q245,wvs7,Q245,False,True,,How essential a characteristic of democracy is the following: The army takes over when government is incompetent?
+wvs7:Q246,wvs7,Q246,False,True,,How essential a characteristic of democracy is the following: Civil rights protect people's liberty against oppression?
+wvs7:Q247,wvs7,Q247,False,True,,How essential a characteristic of democracy is the following: The state makes people's incomes equal?
+wvs7:Q248,wvs7,Q248,False,True,,How essential a characteristic of democracy is the following: People obey their rulers?
+wvs7:Q249,wvs7,Q249,False,True,,How essential a characteristic of democracy is the following: Women have the same rights as men?
+wvs7:Q250,wvs7,Q250,False,True,,Importance of democracy
+wvs7:Q251,wvs7,Q251,False,True,,How democratically is this country being governed today
+wvs7:Q252,wvs7,Q252,False,True,,Satisfaction with the political system performance
+wvs7:Q253,wvs7,Q253,False,True,,Respect for individual human rights nowadays
+wvs7:Q254,wvs7,Q254,False,True,,National pride
+wvs7:Q255,wvs7,Q255,False,True,,"Feel close to your village, town or city"
+wvs7:Q256,wvs7,Q256,False,True,,"Feel close to your district, region"
+wvs7:Q257,wvs7,Q257,False,True,,Feel close to your country
+wvs7:Q258,wvs7,Q258,False,True,,Feel close to your continent
+wvs7:Q259,wvs7,Q259,False,True,,Feel close to the world
+gss2022:health,gss2022,health,False,True,,Condition of health?
+gss2022:natchld,gss2022,natchld,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: assistance for childcare?"
+gss2022:natpark,gss2022,natpark,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: parks and recreation?"
+gss2022:natroad,gss2022,natroad,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: highways and bridges?"
+gss2022:natsci,gss2022,natsci,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: supporting scientific research?"
+gss2022:natmass,gss2022,natmass,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: mass transportation?"
+gss2022:natsoc,gss2022,natsoc,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: social security?"
+gss2022:satfin,gss2022,satfin,False,True,,Satisfaction with financial situation?
+gss2022:happy,gss2022,happy,False,True,,General happiness?
+gss2022:class,gss2022,class,False,True,,Subjective class identification?
+gss2022:finrela,gss2022,finrela,False,True,,Opinion of family income?
+gss2022:cappun,gss2022,cappun,False,True,,Favor or oppose death penalty for murder?
+gss2022:socfrend,gss2022,socfrend,False,True,,Spend evening with friends?
+gss2022:socrel,gss2022,socrel,False,True,,Spend evening with relatives?
+gss2022:fechld,gss2022,fechld,False,True,,Mother working doesn't hurt children?
+gss2022:fefam,gss2022,fefam,False,True,,"Better for man to work, woman tend home?"
+gss2022:fepresch,gss2022,fepresch,False,True,,Preschool kids suffer if mother works?
+gss2022:socbar,gss2022,socbar,False,True,,Spend evening at bar?
+gss2022:socommun,gss2022,socommun,False,True,,Spend evening with neighbor?
+gss2022:spanking,gss2022,spanking,False,True,,Favor spanking to discipline child?
+gss2022:premarsx,gss2022,premarsx,False,True,,Sex before marriage?
+gss2022:wrkwayup,gss2022,wrkwayup,False,True,,Black people overcome prejudice without favors?
+gss2022:affrmact,gss2022,affrmact,False,True,,Favor preference in hiring Black people?
+gss2022:coneduc,gss2022,coneduc,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: education?"
+gss2022:confinan,gss2022,confinan,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: banks & financial institutions?"
+gss2022:conpress,gss2022,conpress,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: press?"
+gss2022:contv,gss2022,contv,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: television?"
+gss2022:goodlife,gss2022,goodlife,False,True,,Standard of living of R will improve?
+gss2022:conarmy,gss2022,conarmy,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: military?"
+gss2022:consci,gss2022,consci,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: scientific community?"
+gss2022:conbus,gss2022,conbus,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: major companies?"
+gss2022:confed,gss2022,confed,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: exec branch of fed govt?"
+gss2022:conlabor,gss2022,conlabor,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: organized labor?"
+gss2022:conmedic,gss2022,conmedic,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: medicine?"
+gss2022:conlegis,gss2022,conlegis,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: congress?"
+gss2022:conjudge,gss2022,conjudge,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: united states supreme court?"
+gss2022:conclerg,gss2022,conclerg,False,True,,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: organized religion?"
+gss2022:fear,gss2022,fear,False,True,,Afraid to walk at night in neighborhood?
+gss2022:life,gss2022,life,False,True,,Is life exciting or dull?
+gss2022:gunlaw,gss2022,gunlaw,False,True,,Favor or oppose gun permits?
+gss2022:xmarsex,gss2022,xmarsex,False,True,,Sex with person other than spouse?
+gss2022:homosex,gss2022,homosex,False,True,,Homosexual sex relations?
+gss2022:helpsick,gss2022,helpsick,False,True,,Should govt help pay for medical care?
+gss2022:helpnot,gss2022,helpnot,False,True,,Should govt do more or less?
+gss2022:helppoor,gss2022,helppoor,False,True,,Should govt improve standard of living?
+gss2022:helpblk,gss2022,helpblk,False,True,,Should govt aid Black people?
+gss2022:natenvir,gss2022,natenvir,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: improving & protecting environment?"
+gss2022:natarms,gss2022,natarms,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: military, armaments, and defense?"
+gss2022:natcrime,gss2022,natcrime,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: halting rising crime rate?"
+gss2022:natdrug,gss2022,natdrug,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: dealing with drug addiction?"
+gss2022:nateduc,gss2022,nateduc,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: improving nations education system?"
+gss2022:nataid,gss2022,nataid,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: foreign aid?"
+gss2022:natheal,gss2022,natheal,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: improving & protecting nations health?"
+gss2022:natrace,gss2022,natrace,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: improving the conditions of black people?"
+gss2022:consent,gss2022,consent,False,False,GSS corrupt or paradata,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: participation/recording consent?"
+gss2022:natenrgy,gss2022,natenrgy,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: developing alternative energy sources?"
+gss2022:postlife,gss2022,postlife,False,True,,Belief in life after death?
+gss2022:relpersn,gss2022,relpersn,False,True,,R consider self a religious person?
+gss2022:courts,gss2022,courts,False,True,,Courts dealing with criminals?
+gss2022:letin1a,gss2022,letin1a,False,True,,Number of immigrants nowadays should be?
+gss2022:sprtprsn,gss2022,sprtprsn,False,True,,R consider self a spiritual person?
+gss2022:reborn,gss2022,reborn,False,True,,Has R ever had a 'born again' experience?
+gss2022:discaff,gss2022,discaff,False,True,,Whites hurt by aff. action?
+gss2022:bible,gss2022,bible,False,True,,Feelings about the bible?
+gss2022:feeused,gss2022,feeused,False,False,GSS corrupt or paradata,Fee given to get case?
+gss2022:reliten,gss2022,reliten,False,True,,Strength of affiliation?
+gss2022:satjob,gss2022,satjob,False,True,,Work satisfaction?
+gss2022:fehire,gss2022,fehire,False,True,,Should hire and promote women?
+gss2022:fepol,gss2022,fepol,False,True,,Women not suited for politics?
+gss2022:discaffw,gss2022,discaffw,False,True,,A woman won't get a job or promotion?
+gss2022:teensex,gss2022,teensex,False,True,,Sex before marriage:teens 14-16?
+gss2022:helpful,gss2022,helpful,False,True,,People helpful or looking out for selves?
+gss2022:trust,gss2022,trust,False,True,,Can people be trusted?
+gss2022:fair,gss2022,fair,False,True,,People fair or try to take advantage?
+gss2022:grass,gss2022,grass,False,True,,Should marijuana be made legal?
+gss2022:polescap,gss2022,polescap,False,True,,Citizen attempting to escape custody?
+gss2022:polmurdr,gss2022,polmurdr,False,True,,Citizen questioned as murder suspect?
+gss2022:parsol,gss2022,parsol,False,True,,R's living standard compared to parents?
+gss2022:kidssol,gss2022,kidssol,False,True,,R's kids living standard compared to R?
+gss2022:pornlaw,gss2022,pornlaw,False,True,,Feelings about pornography laws?
+gss2022:getahead,gss2022,getahead,False,True,,Opinion of how people get ahead?
+gss2022:god,gss2022,god,False,True,,R's confidence in the existence of god?
+gss2022:colath,gss2022,colath,False,True,,Civil liberties question — Allow anti-religionist to teach?
+gss2022:colmslm,gss2022,colmslm,False,True,,Civil liberties question — Allow anti-American muslim clergymen teaching in college?
+gss2022:colrac,gss2022,colrac,False,True,,Civil liberties question — Allow racist to teach?
+gss2022:happy7,gss2022,happy7,False,False,GSS duplicate wording variant,How happy R is?
+gss2022:letinasn1,gss2022,letinasn1,False,True,,IMMIGRATION FROM ASIA SHOULD DECREASE OR INCREASE?
+gss2022:letinhsp1,gss2022,letinhsp1,False,True,,IMMIGRATION FROM LATIN AMERICA SHOULD DECREASE OR INCREASE?
+gss2022:helpoth,gss2022,helpoth,False,True,,To help others?
+gss2022:satjob1,gss2022,satjob1,False,False,GSS duplicate wording variant,Job satisfaction in general?
+gss2022:trustman,gss2022,trustman,False,True,,R trust management at work?
+gss2022:feeldown,gss2022,feeldown,False,True,,HOW OFTEN FELT DOWN IN PAST 2 WEEKS?
+gss2022:condemnd,gss2022,condemnd,False,False,GSS corrupt or paradata,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: r free from conflicting demands?"
+gss2022:fairearn,gss2022,fairearn,False,True,,How fair is what R earn on the job?
+gss2022:feelnerv,gss2022,feelnerv,False,True,,HOW OFTEN FELT NERVIOUS IN PAST 2 WEEKS?
+gss2022:nataidy,gss2022,nataidy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: assistance to other countries:ver y?"
+gss2022:natcityy,gss2022,natcityy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: assistance to big cities:version y?"
+gss2022:natcrimy,gss2022,natcrimy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: law enforcement:version y?"
+gss2022:natdrugy,gss2022,natdrugy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: drug rehabilitation:version y?"
+gss2022:nateducy,gss2022,nateducy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: education:version y?"
+gss2022:natenviy,gss2022,natenviy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: the environment:version y?"
+gss2022:natfarey,gss2022,natfarey,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: assistance to the poor:version y?"
+gss2022:nathealy,gss2022,nathealy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: health:version y?"
+gss2022:natarmsy,gss2022,natarmsy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: national defense:version y?"
+gss2022:natspacy,gss2022,natspacy,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: space exploration:version y?"
+gss2022:natspac,gss2022,natspac,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: space exploration program?"
+gss2022:natcity,gss2022,natcity,False,True,,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: solving problems of big cities?"
+gss2022:natracey,gss2022,natracey,False,False,GSS duplicate wording variant,"We are faced with many problems in this country, none of which can be solved easily or inexpensively. Are we spending too much money, too little money, or about the right amount on: assistance to black people: version y?"
+gss2022:condom,gss2022,condom,False,False,GSS corrupt or paradata,"As far as the people running this institution are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in: used condom last time?"
+gss2022:richwork,gss2022,richwork,False,True,,"If rich, continue or stop working?"
+gss2022:racdif2,gss2022,racdif2,False,True,,Differences due to in-born learning ability?
+gss2022:suicide2,gss2022,suicide2,False,True,,Suicide if bankrupt?
+gss2022:suicide3,gss2022,suicide3,False,True,,Suicide if dishonored family?
+gss2022:racdif1,gss2022,racdif1,False,True,,Differences due to discrimination?
+gss2022:racdif3,gss2022,racdif3,False,True,,Differences due to lack of education?
+gss2022:suicide4,gss2022,suicide4,False,True,,Suicide if tired of living?
+gss2022:racdif4,gss2022,racdif4,False,True,,Differences due to lack of will?
+gss2022:letdie1y,gss2022,letdie1y,False,False,GSS duplicate wording variant,Allow incurable patients to die (form 2)?
+gss2022:suicide1,gss2022,suicide1,False,True,,Suicide if incurable disease?
+gss2022:racdif2x,gss2022,racdif2x,False,False,GSS duplicate wording variant,DIFFERENCES DUE TO IN-BORN LEARNING ABILITY?
+gss2022:racdif3x,gss2022,racdif3x,False,False,GSS duplicate wording variant,DIFFERENCES DUE TO LACK OF EDUCATION?
+gss2022:racdif4x,gss2022,racdif4x,False,False,GSS duplicate wording variant,DIFFERENCES DUE TO LACK OF WILL?
+gss2022:discaffm,gss2022,discaffm,False,True,,A man won't get a job or promotion?
+gss2022:letdie1,gss2022,letdie1,False,True,,Allow incurable patients to die?
+gss2022:suicide2g,gss2022,suicide2g,False,False,GSS duplicate wording variant,Suicide if bankrupt?
+gss2022:suicide4g,gss2022,suicide4g,False,False,GSS duplicate wording variant,Suicide if tired of living?
+gss2022:racdif1x,gss2022,racdif1x,False,False,GSS duplicate wording variant,DIFFERENCES DUE TO DISCRIMINATION (LONGER INTRO)?
+gss2022:suicide3g,gss2022,suicide3g,False,False,GSS duplicate wording variant,Suicide if dishonored family?
+gss2022:polattaky,gss2022,polattaky,False,False,GSS duplicate wording variant,Citizen attacking policeman with fists Y?
+gss2022:fejobaff,gss2022,fejobaff,False,True,,For or against preferential hiring of women?
+gss2022:suicide1g,gss2022,suicide1g,False,False,GSS duplicate wording variant,Suicide if incurable disease?
+gss2022:fechld2,gss2022,fechld2,False,False,GSS duplicate wording variant,MOTHER WORKING DOESN'T HURT CHILDREN - ISSP VERSION?
+gss2022:fepresch2,gss2022,fepresch2,False,False,GSS duplicate wording variant,PRESCHOOL KIDS SUFFER IF MOTHER WORKS  - ISSP VERSION?
+gss2022:polabusey,gss2022,polabusey,False,False,GSS duplicate wording variant,Citizen said vulgar or obscene things Y?
+gss2022:polhitoky,gss2022,polhitoky,False,False,GSS duplicate wording variant,Ever approve of police striking citizen Y?
+gss2022:libmslm,gss2022,libmslm,False,True,,Civil liberties question — Allow anti-American muslim clergymen's books in library?
+gss2022:spkath,gss2022,spkath,False,True,,Civil liberties question — Allow anti-religionist to speak?
+gss2022:libath,gss2022,libath,False,True,,Civil liberties question — Allow anti-religious book in library?
+gss2022:libcom,gss2022,libcom,False,True,,Civil liberties question — Allow communists book in library?
+gss2022:librac,gss2022,librac,False,True,,Civil liberties question — Allow racists book in library?
+gss2022:abanyg,gss2022,abanyg,False,False,GSS duplicate wording variant,Abortion if woman wants for any reason (grid on web)?
+gss2022:abhlthg,gss2022,abhlthg,False,True,,Woman's health seriously endangered (grid on web)?
+gss2022:abpoorg,gss2022,abpoorg,False,True,,Low income--cant afford more children (grid on web)?
+gss2022:abrapeg,gss2022,abrapeg,False,True,,Pregnant as result of rape (grid on web)?
+gss2022:absingleg,gss2022,absingleg,False,True,,Not married (grid on web)?
+gss2022:polabuse,gss2022,polabuse,False,True,,Citizen said vulgar or obscene things?
+gss2022:spkmslm,gss2022,spkmslm,False,True,,Civil liberties question — Allow muslim clergymen preaching hatred of the us?
+gss2022:abnomoreg,gss2022,abnomoreg,False,False,GSS duplicate wording variant,Married--wants no more children (grid on web)?
+gss2022:polhitok,gss2022,polhitok,False,True,,Ever approve of police striking citizen?
+gss2022:spkcom,gss2022,spkcom,False,True,,Civil liberties question — Allow communist to speak?
+gss2022:spkrac,gss2022,spkrac,False,True,,Civil liberties question — Allow racist to speak?
+gss2022:abdefectg,gss2022,abdefectg,False,True,,Strong chance of serious defect (grid on web)?
+gss2022:colcom,gss2022,colcom,False,True,,Civil liberties question — Should communist teacher be fired?
+gss2022:polattak,gss2022,polattak,False,True,,Citizen attacking policeman with fists?
+gss2022:libmslmy,gss2022,libmslmy,False,False,GSS duplicate wording variant,Civil liberties question — Allow anti-American muslim clergymen's books in library Y?
+gss2022:libathy,gss2022,libathy,False,False,GSS duplicate wording variant,Civil liberties question — Allow anti-religionist to teach Y?
+gss2022:libcomy,gss2022,libcomy,False,False,GSS duplicate wording variant,Civil liberties question — Allow communists book in library Y?
+gss2022:libracy,gss2022,libracy,False,False,GSS duplicate wording variant,Civil liberties question — Allow racists book in library Y?
+gss2022:spkathy,gss2022,spkathy,False,False,GSS duplicate wording variant,Civil liberties question — Allow anti-religionist to speak Y?
+gss2022:spkcomy,gss2022,spkcomy,False,False,GSS duplicate wording variant,Civil liberties question — Allow communist to speak Y?
+gss2022:spkmslmy,gss2022,spkmslmy,False,False,GSS duplicate wording variant,Civil liberties question — Allow muslim clergymen preaching hatred of the us Y?
+gss2022:spkracy,gss2022,spkracy,False,False,GSS duplicate wording variant,Civil liberties question — Allow racist to speak y?
+gss2022:colcomy,gss2022,colcomy,False,False,GSS duplicate wording variant,Civil liberties question — Should communist teacher be fired Y?
+gss2022:abany,gss2022,abany,False,True,,Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if: abortion if woman wants for any reason?
+gss2022:abnomore,gss2022,abnomore,False,True,,Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if: married--wants no more children?

@@ -1,0 +1,21 @@
+qid,set,survey,question_code,pdf_page,printed_page,column_label,eu27_on_page,real_dk_pct,match,item
+eb2:FL564:p17,eb_web,FL564,Q4_3,17,16,Don't know,4,4.0,True,To what extent do you agree or disagree with the following statements? Digital technologies can be used to pro
+eb2:STD104:p258,eb_face_to_face,STD104,QE6.2,258,256,Don't know,9,9.0,True,"Regardless of whether you participate in online social networks or not (social networking websites, social med"
+eb3:FL576:p24,eb_web,FL576,Q10.3,24,not printed,Don't know/ No answer,11,11.0,True,"As far as you know, has your organisation put in place any of the following measures related to cybersecurity?"
+eb:FL015EP:p18,eb_web,FL015EP,Q6,18,18,Don't know / no answer,6,6.0,True,"When today's children grow up, do you think their standard of living will be higher, lower, or similar to that"
+eb:FL015EP:p4,eb_web,FL015EP,Q1b,4,4,Don't know / no answer,3,3.0,True,"Overall, how would you describe the current state of each of the following? The economy in the European Union?"
+eb:FL567:p20,eb_telephone,FL567,Q6b,20,19,Don't know,4,4.0,True,How well informed do you feel about the public administration services in [YOUR COUNTRY] available to you? Cau
+eb:FL584:p28,eb_web,FL584,Q11.2,28,not printed,Don't know,6,6.0,True,How concerned are you about the following risks children face on social media? Online grooming or sexual explo
+eb:SP569:p18,eb_face_to_face,SP569,QB8.1,18,16,Don't know,9,9.0,True,Please tell me to what extent you agree or disagree with each of the following statements: Jobs linked to IVET
+eb:SP570:p19,eb_face_to_face,SP570,QD5.8,19,17,Don't know,6,6.0,True,"More precisely, do you think that each of the following situation is a problem or not in (OUR COUNTRY)? People"
+eb:SP571:p10,eb_face_to_face,SP571,QA3.2,10,8,Don't know,1,1.0,True,"In your opinion, in general, to what extent is biodiversity threatened by the following? Pollution of air, soi"
+eb:SP572:p44,eb_face_to_face,SP572,QB15,44,42,Don't know,4,4.0,True,"To what extent do you agree or disagree that online manipulation (such as disinformation, foreign interference"
+eb:SP573:p45,eb_face_to_face,SP573,QC12a.3,45,43,Don't know,7,7.0,True,Please tell whether you agree or disagree with each of the following? Corruption is part of the business cultu
+eb:SP573:p48,eb_face_to_face,SP573,QC12a.6,48,46,Don't know,10,10.0,True,Please tell whether you agree or disagree with each of the following? High-level corruption cases are not purs
+eb:SP573:p56,eb_face_to_face,SP573,QC12b.1,56,54,Don't know,8,8.0,True,"Please tell whether you agree or disagree with each of the following? In (OUR COUNTRY), bribery or the use of "
+eb:SP573:p59,eb_face_to_face,SP573,QC12b.4,59,57,Don't know,12,12.0,True,"Please tell whether you agree or disagree with each of the following? In (OUR COUNTRY), national anti-corrupti"
+eb:SP577:p10,eb_face_to_face,SP577,QB5.4,10,8,Don't know,6,6.0,True,"To what extent do you think the EU, through the Common Agricultural Policy (CAP), is fulfilling its role in .."
+eb:SP577:p3,eb_face_to_face,SP577,QB1,3,1,Don't know,0,0.0,True,"Do you think that, in the EU, agriculture and rural areas are ... for our future?"
+eb:SP577:p60,eb_face_to_face,SP577,QB16.3,60,58,Don't know,3,3.0,True,Do you agree or disagree with each of the following statements about the European Union's trade barriers to im
+eb:STD105:p164,eb_face_to_face,STD105,QB2.10,164,162,Don't know,4,4.0,True,"What is your opinion on each of the following statements? Please tell for each statement, whether you are for "
+eb:STD105:p39,eb_face_to_face,STD105,QA2.6,39,37,Don't know,5,5.0,True,"What are your expectations for the next twelve months: will the next twelve months be better, worse or the sam"

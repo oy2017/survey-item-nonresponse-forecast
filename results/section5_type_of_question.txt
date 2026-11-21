@@ -1,0 +1,100 @@
+=== Table D8: inside question blocks, 374 face-to-face Eurobarometer questions ===
+  Opus 5.5                             (a) 0.784 | (b) 0.708 | (c) 0.735 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 40
+  Sonnet 5.5                           (a) 0.721 | (b) 0.646 | (c) 0.666 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 40
+  Gemini Flash thinking                (a) 0.746 | (b) 0.677 | (c) 0.653 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 38
+  prompt length (question + options)   (a) 0.057 | (b) 0.028 | (c) 0.051 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 21
+  question length                      (a) 0.057 | (b) 0.028 | (c) 0.051 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 21
+
+=== Regressions on past results, 374 face-to-face questions (leave one survey out, repeats removed from training) ===
+  word counts                            374          words_ridge250 0.274 [0.09, 0.44] | words_ridge3000 0.329 [0.14, 0.49] | words_forest 0.265 [0.07, 0.44]
+  word counts                            100 new      words_ridge250 0.262 [-0.13, 0.57] | words_ridge3000 0.399 [0.05, 0.67] | words_forest 0.468 [0.16, 0.69]
+  word counts                            274 repeated words_ridge250 0.320 [0.14, 0.50] | words_ridge3000 0.344 [0.14, 0.52] | words_forest 0.184 [-0.04, 0.41]
+  embeddings, all modes                  374          emb_ridge 0.531 [0.40, 0.65] | emb_ridge_simple 0.497 [0.34, 0.64] | emb_svr 0.544 [0.41, 0.67] | emb_svr_simple 0.454 [0.30, 0.60] | emb_knn 0.293 [0.12, 0.45]
+  embeddings, all modes                  100 new      emb_ridge 0.622 [0.40, 0.79] | emb_ridge_simple 0.577 [0.33, 0.78] | emb_svr 0.654 [0.45, 0.81] | emb_svr_simple 0.581 [0.33, 0.78] | emb_knn 0.435 [0.15, 0.68]
+  embeddings, all modes                  274 repeated emb_ridge 0.499 [0.35, 0.65] | emb_ridge_simple 0.496 [0.32, 0.66] | emb_svr 0.504 [0.34, 0.66] | emb_svr_simple 0.416 [0.23, 0.60] | emb_knn 0.257 [0.08, 0.44]
+  embeddings, face-to-face surveys only  374          emb_samemode_ridge 0.526 [0.38, 0.66] | emb_samemode_svr 0.526 [0.37, 0.66] | emb_samemode_kridge 0.533 [0.38, 0.67] | emb_samemode_knn 0.410 [0.25, 0.55] | emb_samemode_avg3 0.531 [0.38, 0.67]
+  embeddings, face-to-face surveys only  100 new      emb_samemode_ridge 0.767 [0.60, 0.87] | emb_samemode_svr 0.746 [0.57, 0.86] | emb_samemode_kridge 0.771 [0.60, 0.87] | emb_samemode_knn 0.698 [0.49, 0.81] | emb_samemode_avg3 0.761 [0.59, 0.87]
+  embeddings, face-to-face surveys only  274 repeated emb_samemode_ridge 0.410 [0.24, 0.59] | emb_samemode_svr 0.422 [0.24, 0.60] | emb_samemode_kridge 0.418 [0.24, 0.60] | emb_samemode_knn 0.292 [0.11, 0.48] | emb_samemode_avg3 0.419 [0.25, 0.60]
+  forecast minus best all-mode embedding variant (emb_svr) on the 374, paired over block resamples:
+    Opus 5.5               +0.342 [+0.24, +0.46]
+    Sonnet 5.5             +0.269 [+0.16, +0.39]
+    Gemini Flash thinking  +0.297 [+0.19, +0.41]
+    Haiku 5.5              -0.054 [-0.19, +0.08]
+  inside blocks, emb_svr: 0.458; Opus 5.5 0.784; Sonnet 5.5 0.721
+  forecast minus face-to-face-only embedding variants on the 100 new questions, paired over block resamples:
+    Opus 5.5               minus emb_samemode_ridge +0.112 [+0.02, +0.25] | minus emb_samemode_svr +0.134 [+0.04, +0.27] | minus emb_samemode_kridge +0.109 [+0.02, +0.24]
+    Sonnet 5.5             minus emb_samemode_ridge +0.066 [-0.03, +0.20] | minus emb_samemode_svr +0.088 [-0.03, +0.22] | minus emb_samemode_kridge +0.062 [-0.05, +0.19]
+    Gemini Flash thinking  minus emb_samemode_ridge +0.117 [+0.03, +0.24] | minus emb_samemode_svr +0.139 [+0.04, +0.27] | minus emb_samemode_kridge +0.113 [+0.03, +0.25]
+  inside surveys on the 100 (survey means removed): emb_samemode_ridge 0.603, emb_samemode_svr 0.617, emb_samemode_kridge 0.629, emb_samemode_knn 0.585, emb_samemode_avg3 0.621, Opus 5.5 0.838, Sonnet 5.5 0.788, Gemini Flash thinking 0.827
+  inside blocks, 78 grouped new questions:
+    emb_samemode_ridge     (a) 0.465 (b) 0.518 (c) 0.487 | 78 questions, 20 blocks
+    emb_samemode_svr       (a) 0.483 (b) 0.569 (c) 0.555 | 78 questions, 20 blocks
+    emb_samemode_kridge    (a) 0.469 (b) 0.595 (c) 0.584 | 78 questions, 20 blocks
+    emb_samemode_knn       (a) 0.162 (b) 0.168 (c) 0.191 | 78 questions, 20 blocks
+    emb_samemode_avg3      (a) 0.481 (b) 0.546 (c) 0.526 | 78 questions, 20 blocks
+    Opus 5.5               (a) 0.760 (b) 0.628 (c) 0.758 | 78 questions, 20 blocks
+    Sonnet 5.5             (a) 0.680 (b) 0.583 (c) 0.572 | 78 questions, 20 blocks
+    Gemini Flash thinking  (a) 0.742 (b) 0.679 (c) 0.639 | 78 questions, 20 blocks
+  inside blocks, 326 grouped face-to-face questions:
+    emb_samemode_ridge     (a) 0.425 (b) 0.472 (c) 0.453 | 326 questions, 70 blocks
+    emb_samemode_svr       (a) 0.471 (b) 0.517 (c) 0.504 | 326 questions, 70 blocks
+    emb_samemode_kridge    (a) 0.451 (b) 0.477 (c) 0.486 | 326 questions, 70 blocks
+    emb_samemode_knn       (a) 0.085 (b) 0.139 (c) 0.122 | 326 questions, 70 blocks
+    emb_samemode_avg3      (a) 0.454 (b) 0.478 (c) 0.480 | 326 questions, 70 blocks
+    Opus 5.5               (a) 0.784 (b) 0.708 (c) 0.735 | 326 questions, 70 blocks
+    Sonnet 5.5             (a) 0.721 (b) 0.646 (c) 0.666 | 326 questions, 70 blocks
+    Gemini Flash thinking  (a) 0.746 (b) 0.677 (c) 0.653 | 326 questions, 70 blocks
+  training questions per held-out survey: all modes median 483 (range 384 to 499); face-to-face only, face-to-face surveys, median 354 (range 256 to 366)
+  questions (counted once) that appear in two or more surveys: 96 of 502 (96 face-to-face); clean rows 616, removed as repeats 114
+
+=== Rated familiarity, knowledge needed, wording difficulty, personal relevance (Sonnet 5.5 and Opus 5.5 raters) ===
+  agreement of the two raters per rating, matched by question: familiarity 0.829, knowledge 0.825, difficulty 0.735, relevance 0.781
+  the same, pairing the two reply files row by row without matching questions (as the scoring script did): familiarity 0.540, knowledge 0.509, difficulty 0.444, relevance 0.334 | files in the same question order: False
+
+  == World Values Survey 7: 181 questions, 21 blocks ==
+     single ratings (signed), Sonnet-rated | Opus-rated: familiarity +0.627 | +0.650; knowledge +0.672 | +0.691; difficulty +0.379 | +0.335; relevance +0.551 | +0.657
+     son: unweighted sum +0.709 | trained on other surveys +0.707 | with question length +0.713
+     opu: unweighted sum +0.745 | trained on other surveys +0.745 | with question length +0.742
+     avg: unweighted sum +0.756 | trained on other surveys +0.749 | with question length +0.742
+     forecasts Opus 0.927, Sonnet 0.840 | best rating baseline avg_sum 0.756 | partial Spearman with the four averaged ratings held fixed: Opus 0.813
+     inside blocks (block means removed, blocks of one included): Opus 0.881, Sonnet 0.782, trained ratings 0.517, unweighted sum 0.554
+     opus minus best rating baseline +0.171 [+0.07, +0.31]
+     sonnet minus best rating baseline +0.084 [-0.02, +0.22]
+
+  == General Social Survey 2022: 123 questions, 12 blocks ==
+     single ratings (signed), Sonnet-rated | Opus-rated: familiarity +0.409 | +0.402; knowledge +0.316 | +0.361; difficulty +0.145 | +0.138; relevance +0.483 | +0.612
+     son: unweighted sum +0.495 | trained on other surveys +0.506 | with question length +0.503
+     opu: unweighted sum +0.572 | trained on other surveys +0.603 | with question length +0.581
+     avg: unweighted sum +0.556 | trained on other surveys +0.592 | with question length +0.559
+     forecasts Opus 0.840, Sonnet 0.771 | best rating baseline avg_fit 0.592 | partial Spearman with the four averaged ratings held fixed: Opus 0.710
+     opus minus best rating baseline +0.247 [+0.14, +0.48]
+     sonnet minus best rating baseline +0.178 [+0.02, +0.41]
+
+  == General Social Survey 2024: 55 questions, 9 blocks ==
+     single ratings (signed), Sonnet-rated | Opus-rated: familiarity +0.322 | +0.396; knowledge +0.280 | +0.419; difficulty +0.327 | +0.497; relevance +0.429 | +0.423
+     son: unweighted sum +0.441 | trained on other surveys +0.415 | with question length +0.351
+     opu: unweighted sum +0.529 | trained on other surveys +0.490 | with question length +0.452
+     avg: unweighted sum +0.522 | trained on other surveys +0.478 | with question length +0.438
+     forecasts Opus 0.707, Sonnet 0.759 | best rating baseline avg_sum 0.522 | partial Spearman with the four averaged ratings held fixed: Opus 0.575
+     opus minus best rating baseline +0.186 [-0.22, +0.30]
+     sonnet minus best rating baseline +0.238 [+0.05, +0.34]
+
+  == Eurobarometer face-to-face (374): 374 questions, 118 blocks ==
+     single ratings (signed), Sonnet-rated | Opus-rated: familiarity +0.404 | +0.457; knowledge +0.563 | +0.669; difficulty +0.343 | +0.374; relevance +0.442 | +0.474
+     son: unweighted sum +0.525 | trained on other surveys +0.527 | with question length +0.569
+     opu: unweighted sum +0.599 | trained on other surveys +0.612 | with question length +0.638
+     avg: unweighted sum +0.572 | trained on other surveys +0.640 | with question length +0.644
+     forecasts Opus 0.887, Sonnet 0.813 | best rating baseline avg_fitlen 0.644 | partial Spearman with the four averaged ratings held fixed: Opus 0.801
+     inside blocks (block means removed, blocks of one included): Opus 0.778, Sonnet 0.712, trained ratings 0.583, unweighted sum 0.593
+     opus minus best rating baseline +0.243 [+0.13, +0.37]
+     sonnet minus best rating baseline +0.170 [+0.07, +0.28]
+
+  == Eurobarometer new (100): 100 questions, 42 blocks ==
+     single ratings (signed), Sonnet-rated | Opus-rated: familiarity +0.443 | +0.495; knowledge +0.643 | +0.750; difficulty +0.549 | +0.556; relevance +0.595 | +0.626
+     son: unweighted sum +0.636 | trained on other surveys +0.636 | with question length +0.690
+     opu: unweighted sum +0.741 | trained on other surveys +0.744 | with question length +0.772
+     avg: unweighted sum +0.696 | trained on other surveys +0.742 | with question length +0.763
+     forecasts Opus 0.880, Sonnet 0.833 | best rating baseline avg_fitlen 0.763 | partial Spearman with the four averaged ratings held fixed: Opus 0.679
+     inside blocks (block means removed, blocks of one included): Opus 0.713, Sonnet 0.637, trained ratings 0.544, unweighted sum 0.461
+     opus minus best rating baseline +0.116 [+0.03, +0.25]
+     sonnet minus best rating baseline +0.070 [-0.01, +0.20]

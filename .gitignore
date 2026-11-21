@@ -1,0 +1,8 @@
+# Respondent-level survey files: download them yourself (see README); never commit them.
+raw/
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+ledger/
