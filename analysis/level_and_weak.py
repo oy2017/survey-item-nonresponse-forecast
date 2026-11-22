@@ -62,6 +62,19 @@ for m in ("opus", "sonnet", "flash_think", "haiku"):
         o = E.survey != sv; pr[dd.index] = x[dd.index] * ye[o].mean() / x[o].mean(); cst[dd.index] = ye[o].mean(); own[dd.index] = x[dd.index] * ye[dd.index].mean() / x[dd.index].mean()
     per = pd.Series({sv: mae(pr[dd.index], ye[dd.index]) < mae(x[dd.index], ye[dd.index]) for sv, dd in E.groupby("survey")})
     print(f"  EB {m:11s} as is {mae(x, ye):.2f} | factor from the other surveys {mae(pr, ye):.2f} | own mean {mae(own, ye):.2f} | constant at other surveys' mean {mae(cst, ye):.2f} | surveys improved {int(per.sum())} of {len(per)}")
+# A designer has only the surveys already published. Same factor, taken only from the surveys first published before this
+# survey's fieldwork began (data/eb_surveys.csv). The earliest survey (SP567, 43 questions) has none and keeps its raw forecast.
+DATES = pd.read_csv(DATA / "eb_surveys.csv", parse_dates=["fieldwork_start", "first_published"]).set_index("survey")
+print("  -- factor from earlier surveys only (first published before the survey's fieldwork began) --")
+for m in ("opus", "sonnet", "flash_think", "haiku"):
+    x = col("eb_face_to_face", m); ea = x.copy(); pr = x.copy(); has = pd.Series(False, index=E.index)
+    for sv, dd in E.groupby("survey"):
+        o = E.survey != sv; pr[dd.index] = x[dd.index] * ye[o].mean() / x[o].mean()
+        prior = [t for t in E.survey.unique() if DATES.loc[t, "first_published"] < DATES.loc[sv, "fieldwork_start"]]
+        if prior:
+            pm = E.survey.isin(prior); ea[dd.index] = x[dd.index] * ye[pm].mean() / x[pm].mean(); has[dd.index] = True
+    print(f"  EB {m:11s} {int(has.sum())} questions with an earlier survey: as is {mae(x[has], ye[has]):.2f} | earlier surveys only {mae(ea[has], ye[has]):.2f} | all other surveys {mae(pr[has], ye[has]):.2f}"
+          f" || all 374 (raw forecast where no earlier survey): {mae(ea, ye):.2f}")
 for m in ("sonnet", "opus"):
     kE = ye.mean() / col("eb_face_to_face", m).mean(); kW = y("wvs7").mean() / col("wvs7", m).mean(); kG = y22.mean() / col("gss2022", m).mean(); xe = col("eb_face_to_face", m)
     print(f"  {m:7s} factors EB {kE:.2f}, WVS {kW:.2f}, GSS 2022 {kG:.2f} | EB error as is {mae(xe, ye):.2f}, with WVS factor {mae(kW * xe, ye):.2f}, with GSS 2022 factor {mae(kG * xe, ye):.2f}")

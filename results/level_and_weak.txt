@@ -35,6 +35,11 @@
   EB sonnet      as is 2.45 | factor from the other surveys 1.60 | own mean 1.31 | constant at other surveys' mean 2.83 | surveys improved 11 of 14
   EB flash_think as is 2.00 | factor from the other surveys 1.56 | own mean 1.22 | constant at other surveys' mean 2.83 | surveys improved 8 of 14
   EB haiku       as is 2.80 | factor from the other surveys 2.44 | own mean 2.22 | constant at other surveys' mean 2.83 | surveys improved 13 of 14
+  -- factor from earlier surveys only (first published before the survey's fieldwork began) --
+  EB opus        331 questions with an earlier survey: as is 2.78 | earlier surveys only 1.61 | all other surveys 1.35 || all 374 (raw forecast where no earlier survey): 1.79
+  EB sonnet      331 questions with an earlier survey: as is 2.45 | earlier surveys only 1.82 | all other surveys 1.57 || all 374 (raw forecast where no earlier survey): 1.89
+  EB flash_think 331 questions with an earlier survey: as is 2.04 | earlier surveys only 1.54 | all other surveys 1.54 || all 374 (raw forecast where no earlier survey): 1.56
+  EB haiku       331 questions with an earlier survey: as is 2.74 | earlier surveys only 2.56 | all other surveys 2.37 || all 374 (raw forecast where no earlier survey): 2.64
   sonnet  factors EB 0.72, WVS 0.70, GSS 2022 1.46 | EB error as is 2.45, with WVS factor 1.56, with GSS 2022 factor 5.29
   opus    factors EB 0.66, WVS 0.73, GSS 2022 1.14 | EB error as is 2.83, with WVS factor 1.47, with GSS 2022 factor 3.80
 
