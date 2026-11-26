@@ -14,5 +14,5 @@ script and reports any line that differs from these files.
 | `appendix_c_surveys.txt` | Appendix C, Table C1 |
 | `section5_worth.txt` | Section 5.4, Figure 2, Appendix D.6 (Table D8), cost |
 | `ways_of_asking.txt` | Section 6, Table 5, Appendix D.7 (Tables D9 to D11) |
-| `level_and_weak.txt` | Section 7 (Table 6), section 8 (Table 7), Appendices D.8 (Tables D12, D13) and D.9 |
+| `level_and_weak.txt` | Section 7, section 8 (Table 6), Appendix D.8 (Table D12), Appendix C |
 | `appendix_a_prompt_check.txt` | Appendix A: every prompt sent fits the printed templates |

@@ -23,7 +23,7 @@
   Gemini Flash thinking  47 ISSP: interview prompt mean 1.98% err 3.97 Spearman 0.856 | web prompt mean 3.66% err 2.64 Spearman 0.770
                          55: as run mean 1.96% err 3.72 Spearman 0.851 | corrected mean 3.39% err 2.58 Spearman 0.771 | core 8 mean 1.83% err 2.24
 
-=== C. Level from other surveys of the programme (Table D13, section 7) ===
+=== C. Level from other surveys of the programme (Table D12, section 7) ===
   real mean 2022 3.50% | 2024 5.66% | always guessing the 2022 mean on 2024: 3.44
   opus    as run    as is 2.95 | factor from 2022 1.14 -> 2.69 | own 2024 mean 2.27
   opus    corrected as is 2.37 | factor from 2022 1.14 -> 2.60 | own 2024 mean 2.41
@@ -52,7 +52,7 @@
   50 answers per question: pilot alone 0.749/2.24 | pilot pulled to own mean 0.749/1.79 | sonnet rescaled 0.813/1.58 | sonnet blended 0.831/1.60 | opus rescaled 0.887/1.36 | opus blended 0.848/1.58 | flash_think rescaled 0.842/1.50 | flash_think blended 0.839/1.60
   pilot alone, Spearman with the published share: k=15 0.514 k=25 0.618 k=50 0.749 k=100 0.850 k=200 0.916
 
-=== E. Real-interview pilots, General Social Survey 2024 (Table 6, Table D12) ===
+=== E. Real-interview pilots, General Social Survey 2024 (D.8, D.9; the pilot-plus-forecast rows are no longer in the paper) ===
   interviews 1428 | full-sample shares equal questions.csv: True
   pilot of 10 interviews (about 5.1 answers per question): spread (SD) of its overall 'don't know' percentage, real 2.67 | sampled 1.32 points
   pilot of 20 interviews (about 10.3 answers per question): spread (SD) of its overall 'don't know' percentage, real 1.94 | sampled 0.93 points
@@ -92,7 +92,7 @@
      forecast rescaled                Spearman 0.7709 (middle 95% 0.76 to 0.78) | error 2.27
      blended, m=25                    Spearman 0.7456 (middle 95% 0.62 to 0.85) | error 2.35
 
-=== F. Web and telephone questions (Table 7, section 8, Appendix D.9) ===
+=== F. Web and telephone questions (Table 6, section 8, Appendix C) ===
   EB web 101: opus 0.681 [0.49, 0.80]; sonnet 0.627 [0.44, 0.75]; flash_think 0.648 [0.47, 0.77]; flash 0.663 [0.47, 0.77]; qlen_text 0.370 [0.06, 0.62]; qlen_prompt 0.341 [0.02, 0.60]; n_options -0.242 [-0.47, 0.10];
   all web: opus minus question length +0.311 [-0.03, +0.64]
   all web: sonnet minus question length +0.257 [-0.09, +0.56]
@@ -112,7 +112,7 @@
   EB telephone question length, two definitions: question line 0.473 | whole prompt 0.523
   same 47 ISSP, interview prompt vs interview shares: Opus first call 0.702, mean of 3 0.699; Sonnet 0.734
 
-=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8, Appendix D.9) ===
+=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8) ===
              n  real   opus  ratio  rho_in
 survey                                    
 SP573     21.0  7.76   7.84   1.01    0.77

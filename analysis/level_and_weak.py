@@ -1,4 +1,4 @@
-"""Reproduces paper section 7 (Table 6) with Appendix D.8 (Tables D12, D13), section 8 (Table 7) with Appendix D.9, and the
+"""Reproduces paper section 7 with Appendix D.8 (Table D12), section 8 (Table 6) with Appendix C, and the
 numbers in the Abstract, Introduction (Table 1) and Conclusion that come from these or from Table 3.
 Reads data/questions.csv, data/forecasts_main.csv, data/eb_surveys.csv and, for the real-interview pilots, raw/GSS2024.dta
 (via raw_file).
@@ -51,7 +51,7 @@ for m, d, lab in (("opus", 0, "Opus 5.5 first call"), ("opus", "mean", "Opus 5.5
     print(f"  {lab:22s} 47 ISSP: interview prompt mean {xi[issp].mean():.2f}% err {mae(xi[issp], yi[issp]):.2f} Spearman {sp3(xi[issp], yi[issp])} | web prompt mean {xw.mean():.2f}% err {mae(xw, yi[issp]):.2f} Spearman {sp3(xw, yi[issp])}")
     print(f"  {'':22s} 55: as run mean {xi.mean():.2f}% err {mae(xi, yi):.2f} Spearman {sp3(xi, yi)} | corrected mean {xc.mean():.2f}% err {mae(xc, yi):.2f} Spearman {sp3(xc, yi)} | core 8 mean {xi[core].mean():.2f}% err {mae(xi[core], yi[core]):.2f}")
 
-print("\n=== C. Level from other surveys of the programme (Table D13, section 7) ===")
+print("\n=== C. Level from other surveys of the programme (Table D12, section 7) ===")
 y22 = y("gss2022"); print(f"  real mean 2022 {y22.mean():.2f}% | 2024 {yi.mean():.2f}% | always guessing the 2022 mean on 2024: {mae(np.full(len(yi), y22.mean()), yi):.2f}")
 for m, d in (("opus", "mean"), ("sonnet", "mean"), ("flash", "mean")):
     k = y22.mean() / col("gss2022", m).mean()
@@ -68,7 +68,7 @@ for m in ("opus", "sonnet", "flash_think", "haiku"):
 # first survey that asked it (earliest fieldwork), among all face-to-face rows before repeated questions are removed
 # (data/section5/eb_clean_rows.csv, which carries the forecast for every copy). The factor is the real mean over the
 # forecast mean of all rows of the surveys first published before this survey's fieldwork began. Added after the scores
-# were seen; the 374 questions used everywhere else keep the copy processed first (Appendix D.11).
+# were seen; the 374 questions used everywhere else keep the copy processed first (Appendix D.9).
 DATES = pd.read_csv(DATA / "eb_surveys.csv", parse_dates=["fieldwork_start", "first_published"]).set_index("survey")
 ALL = pd.read_csv(DATA / "section5/eb_clean_rows.csv"); ALL = ALL[ALL["mode"] == "face-to-face"].reset_index(drop=True)
 ALL["qk"] = ALL.question.str.lower().str.replace(r"[^a-z]", "", regex=True)
@@ -128,7 +128,7 @@ for k in (15, 50):
 rng = np.random.default_rng(1); p = yv / 100
 print("  pilot alone, Spearman with the published share: " + " ".join(f"k={k} {np.mean([spearmanr(x, p)[0] for x in (rng.binomial(k, p) / k for _ in range(2000)) if x.std() > 0]):.3f}" for k in (15, 25, 50, 100, 200)))
 
-print("\n=== E. Real-interview pilots, General Social Survey 2024 (Table 6, Table D12) ===")
+print("\n=== E. Real-interview pilots, General Social Survey 2024 (D.8, D.9; the pilot-plus-forecast rows are no longer in the paper) ===")
 vs = sorted(v.split(":", 1)[1] for v in I.index); ids = ["gss24_int:" + v for v in vs]
 raw = pd.read_stata(raw_file("GSS2024.dta"), columns=["id", "mode"] + vs, convert_missing=True, convert_categoricals=False); it = raw[raw["mode"].isin([1, 2])].reset_index(drop=True)
 isnum = lambda t: isinstance(t, (int, float, np.number)) and not pd.isna(t)
@@ -143,7 +143,7 @@ for n in (10, 20):
         pk = r0.choice(len(it), n, replace=False); k = ASK[pk].sum(0); c = DK[pk].sum(0); kb.append(k.mean())
         re_.append(c.sum() / k.sum()); sa_.append(r0.binomial(k, full / 100).sum() / k.sum())
     print(f"  pilot of {n} interviews (about {np.mean(kb):.1f} answers per question): spread (SD) of its overall 'don't know' percentage, real {100 * np.std(re_):.2f} | sampled {100 * np.std(sa_):.2f} points")
-# The targets are unweighted proportions (Appendix D.11). The same questions with the survey weight wtssnrps instead
+# The targets are unweighted proportions (Appendix D.9). The same questions with the survey weight wtssnrps instead
 # (added after the scores were seen).
 wv = pd.read_stata(raw_file("GSS2024.dta"), columns=["mode", "wtssnrps"], convert_missing=True, convert_categoricals=False)
 wv = pd.to_numeric(wv.loc[wv["mode"].isin([1, 2]), "wtssnrps"], errors="coerce").fillna(0).to_numpy()
@@ -171,7 +171,7 @@ for m in ("sonnet", "flash_think"):
     x = corrected(m)[0].reindex(ids).to_numpy(float); print(f"  == {m}, corrected ==")
     for n in ((32, 107, 214) if m == "sonnet" else (32,)): run(x, n, ms=(5, 25, 50, 100) if m == "sonnet" and n in (32, 107) else (25,))
 
-print("\n=== F. Web and telephone questions (Table 7, section 8, Appendix D.9) ===")
+print("\n=== F. Web and telephone questions (Table 6, section 8, Appendix C) ===")
 def boot(x, yy, g, n=2000, seed=0):
     rng = np.random.default_rng(seed); x, yy, g = np.asarray(x, float), np.asarray(yy, float), np.asarray(g); ug = np.unique(g); ix = {u: np.where(g == u)[0] for u in ug}; b = []
     for _ in range(n):
@@ -214,7 +214,7 @@ print(f"  EB telephone question length, two definitions: question line {sp(T.qle
 xi1 = col("gss2024_interview", "opus", 0)[issp]; xi3 = col("gss2024_interview", "opus")[issp]; xs = col("gss2024_interview", "sonnet")[issp]
 print(f"  same 47 ISSP, interview prompt vs interview shares: Opus first call {sp(xi1, yi[issp]):.3f}, mean of 3 {sp(xi3, yi[issp]):.3f}; Sonnet {sp(xs, yi[issp]):.3f}")
 
-print("\n=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8, Appendix D.9) ===")
+print("\n=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8) ===")
 D = E.copy(); D["opus"] = col("eb_face_to_face", "opus")
 tab = D.groupby("survey").apply(lambda s: pd.Series({"n": len(s), "real": s.real_dk_pct.mean(), "opus": s.opus.mean(), "ratio": s.opus.mean() / s.real_dk_pct.mean(), "rho_in": sp(s.opus, s.real_dk_pct) if len(s) >= 8 else np.nan}))
 print(tab.round(2).sort_values("ratio").to_string())
