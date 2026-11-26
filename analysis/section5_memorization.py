@@ -1,11 +1,11 @@
-"""Section 5.3 (Table 4) and Appendix D.5 (Tables D9, D10 and the text around them): is the forecast memorization of
+"""Section 5.3 (Table 4) and Appendix D.5 (Tables D6, D7 and the text around them): is the forecast memorization of
 published results?  Reads data/ only (and the two GSS data files in raw/ for the GSS 2024 dates and the overlap with 2022).
 
 Parts:
   A. Eurobarometer cleaning: rows with table numbers inside the question are dropped; each question is counted once.
   B. Dating: a question is dated by its earliest fieldwork start and earliest publication among all clean rows with the same wording.
-  C. Older models (Table D9, Table 4 row 1) and paired differences.
-  D. Results published after the June 2026 cutoff (Table D10, Table 4 row 2) and the further checks on the 53 questions.
+  C. Older models (Table D6, Table 4 row 1) and paired differences.
+  D. Results published after the June 2026 cutoff (Table D7, Table 4 row 2) and the further checks on the 53 questions.
   E. The note on counts (104 rows, 100 questions).
   F. The earlier World Values Survey / GSS 2022 run with a sentence of reasoning (403 questions, 304 after cleaning).
   G. The 80 reworded questions.
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     e = N[N.fs_min <= "2025-08-31"]; print(f"  fielded by 31 Aug 2025: {len(e)} questions, fieldwork starts {sorted(e.fs_min.unique())} in surveys {e.dated_by.value_counts().to_dict()}")
     print(f"  fielded after 31 Aug 2025: {int((N.fs_min > '2025-08-31').sum())}")
 
-    print("\n=== C. Older models: Table D9 and Table 4 row 1 ===")
+    print("\n=== C. Older models: Table D6 and Table 4 row 1 ===")
     cols = ["opus45", "opus45_think", "sonnet45", "opus", "sonnet"]
     A87 = N[N.fs_min > "2025-08-31"]
     row("fielded after August 2025", A87, cols); row("all", N, cols)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
         dd = [spearman(x[a].to_numpy()[i], x.real.to_numpy()[i]) - spearman(x[b].to_numpy()[i], x.real.to_numpy()[i]) for i in res[2000 * k: 2000 * (k + 1)]]
         print(f"  paired difference on the 87, {a} minus {b}: {spearman(x[a], x.real) - spearman(x[b], x.real):+.3f} [{np.nanpercentile(dd, 2.5):+.3f}, {np.nanpercentile(dd, 97.5):+.3f}]")
 
-    print("\n=== D. Published after the June 2026 cutoff: Table D10 and Table 4 row 2 ===")
+    print("\n=== D. Published after the June 2026 cutoff: Table D7 and Table 4 row 2 ===")
     late, early = N[N.pub_min > "2026-06-30"], N[N.pub_min <= "2026-06-30"]
     row("first published after 30 June 2026", late, ["opus", "sonnet", "opus45", "sonnet45", "n_options"]); row("first published by 30 June 2026", early, ["opus", "sonnet", "opus45", "sonnet45", "n_options"])
     for lab, s in (("after", late), ("by", early)): print(f"  {lab}: question length (text) {spearman(s.qtext_chars, s.real):.3f}, prompt characters {spearman(s.prompt_chars, s.real):.3f} | dated by {s.dated_by.value_counts().to_dict()} | rows sit in {s.row_survey.value_counts().to_dict()}")

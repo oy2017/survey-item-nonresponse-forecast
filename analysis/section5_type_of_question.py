@@ -1,4 +1,4 @@
-"""Reproduces section 5.2 and Appendix D.4: Table D8 (the forecast inside question blocks, versions (a)-(c)), the comparison with
+"""Reproduces section 5.2 and Appendix D.4: Table D5 (the forecast inside question blocks, versions (a)-(c)), the comparison with
 regressions on past results (scored from their saved leave-one-survey-out predictions in data/section5/regression_predictions.csv;
 the fits themselves need scikit-learn and are not rerun here), and the comparison with rated familiarity and knowledge demand
 (ridge regression on the four ratings, written out in numpy with the same leave-one-out choice of penalty as scikit-learn's RidgeCV)."""
@@ -12,7 +12,7 @@ FC = {"Opus 5.5": forecasts("Opus 5.5", "thinking"), "Sonnet 5.5": forecasts("So
 for k, v in FC.items(): F[k] = v.reindex(F.qid).to_numpy()
 R = pd.read_csv(S5 / "regression_predictions.csv").set_index("qid"); F = F.join(R, on="qid")
 
-print("=== Table D8: inside question blocks, 374 face-to-face Eurobarometer questions ===")
+print("=== Table D5: inside question blocks, 374 face-to-face Eurobarometer questions ===")
 for c in ["Opus 5.5", "Sonnet 5.5", "Gemini Flash thinking", "prompt_chars_len", "question_chars"]:
     x = F.prompt_chars if c == "prompt_chars_len" else F[c]; a, b, cc, n, g, k, pos = inside_blocks(x, y, blk)
     lab = "prompt length (question + options)" if c == "prompt_chars_len" else ("question length" if c == "question_chars" else c)

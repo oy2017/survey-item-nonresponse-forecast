@@ -1,4 +1,4 @@
-=== Table D8: inside question blocks, 374 face-to-face Eurobarometer questions ===
+=== Table D5: inside question blocks, 374 face-to-face Eurobarometer questions ===
   Opus 5.5                             (a) 0.784 | (b) 0.708 | (c) 0.735 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 40
   Sonnet 5.5                           (a) 0.721 | (b) 0.646 | (c) 0.666 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 40
   Gemini Flash thinking                (a) 0.746 | (b) 0.677 | (c) 0.653 | 326 questions, 70 blocks; (c) uses 41 blocks, positive in 38

@@ -2,7 +2,7 @@ questions 359 {'wvs7': 181, 'gss2022': 123, 'gss2024': 55} | blocks {'gss2022': 
 calls for ways 1, 1b and 2: 71800 | per model and way {('Gemini Flash', '1'): 7180, ('Gemini Flash', '1b'): 7180, ('Gemini Flash', '2'): 7180, ('Opus 5.5', '1'): 3590, ('Opus 5.5', '2'): 3590, ('Sonnet 5.5', '1'): 17950, ('Sonnet 5.5', '1b'): 17950, ('Sonnet 5.5', '2'): 7180}
 profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, ('Gemini Flash', '2'): 20, ('Opus 5.5', '1'): 10, ('Opus 5.5', '2'): 10, ('Sonnet 5.5', '1'): 50, ('Sonnet 5.5', '1b'): 50, ('Sonnet 5.5', '2'): 20} | unreadable {'Gemini Flash': 59, 'Opus 5.5': 0, 'Sonnet 5.5': 30}
 
-=== Table D12: Spearman with the real shares by survey (average share or stated chance) ===
+=== Table D9: Spearman with the real shares by survey (average share or stated chance) ===
   Opus 5.5     way 1  none said | 0.036 (0.08%) | 0.372 (1.10%) | questions with any 'don't know': 0, 1, 9
   Opus 5.5     way 2  0.721 (5.38%) | 0.717 (4.98%) | 0.893 (8.90%)
   Opus 5.5     way 3  0.707 (2.94%) | 0.840 (3.06%) | 0.927 (3.95%)
@@ -15,7 +15,7 @@ profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, (
   Gemini Flash way 2  0.618 (3.76%) | 0.553 (4.02%) | 0.784 (11.01%)
   Gemini Flash way 3  0.833 (2.30%) | 0.661 (2.70%) | 0.843 (4.14%)
 
-=== Table 5 and Table D13: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===
+=== Table 5 and Table D10: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===
   Opus 5.5: way 1 0.204 [0.077, 0.485] (0.58%) | way 2 0.777 [0.603, 0.817] (7.02%) | way 3 0.825 [0.672, 0.864] (3.49%)
       way 2 minus way 1: +0.573 [+0.2179, +0.6869]
       way 3 minus way 2: +0.048 [-0.0058, +0.1437]
@@ -37,7 +37,7 @@ profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, (
   way 1: all 50 0.157 | first 20 0.157
   way 1b: all 50 0.258 | first 20 0.256
 
-=== Table D14: way 2, person-question pairs with a real answer, three surveys pooled ===
+=== Table D11: way 2, person-question pairs with a real answer, three surveys pooled ===
   Opus 5.5     pairs 2745 (real 'don't know' 129) | AUC 0.643 | with each question's average removed 0.535
   Sonnet 5.5   pairs 5516 (real 'don't know' 230) | AUC 0.627 | with each question's average removed 0.527
   Gemini Flash pairs 5512 (real 'don't know' 230) | AUC 0.621 | with each question's average removed 0.520

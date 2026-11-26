@@ -1,7 +1,7 @@
-"""Reproduces Appendix D.3 Tables D3 (four rewritten prompts), D4 (ten examples in the prompt), D5 (all models on the 374 face-to-face
-Eurobarometer questions), D6 (open-weight models), D7 (each country's own shares) and the notes around them; also the 5.1 sentences on
+"""Reproduces Appendix D.3: Tables D3 (four rewritten prompts) and D4 (all models on the 374 face-to-face Eurobarometer questions),
+the paragraphs on examples in the prompt, the open-weight models and each country's own percentages, and the notes around them; also the 5.1 sentences on
 rewording and on the spread across models. Intervals are 2,000 resamples (seed 0). The scoring scripts behind the paper resampled
-whole surveys for Table D3 and for the Eurobarometer rows of Table D4; both that unit and question blocks (the rule stated in the paper)
+whole surveys for Table D3 and for the Eurobarometer rows of the examples check; both that unit and question blocks (the rule stated in the paper)
 are printed."""
 import warnings, numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
@@ -42,8 +42,8 @@ cq = GV.dropna().index; yq = F.set_index("qid").real_dk_pct.reindex(cq)
 print(f"  Gemini Flash thinking on the {len(cq)} questions every version answered: original {spearman(forecasts('Gemini Flash', 'thinking', 0).reindex(cq), yq):.3f} | "
       + " | ".join(f"{v} {spearman(GV.loc[cq, v], yq):.3f}" for v in ("norole", "nomode", "paraphrase", "minimal")))
 
-# ---------------- Table D4 ----------------
-print("\n=== Table D4: ten example questions with their real shares in the prompt (mean of three calls) ===")
+# ---------------- examples in the prompt (D.3) ----------------
+print("\n=== Appendix D.3, examples in the prompt: ten example questions with their real percentages (mean of three calls) ===")
 FS = pd.read_csv(S5 / "forecasts_fewshot.csv")
 TGT = {"gss2024": T["General Social Survey 2024"].reset_index(drop=True), "ebnew": T["Eurobarometer, new questions"].reset_index(drop=True)}
 for lab, (m, st) in (("Opus 5.5", BASE["Opus 5.5"]), ("Sonnet 5.5", BASE["Sonnet 5.5"]), ("Haiku 5.5", ("Haiku 5.5", "no thinking"))):
@@ -55,8 +55,8 @@ for lab, (m, st) in (("Opus 5.5", BASE["Opus 5.5"]), ("Sonnet 5.5", BASE["Sonnet
             print(f"      examples from the {cond:5s} programme: {spearman(x, yy):.3f} | as scored (GSS blocks / EB surveys) [{', '.join(f'{c:.2f}' for c in boot_ci(x, yy, units_old))}] change {spearman(x, yy) - spearman(z, yy):+.3f} [{', '.join(f'{c:+.2f}' for c in diff_ci(x, z, yy, units_old))}]"
                   f" | blocks [{', '.join(f'{c:.2f}' for c in boot_ci(x, yy, t.block))}] change [{', '.join(f'{c:+.2f}' for c in diff_ci(x, z, yy, t.block))}] | error {mae(x, yy):.2f} | mean of examples shown {r.mean_of_examples_shown.mean():.2f}%")
 
-# ---------------- Table D5 and D6 ----------------
-print("\n=== Table D5: all models on the 374 face-to-face Eurobarometer questions (interval: blocks) | inside blocks, version (a) ===")
+# ---------------- Table D4 and the open-weight models ----------------
+print("\n=== Table D4: all models on the 374 face-to-face Eurobarometer questions (interval: blocks) | inside blocks, version (a) ===")
 OW = pd.read_csv(S5 / "forecasts_open_weight.csv"); ow = lambda m: OW[OW.model == m].groupby("qid").forecast_pct.mean()
 ROWS = [("Haiku 5.5", forecasts("Haiku 5.5", "no thinking")), ("Llama 3.3 70B", ow("Llama 3.3 70B")), ("Llama 4 Maverick", ow("Llama 4 Maverick")),
         ("Sonnet 4.5", forecasts("Sonnet 4.5", "no thinking")), ("Gemini Flash-Lite", forecasts("Flash-Lite", "no thinking")), ("Opus 4.5", forecasts("Opus 4.5", "no thinking")),
@@ -70,7 +70,7 @@ fl, fn = forecasts("Gemini Flash", "thinking").reindex(g.qid).to_numpy(), foreca
 print(f"  thinking on General Social Survey 2024: Gemini Flash with {spearman(fl, gy):.3f}, without {spearman(fn, gy):.3f}, difference {fmt_ci(*paired_diff(fl, fn, gy, g.block), signed=True)}")
 fl, fn = forecasts("Gemini Flash", "thinking").reindex(F.qid).to_numpy(), forecasts("Gemini Flash", "no thinking").reindex(F.qid).to_numpy()
 print(f"  thinking on the 374: inside blocks with {inside_blocks(fl, y, blk)[0]:.3f}, without {inside_blocks(fn, y, blk)[0]:.3f}")
-print("\n=== Table D6: open-weight models (mean of three calls; interval: blocks) ===")
+print("\n=== Appendix D.3, open-weight models (mean of three calls; interval: blocks) ===")
 N = T["Eurobarometer, new questions"]
 for name, s in (("General Social Survey 2024, interviewer (55)", g), ("Eurobarometer face-to-face (374)", F), ("Eurobarometer, new questions (100)", N)):
     yy = s.real_dk_pct.to_numpy(); out = f"  {name:46s}"
@@ -79,8 +79,8 @@ for name, s in (("General Social Survey 2024, interviewer (55)", g), ("Eurobarom
         if name.startswith("Euro"): out += f" inside blocks {inside_blocks(x, yy, s.block)[0]:.3f}"
     print(out + f" | Opus 5.5 mean {spearman(forecasts('Opus 5.5', 'thinking').reindex(s.qid), yy):.3f}, first call {spearman(one_call('Opus 5.5', 'thinking', s.qid), yy):.3f}")
 
-# ---------------- Table D7 ----------------
-print("\n=== Table D7: the EU-wide forecast against each country's own shares ===")
+# ---------------- each country's own percentages (D.3) ----------------
+print("\n=== Appendix D.3, each country's own percentages: the EU-wide forecast against each country's own percentages ===")
 E = pd.read_csv(S5 / "eb_clean_rows.csv"); has = E[COUNTRIES].notna().sum(1) >= 25; C = E[has]
 print(f"  clean rows {len(E)}; country rows read {len(C)} ({C['mode'].value_counts().to_dict()}); not read {int((~has).sum())} ({E[~has]['mode'].value_counts().to_dict()}, {E[~has].survey.nunique()} surveys)")
 def ctab(lab, S):

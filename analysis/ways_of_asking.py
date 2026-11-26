@@ -1,4 +1,4 @@
-"""Section 6 (Table 5: ways of asking 1, 1b, 2, 3 on 359 questions) and Appendix D.7 (Tables D12, D13, D14, the real-people
+"""Section 6 (Table 5: ways of asking 1, 1b, 2, 3 on 359 questions) and Appendix D.7 (Tables D9, D10, D11, the real-people
 benchmark, the profile checks, the open-weight models and the first run on the General Social Survey 2024).
 Reads data/ and the respondent-level profile files that build/ways_of_asking_profiles.py writes to raw/derived/.
 Ways: 1 answer as the person; 1b the same, told "don't know" is acceptable; 2 state your chance of "don't know";
@@ -31,7 +31,7 @@ def level(model, way, sv=None):
     c = C[(C.model == model) & (C.way == way)]; c = c if sv is None else c[c.survey == sv]; return c.x.mean()
 
 WAYS = [w for w in ("1", "1b", "2", "3")]; ran = lambda m, w: w == "3" or ((C.model == m) & (C.way == w)).any()
-print("\n=== Table D12: Spearman with the real shares by survey (average share or stated chance) ===")
+print("\n=== Table D9: Spearman with the real shares by survey (average share or stated chance) ===")
 for m in MODELS:
     for w in WAYS:
         if not ran(m, w): continue
@@ -41,7 +41,7 @@ for m in MODELS:
         said = "" if w not in ("1", "1b") else " | questions with any 'don't know': " + ", ".join(str(int((qmean(m, w, sv) > 0).sum())) for sv, _ in SV)
         print(f"  {m:12s} way {w:2s} " + " | ".join(cells) + said)
 
-# ---- Table 5 / Table D13: mean over the three surveys; blocks resampled 2,000 times inside each survey (seed 0, surveys in the order above)
+# ---- Table 5 / Table D10: mean over the three surveys; blocks resampled 2,000 times inside each survey (seed 0, surveys in the order above)
 svix = [np.where(Q.survey == sv)[0] for sv, _ in SV]; tb = (Q.survey + Q.block).to_numpy(); y = Q.real_dk_pct.to_numpy(); rng = np.random.default_rng(0)
 blocks = [{u: ix[tb[ix] == u] for u in np.unique(tb[ix])} for ix in svix]
 draws = [[np.concatenate([b[u] for u in rng.choice(list(b), len(b))]) for b in blocks] for _ in range(2000)]
@@ -52,7 +52,7 @@ def means(idx, m):
         if (m, w) in XQ:
             v = [spearman(XQ[(m, w)][ix], y[ix]) for ix in idx]; out[w] = np.nanmean(v) if np.isfinite(v).any() else np.nan
     return out
-print("\n=== Table 5 and Table D13: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===")
+print("\n=== Table 5 and Table D10: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===")
 for m in MODELS:
     base = means(svix, m); bs = [means(d, m) for d in draws]; ci = lambda k: np.nanpercentile([b[k] for b in bs], [2.5, 97.5])
     print(f"  {m}: " + " | ".join(f"way {w} {base[w]:.3f} [{ci(w)[0]:.3f}, {ci(w)[1]:.3f}] ({level(m, w):.2f}%)" for w in base))
@@ -67,7 +67,7 @@ base = means(svix, "Opus 5.5"); bs = [means(d, "Opus 5.5") for d in draws]; d = 
 print(f"  Check: Opus 5.5 way 3 with only the first of its three GSS 2024 calls: way 3 {base['3']:.3f} ({level('Opus 5.5', '3'):.2f}%) | way 3 minus way 2 {base['3'] - base['2']:+.3f} [{d[0]:+.4f}, {d[1]:+.4f}]")
 W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking"); XQ[("Opus 5.5", "3")] = qmean("Opus 5.5", "3").to_numpy()
 
-# ---- Table D14: do the stated chances of way 2 pick out the person-question pairs with a real "don't know"?
+# ---- Table D11: do the stated chances of way 2 pick out the person-question pairs with a real "don't know"?
 def auc(lab, s):
     lab, s = np.asarray(lab, bool), np.asarray(s, float); r = rankdata(s); n1, n0 = lab.sum(), (~lab).sum(); return (r[lab].sum() - n1 * (n1 + 1) / 2) / (n1 * n0)
 RA = pd.read_csv(raw_file("derived/ways_of_asking_real_answers.csv")); PR = pd.read_csv(raw_file("derived/ways_of_asking_profiles.csv"))
@@ -82,7 +82,7 @@ for way in ("1", "1b"):
             qq = Q[Q.set == st].set_index("qid").real_dk_pct; rs.append(spearman(c[c.qid.isin(qq.index)].groupby("qid").x.mean().reindex(qq.index), qq))
         out.append(f"{lab} {np.nanmean(rs):.3f}")
     print(f"  way {way}: " + " | ".join(out))
-print("\n=== Table D14: way 2, person-question pairs with a real answer, three surveys pooled ===")
+print("\n=== Table D11: way 2, person-question pairs with a real answer, three surveys pooled ===")
 for m in MODELS:
     rr = C[(C.model == m) & (C.way == "2")].merge(RA.rename(columns={"dk": "real"}), on=["survey", "qid", "profile"]).dropna(subset=["real", "x"])
     wq = rr.x - rr.groupby("qid").x.transform("mean")

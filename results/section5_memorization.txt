@@ -12,7 +12,7 @@
   fielded by 31 Aug 2025: 13 questions, fieldwork starts ['2025-05-05'] in surveys {'SP567': 13}
   fielded after 31 Aug 2025: 87
 
-=== C. Older models: Table D9 and Table 4 row 1 ===
+=== C. Older models: Table D6 and Table 4 row 1 ===
   fielded after August 2025                          n  87 blocks 37 surveys (rows) 10 (dated by) 10 | opus45 0.825 [0.69, 0.91] opus45_think 0.821 [0.68, 0.90] sonnet45 0.727 [0.54, 0.84] opus 0.889 [0.79, 0.94] sonnet 0.833 [0.69, 0.90]
   all                                                n 100 blocks 42 surveys (rows) 11 (dated by) 11 | opus45 0.840 [0.71, 0.91] opus45_think 0.830 [0.69, 0.90] sonnet45 0.750 [0.57, 0.86] opus 0.880 [0.77, 0.94] sonnet 0.833 [0.69, 0.91]
   question length (question text characters): 87 0.137, all 0.230 | prompt characters: 87 0.108, all 0.192
@@ -23,7 +23,7 @@
   paired difference on the 87, sonnet45 minus sonnet: -0.105 [-0.239, -0.010]
   paired difference on the 87, opus45_think minus opus45: -0.003 [-0.045, +0.031]
 
-=== D. Published after the June 2026 cutoff: Table D10 and Table 4 row 2 ===
+=== D. Published after the June 2026 cutoff: Table D7 and Table 4 row 2 ===
   first published after 30 June 2026                 n  53 blocks 21 surveys (rows)  5 (dated by)  5 | opus 0.858 [0.72, 0.95] sonnet 0.807 [0.63, 0.91] opus45 0.781 [0.60, 0.92] sonnet45 0.712 [0.49, 0.86] n_options 0.161 [0.01, 0.35]
   first published by 30 June 2026                    n  47 blocks 21 surveys (rows)  7 (dated by)  6 | opus 0.864 [0.66, 0.94] sonnet 0.829 [0.59, 0.91] opus45 0.806 [0.55, 0.90] sonnet45 0.710 [0.40, 0.85] n_options -0.236 [-0.57, 0.26]
   after: question length (text) 0.005, prompt characters -0.019 | dated by {'SP569': 27, 'SP578': 12, 'SP574': 6, 'EB050EP': 4, 'SP577': 4} | rows sit in {'SP569': 27, 'SP578': 12, 'SP574': 6, 'EB050EP': 4, 'SP577': 4}

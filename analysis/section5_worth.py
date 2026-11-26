@@ -1,4 +1,4 @@
-"""Reproduces section 5.4, Figure 2 and Appendix D.6 (Table D11): the ceiling from the 84 questions repeated in two Standard
+"""Reproduces section 5.4, Figure 2 and Appendix D.6 (Table D8): the ceiling from the 84 questions repeated in two Standard
 Eurobarometer waves, flagging the questions with the highest values (the share of problem questions caught), random flagging,
 the cost per 100 questions, and the bar values of Figure 2. Same seed and draw order as the original scoring (one generator, seed 11)."""
 import warnings, numpy as np, pandas as pd
@@ -20,7 +20,7 @@ rng = np.random.default_rng(11)
 def caught(score, y, T_):
     bad = y >= T_; k = int(bad.sum()); order = np.lexsort((rng.random(len(y)), -np.asarray(score, float))); flag = np.zeros(len(y), bool); flag[order[:k]] = True
     return (flag & bad).sum() / k
-print("\n=== Table D11: flag as many questions as there are problem questions (the highest values by each method) ===")
+print("\n=== Table D8: flag as many questions as there are problem questions (the highest values by each method) ===")
 for lab, s in (("374 face-to-face questions", F), ("100 new questions", F[F.new_question == 1].reset_index(drop=True))):
     y = s.real_dk_pct.to_numpy(float)
     for T_ in (10, 8):

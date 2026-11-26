@@ -1,4 +1,4 @@
-"""Reproduces paper section 7 (Table 6) with Appendix D.8 (Tables D15, D16), section 8 (Table 7) with Appendix D.9, and the
+"""Reproduces paper section 7 (Table 6) with Appendix D.8 (Tables D12, D13), section 8 (Table 7) with Appendix D.9, and the
 numbers in the Abstract, Introduction (Table 1) and Conclusion that come from these or from Table 3.
 Reads data/questions.csv, data/forecasts_main.csv, data/eb_surveys.csv and, for the real-interview pilots, raw/GSS2024.dta
 (via raw_file).
@@ -51,7 +51,7 @@ for m, d, lab in (("opus", 0, "Opus 5.5 first call"), ("opus", "mean", "Opus 5.5
     print(f"  {lab:22s} 47 ISSP: interview prompt mean {xi[issp].mean():.2f}% err {mae(xi[issp], yi[issp]):.2f} Spearman {sp3(xi[issp], yi[issp])} | web prompt mean {xw.mean():.2f}% err {mae(xw, yi[issp]):.2f} Spearman {sp3(xw, yi[issp])}")
     print(f"  {'':22s} 55: as run mean {xi.mean():.2f}% err {mae(xi, yi):.2f} Spearman {sp3(xi, yi)} | corrected mean {xc.mean():.2f}% err {mae(xc, yi):.2f} Spearman {sp3(xc, yi)} | core 8 mean {xi[core].mean():.2f}% err {mae(xi[core], yi[core]):.2f}")
 
-print("\n=== C. Level from other surveys of the programme (Table D16, section 7) ===")
+print("\n=== C. Level from other surveys of the programme (Table D13, section 7) ===")
 y22 = y("gss2022"); print(f"  real mean 2022 {y22.mean():.2f}% | 2024 {yi.mean():.2f}% | always guessing the 2022 mean on 2024: {mae(np.full(len(yi), y22.mean()), yi):.2f}")
 for m, d in (("opus", "mean"), ("sonnet", "mean"), ("flash", "mean")):
     k = y22.mean() / col("gss2022", m).mean()
@@ -128,7 +128,7 @@ for k in (15, 50):
 rng = np.random.default_rng(1); p = yv / 100
 print("  pilot alone, Spearman with the published share: " + " ".join(f"k={k} {np.mean([spearmanr(x, p)[0] for x in (rng.binomial(k, p) / k for _ in range(2000)) if x.std() > 0]):.3f}" for k in (15, 25, 50, 100, 200)))
 
-print("\n=== E. Real-interview pilots, General Social Survey 2024 (Table 6, Table D15) ===")
+print("\n=== E. Real-interview pilots, General Social Survey 2024 (Table 6, Table D12) ===")
 vs = sorted(v.split(":", 1)[1] for v in I.index); ids = ["gss24_int:" + v for v in vs]
 raw = pd.read_stata(raw_file("GSS2024.dta"), columns=["id", "mode"] + vs, convert_missing=True, convert_categoricals=False); it = raw[raw["mode"].isin([1, 2])].reset_index(drop=True)
 isnum = lambda t: isinstance(t, (int, float, np.number)) and not pd.isna(t)

@@ -21,7 +21,7 @@
   range over the 12 rewritten-prompt scores: 0.769 to 0.887
   Gemini Flash thinking on the 349 questions every version answered: original 0.851 | norole 0.857 | nomode 0.865 | paraphrase 0.844 | minimal 0.848
 
-=== Table D4: ten example questions with their real shares in the prompt (mean of three calls) ===
+=== Appendix D.3, examples in the prompt: ten example questions with their real percentages (mean of three calls) ===
   Opus 5.5   gss2024  no examples 0.707, error 2.95, mean forecast 2.94% (real 5.66%)
       examples from the same  programme: 0.772 | as scored (GSS blocks / EB surveys) [0.32, 0.81] change +0.065 [-0.24, +0.14] | blocks [0.32, 0.81] change [-0.24, +0.14] | error 3.10 | mean of examples shown 2.67%
       examples from the other programme: 0.731 | as scored (GSS blocks / EB surveys) [0.39, 0.83] change +0.024 [-0.04, +0.06] | blocks [0.39, 0.83] change [-0.04, +0.06] | error 3.30 | mean of examples shown 4.40%
@@ -41,7 +41,7 @@
       examples from the same  programme: 0.179 | as scored (GSS blocks / EB surveys) [-0.09, 0.45] change -0.339 [-0.45, +0.03] | blocks [-0.12, 0.43] change [-0.56, -0.13] | error 2.96 | mean of examples shown 4.27%
       examples from the other programme: 0.474 | as scored (GSS blocks / EB surveys) [0.08, 0.61] change -0.044 [-0.15, +0.08] | blocks [0.20, 0.65] change [-0.16, +0.06] | error 2.81 | mean of examples shown 3.72%
 
-=== Table D5: all models on the 374 face-to-face Eurobarometer questions (interval: blocks) | inside blocks, version (a) ===
+=== Table D4: all models on the 374 face-to-face Eurobarometer questions (interval: blocks) | inside blocks, version (a) ===
   Haiku 5.5                        0.490 [0.36, 0.61] | inside blocks 0.311 (326 questions, 70 blocks)
   Llama 3.3 70B                    0.553 [0.45, 0.65] | inside blocks 0.225 (326 questions, 70 blocks)
   Llama 4 Maverick                 0.580 [0.47, 0.67] | inside blocks 0.426 (326 questions, 70 blocks)
@@ -55,12 +55,12 @@
   thinking on General Social Survey 2024: Gemini Flash with 0.851, without 0.833, difference +0.018 [-0.21, +0.10]
   thinking on the 374: inside blocks with 0.746, without 0.634
 
-=== Table D6: open-weight models (mean of three calls; interval: blocks) ===
+=== Appendix D.3, open-weight models (mean of three calls; interval: blocks) ===
   General Social Survey 2024, interviewer (55)   | Llama 3.3 70B 0.689 [0.19, 0.76] | Llama 4 Maverick 0.538 [-0.01, 0.61] | Opus 5.5 mean 0.707, first call 0.706
   Eurobarometer face-to-face (374)               | Llama 3.3 70B 0.553 [0.45, 0.65] inside blocks 0.225 | Llama 4 Maverick 0.580 [0.47, 0.67] inside blocks 0.426 | Opus 5.5 mean 0.887, first call 0.873
   Eurobarometer, new questions (100)             | Llama 3.3 70B 0.631 [0.43, 0.77] inside blocks 0.280 | Llama 4 Maverick 0.686 [0.47, 0.82] inside blocks 0.405 | Opus 5.5 mean 0.880, first call 0.866
 
-=== Table D7: the EU-wide forecast against each country's own shares ===
+=== Appendix D.3, each country's own percentages: the EU-wide forecast against each country's own percentages ===
   clean rows 616; country rows read 566 ({'face-to-face': 438, 'web': 101, 'telephone': 27}); not read 50 ({'face-to-face': 50}, 11 surveys)
   face-to-face, all rows             n 438 | Opus 5.5 median 0.799 (lowest 0.681), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.732 (lowest 0.629), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.755 (lowest 0.667), beats both simple baselines in 27 of 27 | question length median 0.202, prompt length median 0.176 | real EU-wide share against each country: median 0.860, lowest 0.771, highest 0.925
   new questions, all rows            n  94 | Opus 5.5 median 0.777 (lowest 0.627), beats both simple baselines in 27 of 27 | Sonnet 5.5 median 0.728 (lowest 0.614), beats both simple baselines in 27 of 27 | Gemini Flash thinking median 0.784 (lowest 0.644), beats both simple baselines in 27 of 27 | question length median 0.224, prompt length median 0.176 | real EU-wide share against each country: median 0.848, lowest 0.742, highest 0.948

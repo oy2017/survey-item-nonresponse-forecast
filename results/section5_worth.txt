@@ -1,6 +1,6 @@
 === Ceiling: STD104 (autumn 2025) and STD105 (spring 2026) share 84 questions; real share of one wave against the other: Spearman 0.964, mean absolute difference 0.39 points
 
-=== Table D11: flag as many questions as there are problem questions (the highest values by each method) ===
+=== Table D8: flag as many questions as there are problem questions (the highest values by each method) ===
   374 face-to-face questions: 40 questions with a real share of at least 10%
      Opus 5.5                                                   catches  46.8% | AUC 0.887
      Sonnet 5.5                                                 catches  49.3% | AUC 0.882
