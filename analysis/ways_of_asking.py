@@ -71,6 +71,17 @@ W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking"); XQ[("Opus 5.5", "3")] = qmea
 def auc(lab, s):
     lab, s = np.asarray(lab, bool), np.asarray(s, float); r = rankdata(s); n1, n0 = lab.sum(), (~lab).sum(); return (r[lab].sum() - n1 * (n1 + 1) / 2) / (n1 * n0)
 RA = pd.read_csv(raw_file("derived/ways_of_asking_real_answers.csv")); PR = pd.read_csv(raw_file("derived/ways_of_asking_profiles.csv"))
+# Sonnet 5.5 used 50 profiles in ways 1 and 1b and 20 in way 2. Ways 1 and 1b again on the first 20 profiles only,
+# averaged over the surveys that can be scored as in Table 5 (added after the scores were seen).
+print("\n=== Sonnet 5.5, ways 1 and 1b: all 50 profiles against the first 20 ===")
+for way in ("1", "1b"):
+    out = []
+    for lab, npf in (("all 50", 50), ("first 20", 20)):
+        c = C[(C.model == "Sonnet 5.5") & (C.way == way) & (C.profile < npf)]; rs = []
+        for _, st in SV:
+            qq = Q[Q.set == st].set_index("qid").real_dk_pct; rs.append(spearman(c[c.qid.isin(qq.index)].groupby("qid").x.mean().reindex(qq.index), qq))
+        out.append(f"{lab} {np.nanmean(rs):.3f}")
+    print(f"  way {way}: " + " | ".join(out))
 print("\n=== Table D14: way 2, person-question pairs with a real answer, three surveys pooled ===")
 for m in MODELS:
     rr = C[(C.model == m) & (C.way == "2")].merge(RA.rename(columns={"dk": "real"}), on=["survey", "qid", "profile"]).dropna(subset=["real", "x"])

@@ -6,7 +6,7 @@ gss2022                  123      12        1
 gss2024_interview         55       9        1
 gss2024_web               47       2        1
 eb_face_to_face          374     118       14
-eb_web                   101      50        6
+eb_web                   101      38        6
 eb_telephone              27      19        2
 total 908
 

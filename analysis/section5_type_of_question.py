@@ -25,6 +25,16 @@ N = F[F.new_question == 1].reset_index(drop=True); O = F[F.new_question != 1].re
 for lab, cols in (("word counts", WORDS), ("embeddings, all modes", EMB), ("embeddings, face-to-face surveys only", SAME)):
     for sname, s in (("374", F), ("100 new", N), ("274 repeated", O)):
         print(f"  {lab:38s} {sname:12s} " + " | ".join(f"{c} {fmt_ci(spearman(s[c], s.real_dk_pct), interval(s[c], s.real_dk_pct, s.block))}" for c in cols))
+# Further variants from the earlier fitting script (exploration/collab/agy/15_turn28_recompute_embed_and_web_audit.py in the
+# working repository), refitted from the saved embeddings and stored as emb_more_* columns. emb_more_samemode_avg3z is the
+# equal-weight average of three face-to-face-only fits, each z-scored on its training predictions: the paper's 0.55 and 0.79.
+MORE = [c for c in R.columns if c.startswith("emb_more_")]
+for sname, s in (("374", F), ("100 new", N)):
+    print(f"  further variants {sname:8s} " + " | ".join(f"{c[9:]} {fmt_ci(spearman(s[c], s.real_dk_pct), interval(s[c], s.real_dk_pct, s.block))}" for c in MORE))
+print("  forecast minus the averaged fit (374 and 100 new) and the best further single fit on the 100 (same_mode_ridge), paired over block resamples:")
+for m in ("Opus 5.5", "Sonnet 5.5", "Gemini Flash thinking"):
+    print(f"    {m:22s} 374 minus avg3z {fmt_ci(*paired_diff(F[m], F.emb_more_samemode_avg3z, y, blk), signed=True)} | 100 minus avg3z {fmt_ci(*paired_diff(N[m], N.emb_more_samemode_avg3z, N.real_dk_pct, N.block), signed=True)}"
+          f" | 100 minus same_mode_ridge {fmt_ci(*paired_diff(N[m], N.emb_more_same_mode_ridge, N.real_dk_pct, N.block), signed=True)}")
 print("  forecast minus best all-mode embedding variant (emb_svr) on the 374, paired over block resamples:")
 for m in ("Opus 5.5", "Sonnet 5.5", "Gemini Flash thinking", "Haiku 5.5"): print(f"    {m:22s} {fmt_ci(*paired_diff(F[m], F.emb_svr, y, blk), signed=True)}")
 print(f"  inside blocks, emb_svr: {inside_blocks(F.emb_svr, y, blk)[0]:.3f}; Opus 5.5 {inside_blocks(F['Opus 5.5'], y, blk)[0]:.3f}; Sonnet 5.5 {inside_blocks(F['Sonnet 5.5'], y, blk)[0]:.3f}")

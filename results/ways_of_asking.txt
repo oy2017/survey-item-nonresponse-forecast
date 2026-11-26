@@ -33,6 +33,10 @@ profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, (
       way 2 level / real mean share: 2.13
   Check: Opus 5.5 way 3 with only the first of its three GSS 2024 calls: way 3 0.824 (3.50%) | way 3 minus way 2 +0.047 [+0.0007, +0.1580]
 
+=== Sonnet 5.5, ways 1 and 1b: all 50 profiles against the first 20 ===
+  way 1: all 50 0.157 | first 20 0.157
+  way 1b: all 50 0.258 | first 20 0.256
+
 === Table D14: way 2, person-question pairs with a real answer, three surveys pooled ===
   Opus 5.5     pairs 2745 (real 'don't know' 129) | AUC 0.643 | with each question's average removed 0.535
   Sonnet 5.5   pairs 5516 (real 'don't know' 230) | AUC 0.627 | with each question's average removed 0.527

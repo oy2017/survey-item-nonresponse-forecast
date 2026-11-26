@@ -35,6 +35,12 @@ for lab, (m, st) in BASE.items():
               f" | minus original one call {r - spearman(z1, y):+.3f} survey-resampled [{', '.join(f'{c:+.2f}' for c in diff_ci(xf, z1, y, srv))}] block-resampled [{', '.join(f'{c:+.3f}' for c in diff_ci(xf, z1, y, blk))}]"
               f" | inside blocks {spearman(dm(xf)[ing], dm(y)[ing]):.3f} | mean forecast {np.nanmean(x):.2f}% | no readable number {bad}")
 print(f"\n  range over the 12 rewritten-prompt scores: {min(lo_all):.3f} to {max(hi_all):.3f}")
+# Gemini gave no readable number on some questions, which are left out of its scores above. The same comparison on the
+# questions that every version of the prompt answered (added after the scores were seen).
+GV = PV[PV.model == "Gemini Flash thinking"].pivot_table(index="qid", columns="variant", values="forecast_pct", aggfunc="first").reindex(F.qid)
+cq = GV.dropna().index; yq = F.set_index("qid").real_dk_pct.reindex(cq)
+print(f"  Gemini Flash thinking on the {len(cq)} questions every version answered: original {spearman(forecasts('Gemini Flash', 'thinking', 0).reindex(cq), yq):.3f} | "
+      + " | ".join(f"{v} {spearman(GV.loc[cq, v], yq):.3f}" for v in ("norole", "nomode", "paraphrase", "minimal")))
 
 # ---------------- Table D4 ----------------
 print("\n=== Table D4: ten example questions with their real shares in the prompt (mean of three calls) ===")

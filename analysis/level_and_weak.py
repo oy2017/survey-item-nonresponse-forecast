@@ -1,6 +1,7 @@
 """Reproduces paper section 7 (Table 6) with Appendix D.8 (Tables D15, D16), section 8 (Table 7) with Appendix D.9, and the
 numbers in the Abstract, Introduction (Table 1) and Conclusion that come from these or from Table 3.
-Reads data/questions.csv, data/forecasts_main.csv and, for the real-interview pilots, raw/GSS2024.dta (via raw_file).
+Reads data/questions.csv, data/forecasts_main.csv, data/eb_surveys.csv and, for the real-interview pilots, raw/GSS2024.dta
+(via raw_file).
 Seeds and draw rules follow the original computations: sampled Eurobarometer pilots seed 3 (pilot plus forecast) and seed 1
 (pilot alone); General Social Survey 2024 real-interview pilots seed 7, 2,000 draws, n whole interviews, scored on the people
 not in the pilot; block bootstrap seed 0."""
@@ -62,22 +63,56 @@ for m in ("opus", "sonnet", "flash_think", "haiku"):
         o = E.survey != sv; pr[dd.index] = x[dd.index] * ye[o].mean() / x[o].mean(); cst[dd.index] = ye[o].mean(); own[dd.index] = x[dd.index] * ye[dd.index].mean() / x[dd.index].mean()
     per = pd.Series({sv: mae(pr[dd.index], ye[dd.index]) < mae(x[dd.index], ye[dd.index]) for sv, dd in E.groupby("survey")})
     print(f"  EB {m:11s} as is {mae(x, ye):.2f} | factor from the other surveys {mae(pr, ye):.2f} | own mean {mae(own, ye):.2f} | constant at other surveys' mean {mae(cst, ye):.2f} | surveys improved {int(per.sum())} of {len(per)}")
-# A designer has only the surveys already published. Same factor, taken only from the surveys first published before this
-# survey's fieldwork began (data/eb_surveys.csv). The earliest survey (SP567, 43 questions) has none and keeps its raw forecast.
+# A designer has only the surveys already published (data/eb_surveys.csv). A question repeated from an already published
+# survey needs no forecast (its published result is the ceiling of section 5.4), so here each question is scored in the
+# first survey that asked it (earliest fieldwork), among all face-to-face rows before repeated questions are removed
+# (data/section5/eb_clean_rows.csv, which carries the forecast for every copy). The factor is the real mean over the
+# forecast mean of all rows of the surveys first published before this survey's fieldwork began. Added after the scores
+# were seen; the 374 questions used everywhere else keep the copy processed first (Appendix D.11).
 DATES = pd.read_csv(DATA / "eb_surveys.csv", parse_dates=["fieldwork_start", "first_published"]).set_index("survey")
-print("  -- factor from earlier surveys only (first published before the survey's fieldwork began) --")
-for m in ("opus", "sonnet", "flash_think", "haiku"):
-    x = col("eb_face_to_face", m); ea = x.copy(); pr = x.copy(); has = pd.Series(False, index=E.index)
-    for sv, dd in E.groupby("survey"):
-        o = E.survey != sv; pr[dd.index] = x[dd.index] * ye[o].mean() / x[o].mean()
-        prior = [t for t in E.survey.unique() if DATES.loc[t, "first_published"] < DATES.loc[sv, "fieldwork_start"]]
-        if prior:
-            pm = E.survey.isin(prior); ea[dd.index] = x[dd.index] * ye[pm].mean() / x[pm].mean(); has[dd.index] = True
-    print(f"  EB {m:11s} {int(has.sum())} questions with an earlier survey: as is {mae(x[has], ye[has]):.2f} | earlier surveys only {mae(ea[has], ye[has]):.2f} | all other surveys {mae(pr[has], ye[has]):.2f}"
-          f" || all 374 (raw forecast where no earlier survey): {mae(ea, ye):.2f}")
+ALL = pd.read_csv(DATA / "section5/eb_clean_rows.csv"); ALL = ALL[ALL["mode"] == "face-to-face"].reset_index(drop=True)
+ALL["qk"] = ALL.question.str.lower().str.replace(r"[^a-z]", "", regex=True)
+ALL["order"] = ALL.qid.map(pd.read_csv(DATA / "eb_rows.csv").set_index("row_id").row_order); ALL["fw"] = ALL.survey.map(DATES.fieldwork_start)
+assert ALL.groupby("qk").fw.apply(lambda s: (s == s.min()).sum()).eq(1).all()
+FIRST = ALL.sort_values(["fw", "order"]).drop_duplicates("qk").reset_index(drop=True)
+PRIOR = {sv: [t for t in ALL.survey.unique() if DATES.loc[t, "first_published"] < DATES.loc[sv, "fieldwork_start"]] for sv in ALL.survey.unique()}
+hasE = FIRST.survey.map(lambda sv: bool(PRIOR[sv])).to_numpy()
+EBM = {"opus": "opus", "sonnet": "sonnet", "flash_think": "gemini_flash_thinking"}
+print(f"  -- each question in the first survey that asked it: {len(ALL)} rows, {len(FIRST)} questions, {int(hasE.sum())} first asked in a survey with an earlier one;"
+      f" none for {FIRST[~hasE].survey.value_counts().to_dict()} --")
+def earlier(c):
+    x = FIRST[c].to_numpy(float).copy(); oth = x.copy(); low = []
+    for sv in FIRST.survey.unique():
+        i = (FIRST.survey == sv).to_numpy(); o = ALL.survey != sv
+        oth[i] = x[i] * ALL.real_dk_pct[o].mean() / ALL[c][o].mean()
+        if PRIOR[sv]:
+            p = ALL.survey.isin(PRIOR[sv]); x[i] = x[i] * ALL.real_dk_pct[p].mean() / ALL[c][p].mean()
+            low.append(mae(x[i], FIRST.real_dk_pct[i]) < mae(FIRST[c][i], FIRST.real_dk_pct[i]))
+    return x, oth, low
+yF = FIRST.real_dk_pct.to_numpy(float)
+for m, c in EBM.items():
+    ea, oth, low = earlier(c); x0 = FIRST[c].to_numpy(float)
+    print(f"  EB {m:11s} {int(hasE.sum())} questions: as is {mae(x0[hasE], yF[hasE]):.2f} | earlier surveys only {mae(ea[hasE], yF[hasE]):.2f} | all other surveys {mae(oth[hasE], yF[hasE]):.2f}"
+          f" | earlier-surveys factor lowers the error in {sum(low)} of {len(low)} surveys")
 for m in ("sonnet", "opus"):
     kE = ye.mean() / col("eb_face_to_face", m).mean(); kW = y("wvs7").mean() / col("wvs7", m).mean(); kG = y22.mean() / col("gss2022", m).mean(); xe = col("eb_face_to_face", m)
     print(f"  {m:7s} factors EB {kE:.2f}, WVS {kW:.2f}, GSS 2022 {kG:.2f} | EB error as is {mae(xe, ye):.2f}, with WVS factor {mae(kW * xe, ye):.2f}, with GSS 2022 factor {mae(kG * xe, ye):.2f}")
+# The earlier-surveys factor against a sampled pilot of the survey itself (D.8, added after the scores were seen): each
+# survey's factor from k sampled answers per question on all rows of that survey's questionnaire (drawn as in part D,
+# seed 3, 2,000 draws; no "don't know" in the pilot counts as one), scored on the same questions as above.
+print("  -- earlier surveys against a sampled pilot of each survey alone, same questions --")
+gF, gA, yA = FIRST.survey.to_numpy(), ALL.survey.to_numpy(), ALL.real_dk_pct.to_numpy(float)
+for m, c in EBM.items():
+    ea, _, _ = earlier(c); xF, xA = FIRST[c].to_numpy(float), ALL[c].to_numpy(float); r3 = np.random.default_rng(3); out = []
+    for k in (5, 10, 15):
+        errs = []
+        for _ in range(2000):
+            cnt = r3.binomial(k, yA / 100).astype(float); xc = xF.copy()
+            for sv in np.unique(gF):
+                i, j = gF == sv, gA == sv; xc[i] = xF[i] * max(cnt[j].sum(), 1.0) / (k * xA[j] / 100).sum()
+            errs.append(np.abs(xc[hasE] - yF[hasE]).mean())
+        out.append(f"k={k} {np.mean(errs):.2f}")
+    print(f"  EB {m:11s} {int(hasE.sum())} questions: earlier surveys {mae(ea[hasE], yF[hasE]):.2f} | pilot of the survey alone " + ", ".join(out))
 
 print("\n=== D. Sampled pilots on the 374 face-to-face Eurobarometer questions (section 7, D.8; Abstract, Table 3) ===")
 yv = ye.to_numpy(float); rng = np.random.default_rng(3); mm = 25.0
@@ -99,6 +134,22 @@ raw = pd.read_stata(raw_file("GSS2024.dta"), columns=["id", "mode"] + vs, conver
 isnum = lambda t: isinstance(t, (int, float, np.number)) and not pd.isna(t)
 DK = np.column_stack([(it[v].astype(str) == ".d").to_numpy() for v in vs]); ASK = np.column_stack([it[v].map(isnum).to_numpy() for v in vs]) | DK
 full = 100 * DK.sum(0) / ASK.sum(0); print(f"  interviews {len(it)} | full-sample shares equal questions.csv: {np.allclose(full, yi[ids].to_numpy())}")
+# A pilot sets a rescaling factor through its overall "don't know" percentage. How much that varies with n real interviews,
+# against answers sampled independently at each question's real percentage for the same questions (D.8; seed 0, 4,000 draws).
+r0 = np.random.default_rng(0)
+for n in (10, 20):
+    re_, sa_, kb = [], [], []
+    for _ in range(4000):
+        pk = r0.choice(len(it), n, replace=False); k = ASK[pk].sum(0); c = DK[pk].sum(0); kb.append(k.mean())
+        re_.append(c.sum() / k.sum()); sa_.append(r0.binomial(k, full / 100).sum() / k.sum())
+    print(f"  pilot of {n} interviews (about {np.mean(kb):.1f} answers per question): spread (SD) of its overall 'don't know' percentage, real {100 * np.std(re_):.2f} | sampled {100 * np.std(sa_):.2f} points")
+# The targets are unweighted proportions (Appendix D.11). The same questions with the survey weight wtssnrps instead
+# (added after the scores were seen).
+wv = pd.read_stata(raw_file("GSS2024.dta"), columns=["mode", "wtssnrps"], convert_missing=True, convert_categoricals=False)
+wv = pd.to_numeric(wv.loc[wv["mode"].isin([1, 2]), "wtssnrps"], errors="coerce").fillna(0).to_numpy()
+wt = 100 * (wv[:, None] * DK).sum(0) / (wv[:, None] * ASK).sum(0)
+print(f"  weighted targets (wtssnrps): Spearman with the unweighted {sp(wt, full):.3f} | mean {full.mean():.2f}% unweighted, {wt.mean():.2f}% weighted | forecasts as run, unweighted -> weighted: "
+      + " | ".join(f"{m} {sp(col('gss2024_interview', m).reindex(ids).to_numpy(float), full):.3f} -> {sp(col('gss2024_interview', m).reindex(ids).to_numpy(float), wt):.3f}" for m in ("opus", "sonnet", "flash_think")))
 def spn(a, b):
     a, b = np.asarray(a, float), np.asarray(b, float); return spearmanr(a, b)[0] if np.std(a) > 0 and np.std(b) > 0 else np.nan
 for m in ("sonnet", "flash_think"):

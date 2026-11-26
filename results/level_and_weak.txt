@@ -35,13 +35,16 @@
   EB sonnet      as is 2.45 | factor from the other surveys 1.60 | own mean 1.31 | constant at other surveys' mean 2.83 | surveys improved 11 of 14
   EB flash_think as is 2.00 | factor from the other surveys 1.56 | own mean 1.22 | constant at other surveys' mean 2.83 | surveys improved 8 of 14
   EB haiku       as is 2.80 | factor from the other surveys 2.44 | own mean 2.22 | constant at other surveys' mean 2.83 | surveys improved 13 of 14
-  -- factor from earlier surveys only (first published before the survey's fieldwork began) --
-  EB opus        331 questions with an earlier survey: as is 2.78 | earlier surveys only 1.61 | all other surveys 1.35 || all 374 (raw forecast where no earlier survey): 1.79
-  EB sonnet      331 questions with an earlier survey: as is 2.45 | earlier surveys only 1.82 | all other surveys 1.57 || all 374 (raw forecast where no earlier survey): 1.89
-  EB flash_think 331 questions with an earlier survey: as is 2.04 | earlier surveys only 1.54 | all other surveys 1.54 || all 374 (raw forecast where no earlier survey): 1.56
-  EB haiku       331 questions with an earlier survey: as is 2.74 | earlier surveys only 2.56 | all other surveys 2.37 || all 374 (raw forecast where no earlier survey): 2.64
+  -- each question in the first survey that asked it: 488 rows, 374 questions, 247 first asked in a survey with an earlier one; none for {'STD104': 114, 'SP567': 13} --
+  EB opus        247 questions: as is 2.99 | earlier surveys only 1.71 | all other surveys 1.46 | earlier-surveys factor lowers the error in 9 of 12 surveys
+  EB sonnet      247 questions: as is 2.43 | earlier surveys only 2.01 | all other surveys 1.63 | earlier-surveys factor lowers the error in 8 of 12 surveys
+  EB flash_think 247 questions: as is 2.06 | earlier surveys only 1.65 | all other surveys 1.61 | earlier-surveys factor lowers the error in 5 of 12 surveys
   sonnet  factors EB 0.72, WVS 0.70, GSS 2022 1.46 | EB error as is 2.45, with WVS factor 1.56, with GSS 2022 factor 5.29
   opus    factors EB 0.66, WVS 0.73, GSS 2022 1.14 | EB error as is 2.83, with WVS factor 1.47, with GSS 2022 factor 3.80
+  -- earlier surveys against a sampled pilot of each survey alone, same questions --
+  EB opus        247 questions: earlier surveys 1.71 | pilot of the survey alone k=5 1.82, k=10 1.53, k=15 1.41
+  EB sonnet      247 questions: earlier surveys 2.01 | pilot of the survey alone k=5 1.96, k=10 1.71, k=15 1.61
+  EB flash_think 247 questions: earlier surveys 1.65 | pilot of the survey alone k=5 1.88, k=10 1.62, k=15 1.50
 
 === D. Sampled pilots on the 374 face-to-face Eurobarometer questions (section 7, D.8; Abstract, Table 3) ===
   constant at the real mean: 2.72
@@ -51,6 +54,9 @@
 
 === E. Real-interview pilots, General Social Survey 2024 (Table 6, Table D15) ===
   interviews 1428 | full-sample shares equal questions.csv: True
+  pilot of 10 interviews (about 5.1 answers per question): spread (SD) of its overall 'don't know' percentage, real 2.67 | sampled 1.32 points
+  pilot of 20 interviews (about 10.3 answers per question): spread (SD) of its overall 'don't know' percentage, real 1.94 | sampled 0.93 points
+  weighted targets (wtssnrps): Spearman with the unweighted 0.973 | mean 5.66% unweighted, 5.72% weighted | forecasts as run, unweighted -> weighted: opus 0.707 -> 0.689 | sonnet 0.759 -> 0.721 | flash_think 0.851 -> 0.830
   sonnet: full-sample Spearman as run 0.759 -> corrected 0.767 | error corrected 2.31 | mean 2.63% -> 4.01%
   flash_think: full-sample Spearman as run 0.851 -> corrected 0.771 | error corrected 2.58 | mean 1.96% -> 3.39%
   == sonnet, corrected ==
@@ -87,14 +93,14 @@
      blended, m=25                    Spearman 0.7456 (middle 95% 0.62 to 0.85) | error 2.35
 
 === F. Web and telephone questions (Table 7, section 8, Appendix D.9) ===
-  EB web 101: opus 0.681 [0.51, 0.80]; sonnet 0.627 [0.44, 0.76]; flash_think 0.648 [0.47, 0.76]; flash 0.663 [0.50, 0.78]; qlen_text 0.370 [0.09, 0.61]; qlen_prompt 0.341 [0.07, 0.59]; n_options -0.242 [-0.43, 0.00];
-  all web: opus minus question length +0.311 [-0.04, +0.62]
-  all web: sonnet minus question length +0.257 [-0.09, +0.58]
-  EB web inside blocks (71 questions, 20 blocks) opus: (a) 0.797 (b) 0.703 (c) 0.807
-  EB web inside blocks (71 questions, 20 blocks) sonnet: (a) 0.619 (b) 0.458 (c) 0.552
-  EB web inside blocks (71 questions, 20 blocks) qlen_text: (a) -0.004 (b) -0.189 (c) -0.232
-  EB web inside blocks (71 questions, 20 blocks) qlen_prompt: (a) -0.004 (b) -0.189 (c) -0.232
-  EB web inside blocks, Opus (a) interval [0.65, 0.88]
+  EB web 101: opus 0.681 [0.49, 0.80]; sonnet 0.627 [0.44, 0.75]; flash_think 0.648 [0.47, 0.77]; flash 0.663 [0.47, 0.77]; qlen_text 0.370 [0.06, 0.62]; qlen_prompt 0.341 [0.02, 0.60]; n_options -0.242 [-0.47, 0.10];
+  all web: opus minus question length +0.311 [-0.03, +0.64]
+  all web: sonnet minus question length +0.257 [-0.09, +0.56]
+  EB web inside blocks (87 questions, 24 blocks) opus: (a) 0.737 (b) 0.666 (c) 0.696
+  EB web inside blocks (87 questions, 24 blocks) sonnet: (a) 0.607 (b) 0.477 (c) 0.507
+  EB web inside blocks (87 questions, 24 blocks) qlen_text: (a) 0.058 (b) -0.026 (c) -0.127
+  EB web inside blocks (87 questions, 24 blocks) qlen_prompt: (a) 0.058 (b) -0.026 (c) -0.127
+  EB web inside blocks, Opus (a) interval [0.56, 0.86]
   web survey FL015EP n 19: Opus 0.61 | question length 0.86 | prompt length 0.82
   web survey FL564 n 27: Opus 0.83 | question length -0.20 | prompt length -0.20
   web survey FL576 n 27: Opus 0.57 | question length 0.59 | prompt length 0.47

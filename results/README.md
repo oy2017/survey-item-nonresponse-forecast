@@ -7,7 +7,7 @@ script and reports any line that differs from these files.
 |---|---|
 | `table1_and_table2.txt` | Table 1, Table 2 |
 | `table3_intervals_and_pilots.txt` | Table 3, Table D2 and its notes, real-interview and sampled pilots, forecast minus pilot |
-| `appendix_d3_models_and_prompts.txt` | Tables D3 (rewritten prompts), D4 (examples in the prompt), D5 (all models), D6 (open-weight models), D7 (country shares) |
+| `appendix_d3_models_and_prompts.txt` | Tables D3 (rewritten prompts), D4 (examples in the prompt), D5 (all models), D6 (open-weight models), D7 (country percentages) |
 | `section5_type_of_question.txt` | Section 5.2, Appendix D.4: inside-block scores (Table D8), regressions on past results, rated familiarity and knowledge |
 | `section5_memorization.txt` | Section 5.3, Table 4, Appendix D.5 (Tables D9, D10) |
 | `section5_memorization_naming.txt` | Appendix D.5: Sonnet 5.5 naming Eurobarometer in its replies, and whether those forecasts are closer |

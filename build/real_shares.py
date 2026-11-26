@@ -1,4 +1,4 @@
-"""Recompute the real "don't know" share (real_dk_pct) and the number asked (n_asked) for the World Values Survey 7 and
+"""Recompute the real "don't know" percentage (real_dk_pct) and the number asked (n_asked) for the World Values Survey 7 and
 General Social Survey 2022 and 2024 questions in data/questions.csv from the respondent-level files in raw/ (see README),
 and check them against the table. Section 3 and Appendix D.1 of the paper.
 

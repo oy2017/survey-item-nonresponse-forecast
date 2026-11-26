@@ -19,6 +19,7 @@
     minimal    0.844 | survey-resampled [0.75, 0.88] | block-resampled [0.79, 0.88] | minus original one call +0.002 survey-resampled [-0.04, +0.02] block-resampled [-0.031, +0.024] | inside blocks 0.685 | mean forecast 6.52% | no readable number 5
 
   range over the 12 rewritten-prompt scores: 0.769 to 0.887
+  Gemini Flash thinking on the 349 questions every version answered: original 0.851 | norole 0.857 | nomode 0.865 | paraphrase 0.844 | minimal 0.848
 
 === Table D4: ten example questions with their real shares in the prompt (mean of three calls) ===
   Opus 5.5   gss2024  no examples 0.707, error 2.95, mean forecast 2.94% (real 5.66%)

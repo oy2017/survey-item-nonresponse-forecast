@@ -154,6 +154,13 @@ def build(out):
         t = t.drop_duplicates("question").copy()  # each wording once per survey
         code_part = t.qcode.str.replace("_", ".") if rnd >= 2 else t.qcode
         t["block"] = code + ":" + code_part.fillna("p" + t.page.astype(str)).str.split(".").str[0]
+        # Lettered items with no dot (Q1a, Q1b, ...) that share one opening question form one block, as dotted items do.
+        lettered = code_part.fillna("").str.fullmatch(r"[A-Z]*\d+[a-z]"); base = code + ":" + code_part.fillna("").str[:-1]
+        opening = t.question.str.split("?").str[0]
+        for blabel, idx in t[lettered].groupby(base[lettered]).groups.items():
+            if len(idx) >= 2 and opening[idx].nunique() == 1:
+                assert blabel not in set(t.block), blabel
+                t.loc[idx, "block"] = blabel
         t["qid"] = ID_PREFIX[rnd] + ":" + code + ":p" + t.page.astype(str); t["mode"] = mode
         t["system"], t["user"] = zip(*[prompt(mode, q, o) for q, o in zip(t.question, t.options)]) if len(t) else ([], [])
         kept.append(t)
