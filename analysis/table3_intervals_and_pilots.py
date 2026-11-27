@@ -8,7 +8,7 @@ from section5_common import *
 
 T = test_sets()
 MODELS = {"Opus 5.5": ("Opus 5.5", "thinking"), "Sonnet 5.5": ("Sonnet 5.5", "no thinking"), "Haiku 5.5": ("Haiku 5.5", "no thinking")}
-def gem(name): return ("Gemini Flash", "no thinking, earlier run") if name in ("World Values Survey 7", "General Social Survey 2022") else ("Gemini Flash", "thinking")
+def gem(name): return ("Gemini Flash", "thinking")
 
 print("=== Table D2: Spearman correlation with 95% interval (blocks resampled 2,000 times, seed 0) ===")
 for name, s in T.items():
@@ -25,8 +25,9 @@ s = T["General Social Survey 2024"]; y, b = s.real_dk_pct.to_numpy(), s.block.to
 print(f"Opus 5.5 on General Social Survey 2024, first call only: {fmt_ci(spearman(x0, y), interval(x0, y, b))}")
 
 print("\n=== Other Gemini settings (note under Table D2) ===")
-for name in ("Eurobarometer face-to-face", "Eurobarometer, new questions", "General Social Survey 2024"):
-    s = T[name]; print(f"  {name:30s} " + " | ".join(f"{m} {st}: {spearman(forecasts(m, st).reindex(s.qid), s.real_dk_pct):.3f}" for m, st in (("Gemini Flash", "no thinking"), ("Flash-Lite", "no thinking"))))
+for name in ("World Values Survey 7", "General Social Survey 2022", "Eurobarometer face-to-face", "Eurobarometer, new questions", "General Social Survey 2024"):
+    nt = "no thinking, earlier run" if name in ("World Values Survey 7", "General Social Survey 2022") else "no thinking"  # Flash without thinking on the two older surveys: the earlier run
+    s = T[name]; print(f"  {name:30s} " + " | ".join(f"{m} {st}: {spearman(forecasts(m, st).reindex(s.qid), s.real_dk_pct):.3f}" for m, st in (("Gemini Flash", nt), ("Flash-Lite", "no thinking"))))
 
 print("\n=== One call against the mean of three (Opus 5.5 and Sonnet 5.5) ===")
 for name in ("Eurobarometer face-to-face", "Eurobarometer, new questions", "General Social Survey 2024"):

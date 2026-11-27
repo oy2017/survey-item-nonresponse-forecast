@@ -48,7 +48,7 @@ FS = pd.read_csv(S5 / "forecasts_fewshot.csv")
 TGT = {"gss2024": T["General Social Survey 2024"].reset_index(drop=True), "ebnew": T["Eurobarometer, new questions"].reset_index(drop=True)}
 for lab, (m, st) in (("Opus 5.5", BASE["Opus 5.5"]), ("Sonnet 5.5", BASE["Sonnet 5.5"]), ("Haiku 5.5", ("Haiku 5.5", "no thinking"))):
     for tg, t in TGT.items():
-        yy = t.real_dk_pct.to_numpy(); z = forecasts(m, st).reindex(t.qid).to_numpy(); units_old = t.block.to_numpy() if tg == "gss2024" else t.survey.to_numpy()
+        yy = t.real_dk_pct.to_numpy(); z = forecasts(m, st, issp="as run").reindex(t.qid).to_numpy(); units_old = t.block.to_numpy() if tg == "gss2024" else t.survey.to_numpy()
         print(f"  {lab:10s} {tg:8s} no examples {spearman(z, yy):.3f}, error {mae(z, yy):.2f}, mean forecast {np.nanmean(z):.2f}% (real {yy.mean():.2f}%)")
         for cond in ("same", "other"):
             r = FS[(FS.model == lab) & (FS.target == tg) & (FS.examples_from == cond)]; x = r.pivot(index="qid", columns="call", values="forecast_pct").reindex(t.qid).mean(axis=1).to_numpy()
@@ -77,7 +77,7 @@ for name, s in (("General Social Survey 2024, interviewer (55)", g), ("Eurobarom
     for m in ("Llama 3.3 70B", "Llama 4 Maverick"):
         x = ow(m).reindex(s.qid).to_numpy(); out += f" | {m} {fmt_ci(spearman(x, yy), boot_ci(x, yy, s.block))}"
         if name.startswith("Euro"): out += f" inside blocks {inside_blocks(x, yy, s.block)[0]:.3f}"
-    print(out + f" | Opus 5.5 mean {spearman(forecasts('Opus 5.5', 'thinking').reindex(s.qid), yy):.3f}, first call {spearman(one_call('Opus 5.5', 'thinking', s.qid), yy):.3f}")
+    print(out + f" | Opus 5.5 mean {spearman(forecasts('Opus 5.5', 'thinking', issp='as run').reindex(s.qid), yy):.3f}, first call {spearman(forecasts('Opus 5.5', 'thinking', 0, issp='as run').reindex(s.qid), yy):.3f}" + (" (first-run prompt on the 47 ISSP questions, as the open-weight models)" if name.startswith("General") else ""))
 
 # ---------------- each country's own percentages (D.3) ----------------
 print("\n=== Appendix D.3, each country's own percentages: the EU-wide forecast against each country's own percentages ===")

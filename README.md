@@ -16,6 +16,7 @@ the real percentages on 908 questions from the World Values Survey, the General 
 | `data/questions.csv` | the 908 questions: set, survey, mode, block, wording, answer options, real "don't know" percentage, number asked |
 | `data/prompts_main.csv` | the exact system and user message sent for each question |
 | `data/forecasts_main.csv` | every forecast, one row per question, model, setting and call |
+| `data/prompts_issp_supplement.csv`, `data/forecasts_issp_supplement.csv` | the re-run of the 47 General Social Survey 2024 interview questions from the ISSP self-completion supplement, with a prompt saying "Can't choose" is offered |
 | `data/replies/` | the raw model replies the forecasts were read from |
 | `analysis/` | one script per section or table of the paper; each prints the paper's numbers |
 | `build/` | scripts that rebuild `data/` from the original sources (survey files and published reports) |
@@ -43,6 +44,13 @@ No script in `analysis/` or `build/` calls a language model. Recomputing the pap
 Forecasts are in `data/forecasts_main.csv` with one row per question, model, setting and call (`draw`); the paper's
 forecast is the mean over a model's calls. `data/replies/main_forecast_replies.jsonl` holds the reply each one was read
 from (the last bracketed number in the reply).
+
+The 47 General Social Survey 2024 interview questions from the ISSP self-completion supplement (`gss24_int:` ids that also
+have a `gss24_web:` version) were first asked with a prompt saying "don't know" is not read aloud, while respondents were
+probably shown "Can't choose". Their re-run, with a prompt saying "Can't choose" is offered, is in
+`data/forecasts_issp_supplement.csv` (replies in `data/replies/issp_supplement_replies.jsonl`). `analysis/common.py`
+`forecasts()` uses the re-run by default (`issp="corrected"`); `issp="as run"` gives the first run, which section 6 and the
+examples check of Appendix D.3 use.
 
 ## Reproducing the paper
 

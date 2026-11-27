@@ -7,9 +7,15 @@ DATA = Path(__file__).resolve().parents[1] / "data"
 def questions():
     return pd.read_csv(DATA / "questions.csv")
 
-def forecasts(model, setting, draws="mean"):
-    """One forecast per question: the mean over calls (draws='mean') or a single call number."""
+def forecasts(model, setting, draws="mean", issp="corrected"):
+    """One forecast per question: the mean over calls (draws='mean') or a single call number.
+    The 47 General Social Survey 2024 interview questions from the ISSP self-completion supplement were first run with a prompt
+    saying "don't know" is not read aloud; issp='corrected' (the default) uses their re-run with a prompt saying "Can't choose" is
+    offered (data/forecasts_issp_supplement.csv), and issp='as run' keeps the first run (section 6 and the examples check use it)."""
     f = pd.read_csv(DATA / "forecasts_main.csv").query("model == @model and setting == @setting")
+    if issp == "corrected":
+        s = pd.read_csv(DATA / "forecasts_issp_supplement.csv").query("model == @model and setting == @setting")
+        if len(s): f = pd.concat([f[~f.qid.isin(s.qid)], s])
     if draws != "mean": f = f[f.draw == draws]
     return f.groupby("qid").forecast_pct.mean()
 

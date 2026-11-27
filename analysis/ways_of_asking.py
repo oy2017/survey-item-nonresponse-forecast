@@ -11,8 +11,9 @@ print(f"questions {len(Q)} {Q.survey.value_counts().to_dict()} | blocks {Q.group
 MODELS = ["Opus 5.5", "Sonnet 5.5", "Gemini Flash"]
 # ---- way 3: the main forecasts. Opus 5.5: mean of its calls (three on GSS 2024, one on WVS 7 and GSS 2022); Sonnet 5.5: mean of its calls;
 # Gemini Flash: no thinking (GSS 2024) and the earlier no-thinking run (WVS 7, GSS 2022).
-W3 = {"Opus 5.5": forecasts("Opus 5.5", "thinking"), "Sonnet 5.5": forecasts("Sonnet 5.5", "no thinking"),
-      "Gemini Flash": pd.concat([forecasts("Gemini Flash", "no thinking"), forecasts("Gemini Flash", "no thinking, earlier run")])}
+# Way 3 keeps the first run of the 47 ISSP questions, whose prompt describes them as the prompts of ways 1, 1b and 2 do.
+W3 = {"Opus 5.5": forecasts("Opus 5.5", "thinking", issp="as run"), "Sonnet 5.5": forecasts("Sonnet 5.5", "no thinking", issp="as run"),
+      "Gemini Flash": pd.concat([forecasts("Gemini Flash", "no thinking", issp="as run"), forecasts("Gemini Flash", "no thinking, earlier run")])}
 W3["Gemini Flash"] = W3["Gemini Flash"][~W3["Gemini Flash"].index.duplicated()]
 # ---- ways 1, 1b, 2: one value per call (100 = "don't know", 0 = an answer; way 2 the stated chance 0-100; unreadable = NaN)
 C = pd.read_csv(DATA / "replies/ways_of_asking_calls.csv"); C = C.merge(Q[["qid", "survey"]], on="qid")
@@ -62,10 +63,10 @@ for m in MODELS:
     both = [k for k in s1 if not np.isnan(s1[k])]
     print(f"      way 2 minus way 1 on only the surveys where way 1 can be scored ({', '.join(both)}): {np.mean([s2[k] for k in both]) - np.mean([s1[k] for k in both]):+.3f}")
     print(f"      way 2 level / real mean share: {level(m, '2') / Q.real_dk_pct.mean():.2f}")
-W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking", 0); XQ[("Opus 5.5", "3")] = qmean("Opus 5.5", "3").to_numpy()
+W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking", 0, issp="as run"); XQ[("Opus 5.5", "3")] = qmean("Opus 5.5", "3").to_numpy()
 base = means(svix, "Opus 5.5"); bs = [means(d, "Opus 5.5") for d in draws]; d = np.nanpercentile([x["3"] - x["2"] for x in bs], [2.5, 97.5])
 print(f"  Check: Opus 5.5 way 3 with only the first of its three GSS 2024 calls: way 3 {base['3']:.3f} ({level('Opus 5.5', '3'):.2f}%) | way 3 minus way 2 {base['3'] - base['2']:+.3f} [{d[0]:+.4f}, {d[1]:+.4f}]")
-W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking"); XQ[("Opus 5.5", "3")] = qmean("Opus 5.5", "3").to_numpy()
+W3["Opus 5.5"] = forecasts("Opus 5.5", "thinking", issp="as run"); XQ[("Opus 5.5", "3")] = qmean("Opus 5.5", "3").to_numpy()
 
 # ---- Table D11: do the stated chances of way 2 pick out the person-question pairs with a real "don't know"?
 def auc(lab, s):

@@ -1,0 +1,424 @@
+qid,model,setting,draw,forecast_pct
+gss24_int:aidrive,Gemini Flash,no thinking,0,1.5
+gss24_int:aimed,Gemini Flash,no thinking,0,1.8
+gss24_int:aiworry,Gemini Flash,no thinking,0,1.5
+gss24_int:biasnews,Gemini Flash,no thinking,0,2.5
+gss24_int:bizmoney,Gemini Flash,no thinking,0,4.2
+gss24_int:brneffrt,Gemini Flash,no thinking,0,1.8
+gss24_int:cctv,Gemini Flash,no thinking,0,3.8
+gss24_int:classtech,Gemini Flash,no thinking,0,4.8
+gss24_int:conpow,Gemini Flash,no thinking,0,4.8
+gss24_int:dataprot,Gemini Flash,no thinking,0,4.2
+gss24_int:eductech,Gemini Flash,no thinking,0,6.5
+gss24_int:emonitor1,Gemini Flash,no thinking,0,2.8
+gss24_int:experts,Gemini Flash,no thinking,0,3.8
+gss24_int:fulldem,Gemini Flash,no thinking,0,4.1
+gss24_int:gendtech,Gemini Flash,no thinking,0,4.8
+gss24_int:harmgood1,Gemini Flash,no thinking,0,2.8
+gss24_int:immcrime1,Gemini Flash,no thinking,0,2.8
+gss24_int:immideas1,Gemini Flash,no thinking,0,4.8
+gss24_int:immjobs1,Gemini Flash,no thinking,0,3.8
+gss24_int:immwlfare,Gemini Flash,no thinking,0,3.8
+gss24_int:incgap1,Gemini Flash,no thinking,0,2.1
+gss24_int:infodeal,Gemini Flash,no thinking,0,3.8
+gss24_int:infoprofit,Gemini Flash,no thinking,0,1.8
+gss24_int:intcnfrm,Gemini Flash,no thinking,0,2.8
+gss24_int:inthrss,Gemini Flash,no thinking,0,1.2
+gss24_int:intliteracy,Gemini Flash,no thinking,0,3.1
+gss24_int:intlnly,Gemini Flash,no thinking,0,2.1
+gss24_int:intoppo,Gemini Flash,no thinking,0,8.5
+gss24_int:intpolview,Gemini Flash,no thinking,0,4.8
+gss24_int:intpub,Gemini Flash,no thinking,0,1.2
+gss24_int:intrust,Gemini Flash,no thinking,0,3.8
+gss24_int:intscam,Gemini Flash,no thinking,0,1.8
+gss24_int:intskill,Gemini Flash,no thinking,0,1.8
+gss24_int:inttrig,Gemini Flash,no thinking,0,3.8
+gss24_int:intviews,Gemini Flash,no thinking,0,1.8
+gss24_int:leftrght1,Gemini Flash,no thinking,0,9.5
+gss24_int:nextgen1,Gemini Flash,no thinking,0,1.8
+gss24_int:owndecns,Gemini Flash,no thinking,0,3.8
+gss24_int:polint,Gemini Flash,no thinking,0,1.2
+gss24_int:servpub,Gemini Flash,no thinking,0,6.8
+gss24_int:techesy,Gemini Flash,no thinking,0,1.2
+gss24_int:trcong,Gemini Flash,no thinking,0,2.3
+gss24_int:trcourts,Gemini Flash,no thinking,0,2.1
+gss24_int:trppl,Gemini Flash,no thinking,0,4.2
+gss24_int:urbantech,Gemini Flash,no thinking,0,4.8
+gss24_int:usmca1,Gemini Flash,no thinking,0,8.5
+gss24_int:usmca2,Gemini Flash,no thinking,0,16.8
+gss24_int:aidrive,Gemini Flash,thinking,0,2.1
+gss24_int:aimed,Gemini Flash,thinking,0,2.3
+gss24_int:aiworry,Gemini Flash,thinking,0,2.1
+gss24_int:biasnews,Gemini Flash,thinking,0,2.2
+gss24_int:bizmoney,Gemini Flash,thinking,0,4.1
+gss24_int:brneffrt,Gemini Flash,thinking,0,2.6
+gss24_int:cctv,Gemini Flash,thinking,0,3.8
+gss24_int:classtech,Gemini Flash,thinking,0,5.8
+gss24_int:conpow,Gemini Flash,thinking,0,4.8
+gss24_int:dataprot,Gemini Flash,thinking,0,5.4
+gss24_int:eductech,Gemini Flash,thinking,0,5.8
+gss24_int:emonitor1,Gemini Flash,thinking,0,3.5
+gss24_int:experts,Gemini Flash,thinking,0,3.8
+gss24_int:fulldem,Gemini Flash,thinking,0,3.8
+gss24_int:gendtech,Gemini Flash,thinking,0,5.1
+gss24_int:harmgood1,Gemini Flash,thinking,0,2.1
+gss24_int:immcrime1,Gemini Flash,thinking,0,3.8
+gss24_int:immideas1,Gemini Flash,thinking,0,3.1
+gss24_int:immjobs1,Gemini Flash,thinking,0,3.4
+gss24_int:immwlfare,Gemini Flash,thinking,0,2.2
+gss24_int:incgap1,Gemini Flash,thinking,0,2.8
+gss24_int:infodeal,Gemini Flash,thinking,0,3.8
+gss24_int:infoprofit,Gemini Flash,thinking,0,4.2
+gss24_int:intcnfrm,Gemini Flash,thinking,0,3.2
+gss24_int:inthrss,Gemini Flash,thinking,0,2.5
+gss24_int:intliteracy,Gemini Flash,thinking,0,2.3
+gss24_int:intlnly,Gemini Flash,thinking,0,2.1
+gss24_int:intoppo,Gemini Flash,thinking,0,6.2
+gss24_int:intpolview,Gemini Flash,thinking,0,6.8
+gss24_int:intpub,Gemini Flash,thinking,0,1.2
+gss24_int:intrust,Gemini Flash,thinking,0,4.2
+gss24_int:intscam,Gemini Flash,thinking,0,1.8
+gss24_int:intskill,Gemini Flash,thinking,0,1.8
+gss24_int:inttrig,Gemini Flash,thinking,0,2.4
+gss24_int:intviews,Gemini Flash,thinking,0,1.2
+gss24_int:leftrght1,Gemini Flash,thinking,0,14.5
+gss24_int:nextgen1,Gemini Flash,thinking,0,1.8
+gss24_int:owndecns,Gemini Flash,thinking,0,5.2
+gss24_int:polint,Gemini Flash,thinking,0,0.8
+gss24_int:servpub,Gemini Flash,thinking,0,5.8
+gss24_int:techesy,Gemini Flash,thinking,0,1.2
+gss24_int:trcong,Gemini Flash,thinking,0,2.1
+gss24_int:trcourts,Gemini Flash,thinking,0,2.8
+gss24_int:trppl,Gemini Flash,thinking,0,1.8
+gss24_int:urbantech,Gemini Flash,thinking,0,7.2
+gss24_int:usmca1,Gemini Flash,thinking,0,2.5
+gss24_int:usmca2,Gemini Flash,thinking,0,22.5
+gss24_int:aidrive,Haiku 5.5,no thinking,0,4.5
+gss24_int:aimed,Haiku 5.5,no thinking,0,7.5
+gss24_int:aiworry,Haiku 5.5,no thinking,0,3.5
+gss24_int:biasnews,Haiku 5.5,no thinking,0,7.5
+gss24_int:bizmoney,Haiku 5.5,no thinking,0,3.1
+gss24_int:brneffrt,Haiku 5.5,no thinking,0,7.5
+gss24_int:cctv,Haiku 5.5,no thinking,0,7.5
+gss24_int:classtech,Haiku 5.5,no thinking,0,12.0
+gss24_int:conpow,Haiku 5.5,no thinking,0,4.5
+gss24_int:dataprot,Haiku 5.5,no thinking,0,12.0
+gss24_int:eductech,Haiku 5.5,no thinking,0,11.5
+gss24_int:emonitor1,Haiku 5.5,no thinking,0,12.0
+gss24_int:experts,Haiku 5.5,no thinking,0,4.5
+gss24_int:fulldem,Haiku 5.5,no thinking,0,3.1
+gss24_int:gendtech,Haiku 5.5,no thinking,0,12.0
+gss24_int:harmgood1,Haiku 5.5,no thinking,0,3.5
+gss24_int:immcrime1,Haiku 5.5,no thinking,0,9.0
+gss24_int:immideas1,Haiku 5.5,no thinking,0,4.5
+gss24_int:immjobs1,Haiku 5.5,no thinking,0,4.2
+gss24_int:immwlfare,Haiku 5.5,no thinking,0,4.5
+gss24_int:incgap1,Haiku 5.5,no thinking,0,4.5
+gss24_int:infodeal,Haiku 5.5,no thinking,0,4.1
+gss24_int:infoprofit,Haiku 5.5,no thinking,0,4.5
+gss24_int:intcnfrm,Haiku 5.5,no thinking,0,4.0
+gss24_int:inthrss,Haiku 5.5,no thinking,0,3.5
+gss24_int:intliteracy,Haiku 5.5,no thinking,0,12.0
+gss24_int:intlnly,Haiku 5.5,no thinking,0,4.5
+gss24_int:intoppo,Haiku 5.5,no thinking,0,7.5
+gss24_int:intpolview,Haiku 5.5,no thinking,0,7.5
+gss24_int:intpub,Haiku 5.5,no thinking,0,2.1
+gss24_int:intrust,Haiku 5.5,no thinking,0,7.5
+gss24_int:intscam,Haiku 5.5,no thinking,0,4.0
+gss24_int:intskill,Haiku 5.5,no thinking,0,4.5
+gss24_int:inttrig,Haiku 5.5,no thinking,0,4.0
+gss24_int:intviews,Haiku 5.5,no thinking,0,3.5
+gss24_int:leftrght1,Haiku 5.5,no thinking,0,9.0
+gss24_int:nextgen1,Haiku 5.5,no thinking,0,3.1
+gss24_int:owndecns,Haiku 5.5,no thinking,0,4.5
+gss24_int:polint,Haiku 5.5,no thinking,0,3.5
+gss24_int:servpub,Haiku 5.5,no thinking,0,14.0
+gss24_int:techesy,Haiku 5.5,no thinking,0,1.5
+gss24_int:trcong,Haiku 5.5,no thinking,0,12.0
+gss24_int:trcourts,Haiku 5.5,no thinking,0,6.5
+gss24_int:trppl,Haiku 5.5,no thinking,0,2.1
+gss24_int:urbantech,Haiku 5.5,no thinking,0,14.5
+gss24_int:usmca1,Haiku 5.5,no thinking,0,6.5
+gss24_int:usmca2,Haiku 5.5,no thinking,0,14.0
+gss24_int:aidrive,Opus 5.5,thinking,0,5.5
+gss24_int:aidrive,Opus 5.5,thinking,1,4.5
+gss24_int:aidrive,Opus 5.5,thinking,2,5.5
+gss24_int:aimed,Opus 5.5,thinking,0,5.5
+gss24_int:aimed,Opus 5.5,thinking,1,5.0
+gss24_int:aimed,Opus 5.5,thinking,2,5.5
+gss24_int:aiworry,Opus 5.5,thinking,0,3.2
+gss24_int:aiworry,Opus 5.5,thinking,1,2.6
+gss24_int:aiworry,Opus 5.5,thinking,2,2.8
+gss24_int:biasnews,Opus 5.5,thinking,0,4.5
+gss24_int:biasnews,Opus 5.5,thinking,1,3.5
+gss24_int:biasnews,Opus 5.5,thinking,2,4.5
+gss24_int:bizmoney,Opus 5.5,thinking,0,5.0
+gss24_int:bizmoney,Opus 5.5,thinking,1,4.5
+gss24_int:bizmoney,Opus 5.5,thinking,2,5.5
+gss24_int:brneffrt,Opus 5.5,thinking,0,5.5
+gss24_int:brneffrt,Opus 5.5,thinking,1,5.0
+gss24_int:brneffrt,Opus 5.5,thinking,2,5.5
+gss24_int:cctv,Opus 5.5,thinking,0,6.0
+gss24_int:cctv,Opus 5.5,thinking,1,5.5
+gss24_int:cctv,Opus 5.5,thinking,2,5.0
+gss24_int:classtech,Opus 5.5,thinking,0,9.0
+gss24_int:classtech,Opus 5.5,thinking,1,9.5
+gss24_int:classtech,Opus 5.5,thinking,2,8.0
+gss24_int:conpow,Opus 5.5,thinking,0,7.0
+gss24_int:conpow,Opus 5.5,thinking,1,6.5
+gss24_int:conpow,Opus 5.5,thinking,2,7.0
+gss24_int:dataprot,Opus 5.5,thinking,0,8.0
+gss24_int:dataprot,Opus 5.5,thinking,1,8.5
+gss24_int:dataprot,Opus 5.5,thinking,2,9.5
+gss24_int:eductech,Opus 5.5,thinking,0,11.5
+gss24_int:eductech,Opus 5.5,thinking,1,12.5
+gss24_int:eductech,Opus 5.5,thinking,2,12.5
+gss24_int:emonitor1,Opus 5.5,thinking,0,6.5
+gss24_int:emonitor1,Opus 5.5,thinking,1,6.5
+gss24_int:emonitor1,Opus 5.5,thinking,2,6.5
+gss24_int:experts,Opus 5.5,thinking,0,4.2
+gss24_int:experts,Opus 5.5,thinking,1,3.8
+gss24_int:experts,Opus 5.5,thinking,2,3.5
+gss24_int:fulldem,Opus 5.5,thinking,0,4.5
+gss24_int:fulldem,Opus 5.5,thinking,1,4.5
+gss24_int:fulldem,Opus 5.5,thinking,2,3.6
+gss24_int:gendtech,Opus 5.5,thinking,0,11.5
+gss24_int:gendtech,Opus 5.5,thinking,1,12.5
+gss24_int:gendtech,Opus 5.5,thinking,2,11.5
+gss24_int:harmgood1,Opus 5.5,thinking,0,3.5
+gss24_int:harmgood1,Opus 5.5,thinking,1,3.2
+gss24_int:harmgood1,Opus 5.5,thinking,2,3.5
+gss24_int:immcrime1,Opus 5.5,thinking,0,6.0
+gss24_int:immcrime1,Opus 5.5,thinking,1,6.5
+gss24_int:immcrime1,Opus 5.5,thinking,2,5.0
+gss24_int:immideas1,Opus 5.5,thinking,0,4.5
+gss24_int:immideas1,Opus 5.5,thinking,1,4.5
+gss24_int:immideas1,Opus 5.5,thinking,2,4.5
+gss24_int:immjobs1,Opus 5.5,thinking,0,4.8
+gss24_int:immjobs1,Opus 5.5,thinking,1,4.5
+gss24_int:immjobs1,Opus 5.5,thinking,2,4.5
+gss24_int:immwlfare,Opus 5.5,thinking,0,3.5
+gss24_int:immwlfare,Opus 5.5,thinking,1,3.2
+gss24_int:immwlfare,Opus 5.5,thinking,2,3.5
+gss24_int:incgap1,Opus 5.5,thinking,0,3.8
+gss24_int:incgap1,Opus 5.5,thinking,1,4.0
+gss24_int:incgap1,Opus 5.5,thinking,2,3.5
+gss24_int:infodeal,Opus 5.5,thinking,0,4.5
+gss24_int:infodeal,Opus 5.5,thinking,1,5.0
+gss24_int:infodeal,Opus 5.5,thinking,2,4.5
+gss24_int:infoprofit,Opus 5.5,thinking,0,6.5
+gss24_int:infoprofit,Opus 5.5,thinking,1,6.5
+gss24_int:infoprofit,Opus 5.5,thinking,2,6.5
+gss24_int:intcnfrm,Opus 5.5,thinking,0,4.5
+gss24_int:intcnfrm,Opus 5.5,thinking,1,5.5
+gss24_int:intcnfrm,Opus 5.5,thinking,2,6.5
+gss24_int:inthrss,Opus 5.5,thinking,0,5.2
+gss24_int:inthrss,Opus 5.5,thinking,1,4.5
+gss24_int:inthrss,Opus 5.5,thinking,2,4.2
+gss24_int:intliteracy,Opus 5.5,thinking,0,3.5
+gss24_int:intliteracy,Opus 5.5,thinking,1,3.5
+gss24_int:intliteracy,Opus 5.5,thinking,2,3.5
+gss24_int:intlnly,Opus 5.5,thinking,0,3.5
+gss24_int:intlnly,Opus 5.5,thinking,1,3.5
+gss24_int:intlnly,Opus 5.5,thinking,2,2.8
+gss24_int:intoppo,Opus 5.5,thinking,0,6.5
+gss24_int:intoppo,Opus 5.5,thinking,1,9.0
+gss24_int:intoppo,Opus 5.5,thinking,2,9.5
+gss24_int:intpolview,Opus 5.5,thinking,0,9.0
+gss24_int:intpolview,Opus 5.5,thinking,1,9.5
+gss24_int:intpolview,Opus 5.5,thinking,2,9.5
+gss24_int:intpub,Opus 5.5,thinking,0,1.6
+gss24_int:intpub,Opus 5.5,thinking,1,1.5
+gss24_int:intpub,Opus 5.5,thinking,2,1.8
+gss24_int:intrust,Opus 5.5,thinking,0,7.5
+gss24_int:intrust,Opus 5.5,thinking,1,8.5
+gss24_int:intrust,Opus 5.5,thinking,2,9.0
+gss24_int:intscam,Opus 5.5,thinking,0,3.5
+gss24_int:intscam,Opus 5.5,thinking,1,3.5
+gss24_int:intscam,Opus 5.5,thinking,2,3.5
+gss24_int:intskill,Opus 5.5,thinking,0,1.6
+gss24_int:intskill,Opus 5.5,thinking,1,1.6
+gss24_int:intskill,Opus 5.5,thinking,2,2.1
+gss24_int:inttrig,Opus 5.5,thinking,0,6.5
+gss24_int:inttrig,Opus 5.5,thinking,1,6.5
+gss24_int:inttrig,Opus 5.5,thinking,2,6.0
+gss24_int:intviews,Opus 5.5,thinking,0,2.5
+gss24_int:intviews,Opus 5.5,thinking,1,2.5
+gss24_int:intviews,Opus 5.5,thinking,2,2.2
+gss24_int:leftrght1,Opus 5.5,thinking,0,11.5
+gss24_int:leftrght1,Opus 5.5,thinking,1,9.5
+gss24_int:leftrght1,Opus 5.5,thinking,2,11.5
+gss24_int:nextgen1,Opus 5.5,thinking,0,2.6
+gss24_int:nextgen1,Opus 5.5,thinking,1,2.8
+gss24_int:nextgen1,Opus 5.5,thinking,2,3.5
+gss24_int:owndecns,Opus 5.5,thinking,0,9.0
+gss24_int:owndecns,Opus 5.5,thinking,1,8.5
+gss24_int:owndecns,Opus 5.5,thinking,2,9.5
+gss24_int:polint,Opus 5.5,thinking,0,1.0
+gss24_int:polint,Opus 5.5,thinking,1,0.9
+gss24_int:polint,Opus 5.5,thinking,2,1.0
+gss24_int:servpub,Opus 5.5,thinking,0,8.5
+gss24_int:servpub,Opus 5.5,thinking,1,6.5
+gss24_int:servpub,Opus 5.5,thinking,2,6.0
+gss24_int:techesy,Opus 5.5,thinking,0,1.5
+gss24_int:techesy,Opus 5.5,thinking,1,1.6
+gss24_int:techesy,Opus 5.5,thinking,2,1.6
+gss24_int:trcong,Opus 5.5,thinking,0,3.8
+gss24_int:trcong,Opus 5.5,thinking,1,3.5
+gss24_int:trcong,Opus 5.5,thinking,2,4.5
+gss24_int:trcourts,Opus 5.5,thinking,0,3.8
+gss24_int:trcourts,Opus 5.5,thinking,1,3.5
+gss24_int:trcourts,Opus 5.5,thinking,2,2.8
+gss24_int:trppl,Opus 5.5,thinking,0,1.8
+gss24_int:trppl,Opus 5.5,thinking,1,2.1
+gss24_int:trppl,Opus 5.5,thinking,2,2.1
+gss24_int:urbantech,Opus 5.5,thinking,0,9.5
+gss24_int:urbantech,Opus 5.5,thinking,1,9.5
+gss24_int:urbantech,Opus 5.5,thinking,2,9.5
+gss24_int:usmca1,Opus 5.5,thinking,0,4.5
+gss24_int:usmca1,Opus 5.5,thinking,1,4.0
+gss24_int:usmca1,Opus 5.5,thinking,2,4.5
+gss24_int:usmca2,Opus 5.5,thinking,0,24.0
+gss24_int:usmca2,Opus 5.5,thinking,1,31.0
+gss24_int:usmca2,Opus 5.5,thinking,2,27.0
+gss24_int:aidrive,Sonnet 5.5,no thinking,0,3.5
+gss24_int:aidrive,Sonnet 5.5,no thinking,1,3.5
+gss24_int:aidrive,Sonnet 5.5,no thinking,2,3.5
+gss24_int:aimed,Sonnet 5.5,no thinking,0,4.5
+gss24_int:aimed,Sonnet 5.5,no thinking,1,4.0
+gss24_int:aimed,Sonnet 5.5,no thinking,2,4.5
+gss24_int:aiworry,Sonnet 5.5,no thinking,0,3.5
+gss24_int:aiworry,Sonnet 5.5,no thinking,1,3.0
+gss24_int:aiworry,Sonnet 5.5,no thinking,2,3.0
+gss24_int:biasnews,Sonnet 5.5,no thinking,0,2.5
+gss24_int:biasnews,Sonnet 5.5,no thinking,1,2.5
+gss24_int:biasnews,Sonnet 5.5,no thinking,2,2.5
+gss24_int:bizmoney,Sonnet 5.5,no thinking,0,3.0
+gss24_int:bizmoney,Sonnet 5.5,no thinking,1,3.0
+gss24_int:bizmoney,Sonnet 5.5,no thinking,2,3.5
+gss24_int:brneffrt,Sonnet 5.5,no thinking,0,4.5
+gss24_int:brneffrt,Sonnet 5.5,no thinking,1,4.5
+gss24_int:brneffrt,Sonnet 5.5,no thinking,2,4.5
+gss24_int:cctv,Sonnet 5.5,no thinking,0,4.5
+gss24_int:cctv,Sonnet 5.5,no thinking,1,3.5
+gss24_int:cctv,Sonnet 5.5,no thinking,2,3.5
+gss24_int:classtech,Sonnet 5.5,no thinking,0,6.5
+gss24_int:classtech,Sonnet 5.5,no thinking,1,6.5
+gss24_int:classtech,Sonnet 5.5,no thinking,2,6.5
+gss24_int:conpow,Sonnet 5.5,no thinking,0,3.0
+gss24_int:conpow,Sonnet 5.5,no thinking,1,3.5
+gss24_int:conpow,Sonnet 5.5,no thinking,2,3.0
+gss24_int:dataprot,Sonnet 5.5,no thinking,0,4.5
+gss24_int:dataprot,Sonnet 5.5,no thinking,1,4.5
+gss24_int:dataprot,Sonnet 5.5,no thinking,2,6.5
+gss24_int:eductech,Sonnet 5.5,no thinking,0,6.5
+gss24_int:eductech,Sonnet 5.5,no thinking,1,9.0
+gss24_int:eductech,Sonnet 5.5,no thinking,2,7.5
+gss24_int:emonitor1,Sonnet 5.5,no thinking,0,4.5
+gss24_int:emonitor1,Sonnet 5.5,no thinking,1,4.0
+gss24_int:emonitor1,Sonnet 5.5,no thinking,2,4.5
+gss24_int:experts,Sonnet 5.5,no thinking,0,4.5
+gss24_int:experts,Sonnet 5.5,no thinking,1,4.0
+gss24_int:experts,Sonnet 5.5,no thinking,2,4.5
+gss24_int:fulldem,Sonnet 5.5,no thinking,0,3.5
+gss24_int:fulldem,Sonnet 5.5,no thinking,1,3.5
+gss24_int:fulldem,Sonnet 5.5,no thinking,2,3.5
+gss24_int:gendtech,Sonnet 5.5,no thinking,0,5.5
+gss24_int:gendtech,Sonnet 5.5,no thinking,1,6.5
+gss24_int:gendtech,Sonnet 5.5,no thinking,2,6.5
+gss24_int:harmgood1,Sonnet 5.5,no thinking,0,3.5
+gss24_int:harmgood1,Sonnet 5.5,no thinking,1,3.5
+gss24_int:harmgood1,Sonnet 5.5,no thinking,2,3.5
+gss24_int:immcrime1,Sonnet 5.5,no thinking,0,3.0
+gss24_int:immcrime1,Sonnet 5.5,no thinking,1,2.5
+gss24_int:immcrime1,Sonnet 5.5,no thinking,2,2.8
+gss24_int:immideas1,Sonnet 5.5,no thinking,0,3.0
+gss24_int:immideas1,Sonnet 5.5,no thinking,1,3.5
+gss24_int:immideas1,Sonnet 5.5,no thinking,2,3.0
+gss24_int:immjobs1,Sonnet 5.5,no thinking,0,3.8
+gss24_int:immjobs1,Sonnet 5.5,no thinking,1,3.0
+gss24_int:immjobs1,Sonnet 5.5,no thinking,2,3.5
+gss24_int:immwlfare,Sonnet 5.5,no thinking,0,3.0
+gss24_int:immwlfare,Sonnet 5.5,no thinking,1,2.5
+gss24_int:immwlfare,Sonnet 5.5,no thinking,2,2.5
+gss24_int:incgap1,Sonnet 5.5,no thinking,0,2.8
+gss24_int:incgap1,Sonnet 5.5,no thinking,1,3.0
+gss24_int:incgap1,Sonnet 5.5,no thinking,2,2.5
+gss24_int:infodeal,Sonnet 5.5,no thinking,0,3.5
+gss24_int:infodeal,Sonnet 5.5,no thinking,1,3.5
+gss24_int:infodeal,Sonnet 5.5,no thinking,2,3.5
+gss24_int:infoprofit,Sonnet 5.5,no thinking,0,3.5
+gss24_int:infoprofit,Sonnet 5.5,no thinking,1,3.5
+gss24_int:infoprofit,Sonnet 5.5,no thinking,2,3.5
+gss24_int:intcnfrm,Sonnet 5.5,no thinking,0,4.5
+gss24_int:intcnfrm,Sonnet 5.5,no thinking,1,4.5
+gss24_int:intcnfrm,Sonnet 5.5,no thinking,2,4.5
+gss24_int:inthrss,Sonnet 5.5,no thinking,0,3.0
+gss24_int:inthrss,Sonnet 5.5,no thinking,1,3.0
+gss24_int:inthrss,Sonnet 5.5,no thinking,2,3.5
+gss24_int:intliteracy,Sonnet 5.5,no thinking,0,3.5
+gss24_int:intliteracy,Sonnet 5.5,no thinking,1,3.5
+gss24_int:intliteracy,Sonnet 5.5,no thinking,2,3.5
+gss24_int:intlnly,Sonnet 5.5,no thinking,0,2.1
+gss24_int:intlnly,Sonnet 5.5,no thinking,1,2.5
+gss24_int:intlnly,Sonnet 5.5,no thinking,2,2.1
+gss24_int:intoppo,Sonnet 5.5,no thinking,0,9.0
+gss24_int:intoppo,Sonnet 5.5,no thinking,1,7.5
+gss24_int:intoppo,Sonnet 5.5,no thinking,2,7.5
+gss24_int:intpolview,Sonnet 5.5,no thinking,0,8.0
+gss24_int:intpolview,Sonnet 5.5,no thinking,1,9.0
+gss24_int:intpolview,Sonnet 5.5,no thinking,2,9.0
+gss24_int:intpub,Sonnet 5.5,no thinking,0,1.5
+gss24_int:intpub,Sonnet 5.5,no thinking,1,2.0
+gss24_int:intpub,Sonnet 5.5,no thinking,2,1.5
+gss24_int:intrust,Sonnet 5.5,no thinking,0,3.5
+gss24_int:intrust,Sonnet 5.5,no thinking,1,3.5
+gss24_int:intrust,Sonnet 5.5,no thinking,2,3.5
+gss24_int:intscam,Sonnet 5.5,no thinking,0,2.5
+gss24_int:intscam,Sonnet 5.5,no thinking,1,2.5
+gss24_int:intscam,Sonnet 5.5,no thinking,2,2.5
+gss24_int:intskill,Sonnet 5.5,no thinking,0,1.8
+gss24_int:intskill,Sonnet 5.5,no thinking,1,2.5
+gss24_int:intskill,Sonnet 5.5,no thinking,2,3.0
+gss24_int:inttrig,Sonnet 5.5,no thinking,0,3.0
+gss24_int:inttrig,Sonnet 5.5,no thinking,1,4.0
+gss24_int:inttrig,Sonnet 5.5,no thinking,2,3.5
+gss24_int:intviews,Sonnet 5.5,no thinking,0,2.1
+gss24_int:intviews,Sonnet 5.5,no thinking,1,2.0
+gss24_int:intviews,Sonnet 5.5,no thinking,2,1.6
+gss24_int:leftrght1,Sonnet 5.5,no thinking,0,11.5
+gss24_int:leftrght1,Sonnet 5.5,no thinking,1,9.0
+gss24_int:leftrght1,Sonnet 5.5,no thinking,2,10.5
+gss24_int:nextgen1,Sonnet 5.5,no thinking,0,2.5
+gss24_int:nextgen1,Sonnet 5.5,no thinking,1,2.0
+gss24_int:nextgen1,Sonnet 5.5,no thinking,2,1.8
+gss24_int:owndecns,Sonnet 5.5,no thinking,0,4.5
+gss24_int:owndecns,Sonnet 5.5,no thinking,1,4.5
+gss24_int:owndecns,Sonnet 5.5,no thinking,2,3.5
+gss24_int:polint,Sonnet 5.5,no thinking,0,1.5
+gss24_int:polint,Sonnet 5.5,no thinking,1,1.5
+gss24_int:polint,Sonnet 5.5,no thinking,2,1.5
+gss24_int:servpub,Sonnet 5.5,no thinking,0,7.0
+gss24_int:servpub,Sonnet 5.5,no thinking,1,7.5
+gss24_int:servpub,Sonnet 5.5,no thinking,2,6.0
+gss24_int:techesy,Sonnet 5.5,no thinking,0,1.5
+gss24_int:techesy,Sonnet 5.5,no thinking,1,1.5
+gss24_int:techesy,Sonnet 5.5,no thinking,2,1.5
+gss24_int:trcong,Sonnet 5.5,no thinking,0,2.1
+gss24_int:trcong,Sonnet 5.5,no thinking,1,2.5
+gss24_int:trcong,Sonnet 5.5,no thinking,2,2.3
+gss24_int:trcourts,Sonnet 5.5,no thinking,0,2.5
+gss24_int:trcourts,Sonnet 5.5,no thinking,1,3.1
+gss24_int:trcourts,Sonnet 5.5,no thinking,2,3.1
+gss24_int:trppl,Sonnet 5.5,no thinking,0,2.1
+gss24_int:trppl,Sonnet 5.5,no thinking,1,1.6
+gss24_int:trppl,Sonnet 5.5,no thinking,2,1.6
+gss24_int:urbantech,Sonnet 5.5,no thinking,0,9.0
+gss24_int:urbantech,Sonnet 5.5,no thinking,1,14.0
+gss24_int:urbantech,Sonnet 5.5,no thinking,2,9.5
+gss24_int:usmca1,Sonnet 5.5,no thinking,0,3.0
+gss24_int:usmca1,Sonnet 5.5,no thinking,1,3.5
+gss24_int:usmca1,Sonnet 5.5,no thinking,2,3.0
+gss24_int:usmca2,Sonnet 5.5,no thinking,0,12.0
+gss24_int:usmca2,Sonnet 5.5,no thinking,1,14.0
+gss24_int:usmca2,Sonnet 5.5,no thinking,2,14.0

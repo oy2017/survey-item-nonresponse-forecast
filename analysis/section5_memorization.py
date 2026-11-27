@@ -92,6 +92,16 @@ if __name__ == "__main__":
     n, g, v = demeaned(late, "survey", ["opus", "sonnet"]); print(f"  the 53 inside surveys ({n} questions, {g} surveys): " + ", ".join(f"{c} {x:.3f}" for c, x in v.items()))
     big = late.dated_by.value_counts().idxmax(); w = late[late.dated_by != big]
     print(f"  largest survey among the 53: {big} with {int((late.dated_by == big).sum())}; without it n {len(w)} | " + ", ".join(f"{c} {spearman(w[c], w.real):.3f} [{interval(w[c], w.real, w.block)[0]:.2f}, {interval(w[c], w.real, w.block)[1]:.2f}]" for c in ("opus", "sonnet")))
+    # A sampled pilot on the same 53 questions (added after the scores were seen): 50 answers per question drawn at the
+    # published percentage; forecast minus pilot over 2,000 replicates that redraw the pilot and resample whole blocks (seed 2).
+    yl = late.real.to_numpy(float); gl = late.block.to_numpy(); ug = np.unique(gl); r2 = np.random.default_rng(2); rows = []
+    for _ in range(2000):
+        ix = np.concatenate([np.where(gl == u)[0] for u in r2.choice(ug, len(ug))]); pp = r2.binomial(50, yl / 100) / 50 * 100
+        r = {"pilot": spearman(pp[ix], yl[ix])}
+        for c in ("opus", "sonnet"): r[c] = spearman(late[c].to_numpy(float)[ix], yl[ix]) - r["pilot"]
+        rows.append(r)
+    print(f"  the 53, sampled pilot of 50 answers per question: {np.nanmean([r['pilot'] for r in rows]):.3f} | " + " | ".join(
+        f"{c} minus pilot {np.nanmean([r[c] for r in rows]):+.3f} [{np.nanpercentile([r[c] for r in rows], 2.5):+.3f}, {np.nanpercentile([r[c] for r in rows], 97.5):+.3f}]" for c in ("opus", "sonnet")))
     # wording of the 53 against every clean row of the surveys published by 30 June 2026
     norm = lambda t: re.sub(r"[^a-z ]", "", t.lower()); pool = C[C.published <= "2026-06-30"]
     sim = []

@@ -33,6 +33,7 @@
   the 53 inside blocks (44 questions, 12 blocks): opus 0.790, sonnet 0.784
   the 53 inside surveys (53 questions, 5 surveys): opus 0.838, sonnet 0.749
   largest survey among the 53: SP569 with 27; without it n 26 | opus 0.854 [0.70, 0.95], sonnet 0.733 [0.45, 0.91]
+  the 53, sampled pilot of 50 answers per question: 0.739 | opus minus pilot +0.113 [-0.073, +0.331] | sonnet minus pilot +0.058 [-0.128, +0.271]
   wording: 53 questions against 421 clean rows published by 30 June 2026; character similarity of the closest earlier wording, top 6:
      0.96 | eb:EB050EP:p56: On the whole, are you very satisfied, fairly satisfied, not very satisfied or no
             ~ eb:STD105:p5: On the whole, are you very satisfied, fairly satisfied, not very satisfied or no

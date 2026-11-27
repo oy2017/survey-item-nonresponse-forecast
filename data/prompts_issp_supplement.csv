@@ -1,0 +1,283 @@
+qid,system,user
+gss24_int:aidrive,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortabl e"" and '10' means that you would feel ""totally comfortable"" with this situation.) Being driven in a driverless car.
+Answer options: 0=totally uncomfortable with this situation; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=totally comfortable with this situation; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:aimed,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation. Having a medical operation performed on you by a robot.
+Answer options: 0=totally uncomfortable with this situation; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=totally comfortable with this situation; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:aiworry,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans. Overall, how worried, if at all, are you that in the next 10 years machines, computer programs, and Artificial Intelligence (AI) will take over many of the jobs done by humans?
+Answer options: 1=very worried; 2=somewhat worried; 3=neither worried nor unworried; 4=not very worried; 5=not at all worried; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:biasnews,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: To what extent do you agree or disagree with the following statement? Media coverage about politics in America is biased.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:bizmoney,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (To what extent do you agree or disagree with the following statements?) Business leaders make their money at the expense of ordinary people.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:brneffrt,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Some people say that it is possible to become truly American if a person makes an effort. Others say a person has to be born American to be truly American. What is your position? Statement A: It is possible to become truly American if a person makes an effort. Statement B: A person has to be born American to be truly American.
+Answer options: 1=i definitely agree with statement a; 2=i agree more with statement a than with statement b; 3=i agree more with statement b than with statement a; 4=i definitely agree with statement b; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:cctv,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Do you think that the American government should or should not have the right to do the following? Keep people under video surveillance in public areas?
+Answer options: 1=definitely should have the right; 2=probably should have the right; 3=probably should not have the right; 4=definitely should not have the right; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:classtech,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Do you think that in America, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+Answer options: 1=rich people are benefitting more than poor people; 2=rich and poor people are benefitting equally; 3=poor people are benefitting more than rich people; 4=neither rich people nor poor people are benefitting; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:conpow,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (To what extent do you agree or disagree with the following statements?) There is a conflict between the ordinary people and those in power in America.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:dataprot,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Who should be mostly responsible for protecting personal information when using the Internet?
+Answer options: 1=online companies - as they need to ensure they process personal information safely; 2=people - as they need to take care of their personal information; 3=public authorities - as they need to ensure that personal information is protected; 4=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:eductech,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Do you think that in America, the highly educated or the less well educated are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+Answer options: 1=the highly educated are benefitting more than the less well educated; 2=the highly and the less well educated are benefitting equally; 3=the less well educated are benefitting more than the highly educated; 4=neither highly educated nor less well educated are benefitting; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:emonitor1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (Do you think that the American government should or should not have the right to do the following?) Monitor e-mails, social media content and any other personal information exchanged on the Internet?
+Answer options: 1=definitely should have the right; 2=probably should have the right; 3=probably should not have the right; 4=definitely should not have the right; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:experts,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (To what extent do you agree or disagree with the following statements?) It is better to rely on the opinions of experts than the experiences of ordinary people.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:fulldem,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: To what extent do you agree or disagree with the following statements? The people, and not politicians, should make our most important policy decisions.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:gendtech,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: In all countries, there are differences between social groups. Do you think that in America, women or men are benefitting more, or both equally, or neither from the use of the Internet and digital technology?
+Answer options: 1=women are benefitting more than men; 2=women and men are benefitting equally; 3=men are benefitting more than women; 4=neither men nor women are benefitting; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:harmgood1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?) Overall, technology does more harm than good.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:immcrime1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: There are different opinions about immigrants from other countries living in America. By \223immigrants\224 we mean people who come to settle in America. How much do you agree or disagree with each of the following statements? Immigrants increase crime rates.
+Answer options: 1=agree strongly; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=disagree strongly; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:immideas1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How much do you agree or disagree with each of the following statements?) Immigrants improve American society by bringing new ideas and cultures.
+Answer options: 1=agree strongly; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=disagree strongly; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:immjobs1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How much do you agree or disagree with each of the following statements?) Immigrants take jobs away from people who were born in America.
+Answer options: 1=agree strongly; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=disagree strongly; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:immwlfare,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How much do you agree or disagree with each of the following statements?) People born in America should be given preference over immigrants when it comes to jobs, housing, or health care.
+Answer options: 1=agree strongly; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=disagree strongly; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:incgap1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Thinking about the situation in America. To what extent do you agree or disagree with the following statement? It should be the government's responsibility to reduce income differences between the rich and the poor.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:infodeal,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Private companies offer services in return for personal information such as your name, phone number, email address, online - search history, or purchases. Regardless of whether you use the Internet yourself, please indicate the extent to which you agree or disagree with the following statements. I would provide my personal information online in return for discounts and free products.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:infoprofit,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (Private companies offer services in return for personal information such as your name, phone number, email address, online - search history, or purchases. Regardless of whether you use the Internet yourself, please indicate the extent to which you agree or disagree with the following statements.) I would provide my personal information online even though private companies may use it to make a profit.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intcnfrm,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (When looking for news or information about political matters online, how often, if at all, do you:) Try to confirm information you find by searching online for another source?
+Answer options: 1=very often; 2=often; 3=sometimes; 4=rarely; 5=never; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:inthrss,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Some people report experiences of harassment on the Internet. Have you or someone you know personally ever experienced online harassment or online hate speech?
+Answer options: 1=yes, me myself; 2=yes, someone i know personally; 3=yes, me and someone else i know personally; 4=no; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intliteracy,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How would you rate your ability to do the following?) Knowing which information should not be shared online?
+Answer options: 1=very good; 2=good; 3=neither good nor bad; 4=bad; 5=very bad; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intlnly,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How much do you agree or disagree with the following statements?) Without the Internet I would feel lonely.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intoppo,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (In the last 12 months, if at all, has your online contact with the following people increased, decreased or remained the same?) People with different political views from your own.
+Answer options: 1=greatly decreased; 2=somewhat decreased; 3=remained the same; 4=somewhat increased; 5=greatly increased; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intpolview,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: In the last 12 months, if at all, has your online contact with the following people increased, decreased or remained the same? People who share your political views.
+Answer options: 1=greatly decreased; 2=somewhat decreased; 3=remained the same; 4=somewhat increased; 5=greatly increased; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intpub,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (How often, if at all, do you typically use the Internet on any device at the following locations for any reason?) In public places?
+Answer options: 1=almost always; 2=often; 3=sometimes; 4=hardly ever; 5=never; 6=no access; 7=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intrust,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: On a scale of 0 to 10, how much do you trust people you are communicating with on the Internet but have never met in person? 0 means you do not trust them at all, and 10 means you trust them completely.
+Answer options: 0=no trust at all; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=complete trust; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intscam,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Some people receive emails or text messages from scammers from time to time, some of them also become victims. Apart from only receiving such messages, have you or someone you know personally ever been a victim of an online scam, identity theft or hacking attack?
+Answer options: 1=yes, me myself; 2=yes, someone i know personally; 3=yes, me and someone else i know personally; 4=no; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intskill,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: How would you rate your ability to do the following? Using the Internet?
+Answer options: 1=very good; 2=good; 3=neither good nor bad; 4=bad; 5=very bad; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:inttrig,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: When looking for news or information about political matters online, how often, if at all, do you: Read, watch or listen to something online you disagree with?
+Answer options: 1=very often; 2=often; 3=sometimes; 4=rarely; 5=never; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:intviews,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: How often, if at all, did you express, support or oppose political views on the Internet or social media in the last 12 months?
+Answer options: 1=every day or almost every day; 2=several times a week; 3=several times a month; 4=several times a year; 5=less often; 6=never; 7=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:leftrght1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: In politics people sometimes talk of left and right. Where would you place yourself on a scale from 0 to 10 where 0 means the left and 10 means the right?
+Answer options: 0=left; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=right; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:nextgen1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?) Technology provides more opportunities for the next generation.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:owndecns,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Thinking in general about nations and countries all over the world, to what extent do you agree or disagree with the following statement? It would be best if every nation had its own country where it could make its own decisions.
+Answer options: 1=agree strongly; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=disagree strongly; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:polint,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: How interested would you say you personally are in politics?
+Answer options: 1=very interested; 2=fairly interested; 3=somewhat interested; 4=not very interested; 5=not at all interested; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:servpub,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Thinking of the public service in America, how committed is it to serve the people?
+Answer options: 1=very committed; 2=somewhat committed; 3=not very committed; 4=not at all committed; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:techesy,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements? Technology makes our lives easier.
+Answer options: 1=strongly agree; 2=agree; 3=neither agree nor disagree; 4=disagree; 5=strongly disagree; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:trcong,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: On a scale of 0 to 10, how much do you personally trust each of the following institutions? 0 means you do not trust an institution at all, and 10 means you trust it completely. The U.S. Congress.
+Answer options: 0=no trust at all; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=complete trust; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:trcourts,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: (On a scale of 0 to 10, how much do you personally trust each of the following institutions? 0 means you do not trust an institution at all, and 10 means you trust it completely.) America's courts.
+Answer options: 0=no trust; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=complete trust; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:trppl,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people? Where would you place yourself on this scale, where 0 means you can't be too careful, and 10 means most people can be trusted.
+Answer options: 0=you can't be too careful; 1=1; 2=2; 3=3; 4=4; 5=5; 6=6; 7=7; 8=8; 9=9; 10=most people can be trusted; 11=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:urbantech,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Do you think that in America, people who live in the countryside or people who live in cities are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+Answer options: 1=people who live in the countryside are benefitting more than people who live in cities; 2=people who live in the countryside and people who live in cities are benefitting equally; 3=people who live in cities are benefitting more than people who live in the countryside; 4=neither people from the countryside nor from cities are benefitting; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:usmca1,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: How much have you heard or read about the United States- Mexico - Canada Agreement (USMCA)?
+Answer options: 1=a lot; 2=quite a bit; 3=not much; 4=nothing at all; 5=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."
+gss24_int:usmca2,"You are a survey methodologist estimating item non-response in live household interviews. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a nationally representative in-person and telephone interview survey of adults in the United States. This question is part of the survey's self-completion supplement, in which 'Can't choose' is offered as one of the answer options.
+
+Question: Generally speaking, would you say that America benefits or does not benefit from being a member of United States - Mexico - Canada Agreement (USMCA)?
+Answer options: 1=greatly benefits; 2=largely benefits; 3=somewhat benefits; 4=benefits only a little; 5=does not benefit at all; 6=Can't choose
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Can't choose'? Output ONLY one number in brackets, e.g. [2.4]."

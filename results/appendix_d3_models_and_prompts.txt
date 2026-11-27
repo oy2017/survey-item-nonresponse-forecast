@@ -52,11 +52,11 @@
   Gemini Flash without thinking    0.816 [0.76, 0.86] | inside blocks 0.634 (326 questions, 70 blocks)
   Gemini Flash with thinking       0.842 [0.79, 0.89] | inside blocks 0.746 (326 questions, 70 blocks)
   Opus 5.5                         0.887 [0.84, 0.92] | inside blocks 0.784 (326 questions, 70 blocks)
-  thinking on General Social Survey 2024: Gemini Flash with 0.851, without 0.833, difference +0.018 [-0.21, +0.10]
+  thinking on General Social Survey 2024: Gemini Flash with 0.783, without 0.743, difference +0.040 [-0.19, +0.26]
   thinking on the 374: inside blocks with 0.746, without 0.634
 
 === Appendix D.3, open-weight models (mean of three calls; interval: blocks) ===
-  General Social Survey 2024, interviewer (55)   | Llama 3.3 70B 0.689 [0.19, 0.76] | Llama 4 Maverick 0.538 [-0.01, 0.61] | Opus 5.5 mean 0.707, first call 0.706
+  General Social Survey 2024, interviewer (55)   | Llama 3.3 70B 0.689 [0.19, 0.76] | Llama 4 Maverick 0.538 [-0.01, 0.61] | Opus 5.5 mean 0.707, first call 0.706 (first-run prompt on the 47 ISSP questions, as the open-weight models)
   Eurobarometer face-to-face (374)               | Llama 3.3 70B 0.553 [0.45, 0.65] inside blocks 0.225 | Llama 4 Maverick 0.580 [0.47, 0.67] inside blocks 0.426 | Opus 5.5 mean 0.887, first call 0.873
   Eurobarometer, new questions (100)             | Llama 3.3 70B 0.631 [0.43, 0.77] inside blocks 0.280 | Llama 4 Maverick 0.686 [0.47, 0.82] inside blocks 0.405 | Opus 5.5 mean 0.880, first call 0.866
 

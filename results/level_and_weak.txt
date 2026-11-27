@@ -2,35 +2,41 @@
   eb_face_to_face    n 374 real mean 5.01% median 5.00% | constant at mean 2.72, at median 2.72 | opus 7.64% err 2.83; sonnet 7.00% err 2.45; haiku 6.28% err 2.80; flash_think 6.27% err 2.00; flash 5.37% err 1.78; flash_lite 7.18% err 2.85;
   eb_web             n 101 real mean 6.88% median 6.00% | constant at mean 3.21, at median 3.06 | opus 7.51% err 2.28; sonnet 7.30% err 2.61; haiku 6.67% err 2.89; flash_think 4.87% err 3.07; flash 4.49% err 2.96; flash_lite 8.28% err 3.11;
   eb_telephone       n 27 real mean 3.41% median 3.00% | constant at mean 1.82, at median 1.74 | opus 5.32% err 2.33; sonnet 6.29% err 2.99; haiku 6.24% err 2.94; flash_think 4.04% err 1.61; flash 3.43% err 1.23; flash_lite 5.57% err 2.47;
-  wvs7               n 181 real mean 2.88% median 1.97% | constant at mean 2.15, at median 1.94 | opus 3.95% err 1.33; sonnet 4.09% err 1.74; haiku 4.97% err 2.75; flash 4.14% err 1.76; flash_lite 4.11% err 1.96;
-  gss2022            n 123 real mean 3.50% median 2.83% | constant at mean 2.16, at median 2.09 | opus 3.06% err 1.22; sonnet 2.40% err 1.52; haiku 3.91% err 2.31; flash 2.70% err 1.61; flash_lite 3.53% err 1.57;
-  gss2024_interview  n 55 real mean 5.66% median 3.88% | constant at mean 3.73, at median 3.42 | opus 2.94% err 2.95; sonnet 2.63% err 3.23; haiku 4.46% err 2.70; flash_think 1.96% err 3.72; flash 2.30% err 3.41; flash_lite 3.47% err 2.73;
-  gss2024_interview Opus 5.5 first call: mean 2.99% err 2.95
+  wvs7               n 181 real mean 2.88% median 1.97% | constant at mean 2.15, at median 1.94 | opus 3.95% err 1.33; sonnet 4.09% err 1.74; haiku 4.97% err 2.75; flash_think 4.06% err 1.67; flash 4.14% err 1.76; flash_lite 4.11% err 1.96;
+  gss2022            n 123 real mean 3.50% median 2.83% | constant at mean 2.16, at median 2.09 | opus 3.06% err 1.22; sonnet 2.40% err 1.52; haiku 3.91% err 2.31; flash_think 2.82% err 1.38; flash 2.70% err 1.61; flash_lite 3.53% err 1.57;
+  gss2024_interview  n 55 real mean 5.66% median 3.88% | constant at mean 3.73, at median 3.42 | opus 5.27% err 2.16; sonnet 3.91% err 2.48; haiku 6.16% err 2.89; flash_think 3.66% err 2.39; flash 3.60% err 2.70; flash_lite 3.47% err 2.73;
+  gss2024_interview Opus 5.5 first call: mean 5.21% err 2.25
   Opus 5.5 mean / real mean on Eurobarometer face-to-face: 1.53
 
-=== B. The 47 ISSP questions with the web prompt; the corrected forecasts (Appendix D.8, section 7) ===
+=== B. The 47 ISSP questions: first run, web-prompt substitute, and re-run with the corrected prompt (Appendix D.8, section 3) ===
   interview questions 55 | ISSP with a web forecast 47 | core 8 | real mean ISSP 5.94%, core 4.03%, all 5.66%
   Opus 5.5 first call    47 ISSP: interview prompt mean 3.17% err 3.10 Spearman 0.702 | web prompt mean 6.08% err 2.44 Spearman 0.734
+                         re-run with the corrected prompt: 47 mean 5.77% err 2.27 Spearman 0.731 | 55 mean 5.21% err 2.25 Spearman 0.685
                          55: as run mean 2.99% err 2.95 Spearman 0.706 | corrected mean 5.48% err 2.39 Spearman 0.696 | core 8 mean 1.91% err 2.12
   Opus 5.5 mean of 3     47 ISSP: interview prompt mean 3.10% err 3.10 Spearman 0.699 | web prompt mean 6.09% err 2.42 Spearman 0.722
+                         re-run with the corrected prompt: 47 mean 5.83% err 2.17 Spearman 0.731 | 55 mean 5.27% err 2.16 Spearman 0.696
                          55: as run mean 2.94% err 2.95 Spearman 0.707 | corrected mean 5.49% err 2.37 Spearman 0.691 | core 8 mean 1.95% err 2.08
   Sonnet 5.5 mean of 3   47 ISSP: interview prompt mean 2.70% err 3.47 Spearman 0.734 | web prompt mean 4.31% err 2.39 Spearman 0.767
+                         re-run with the corrected prompt: 47 mean 4.20% err 2.58 Spearman 0.708 | 55 mean 3.91% err 2.48 Spearman 0.707
                          55: as run mean 2.63% err 3.23 Spearman 0.759 | corrected mean 4.01% err 2.31 Spearman 0.767 | core 8 mean 2.23% err 1.87
   Haiku 5.5              47 ISSP: interview prompt mean 4.54% err 2.89 Spearman 0.553 | web prompt mean 6.04% err 3.04 Spearman 0.626
+                         re-run with the corrected prompt: 47 mean 6.54% err 3.13 Spearman 0.741 | 55 mean 6.16% err 2.89 Spearman 0.744
                          55: as run mean 4.46% err 2.70 Spearman 0.579 | corrected mean 5.73% err 2.82 Spearman 0.652 | core 8 mean 3.95% err 1.53
   Gemini Flash           47 ISSP: interview prompt mean 2.28% err 3.70 Spearman 0.839 | web prompt mean 3.56% err 2.91 Spearman 0.643
+                         re-run with the corrected prompt: 47 mean 3.79% err 2.87 Spearman 0.695 | 55 mean 3.60% err 2.70 Spearman 0.743
                          55: as run mean 2.30% err 3.41 Spearman 0.833 | corrected mean 3.40% err 2.73 Spearman 0.687 | core 8 mean 2.44% err 1.68
   Gemini Flash thinking  47 ISSP: interview prompt mean 1.98% err 3.97 Spearman 0.856 | web prompt mean 3.66% err 2.64 Spearman 0.770
+                         re-run with the corrected prompt: 47 mean 3.97% err 2.41 Spearman 0.797 | 55 mean 3.66% err 2.39 Spearman 0.783
                          55: as run mean 1.96% err 3.72 Spearman 0.851 | corrected mean 3.39% err 2.58 Spearman 0.771 | core 8 mean 1.83% err 2.24
 
 === C. Level from other surveys of the programme (Table D12, section 7) ===
   real mean 2022 3.50% | 2024 5.66% | always guessing the 2022 mean on 2024: 3.44
   opus    as run    as is 2.95 | factor from 2022 1.14 -> 2.69 | own 2024 mean 2.27
-  opus    corrected as is 2.37 | factor from 2022 1.14 -> 2.60 | own 2024 mean 2.41
+  opus    re-run    as is 2.16 | factor from 2022 1.14 -> 2.19 | own 2024 mean 2.15
   sonnet  as run    as is 3.23 | factor from 2022 1.46 -> 2.53 | own 2024 mean 2.31
-  sonnet  corrected as is 2.31 | factor from 2022 1.46 -> 2.11 | own 2024 mean 2.08
+  sonnet  re-run    as is 2.48 | factor from 2022 1.46 -> 2.23 | own 2024 mean 2.23
   flash   as run    as is 3.41 | factor from 2022 1.30 -> 2.84 | own 2024 mean 2.03
-  flash   corrected as is 2.73 | factor from 2022 1.30 -> 2.33 | own 2024 mean 2.20
+  flash   re-run    as is 2.70 | factor from 2022 1.30 -> 2.31 | own 2024 mean 2.20
   EB opus        as is 2.83 | factor from the other surveys 1.39 | own mean 1.11 | constant at other surveys' mean 2.83 | surveys improved 12 of 14
   EB sonnet      as is 2.45 | factor from the other surveys 1.60 | own mean 1.31 | constant at other surveys' mean 2.83 | surveys improved 11 of 14
   EB flash_think as is 2.00 | factor from the other surveys 1.56 | own mean 1.22 | constant at other surveys' mean 2.83 | surveys improved 8 of 14
@@ -56,41 +62,41 @@
   interviews 1428 | full-sample shares equal questions.csv: True
   pilot of 10 interviews (about 5.1 answers per question): spread (SD) of its overall 'don't know' percentage, real 2.67 | sampled 1.32 points
   pilot of 20 interviews (about 10.3 answers per question): spread (SD) of its overall 'don't know' percentage, real 1.94 | sampled 0.93 points
-  weighted targets (wtssnrps): Spearman with the unweighted 0.973 | mean 5.66% unweighted, 5.72% weighted | forecasts as run, unweighted -> weighted: opus 0.707 -> 0.689 | sonnet 0.759 -> 0.721 | flash_think 0.851 -> 0.830
-  sonnet: full-sample Spearman as run 0.759 -> corrected 0.767 | error corrected 2.31 | mean 2.63% -> 4.01%
-  flash_think: full-sample Spearman as run 0.851 -> corrected 0.771 | error corrected 2.58 | mean 1.96% -> 3.39%
-  == sonnet, corrected ==
+  weighted targets (wtssnrps): Spearman with the unweighted 0.973 | mean 5.66% unweighted, 5.72% weighted | forecasts as run, unweighted -> weighted: opus 0.696 -> 0.664 | sonnet 0.707 -> 0.663 | flash_think 0.783 -> 0.755
+  sonnet: full-sample Spearman as run 0.759 -> re-run 0.707 | error re-run 2.48 | mean 2.63% -> 3.91%
+  flash_think: full-sample Spearman as run 0.851 -> re-run 0.783 | error re-run 2.39 | mean 1.96% -> 3.66%
+  == sonnet, re-run forecasts ==
   -- 32 interviews (2000 draws; mean answers per question 16.4; share of questions with no 'don't know' 0.50) --
-     forecast alone                   Spearman 0.7652 (middle 95% 0.75 to 0.77) | error 2.32
+     forecast alone                   Spearman 0.7057 (middle 95% 0.69 to 0.72) | error 2.48
      pilot alone                      Spearman 0.5377 (middle 95% 0.32 to 0.73) | error 4.40
      pilot pulled to own mean, m=25   Spearman 0.5348 (middle 95% 0.27 to 0.75) | error 3.04
-     forecast rescaled                Spearman 0.7652 (middle 95% 0.75 to 0.77) | error 2.42
-     blended, m=5                     Spearman 0.6781 (middle 95% 0.51 to 0.82) | error 3.39
-     blended, m=25                    Spearman 0.7513 (middle 95% 0.62 to 0.85) | error 2.39
-     blended, m=50                    Spearman 0.7834 (middle 95% 0.68 to 0.86) | error 2.26
-     blended, m=100                   Spearman 0.7955 (middle 95% 0.73 to 0.85) | error 2.27
+     forecast rescaled                Spearman 0.7057 (middle 95% 0.69 to 0.72) | error 2.53
+     blended, m=5                     Spearman 0.6549 (middle 95% 0.48 to 0.80) | error 3.38
+     blended, m=25                    Spearman 0.7188 (middle 95% 0.58 to 0.83) | error 2.46
+     blended, m=50                    Spearman 0.7464 (middle 95% 0.64 to 0.84) | error 2.35
+     blended, m=100                   Spearman 0.7513 (middle 95% 0.68 to 0.81) | error 2.37
   -- 107 interviews (2000 draws; mean answers per question 54.9; share of questions with no 'don't know' 0.17) --
-     forecast alone                   Spearman 0.7610 (middle 95% 0.74 to 0.78) | error 2.32
+     forecast alone                   Spearman 0.7015 (middle 95% 0.68 to 0.72) | error 2.48
      pilot alone                      Spearman 0.7388 (middle 95% 0.59 to 0.85) | error 2.42
      pilot pulled to own mean, m=25   Spearman 0.7425 (middle 95% 0.60 to 0.85) | error 2.15
-     forecast rescaled                Spearman 0.7610 (middle 95% 0.74 to 0.78) | error 2.21
-     blended, m=5                     Spearman 0.7699 (middle 95% 0.64 to 0.87) | error 2.24
-     blended, m=25                    Spearman 0.8063 (middle 95% 0.70 to 0.89) | error 1.88
-     blended, m=50                    Spearman 0.8280 (middle 95% 0.73 to 0.90) | error 1.77
-     blended, m=100                   Spearman 0.8388 (middle 95% 0.76 to 0.90) | error 1.79
+     forecast rescaled                Spearman 0.7015 (middle 95% 0.68 to 0.72) | error 2.34
+     blended, m=5                     Spearman 0.7625 (middle 95% 0.63 to 0.87) | error 2.24
+     blended, m=25                    Spearman 0.7926 (middle 95% 0.68 to 0.88) | error 1.91
+     blended, m=50                    Spearman 0.8106 (middle 95% 0.71 to 0.89) | error 1.84
+     blended, m=100                   Spearman 0.8123 (middle 95% 0.73 to 0.88) | error 1.88
   -- 214 interviews (2000 draws; mean answers per question 109.9; share of questions with no 'don't know' 0.06) --
-     forecast alone                   Spearman 0.7582 (middle 95% 0.74 to 0.78) | error 2.33
+     forecast alone                   Spearman 0.6981 (middle 95% 0.67 to 0.72) | error 2.49
      pilot alone                      Spearman 0.8241 (middle 95% 0.72 to 0.90) | error 1.78
      pilot pulled to own mean, m=25   Spearman 0.8259 (middle 95% 0.72 to 0.90) | error 1.69
-     forecast rescaled                Spearman 0.7582 (middle 95% 0.74 to 0.78) | error 2.17
-     blended, m=25                    Spearman 0.8504 (middle 95% 0.76 to 0.91) | error 1.56
-  == flash_think, corrected ==
+     forecast rescaled                Spearman 0.6981 (middle 95% 0.67 to 0.72) | error 2.30
+     blended, m=25                    Spearman 0.8435 (middle 95% 0.75 to 0.91) | error 1.58
+  == flash_think, re-run forecasts ==
   -- 32 interviews (2000 draws; mean answers per question 16.4; share of questions with no 'don't know' 0.50) --
-     forecast alone                   Spearman 0.7709 (middle 95% 0.76 to 0.78) | error 2.58
+     forecast alone                   Spearman 0.7821 (middle 95% 0.77 to 0.79) | error 2.39
      pilot alone                      Spearman 0.5377 (middle 95% 0.32 to 0.73) | error 4.40
      pilot pulled to own mean, m=25   Spearman 0.5348 (middle 95% 0.27 to 0.75) | error 3.04
-     forecast rescaled                Spearman 0.7709 (middle 95% 0.76 to 0.78) | error 2.27
-     blended, m=25                    Spearman 0.7456 (middle 95% 0.62 to 0.85) | error 2.35
+     forecast rescaled                Spearman 0.7821 (middle 95% 0.77 to 0.79) | error 2.47
+     blended, m=25                    Spearman 0.7527 (middle 95% 0.62 to 0.85) | error 2.41
 
 === F. Web and telephone questions (Table 6, section 8, Appendix C) ===
   EB web 101: opus 0.681 [0.49, 0.80]; sonnet 0.627 [0.44, 0.75]; flash_think 0.648 [0.47, 0.77]; flash 0.663 [0.47, 0.77]; qlen_text 0.370 [0.06, 0.62]; qlen_prompt 0.341 [0.02, 0.60]; n_options -0.242 [-0.47, 0.10];
@@ -112,7 +118,7 @@
   EB telephone question length, two definitions: question line 0.473 | whole prompt 0.523
   same 47 ISSP, interview prompt vs interview shares: Opus first call 0.702, mean of 3 0.699; Sonnet 0.734
 
-=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8) ===
+=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 7); single questions (section 8) ===
              n  real   opus  ratio  rho_in
 survey                                    
 SP573     21.0  7.76   7.84   1.01    0.77
@@ -131,6 +137,20 @@ SP567     13.0  2.15   6.07   2.82    0.87
 EB049EP    2.0  2.00   5.75   2.88     NaN
   20 most under-ranked by survey: {'SP573': 8, 'SP578': 3, 'STD104': 3, 'STD105': 3, 'SP579': 2, 'SP569': 1}
   agree/disagree wording among the 40 largest rank misses: 24 of 40 | among all 374: 177
+  inside surveys, questions ranked furthest below their real rank (forecast too low):
+     SP570    real 10.0% forecast  11.7% | Generally speaking, do you think that the Holocaust is sufficiently taught or not in (NATIONALITY) schools?
+     SP569    real 10.0% forecast   8.5% | Please tell me to what extent you agree or disagree with each of the following statements: Gender stereotypes around choosing between general and voca
+     SP573    real 11.0% forecast   7.3% | Please tell whether you agree or disagree with each of the following? (NATIONALITY) Government efforts to combat corruption are effective
+     SP578    real  5.0% forecast   4.4% | To what extent do you agree or disagree with the following statements? Innovative food products and ingredients should have clear and distinct names, 
+     SP570    real  6.0% forecast   8.2% | More precisely, do you think that each of the following situation is a problem or not in (OUR COUNTRY)? People denying the genocide of the Jewish peop
+     STD105   real  4.0% forecast   2.5% | How would you judge the current situation in each of the following? The employment situation in (OUR COUNTRY)
+  inside surveys, questions ranked furthest above (forecast too high):
+     STD104   real  3.0% forecast   8.5% | For each of the following statements, please tell to what extent it corresponds or not to the situation of the (NATIONALITY) traditional media. (NATIO
+     SP578    real  4.0% forecast   9.7% | "Innovative foods" encompass a variety of technologies and products. How comfortable would you be to consume each of the following? Foods made using f
+     SP567    real  0.0% forecast   4.3% | How frequently are you personally currently involved with social economy organisations?
+     STD104   real  4.0% forecast   8.8% | For each of the following statements, do you totally agree, tend to agree, tend to disagree or totally disagree. There should be a fair taxation of la
+     SP571    real  1.0% forecast   4.7% | Natura 2000 is a network of more than 27,000 nature protection areas all over the EU. How important do you think nature protection areas are for the f
+     SP573    real  8.0% forecast  13.3% | Please tell whether you agree or disagree with each of the following? In (OUR COUNTRY), high-level public servant positions nominations are highly pol
 
 === H. Abstract, Introduction (Table 1), Conclusion ===
   questions 908 | programmes 3 ['Eurobarometer', 'General Social Survey', 'World Values Survey'] | sets {'eb_face_to_face': 374, 'wvs7': 181, 'gss2022': 123, 'eb_web': 101, 'gss2024_interview': 55, 'gss2024_web': 47, 'eb_telephone': 27}

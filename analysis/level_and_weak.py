@@ -38,24 +38,28 @@ x = col("gss2024_interview", "opus", 0); print(f"  gss2024_interview Opus 5.5 fi
 E = S["eb_face_to_face"]; ye = E.real_dk_pct
 print(f"  Opus 5.5 mean / real mean on Eurobarometer face-to-face: {col('eb_face_to_face', 'opus').mean() / ye.mean():.2f}")
 
-print("\n=== B. The 47 ISSP questions with the web prompt; the corrected forecasts (Appendix D.8, section 7) ===")
+print("\n=== B. The 47 ISSP questions: first run, web-prompt substitute, and re-run with the corrected prompt (Appendix D.8, section 3) ===")
 I = S["gss2024_interview"]; yi = I.real_dk_pct
 web_ids = S["gss2024_web"].index; issp = [w.replace("gss24_web:", "gss24_int:") for w in web_ids]; core = [v for v in I.index if v not in issp]
 print(f"  interview questions {len(I)} | ISSP with a web forecast {len(issp)} | core {len(core)} | real mean ISSP {yi[issp].mean():.2f}%, core {yi[core].mean():.2f}%, all {yi.mean():.2f}%")
+ASRUN = {"opus": ("Opus 5.5", "thinking"), "sonnet": ("Sonnet 5.5", "no thinking"), "haiku": ("Haiku 5.5", "no thinking"), "flash": ("Gemini Flash", "no thinking"), "flash_think": ("Gemini Flash", "thinking")}
 def corrected(m, d="mean"):
-    xi = col("gss2024_interview", m, d); xw = M[m](d).reindex(web_ids); xw.index = issp
+    """First run (interview prompt), the web-prompt substitute for the 47, and the re-run with the corrected prompt (now the default)."""
+    xi = forecasts(*ASRUN[m], d, issp="as run").reindex(I.index); xw = M[m](d).reindex(web_ids); xw.index = issp
     return pd.concat([xw, xi[core]]).reindex(I.index), xi, xw
 for m, d, lab in (("opus", 0, "Opus 5.5 first call"), ("opus", "mean", "Opus 5.5 mean of 3"), ("sonnet", "mean", "Sonnet 5.5 mean of 3"), ("haiku", "mean", "Haiku 5.5"),
                   ("flash", "mean", "Gemini Flash"), ("flash_think", "mean", "Gemini Flash thinking")):
     xc, xi, xw = corrected(m, d)
     print(f"  {lab:22s} 47 ISSP: interview prompt mean {xi[issp].mean():.2f}% err {mae(xi[issp], yi[issp]):.2f} Spearman {sp3(xi[issp], yi[issp])} | web prompt mean {xw.mean():.2f}% err {mae(xw, yi[issp]):.2f} Spearman {sp3(xw, yi[issp])}")
+    xr = col("gss2024_interview", m, d)
+    print(f"  {'':22s} re-run with the corrected prompt: 47 mean {xr[issp].mean():.2f}% err {mae(xr[issp], yi[issp]):.2f} Spearman {sp3(xr[issp], yi[issp])} | 55 mean {xr.mean():.2f}% err {mae(xr, yi):.2f} Spearman {sp3(xr, yi)}")
     print(f"  {'':22s} 55: as run mean {xi.mean():.2f}% err {mae(xi, yi):.2f} Spearman {sp3(xi, yi)} | corrected mean {xc.mean():.2f}% err {mae(xc, yi):.2f} Spearman {sp3(xc, yi)} | core 8 mean {xi[core].mean():.2f}% err {mae(xi[core], yi[core]):.2f}")
 
 print("\n=== C. Level from other surveys of the programme (Table D12, section 7) ===")
 y22 = y("gss2022"); print(f"  real mean 2022 {y22.mean():.2f}% | 2024 {yi.mean():.2f}% | always guessing the 2022 mean on 2024: {mae(np.full(len(yi), y22.mean()), yi):.2f}")
 for m, d in (("opus", "mean"), ("sonnet", "mean"), ("flash", "mean")):
     k = y22.mean() / col("gss2022", m).mean()
-    for lab, x in (("as run", col("gss2024_interview", m, d)), ("corrected", corrected(m, d)[0])):
+    for lab, x in (("as run", forecasts(*ASRUN[m], d, issp="as run").reindex(I.index)), ("re-run", col("gss2024_interview", m, d))):
         print(f"  {m:7s} {lab:9s} as is {mae(x, yi):.2f} | factor from 2022 {k:.2f} -> {mae(k * x, yi):.2f} | own 2024 mean {mae(yi.mean() / x.mean() * x, yi):.2f}")
 for m in ("opus", "sonnet", "flash_think", "haiku"):
     x = col("eb_face_to_face", m); pr = pd.Series(index=E.index, dtype=float); cst = pr.copy(); own = pr.copy()
@@ -153,8 +157,8 @@ print(f"  weighted targets (wtssnrps): Spearman with the unweighted {sp(wt, full
 def spn(a, b):
     a, b = np.asarray(a, float), np.asarray(b, float); return spearmanr(a, b)[0] if np.std(a) > 0 and np.std(b) > 0 else np.nan
 for m in ("sonnet", "flash_think"):
-    x0 = col("gss2024_interview", m).reindex(ids).to_numpy(float); x = corrected(m)[0].reindex(ids).to_numpy(float)
-    print(f"  {m}: full-sample Spearman as run {spn(x0, full):.3f} -> corrected {spn(x, full):.3f} | error corrected {np.abs(x - full).mean():.2f} | mean {x0.mean():.2f}% -> {x.mean():.2f}%")
+    x0 = forecasts(*ASRUN[m], issp="as run").reindex(ids).to_numpy(float); x = col("gss2024_interview", m).reindex(ids).to_numpy(float)
+    print(f"  {m}: full-sample Spearman as run {spn(x0, full):.3f} -> re-run {spn(x, full):.3f} | error re-run {np.abs(x - full).mean():.2f} | mean {x0.mean():.2f}% -> {x.mean():.2f}%")
 def run(x, n, ms=(25,)):
     acc = {}; rng = np.random.default_rng(7); kbar = []; zero = []
     for _ in range(2000):
@@ -168,7 +172,7 @@ def run(x, n, ms=(25,)):
     for kx, v in acc.items():
         r = np.array([a for a, _ in v]); e = np.array([b for _, b in v]); print(f"     {kx:32s} Spearman {np.nanmean(r):.4f} (middle 95% {np.nanpercentile(r, 2.5):.2f} to {np.nanpercentile(r, 97.5):.2f}) | error {e.mean():.2f}")
 for m in ("sonnet", "flash_think"):
-    x = corrected(m)[0].reindex(ids).to_numpy(float); print(f"  == {m}, corrected ==")
+    x = col("gss2024_interview", m).reindex(ids).to_numpy(float); print(f"  == {m}, re-run forecasts ==")
     for n in ((32, 107, 214) if m == "sonnet" else (32,)): run(x, n, ms=(5, 25, 50, 100) if m == "sonnet" and n in (32, 107) else (25,))
 
 print("\n=== F. Web and telephone questions (Table 6, section 8, Appendix C) ===")
@@ -211,10 +215,10 @@ G = S["gss2024_web"]; yg = G.real_dk_pct
 print("  GSS 2024 web 47: " + " ".join(f"{m} {sp(col('gss2024_web', m), yg):.3f};" for m in M) + f" Opus first call {sp(col('gss2024_web', 'opus', 0), yg):.3f}; question length {sp(G.question_chars, yg):.3f}; options {sp(G.n_options, yg):.3f}")
 print(f"  GSS 2024 web question length, two definitions: question text {sp(G.qtext.str.len(), yg):.3f} (= question_chars) | question + options {sp(G.qtext.str.len() + G.options_text.str.len(), yg):.3f}")
 print(f"  EB telephone question length, two definitions: question line {sp(T.qlen_text, T.real_dk_pct):.3f} | whole prompt {sp(T.qlen_prompt, T.real_dk_pct):.3f}")
-xi1 = col("gss2024_interview", "opus", 0)[issp]; xi3 = col("gss2024_interview", "opus")[issp]; xs = col("gss2024_interview", "sonnet")[issp]
+xi1 = forecasts(*ASRUN["opus"], 0, issp="as run")[issp]; xi3 = forecasts(*ASRUN["opus"], issp="as run")[issp]; xs = forecasts(*ASRUN["sonnet"], issp="as run")[issp]
 print(f"  same 47 ISSP, interview prompt vs interview shares: Opus first call {sp(xi1, yi[issp]):.3f}, mean of 3 {sp(xi3, yi[issp]):.3f}; Sonnet {sp(xs, yi[issp]):.3f}")
 
-print("\n=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 8) ===")
+print("\n=== G. Whole surveys, Eurobarometer face-to-face, Opus 5.5 (section 7); single questions (section 8) ===")
 D = E.copy(); D["opus"] = col("eb_face_to_face", "opus")
 tab = D.groupby("survey").apply(lambda s: pd.Series({"n": len(s), "real": s.real_dk_pct.mean(), "opus": s.opus.mean(), "ratio": s.opus.mean() / s.real_dk_pct.mean(), "rho_in": sp(s.opus, s.real_dk_pct) if len(s) >= 8 else np.nan}))
 print(tab.round(2).sort_values("ratio").to_string())
@@ -222,6 +226,13 @@ D["res"] = D.opus.rank(pct=True) - D.real_dk_pct.rank(pct=True); D["agree"] = D.
 o = D.sort_values("res"); under, over = o.head(20), o.tail(20)
 print(f"  20 most under-ranked by survey: {under.survey.value_counts().to_dict()}")
 print(f"  agree/disagree wording among the 40 largest rank misses: {int(under.agree.sum() + over.agree.sum())} of 40 | among all 374: {int(D.agree.sum())}")
+# The largest misses on single questions, once whole-survey offsets are set aside (added after the scores were seen): ranks
+# taken inside each survey with at least eight questions; the question the forecast ranks furthest below and above its real rank.
+W8 = D[D.groupby("survey").survey.transform("size") >= 8].copy()
+W8["res_in"] = W8.groupby("survey").opus.rank(pct=True) - W8.groupby("survey").real_dk_pct.rank(pct=True)
+for lab, part in (("ranked furthest below their real rank (forecast too low)", W8.nsmallest(6, "res_in")), ("ranked furthest above (forecast too high)", W8.nlargest(6, "res_in"))):
+    print(f"  inside surveys, questions {lab}:")
+    for q, r in part.iterrows(): print(f"     {r.survey:8s} real {r.real_dk_pct:4.1f}% forecast {r.opus:5.1f}% | {r.qtext[:150]}")
 
 print("\n=== H. Abstract, Introduction (Table 1), Conclusion ===")
 print(f"  questions {len(Q)} | programmes {Q.programme.nunique()} {sorted(Q.programme.unique())} | sets {Q.set.value_counts().to_dict()}")
