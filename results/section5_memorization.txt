@@ -16,7 +16,7 @@
   fielded after August 2025                          n  87 blocks 37 surveys (rows) 10 (dated by) 10 | opus45 0.825 [0.69, 0.91] opus45_think 0.821 [0.68, 0.90] sonnet45 0.727 [0.54, 0.84] opus 0.889 [0.79, 0.94] sonnet 0.833 [0.69, 0.90]
   all                                                n 100 blocks 42 surveys (rows) 11 (dated by) 11 | opus45 0.840 [0.71, 0.91] opus45_think 0.830 [0.69, 0.90] sonnet45 0.750 [0.57, 0.86] opus 0.880 [0.77, 0.94] sonnet 0.833 [0.69, 0.91]
   question length (question text characters): 87 0.137, all 0.230 | prompt characters: 87 0.108, all 0.192
-  inside blocks, fielded after August 2025 (68 questions, 18 blocks): opus45 0.752, opus45_think 0.750, sonnet45 0.544, opus 0.764, sonnet 0.712
+  inside blocks, fielded after August 2025 (68 questions, 18 blocks, 7 surveys): opus45 0.752, opus45_think 0.750, sonnet45 0.544, opus 0.764, sonnet 0.712, qtext_chars 0.181
   Opus 4.5 thinking: calls 300, calls per question [3], unreadable 0, calls with thinking 300, model ['claude-opus-4-5-20251101']
   paired difference on the 87, opus45_think minus opus: -0.068 [-0.165, -0.004]
   paired difference on the 87, opus45 minus opus: -0.064 [-0.147, -0.010]
@@ -48,6 +48,12 @@
      0.71 | eb:SP569:p22: Please tell me to what extent you agree or disagree with each of the following s
             ~ eb:STD105:p268: Please tell to what extent you agree or disagree with each of the following stat
   without the questions at similarity 0.75 or above (4 dropped): n 49 | opus 0.848 sonnet 0.793
+
+=== D2. Without the surveys whose modules the GESIS archive describes as repeating earlier waves (D.5) ===
+  new questions dated by these surveys: 38 {'SP572': 25, 'STD105': 4, 'EB050EP': 4, 'EB049EP': 3, 'SP571': 1, 'STD104': 1}
+  100 new, without these surveys                     n  62 blocks 23 surveys (rows)  5 (dated by)  5 | opus 0.854 [0.66, 0.95] sonnet 0.816 [0.59, 0.92] flash 0.869 [0.73, 0.94]
+  87 fielded after August 2025, without these        n  49 blocks 18 surveys (rows)  4 (dated by)  4 | opus45 0.764 [0.55, 0.92] sonnet45 0.688 [0.42, 0.86] opus 0.851 [0.71, 0.96] sonnet 0.804 [0.60, 0.91]
+  the 49 left of the 87 are the 53 published after 30 June 2026 without EB050EP: True
 
 === E. Note on counts ===
   clean face-to-face rows without a change-since-last-wave column: 104; counted once 100

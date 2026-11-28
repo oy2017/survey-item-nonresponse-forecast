@@ -1,9 +1,10 @@
 questions 359 {'wvs7': 181, 'gss2022': 123, 'gss2024': 55} | blocks {'gss2022': 12, 'gss2024': 9, 'wvs7': 21} | real mean share 3.52%
-calls for ways 1, 1b and 2: 71800 | per model and way {('Gemini Flash', '1'): 7180, ('Gemini Flash', '1b'): 7180, ('Gemini Flash', '2'): 7180, ('Opus 5.5', '1'): 3590, ('Opus 5.5', '2'): 3590, ('Sonnet 5.5', '1'): 17950, ('Sonnet 5.5', '1b'): 17950, ('Sonnet 5.5', '2'): 7180}
-profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, ('Gemini Flash', '2'): 20, ('Opus 5.5', '1'): 10, ('Opus 5.5', '2'): 10, ('Sonnet 5.5', '1'): 50, ('Sonnet 5.5', '1b'): 50, ('Sonnet 5.5', '2'): 20} | unreadable {'Gemini Flash': 59, 'Opus 5.5': 0, 'Sonnet 5.5': 30}
+calls for ways 1, 1b and 2: 75390 | per model and way {('Gemini Flash', '1'): 7180, ('Gemini Flash', '1b'): 7180, ('Gemini Flash', '2'): 7180, ('Opus 5.5', '1'): 3590, ('Opus 5.5', '1b'): 3590, ('Opus 5.5', '2'): 3590, ('Sonnet 5.5', '1'): 17950, ('Sonnet 5.5', '1b'): 17950, ('Sonnet 5.5', '2'): 7180}
+profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, ('Gemini Flash', '2'): 20, ('Opus 5.5', '1'): 10, ('Opus 5.5', '1b'): 10, ('Opus 5.5', '2'): 10, ('Sonnet 5.5', '1'): 50, ('Sonnet 5.5', '1b'): 50, ('Sonnet 5.5', '2'): 20} | unreadable {'Gemini Flash': 59, 'Opus 5.5': 0, 'Sonnet 5.5': 30}
 
 === Table D9: Spearman with the real shares by survey (average share or stated chance) ===
   Opus 5.5     way 1  none said | 0.036 (0.08%) | 0.372 (1.10%) | questions with any 'don't know': 0, 1, 9
+  Opus 5.5     way 1b none said | -0.084 (0.73%) | 0.447 (2.43%) | questions with any 'don't know': 0, 3, 17
   Opus 5.5     way 2  0.721 (5.38%) | 0.717 (4.98%) | 0.893 (8.90%)
   Opus 5.5     way 3  0.707 (2.94%) | 0.840 (3.06%) | 0.927 (3.95%)
   Sonnet 5.5   way 1  none said | -0.056 (0.05%) | 0.369 (1.06%) | questions with any 'don't know': 0, 1, 11
@@ -16,7 +17,7 @@ profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, (
   Gemini Flash way 3  0.833 (2.30%) | 0.661 (2.70%) | 0.843 (4.14%)
 
 === Table 5 and Table D10: mean over the three surveys (way 1: over the surveys that can be scored), 95% interval; level = all calls pooled ===
-  Opus 5.5: way 1 0.204 [0.077, 0.485] (0.58%) | way 2 0.777 [0.603, 0.817] (7.02%) | way 3 0.825 [0.672, 0.864] (3.49%)
+  Opus 5.5: way 1 0.204 [0.077, 0.485] (0.58%) | way 1b 0.182 [0.050, 0.575] (1.48%) | way 2 0.777 [0.603, 0.817] (7.02%) | way 3 0.825 [0.672, 0.864] (3.49%)
       way 2 minus way 1: +0.573 [+0.2179, +0.6869]
       way 3 minus way 2: +0.048 [-0.0058, +0.1437]
       way 2 minus way 1 on only the surveys where way 1 can be scored (gss2022, wvs7): +0.601
@@ -68,9 +69,11 @@ profiles per question: {('Gemini Flash', '1'): 20, ('Gemini Flash', '1b'): 20, (
 
 === Open-weight models as simulated respondents (interviewer-run questions for the token probabilities) ===
   Llama 3.3 70B    way 1                    answers 2040, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 65.5%, mean probability 0.0000357% | largest possible probability on the other calls 2.07e-12% | Spearman of the question mean with real shares 0.239
+                                            web calls 940: 'Can't choose' number among the 20 likeliest on 88.9%, mean probability 0.00000048% | largest possible probability on the other calls 6.60e-12%
   Llama 3.3 70B    way 1b                   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 71.2%, mean probability 0.0001428% | largest possible probability on the other calls 8.99e-12% | Spearman of the question mean with real shares 0.274
   Llama 3.3 70B    way 1b, richer profile   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 73.5%, mean probability 0.0001152% | largest possible probability on the other calls 6.29e-13% | Spearman of the question mean with real shares 0.273
   Llama 4 Maverick way 1                    answers 2040, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 69.5%, mean probability 0.0000044% | largest possible probability on the other calls 4.66e-13% | Spearman of the question mean with real shares 0.280
+                                            web calls 940: 'Can't choose' number among the 20 likeliest on 59.8%, mean probability 0.00000000% | largest possible probability on the other calls 2.20e-13%
   Llama 4 Maverick way 1b                   answers 1100, 'don't know' 0 | interviewer calls 1100: DK among the 20 likeliest on 79.4%, mean probability 0.0405557% | largest possible probability on the other calls 3.20e-13% | Spearman of the question mean with real shares 0.237
   Llama 4 Maverick way 1b, richer profile   answers 1100, 'don't know' 2 | interviewer calls 1100: DK among the 20 likeliest on 75.8%, mean probability 0.1540011% | largest possible probability on the other calls 7.30e-13% | Spearman of the question mean with real shares 0.188
   Llama 3.3 70B way 2: calls 1100 (readable 1100, profiles 20) | Spearman 0.448 [0.16, 0.77] | mean stated chance 13.245%

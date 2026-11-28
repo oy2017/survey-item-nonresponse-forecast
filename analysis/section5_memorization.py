@@ -6,6 +6,7 @@ Parts:
   B. Dating: a question is dated by its earliest fieldwork start and earliest publication among all clean rows with the same wording.
   C. Older models (Table D6, Table 4 row 1) and paired differences.
   D. Results published after the June 2026 cutoff (Table D7, Table 4 row 2) and the further checks on the 53 questions.
+  D2. Without the surveys whose modules the GESIS archive describes as repeating earlier waves.
   E. The note on counts (104 rows, 100 questions).
   F. The earlier World Values Survey / GSS 2022 run with a sentence of reasoning (403 questions, 304 after cleaning).
   G. The 80 reworded questions.
@@ -74,7 +75,8 @@ if __name__ == "__main__":
     A87 = N[N.fs_min > "2025-08-31"]
     row("fielded after August 2025", A87, cols); row("all", N, cols)
     print(f"  question length (question text characters): 87 {spearman(A87.qtext_chars, A87.real):.3f}, all {spearman(N.qtext_chars, N.real):.3f} | prompt characters: 87 {spearman(A87.prompt_chars, A87.real):.3f}, all {spearman(N.prompt_chars, N.real):.3f}")
-    n, g, v = demeaned(A87, "block", cols); print(f"  inside blocks, fielded after August 2025 ({n} questions, {g} blocks): " + ", ".join(f"{c} {x:.3f}" for c, x in v.items()))
+    n, g, v = demeaned(A87, "block", cols + ["qtext_chars"]); nb = A87[A87.groupby("block").block.transform("size") >= 2].dated_by.nunique()
+    print(f"  inside blocks, fielded after August 2025 ({n} questions, {g} blocks, {nb} surveys): " + ", ".join(f"{c} {x:.3f}" for c, x in v.items()))
     f = pd.read_csv(DATA / "forecasts_memorization.csv"); print(f"  Opus 4.5 thinking: calls {len(f)}, calls per question {f.groupby('qid').size().unique().tolist()}, unreadable {int(f.forecast_pct.isna().sum())}, calls with thinking {int((f.thinking_tokens > 0).sum())}, model {f.model_id_returned.unique().tolist()}")
     # paired differences on the 87: one random generator, 2,000 resamples per comparison, in this order (as first computed)
     res = list(block_resamples(A87.block.to_numpy(), n=8000, seed=0)); x = A87.reset_index(drop=True)
@@ -110,6 +112,15 @@ if __name__ == "__main__":
     late = late.assign(sim=[b[0] for b in sim]); print(f"  wording: 53 questions against {len(pool)} clean rows published by 30 June 2026; character similarity of the closest earlier wording, top 6:")
     for (sv, j2, q2), (_, r) in sorted(zip(sim, late.iterrows()), key=lambda t: -t[0][0])[:6]: print(f"     {sv:.2f} | {r.qid}: {r.question[:80]}\n            ~ {j2}: {q2[:80]}")
     k = late[late.sim < 0.75]; print(f"  without the questions at similarity 0.75 or above ({len(late) - len(k)} dropped): n {len(k)} | opus {spearman(k.opus, k.real):.3f} sonnet {spearman(k.sonnet, k.real):.3f}")
+
+    print("\n=== D2. Without the surveys whose modules the GESIS archive describes as repeating earlier waves (D.5) ===")
+    # GESIS study notes: the Digital Decade 2026 module (SP572) partly and the biodiversity module (SP571) largely replicate earlier
+    # Eurobarometer modules, and the Standard (STD104, STD105) and European Parliament (EB049EP, EB050EP) surveys largely repeat earlier waves.
+    rep = ["SP571", "SP572", "STD104", "STD105", "EB049EP", "EB050EP"]; N["flash"] = forecasts("Gemini Flash", "thinking").reindex(N.qid).to_numpy()
+    print(f"  new questions dated by these surveys: {N.dated_by.isin(rep).sum()} {N[N.dated_by.isin(rep)].dated_by.value_counts().to_dict()}")
+    k100 = N[~N.dated_by.isin(rep)]; k87 = A87[~A87.dated_by.isin(rep)]
+    row("100 new, without these surveys", k100, ["opus", "sonnet", "flash"]); row("87 fielded after August 2025, without these", k87, ["opus45", "sonnet45", "opus", "sonnet"])
+    print(f"  the {len(k87)} left of the 87 are the 53 published after 30 June 2026 without EB050EP: {set(k87.qid) == set(late[late.dated_by != 'EB050EP'].qid)}")
 
     print("\n=== E. Note on counts ===")
     nr = C[(C["mode"] == "face-to-face") & (C.prior_wave_column == "new")]; print(f"  clean face-to-face rows without a change-since-last-wave column: {len(nr)}; counted once {int(nr.counted_once.sum())}")

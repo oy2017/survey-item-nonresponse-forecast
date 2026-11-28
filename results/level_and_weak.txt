@@ -54,8 +54,8 @@
 
 === D. Sampled pilots on the 374 face-to-face Eurobarometer questions (section 7, D.8; Abstract, Table 3) ===
   constant at the real mean: 2.72
-  15 answers per question: pilot alone 0.513/4.16 | pilot pulled to own mean 0.513/2.35 | sonnet rescaled 0.813/1.59 | sonnet blended 0.776/1.85 | opus rescaled 0.887/1.37 | opus blended 0.819/1.78 | flash_think rescaled 0.842/1.51 | flash_think blended 0.796/1.84
-  50 answers per question: pilot alone 0.749/2.24 | pilot pulled to own mean 0.749/1.79 | sonnet rescaled 0.813/1.58 | sonnet blended 0.831/1.60 | opus rescaled 0.887/1.36 | opus blended 0.848/1.58 | flash_think rescaled 0.842/1.50 | flash_think blended 0.839/1.60
+  15 answers per question: pilot alone 0.513/4.16 | pilot pulled to own mean 0.513/2.35 | sonnet rescaled 0.813/1.59 | sonnet blended 0.776/1.85 | sonnet rescaled per survey 0.832/1.55 | opus rescaled 0.887/1.37 | opus blended 0.819/1.78 | opus rescaled per survey 0.887/1.35 | flash_think rescaled 0.842/1.51 | flash_think blended 0.796/1.84 | flash_think rescaled per survey 0.851/1.46
+  50 answers per question: pilot alone 0.749/2.24 | pilot pulled to own mean 0.749/1.79 | sonnet rescaled 0.813/1.58 | sonnet blended 0.831/1.60 | sonnet rescaled per survey 0.860/1.39 | opus rescaled 0.887/1.36 | opus blended 0.848/1.58 | opus rescaled per survey 0.913/1.19 | flash_think rescaled 0.842/1.50 | flash_think blended 0.839/1.60 | flash_think rescaled per survey 0.878/1.30
   pilot alone, Spearman with the published share: k=15 0.514 k=25 0.618 k=50 0.749 k=100 0.850 k=200 0.916
 
 === E. Real-interview pilots, General Social Survey 2024 (D.8, D.9; the pilot-plus-forecast rows are no longer in the paper) ===

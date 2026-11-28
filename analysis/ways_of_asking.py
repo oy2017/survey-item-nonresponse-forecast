@@ -136,6 +136,10 @@ for (m, run), g in OW[OW.run != "way 2"].groupby(["model", "run"]):
     bound = np.minimum(out.top20_min_prob, np.maximum(0, 1 - out.top20_sum)).max() if len(out) else np.nan
     print(f"  {m:16s} {run:24s} answers {len(g)}, 'don't know' {int(g.said.sum())} | interviewer calls {len(i)}: DK among the 20 likeliest on {100 * i.dk_in_top20.mean():.1f}%, mean probability {100 * i.dk_token_prob.mean():.7f}% | "
           f"largest possible probability on the other calls {100 * bound:.2e}% | Spearman of the question mean with real shares {spearman(q, real.reindex(q.index)):.3f}")
+    w = g[g.arm == "web"]
+    if len(w):  # web prompts: probability of the number of the on-screen "Can't choose" option
+        ow_ = w[w.dk_in_top20 == 0]; bw = np.minimum(ow_.top20_min_prob, np.maximum(0, 1 - ow_.top20_sum)).max() if len(ow_) else np.nan
+        print(f"  {'':16s} {'':24s} web calls {len(w)}: 'Can't choose' number among the 20 likeliest on {100 * w.dk_in_top20.mean():.1f}%, mean probability {100 * w.dk_token_prob.mean():.8f}% | largest possible probability on the other calls {100 * bw:.2e}%")
 L = OW[(OW.run == "way 2")].copy(); L["x"] = L.number.where(L.number.between(0, 100)); q24 = Q[Q.survey == "gss2024"]
 m2 = L.groupby("qid").x.mean().reindex(q24.qid); lo, hi = interval(m2, q24.real_dk_pct, q24.block)
 print(f"  Llama 3.3 70B way 2: calls {len(L)} (readable {int(L.x.notna().sum())}, profiles {L.profile.nunique()}) | Spearman {spearman(m2, q24.real_dk_pct):.3f} [{lo:.2f}, {hi:.2f}] | mean stated chance {m2.mean():.3f}%")

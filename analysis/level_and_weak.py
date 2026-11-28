@@ -119,7 +119,7 @@ for m, c in EBM.items():
     print(f"  EB {m:11s} {int(hasE.sum())} questions: earlier surveys {mae(ea[hasE], yF[hasE]):.2f} | pilot of the survey alone " + ", ".join(out))
 
 print("\n=== D. Sampled pilots on the 374 face-to-face Eurobarometer questions (section 7, D.8; Abstract, Table 3) ===")
-yv = ye.to_numpy(float); rng = np.random.default_rng(3); mm = 25.0
+yv = ye.to_numpy(float); rng = np.random.default_rng(3); mm = 25.0; gsv = E.survey.to_numpy()
 print(f"  constant at the real mean: {np.abs(yv - yv.mean()).mean():.2f}")
 for k in (15, 50):
     acc = {}
@@ -127,6 +127,9 @@ for k in (15, 50):
         c = rng.binomial(k, yv / 100).astype(float); p = 100 * c / k; pm = 100 * c.sum() / (k * len(yv)); cand = {"pilot alone": p, "pilot pulled to own mean": (k * p + mm * pm) / (k + mm)}
         for nm in ("sonnet", "opus", "flash_think"):
             x = col("eb_face_to_face", nm).to_numpy(float); xc = x * max(c.sum(), 1.0) / (k * x / 100).sum(); cand[f"{nm} rescaled"] = xc; cand[f"{nm} blended"] = (k * p + mm * xc) / (k + mm)
+            xs = x.copy()  # one factor per survey, each from the sampled pilot of that survey's own questions (same draws)
+            for sv in np.unique(gsv): i = gsv == sv; xs[i] = x[i] * max(c[i].sum(), 1.0) / (k * x[i] / 100).sum()
+            cand[f"{nm} rescaled per survey"] = xs
         for kx, v in cand.items(): acc.setdefault(kx, []).append((spearmanr(v, yv)[0] if np.std(v) > 0 else 0.0, np.abs(v - yv).mean()))
     print(f"  {k} answers per question: " + " | ".join(f"{kx} {np.mean([a for a, _ in v]):.3f}/{np.mean([b for _, b in v]):.2f}" for kx, v in acc.items()))
 rng = np.random.default_rng(1); p = yv / 100
