@@ -1,0 +1,313 @@
+qid,system,user
+eb:FL015EP:p3,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, how would you describe the current state of each of the following? The economy in (OUR COUNTRY)?
+On-screen options (in order): Very good Rather good Neither good nor bad Rather bad Very bad; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p4,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, how would you describe the current state of each of the following? The economy in the European Union?
+On-screen options (in order): Very good Rather good Neither good nor bad Rather bad Very bad; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p5,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, how would you describe the current state of each of the following? Your economic situation?
+On-screen options (in order): Very good Rather good Neither good nor bad Rather bad Very bad; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p6,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Compared with today, how do you see the situation in 12 months' time for each of the following? The economy in (OUR COUNTRY)?
+On-screen options (in order): Much better Slightly better About the same Slightly worse Much worse; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p7,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Compared with today, how do you see the situation in 12 months' time for each of the following? The economy in the European Union?
+On-screen options (in order): Much better Slightly better About the same Slightly worse Much worse; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p8,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Compared with today, how do you see the situation in 12 months' time for each of the following? Your economic situation?
+On-screen options (in order): Much better Slightly better About the same Slightly worse Much worse; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p16,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How confident or not confident are you that each of the following can compete in the global economy over the next few years? (OUR COUNTRY)'s economy?
+On-screen options (in order): Very confident Somewhat confident Not so confident Not confident at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p17,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How confident or not confident are you that each of the following can compete in the global economy over the next few years? The European Union economy?
+On-screen options (in order): Very confident Somewhat confident Not so confident Not confident at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p18,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: When today's children grow up, do you think their standard of living will be higher, lower, or similar to that of their parents?
+On-screen options (in order): A lot higher Somewhat higher Similar Somewhat lower A lot lower; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p19,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, do you think that being a member of the European Union has a positive or negative effect on the economy of (OUR COUNTRY)?
+On-screen options (in order): Very positive Somewhat positive Somewhat negative Very negative; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p20,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, would (OUR COUNTRY's) performance in the global economy improve or worsen if European Union countries worked together more closely on economic matters?
+On-screen options (in order): Improve a lot Improve somewhat Stay about the same Worsen somewhat Worsen a lot; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p25,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Making rules and administration easier for companies?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p26,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Increasing investment in research and development?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p27,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Making it easier for companies to get funding and private investment?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p28,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Making the European Union more attractive for skilled workers and researchers?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p29,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Helping European companies grow and perform globally?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p30,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Expanding global trade relations?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p31,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Supporting artificial intelligence (AI) and digital technology?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb:FL015EP:p32,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of adults in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you think each of the following helps boost the competitiveness of the European Union economy? Strengthening the European Union single market?
+On-screen options (in order): Helps a lot Helps somewhat Does not really help Does not help at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p4,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, how risky or not risky are the following actions when using digital systems and tools at work? Using the same password for private and work online accounts?
+On-screen options (in order): Very risky; Rather risky; Rather not risky; Not risky at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p5,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, how risky or not risky are the following actions when using digital systems and tools at work? Not installing software or system updates when they are available?
+On-screen options (in order): Very risky; Rather risky; Rather not risky; Not risky at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p6,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, how risky or not risky are the following actions when using digital systems and tools at work? Clicking on a link in an email without checking the sender?
+On-screen options (in order): Very risky; Rather risky; Rather not risky; Not risky at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p7,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, how risky or not risky are the following actions when using digital systems and tools at work? Sharing work-related information on social media?
+On-screen options (in order): Very risky; Rather risky; Rather not risky; Not risky at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p8,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In your opinion, how risky or not risky are the following actions when using digital systems and tools at work? Not reporting a suspicious email to your organisation?
+On-screen options (in order): Very risky; Rather risky; Rather not risky; Not risky at all; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p9,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How likely do you think you or your organisation could experience a cyberattack in the next 6 months? Your organisation as a whole?
+On-screen options (in order): Very likely; Fairly likely; Not very likely; Not at all likely; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p10,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How likely do you think you or your organisation could experience a cyberattack in the next 6 months? You personally, in the course of your work?
+On-screen options (in order): Very likely; Fairly likely; Not very likely; Not at all likely; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p11,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How serious do you think the consequences would be for your organisation if a cyberattack occurred?
+On-screen options (in order): Very serious; Fairly serious; Not very serious; Not at all serious; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p12,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How important is cybersecurity for your organisation, in your view and in the view of your management? In your view?
+On-screen options (in order): Very important; Fairly important; Not very important; Not at all important; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p13,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How important is cybersecurity for your organisation, in your view and in the view of your management? In the view of your organisation's management?
+On-screen options (in order): Very important; Fairly important; Not very important; Not at all important; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p14,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How effective do you think the digital systems and tools provided by your organisation are in protecting the organisation against cyberattacks?
+On-screen options (in order): Very effective; Rather effective; Rather not effective; Not at all effective; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p15,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In the past 6 months, have you personally received any of the following at work? Suspicious emails, text or vocal messages, or links?
+On-screen options (in order): Yes, several times; Yes, a few times; Yes, once; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p16,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In the past 6 months, have you personally received any of the following at work? Suspicious calls?
+On-screen options (in order): Yes, several times; Yes, a few times; Yes, once; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p18,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How confident are you in your ability to recognise...? A suspicious email, text or vocal messages, or link?
+On-screen options (in order): Very confident; Fairly confident; Not very confident; Not at all confident; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p19,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How confident are you in your ability to recognise...? A fake video generated by AI?
+On-screen options (in order): Very confident; Fairly confident; Not very confident; Not at all confident; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p20,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, how exposed to cyber threats do you think each of the following is? Your organisation?
+On-screen options (in order): Very exposed; Fairly exposed; Not very exposed; Not at all exposed; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p21,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: Overall, how exposed to cyber threats do you think each of the following is? The sector in which your organisation operates?
+On-screen options (in order): Very exposed; Fairly exposed; Not very exposed; Not at all exposed; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p22,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: As far as you know, has your organisation put in place any of the following measures related to cybersecurity? Written rules or guidelines on cybersecurity (for example on passwords, emails, or handling data)?
+On-screen options (in order): Yes; Not yet, but it is planned; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p23,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: As far as you know, has your organisation put in place any of the following measures related to cybersecurity? Clear procedures or channels to report a cybersecurity issue or incident?
+On-screen options (in order): Yes; Not yet, but it is planned; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p24,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: As far as you know, has your organisation put in place any of the following measures related to cybersecurity? Regular information or awareness messages about cybersecurity risks?
+On-screen options (in order): Yes; Not yet, but it is planned; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p25,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How often do you personally do each of the following at work? Use strong and unique passwords for work accounts?
+On-screen options (in order): Always; Sometimes; Rarely; Never; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p26,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How often do you personally do each of the following at work? Lock your computer when leaving your workstation?
+On-screen options (in order): Always; Sometimes; Rarely; Never; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p27,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How often do you personally do each of the following at work? Check the sender before opening links or attachments?
+On-screen options (in order): Always; Sometimes; Rarely; Never; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p28,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: In the past 12 months, have you taken part in any cybersecurity training or awareness activity related to your work?
+On-screen options (in order): Yes, a compulsory training; Yes, a voluntary training; No; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p29,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How would you rate your overall knowledge about cybersecurity risks and the measures to prevent them?
+On-screen options (in order): Very good; Fairly good; Fairly poor; Very poor; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p30,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How interested would you be in improving your cybersecurity skills?
+On-screen options (in order): Very interested; Fairly interested; Not very interested; Not at all interested; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL576:p31,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of employees in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know / no answer' is explicitly displayed in the list of answer options.
+
+Question: How useful do you think stronger cybersecurity skills would be for your professional future?
+On-screen options (in order): Very useful; Fairly useful; Not very useful; Not at all useful; Don't know / no answer
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know / no answer'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p32,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you agree or disagree with the following statements about artificial intelligence (AI)? I feel confident in my ability to use artificial intelligence tools in a safe way.
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p33,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you agree or disagree with the following statements about artificial intelligence (AI)? I feel confident in my ability to use artificial intelligence tools to achieve the results I am looking for.
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p36,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you personally agree or disagree with each of the following statements? In (OUR COUNTRY), policymakers take the long-term consequences of their decisions into account?
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p37,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you personally agree or disagree with each of the following statements? EU policymakers take the long-term consequences of their decisions into account?
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p38,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you personally agree or disagree with each of the following statements? In (OUR COUNTRY), young people have the same chances of succeeding in life as young people of the same age 30 years ago?
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."
+eb3:FL585:p39,"You are a survey methodologist estimating item non-response in self-administered web surveys. Reply with ONLY one percentage between 0.0 and 100.0 inside square brackets, such as [0.6] or [9.5].","Population and mode: a self-administered web survey of young people aged 15 to 30 in the 27 member states of the European Union. Results are for the European Union as a whole; '(OUR COUNTRY)' or '(NATIONALITY)' in a question stands for the respondent's own country. Respondents read the question on screen, and 'Don't know' is explicitly displayed in the list of answer options.
+
+Question: To what extent do you personally agree or disagree with each of the following statements? In (OUR COUNTRY), young people in 30 years' time will have the same chances to succeed as young people of the same age today?
+On-screen options (in order): Totally agree; Tend to agree; Tend to disagree; Totally disagree; Don't know
+
+What percentage (0.0 to 100.0) of respondents asked this question select 'Don't know'? Output ONLY one number in brackets, e.g. [2.4]."

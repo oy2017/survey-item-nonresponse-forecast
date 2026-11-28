@@ -1,0 +1,313 @@
+qid,model,setting,draw,forecast_pct
+eb3:FL576:p10,Opus 5.5,thinking,0,9.0
+eb3:FL576:p10,Opus 5.5,thinking,1,9.0
+eb3:FL576:p10,Opus 5.5,thinking,2,9.0
+eb3:FL576:p11,Opus 5.5,thinking,0,8.0
+eb3:FL576:p11,Opus 5.5,thinking,1,9.0
+eb3:FL576:p11,Opus 5.5,thinking,2,8.0
+eb3:FL576:p12,Opus 5.5,thinking,0,3.5
+eb3:FL576:p12,Opus 5.5,thinking,1,3.5
+eb3:FL576:p12,Opus 5.5,thinking,2,2.5
+eb3:FL576:p13,Opus 5.5,thinking,0,6.0
+eb3:FL576:p13,Opus 5.5,thinking,1,7.0
+eb3:FL576:p13,Opus 5.5,thinking,2,6.0
+eb3:FL576:p14,Opus 5.5,thinking,0,11.0
+eb3:FL576:p14,Opus 5.5,thinking,1,11.0
+eb3:FL576:p14,Opus 5.5,thinking,2,10.0
+eb3:FL576:p15,Opus 5.5,thinking,0,6.0
+eb3:FL576:p15,Opus 5.5,thinking,1,5.0
+eb3:FL576:p15,Opus 5.5,thinking,2,6.0
+eb3:FL576:p16,Opus 5.5,thinking,0,4.5
+eb3:FL576:p16,Opus 5.5,thinking,1,6.0
+eb3:FL576:p16,Opus 5.5,thinking,2,6.0
+eb3:FL576:p18,Opus 5.5,thinking,0,1.6
+eb3:FL576:p18,Opus 5.5,thinking,1,2.0
+eb3:FL576:p18,Opus 5.5,thinking,2,2.5
+eb3:FL576:p19,Opus 5.5,thinking,0,4.0
+eb3:FL576:p19,Opus 5.5,thinking,1,4.0
+eb3:FL576:p19,Opus 5.5,thinking,2,4.5
+eb3:FL576:p20,Opus 5.5,thinking,0,9.0
+eb3:FL576:p20,Opus 5.5,thinking,1,9.0
+eb3:FL576:p20,Opus 5.5,thinking,2,9.0
+eb3:FL576:p21,Opus 5.5,thinking,0,9.0
+eb3:FL576:p21,Opus 5.5,thinking,1,9.0
+eb3:FL576:p21,Opus 5.5,thinking,2,9.0
+eb3:FL576:p22,Opus 5.5,thinking,0,7.5
+eb3:FL576:p22,Opus 5.5,thinking,1,9.0
+eb3:FL576:p22,Opus 5.5,thinking,2,9.0
+eb3:FL576:p23,Opus 5.5,thinking,0,14.0
+eb3:FL576:p23,Opus 5.5,thinking,1,15.0
+eb3:FL576:p23,Opus 5.5,thinking,2,15.0
+eb3:FL576:p24,Opus 5.5,thinking,0,9.0
+eb3:FL576:p24,Opus 5.5,thinking,1,7.5
+eb3:FL576:p24,Opus 5.5,thinking,2,10.5
+eb3:FL576:p25,Opus 5.5,thinking,0,4.0
+eb3:FL576:p25,Opus 5.5,thinking,1,4.0
+eb3:FL576:p25,Opus 5.5,thinking,2,4.0
+eb3:FL576:p26,Opus 5.5,thinking,0,4.5
+eb3:FL576:p26,Opus 5.5,thinking,1,4.5
+eb3:FL576:p26,Opus 5.5,thinking,2,4.0
+eb3:FL576:p27,Opus 5.5,thinking,0,4.0
+eb3:FL576:p27,Opus 5.5,thinking,1,4.0
+eb3:FL576:p27,Opus 5.5,thinking,2,3.0
+eb3:FL576:p28,Opus 5.5,thinking,0,4.5
+eb3:FL576:p28,Opus 5.5,thinking,1,4.0
+eb3:FL576:p28,Opus 5.5,thinking,2,4.0
+eb3:FL576:p29,Opus 5.5,thinking,0,2.6
+eb3:FL576:p29,Opus 5.5,thinking,1,2.0
+eb3:FL576:p29,Opus 5.5,thinking,2,1.8
+eb3:FL576:p30,Opus 5.5,thinking,0,3.0
+eb3:FL576:p30,Opus 5.5,thinking,1,3.5
+eb3:FL576:p30,Opus 5.5,thinking,2,3.5
+eb3:FL576:p31,Opus 5.5,thinking,0,5.0
+eb3:FL576:p31,Opus 5.5,thinking,1,4.0
+eb3:FL576:p31,Opus 5.5,thinking,2,4.0
+eb3:FL576:p4,Opus 5.5,thinking,0,4.0
+eb3:FL576:p4,Opus 5.5,thinking,1,4.0
+eb3:FL576:p4,Opus 5.5,thinking,2,3.6
+eb3:FL576:p5,Opus 5.5,thinking,0,7.0
+eb3:FL576:p5,Opus 5.5,thinking,1,6.5
+eb3:FL576:p5,Opus 5.5,thinking,2,6.0
+eb3:FL576:p6,Opus 5.5,thinking,0,3.5
+eb3:FL576:p6,Opus 5.5,thinking,1,3.5
+eb3:FL576:p6,Opus 5.5,thinking,2,3.5
+eb3:FL576:p7,Opus 5.5,thinking,0,5.5
+eb3:FL576:p7,Opus 5.5,thinking,1,6.0
+eb3:FL576:p7,Opus 5.5,thinking,2,5.0
+eb3:FL576:p8,Opus 5.5,thinking,0,6.0
+eb3:FL576:p8,Opus 5.5,thinking,1,6.0
+eb3:FL576:p8,Opus 5.5,thinking,2,6.0
+eb3:FL576:p9,Opus 5.5,thinking,0,9.5
+eb3:FL576:p9,Opus 5.5,thinking,1,10.5
+eb3:FL576:p9,Opus 5.5,thinking,2,11.0
+eb3:FL585:p32,Opus 5.5,thinking,0,6.0
+eb3:FL585:p32,Opus 5.5,thinking,1,6.0
+eb3:FL585:p32,Opus 5.5,thinking,2,6.0
+eb3:FL585:p33,Opus 5.5,thinking,0,5.5
+eb3:FL585:p33,Opus 5.5,thinking,1,5.5
+eb3:FL585:p33,Opus 5.5,thinking,2,6.0
+eb3:FL585:p36,Opus 5.5,thinking,0,9.0
+eb3:FL585:p36,Opus 5.5,thinking,1,9.0
+eb3:FL585:p36,Opus 5.5,thinking,2,9.0
+eb3:FL585:p37,Opus 5.5,thinking,0,9.5
+eb3:FL585:p37,Opus 5.5,thinking,1,12.0
+eb3:FL585:p37,Opus 5.5,thinking,2,12.0
+eb3:FL585:p38,Opus 5.5,thinking,0,8.0
+eb3:FL585:p38,Opus 5.5,thinking,1,7.5
+eb3:FL585:p38,Opus 5.5,thinking,2,8.0
+eb3:FL585:p39,Opus 5.5,thinking,0,8.5
+eb3:FL585:p39,Opus 5.5,thinking,1,9.0
+eb3:FL585:p39,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p16,Opus 5.5,thinking,0,6.5
+eb:FL015EP:p16,Opus 5.5,thinking,1,6.5
+eb:FL015EP:p16,Opus 5.5,thinking,2,5.5
+eb:FL015EP:p17,Opus 5.5,thinking,0,7.0
+eb:FL015EP:p17,Opus 5.5,thinking,1,7.5
+eb:FL015EP:p17,Opus 5.5,thinking,2,6.5
+eb:FL015EP:p18,Opus 5.5,thinking,0,7.5
+eb:FL015EP:p18,Opus 5.5,thinking,1,9.0
+eb:FL015EP:p18,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p19,Opus 5.5,thinking,0,8.0
+eb:FL015EP:p19,Opus 5.5,thinking,1,7.0
+eb:FL015EP:p19,Opus 5.5,thinking,2,7.5
+eb:FL015EP:p20,Opus 5.5,thinking,0,9.0
+eb:FL015EP:p20,Opus 5.5,thinking,1,9.0
+eb:FL015EP:p20,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p25,Opus 5.5,thinking,0,11.0
+eb:FL015EP:p25,Opus 5.5,thinking,1,10.0
+eb:FL015EP:p25,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p26,Opus 5.5,thinking,0,6.5
+eb:FL015EP:p26,Opus 5.5,thinking,1,6.5
+eb:FL015EP:p26,Opus 5.5,thinking,2,6.5
+eb:FL015EP:p27,Opus 5.5,thinking,0,9.5
+eb:FL015EP:p27,Opus 5.5,thinking,1,9.0
+eb:FL015EP:p27,Opus 5.5,thinking,2,9.5
+eb:FL015EP:p28,Opus 5.5,thinking,0,7.0
+eb:FL015EP:p28,Opus 5.5,thinking,1,7.0
+eb:FL015EP:p28,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p29,Opus 5.5,thinking,0,8.0
+eb:FL015EP:p29,Opus 5.5,thinking,1,8.0
+eb:FL015EP:p29,Opus 5.5,thinking,2,8.0
+eb:FL015EP:p3,Opus 5.5,thinking,0,2.6
+eb:FL015EP:p3,Opus 5.5,thinking,1,2.6
+eb:FL015EP:p3,Opus 5.5,thinking,2,2.6
+eb:FL015EP:p30,Opus 5.5,thinking,0,9.0
+eb:FL015EP:p30,Opus 5.5,thinking,1,9.0
+eb:FL015EP:p30,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p31,Opus 5.5,thinking,0,9.0
+eb:FL015EP:p31,Opus 5.5,thinking,1,8.5
+eb:FL015EP:p31,Opus 5.5,thinking,2,9.0
+eb:FL015EP:p32,Opus 5.5,thinking,0,11.0
+eb:FL015EP:p32,Opus 5.5,thinking,1,11.0
+eb:FL015EP:p32,Opus 5.5,thinking,2,12.5
+eb:FL015EP:p4,Opus 5.5,thinking,0,6.5
+eb:FL015EP:p4,Opus 5.5,thinking,1,5.5
+eb:FL015EP:p4,Opus 5.5,thinking,2,6.5
+eb:FL015EP:p5,Opus 5.5,thinking,0,1.4
+eb:FL015EP:p5,Opus 5.5,thinking,1,1.3
+eb:FL015EP:p5,Opus 5.5,thinking,2,1.5
+eb:FL015EP:p6,Opus 5.5,thinking,0,6.5
+eb:FL015EP:p6,Opus 5.5,thinking,1,6.5
+eb:FL015EP:p6,Opus 5.5,thinking,2,5.5
+eb:FL015EP:p7,Opus 5.5,thinking,0,8.5
+eb:FL015EP:p7,Opus 5.5,thinking,1,9.0
+eb:FL015EP:p7,Opus 5.5,thinking,2,9.5
+eb:FL015EP:p8,Opus 5.5,thinking,0,4.0
+eb:FL015EP:p8,Opus 5.5,thinking,1,4.0
+eb:FL015EP:p8,Opus 5.5,thinking,2,5.5
+eb3:FL576:p10,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p10,Sonnet 5.5,no thinking,1,7.5
+eb3:FL576:p10,Sonnet 5.5,no thinking,2,6.5
+eb3:FL576:p11,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p11,Sonnet 5.5,no thinking,1,6.5
+eb3:FL576:p11,Sonnet 5.5,no thinking,2,6.5
+eb3:FL576:p12,Sonnet 5.5,no thinking,0,3.0
+eb3:FL576:p12,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p12,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p13,Sonnet 5.5,no thinking,0,7.5
+eb3:FL576:p13,Sonnet 5.5,no thinking,1,4.5
+eb3:FL576:p13,Sonnet 5.5,no thinking,2,6.5
+eb3:FL576:p14,Sonnet 5.5,no thinking,0,14.0
+eb3:FL576:p14,Sonnet 5.5,no thinking,1,14.0
+eb3:FL576:p14,Sonnet 5.5,no thinking,2,12.0
+eb3:FL576:p15,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p15,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p15,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p16,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p16,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p16,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p18,Sonnet 5.5,no thinking,0,2.1
+eb3:FL576:p18,Sonnet 5.5,no thinking,1,2.1
+eb3:FL576:p18,Sonnet 5.5,no thinking,2,2.3
+eb3:FL576:p19,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p19,Sonnet 5.5,no thinking,1,4.5
+eb3:FL576:p19,Sonnet 5.5,no thinking,2,4.5
+eb3:FL576:p20,Sonnet 5.5,no thinking,0,9.5
+eb3:FL576:p20,Sonnet 5.5,no thinking,1,12.0
+eb3:FL576:p20,Sonnet 5.5,no thinking,2,11.5
+eb3:FL576:p21,Sonnet 5.5,no thinking,0,14.0
+eb3:FL576:p21,Sonnet 5.5,no thinking,1,10.5
+eb3:FL576:p21,Sonnet 5.5,no thinking,2,11.5
+eb3:FL576:p22,Sonnet 5.5,no thinking,0,9.5
+eb3:FL576:p22,Sonnet 5.5,no thinking,1,9.5
+eb3:FL576:p22,Sonnet 5.5,no thinking,2,9.5
+eb3:FL576:p23,Sonnet 5.5,no thinking,0,11.5
+eb3:FL576:p23,Sonnet 5.5,no thinking,1,11.0
+eb3:FL576:p23,Sonnet 5.5,no thinking,2,9.5
+eb3:FL576:p24,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p24,Sonnet 5.5,no thinking,1,7.5
+eb3:FL576:p24,Sonnet 5.5,no thinking,2,8.0
+eb3:FL576:p25,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p25,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p25,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p26,Sonnet 5.5,no thinking,0,2.1
+eb3:FL576:p26,Sonnet 5.5,no thinking,1,2.5
+eb3:FL576:p26,Sonnet 5.5,no thinking,2,2.1
+eb3:FL576:p27,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p27,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p27,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p28,Sonnet 5.5,no thinking,0,4.5
+eb3:FL576:p28,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p28,Sonnet 5.5,no thinking,2,4.5
+eb3:FL576:p29,Sonnet 5.5,no thinking,0,2.5
+eb3:FL576:p29,Sonnet 5.5,no thinking,1,3.0
+eb3:FL576:p29,Sonnet 5.5,no thinking,2,2.5
+eb3:FL576:p30,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p30,Sonnet 5.5,no thinking,1,4.0
+eb3:FL576:p30,Sonnet 5.5,no thinking,2,4.5
+eb3:FL576:p31,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p31,Sonnet 5.5,no thinking,1,7.5
+eb3:FL576:p31,Sonnet 5.5,no thinking,2,7.5
+eb3:FL576:p4,Sonnet 5.5,no thinking,0,3.5
+eb3:FL576:p4,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p4,Sonnet 5.5,no thinking,2,3.5
+eb3:FL576:p5,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p5,Sonnet 5.5,no thinking,1,6.5
+eb3:FL576:p5,Sonnet 5.5,no thinking,2,6.5
+eb3:FL576:p6,Sonnet 5.5,no thinking,0,3.0
+eb3:FL576:p6,Sonnet 5.5,no thinking,1,3.5
+eb3:FL576:p6,Sonnet 5.5,no thinking,2,3.0
+eb3:FL576:p7,Sonnet 5.5,no thinking,0,4.5
+eb3:FL576:p7,Sonnet 5.5,no thinking,1,4.5
+eb3:FL576:p7,Sonnet 5.5,no thinking,2,4.5
+eb3:FL576:p8,Sonnet 5.5,no thinking,0,6.5
+eb3:FL576:p8,Sonnet 5.5,no thinking,1,6.5
+eb3:FL576:p8,Sonnet 5.5,no thinking,2,4.5
+eb3:FL576:p9,Sonnet 5.5,no thinking,0,8.5
+eb3:FL576:p9,Sonnet 5.5,no thinking,1,6.5
+eb3:FL576:p9,Sonnet 5.5,no thinking,2,8.5
+eb3:FL585:p32,Sonnet 5.5,no thinking,0,6.5
+eb3:FL585:p32,Sonnet 5.5,no thinking,1,6.5
+eb3:FL585:p32,Sonnet 5.5,no thinking,2,6.5
+eb3:FL585:p33,Sonnet 5.5,no thinking,0,7.5
+eb3:FL585:p33,Sonnet 5.5,no thinking,1,6.5
+eb3:FL585:p33,Sonnet 5.5,no thinking,2,7.5
+eb3:FL585:p36,Sonnet 5.5,no thinking,0,10.5
+eb3:FL585:p36,Sonnet 5.5,no thinking,1,9.5
+eb3:FL585:p36,Sonnet 5.5,no thinking,2,11.0
+eb3:FL585:p37,Sonnet 5.5,no thinking,0,14.0
+eb3:FL585:p37,Sonnet 5.5,no thinking,1,17.0
+eb3:FL585:p37,Sonnet 5.5,no thinking,2,14.0
+eb3:FL585:p38,Sonnet 5.5,no thinking,0,8.5
+eb3:FL585:p38,Sonnet 5.5,no thinking,1,9.0
+eb3:FL585:p38,Sonnet 5.5,no thinking,2,10.5
+eb3:FL585:p39,Sonnet 5.5,no thinking,0,7.5
+eb3:FL585:p39,Sonnet 5.5,no thinking,1,8.5
+eb3:FL585:p39,Sonnet 5.5,no thinking,2,7.0
+eb:FL015EP:p16,Sonnet 5.5,no thinking,0,4.5
+eb:FL015EP:p16,Sonnet 5.5,no thinking,1,4.5
+eb:FL015EP:p16,Sonnet 5.5,no thinking,2,4.5
+eb:FL015EP:p17,Sonnet 5.5,no thinking,0,6.5
+eb:FL015EP:p17,Sonnet 5.5,no thinking,1,6.5
+eb:FL015EP:p17,Sonnet 5.5,no thinking,2,7.5
+eb:FL015EP:p18,Sonnet 5.5,no thinking,0,5.5
+eb:FL015EP:p18,Sonnet 5.5,no thinking,1,5.5
+eb:FL015EP:p18,Sonnet 5.5,no thinking,2,6.5
+eb:FL015EP:p19,Sonnet 5.5,no thinking,0,7.5
+eb:FL015EP:p19,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p19,Sonnet 5.5,no thinking,2,8.0
+eb:FL015EP:p20,Sonnet 5.5,no thinking,0,7.5
+eb:FL015EP:p20,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p20,Sonnet 5.5,no thinking,2,7.5
+eb:FL015EP:p25,Sonnet 5.5,no thinking,0,6.5
+eb:FL015EP:p25,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p25,Sonnet 5.5,no thinking,2,6.5
+eb:FL015EP:p26,Sonnet 5.5,no thinking,0,4.5
+eb:FL015EP:p26,Sonnet 5.5,no thinking,1,4.5
+eb:FL015EP:p26,Sonnet 5.5,no thinking,2,5.0
+eb:FL015EP:p27,Sonnet 5.5,no thinking,0,8.5
+eb:FL015EP:p27,Sonnet 5.5,no thinking,1,8.5
+eb:FL015EP:p27,Sonnet 5.5,no thinking,2,9.0
+eb:FL015EP:p28,Sonnet 5.5,no thinking,0,7.5
+eb:FL015EP:p28,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p28,Sonnet 5.5,no thinking,2,7.5
+eb:FL015EP:p29,Sonnet 5.5,no thinking,0,7.5
+eb:FL015EP:p29,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p29,Sonnet 5.5,no thinking,2,7.5
+eb:FL015EP:p3,Sonnet 5.5,no thinking,0,2.5
+eb:FL015EP:p3,Sonnet 5.5,no thinking,1,2.5
+eb:FL015EP:p3,Sonnet 5.5,no thinking,2,2.1
+eb:FL015EP:p30,Sonnet 5.5,no thinking,0,8.5
+eb:FL015EP:p30,Sonnet 5.5,no thinking,1,7.5
+eb:FL015EP:p30,Sonnet 5.5,no thinking,2,7.5
+eb:FL015EP:p31,Sonnet 5.5,no thinking,0,8.0
+eb:FL015EP:p31,Sonnet 5.5,no thinking,1,9.0
+eb:FL015EP:p31,Sonnet 5.5,no thinking,2,9.0
+eb:FL015EP:p32,Sonnet 5.5,no thinking,0,8.5
+eb:FL015EP:p32,Sonnet 5.5,no thinking,1,9.0
+eb:FL015EP:p32,Sonnet 5.5,no thinking,2,9.5
+eb:FL015EP:p4,Sonnet 5.5,no thinking,0,7.0
+eb:FL015EP:p4,Sonnet 5.5,no thinking,1,6.5
+eb:FL015EP:p4,Sonnet 5.5,no thinking,2,6.5
+eb:FL015EP:p5,Sonnet 5.5,no thinking,0,1.0
+eb:FL015EP:p5,Sonnet 5.5,no thinking,1,1.2
+eb:FL015EP:p5,Sonnet 5.5,no thinking,2,1.2
+eb:FL015EP:p6,Sonnet 5.5,no thinking,0,7.5
+eb:FL015EP:p6,Sonnet 5.5,no thinking,1,7.0
+eb:FL015EP:p6,Sonnet 5.5,no thinking,2,7.0
+eb:FL015EP:p7,Sonnet 5.5,no thinking,0,9.0
+eb:FL015EP:p7,Sonnet 5.5,no thinking,1,9.5
+eb:FL015EP:p7,Sonnet 5.5,no thinking,2,9.5
+eb:FL015EP:p8,Sonnet 5.5,no thinking,0,4.5
+eb:FL015EP:p8,Sonnet 5.5,no thinking,1,5.0
+eb:FL015EP:p8,Sonnet 5.5,no thinking,2,6.5

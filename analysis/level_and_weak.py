@@ -1,6 +1,6 @@
 """Reproduces paper section 7 with Appendix D.8 (Table D12), section 8 (Table 6) with Appendix C, and the
 numbers in the Abstract, Introduction (Table 1) and Conclusion that come from these or from Table 3.
-Reads data/questions.csv, data/forecasts_main.csv, data/eb_surveys.csv and, for the real-interview pilots, raw/GSS2024.dta
+Reads data/questions.csv, data/forecasts_main.csv, data/forecasts_web_matched_prompt.csv, data/eb_surveys.csv and, for the real-interview pilots, raw/GSS2024.dta
 (via raw_file).
 Seeds and draw rules follow the original computations: sampled Eurobarometer pilots seed 3 (pilot plus forecast) and seed 1
 (pilot alone); General Social Survey 2024 real-interview pilots seed 7, 2,000 draws, n whole interviews, scored on the people
@@ -187,6 +187,12 @@ def boot(x, yy, g, n=2000, seed=0):
     return np.percentile(b, [2.5, 97.5])
 W = S["eb_web"].copy(); yw = W.real_dk_pct
 for m in ("opus", "sonnet", "flash_think", "flash", "flash_lite"): W[m] = col("eb_web", m)
+# The 52 questions of FL015EP, FL576 and FL585 asked again with a prompt matched to the questionnaire as fielded (Appendix D.1;
+# data/forecasts_web_matched_prompt.csv; added after the scores were seen). Columns opus_m, sonnet_m: the other 49 keep their forecast.
+WM = pd.read_csv(DATA / "forecasts_web_matched_prompt.csv"); MIS = W.survey.isin(["FL015EP", "FL576", "FL585"])
+for m, (lab, st) in (("opus", ("Opus 5.5", "thinking")), ("sonnet", ("Sonnet 5.5", "no thinking"))):
+    new = WM[(WM.model == lab) & (WM.setting == st)].groupby("qid").forecast_pct.mean(); assert set(new.index) == set(W.index[MIS])
+    W[m + "_m"] = W[m]; W.loc[new.index, m + "_m"] = new
 out = "  EB web 101:"
 for c in ("opus", "sonnet", "flash_think", "flash", "qlen_text", "qlen_prompt", "n_options"):
     lo, hi = boot(W[c], yw, W.block); out += f" {c} {sp(W[c], yw):.3f} [{lo:.2f}, {hi:.2f}];"
@@ -195,10 +201,11 @@ NAR = W.survey.isin(["FL576", "FL585"]); rng = np.random.default_rng(0)
 for lab, s in (("general population", W[~NAR]), ("narrower", W[NAR]), ("all web", W)):
     g = s.block.to_numpy(); ug = np.unique(g); ix = {u: np.where(g == u)[0] for u in ug}
     for a in ("opus", "sonnet"):
-        dd = []
+        dd = []; dm = []  # dm: the matched prompt on the same resamples (no extra draws, so the lines above are unchanged)
         for _ in range(2000):
-            t = s.iloc[np.concatenate([ix[u] for u in rng.choice(ug, len(ug))])]; dd.append(spn(t[a], t.real_dk_pct) - spn(t.qlen_text, t.real_dk_pct))
+            t = s.iloc[np.concatenate([ix[u] for u in rng.choice(ug, len(ug))])]; dd.append(spn(t[a], t.real_dk_pct) - spn(t.qlen_text, t.real_dk_pct)); dm.append(spn(t[a + "_m"], t.real_dk_pct) - spn(t.qlen_text, t.real_dk_pct))
         if lab == "all web": print(f"  {lab}: {a} minus question length {spn(s[a], s.real_dk_pct) - spn(s.qlen_text, s.real_dk_pct):+.3f} [{np.nanpercentile(dd, 2.5):+.2f}, {np.nanpercentile(dd, 97.5):+.2f}]")
+        if lab == "all web": print(f"  {lab}, matched prompt on the 52 (Appendix D.1): {a} minus question length {spn(s[a + '_m'], s.real_dk_pct) - spn(s.qlen_text, s.real_dk_pct):+.3f} [{np.nanpercentile(dm, 2.5):+.2f}, {np.nanpercentile(dm, 97.5):+.2f}]")
 def inside(s, c, yc="real_dk_pct"):
     d = s[s.groupby("block")[c].transform("size") >= 2]
     a = sp(d[c] - d.groupby("block")[c].transform("mean"), d[yc] - d.groupby("block")[yc].transform("mean"))
@@ -212,6 +219,18 @@ d = W[W.groupby("block").opus.transform("size") >= 2]; lo, hi = boot(d.opus - d.
 print(f"  EB web inside blocks, Opus (a) interval [{lo:.2f}, {hi:.2f}]")
 for sv, s in W.groupby("survey"):
     if len(s) >= 8: print(f"  web survey {sv} n {len(s)}: Opus {sp(s.opus, s.real_dk_pct):.2f} | question length {sp(s.qlen_text, s.real_dk_pct):.2f} | prompt length {sp(s.qlen_prompt, s.real_dk_pct):.2f}")
+print("  -- matched prompt (Appendix D.1): FL015EP and FL576 name the option 'Don't know / no answer'; FL576 names employees, FL585 young people aged 15 to 30 --")
+for lab, s in (("52 questions of FL015EP, FL576, FL585", W[MIS]), ("all 101", W)):
+    g = s.block.to_numpy(); ug = np.unique(g); ix = {u: np.where(g == u)[0] for u in ug}; r5 = np.random.default_rng(0); RS = [np.concatenate([ix[u] for u in r5.choice(ug, len(ug))]) for _ in range(2000)]
+    out = f"  {lab} ({len(s)} questions, {len(ug)} blocks; question length {sp(s.qlen_text, s.real_dk_pct):.3f}):"
+    for c in ("opus", "opus_m", "sonnet", "sonnet_m"):
+        rr = [spn(s[c].iloc[i], s.real_dk_pct.iloc[i]) for i in RS]; dd = [spn(s[c].iloc[i], s.real_dk_pct.iloc[i]) - spn(s.qlen_text.iloc[i], s.real_dk_pct.iloc[i]) for i in RS]
+        lead = "" if lab == "all 101" else f" | minus question length {sp(s[c], s.real_dk_pct) - sp(s.qlen_text, s.real_dk_pct):+.3f} [{np.nanpercentile(dd, 2.5):+.2f}, {np.nanpercentile(dd, 97.5):+.2f}]"  # all 101: see the paired lines above
+        out += f"\n     {c:8s} {sp(s[c], s.real_dk_pct):.3f} [{np.nanpercentile(rr, 2.5):.2f}, {np.nanpercentile(rr, 97.5):.2f}]{lead} | mean {s[c].mean():.2f}% (real {s.real_dk_pct.mean():.2f}%) error {mae(s[c], s.real_dk_pct):.2f}"
+    print(out)
+for sv, s in W[MIS].groupby("survey"):
+    print(f"  {sv} n {len(s)}: question length {sp(s.qlen_text, s.real_dk_pct):.2f} | Opus {sp(s.opus, s.real_dk_pct):.2f} -> {sp(s.opus_m, s.real_dk_pct):.2f} | Sonnet {sp(s.sonnet, s.real_dk_pct):.2f} -> {sp(s.sonnet_m, s.real_dk_pct):.2f} "
+          f"| Opus mean {s.opus.mean():.2f}% -> {s.opus_m.mean():.2f}% (real {s.real_dk_pct.mean():.2f}%), error {mae(s.opus, s.real_dk_pct):.2f} -> {mae(s.opus_m, s.real_dk_pct):.2f}")
 T = S["eb_telephone"].copy(); T["opus"] = col("eb_telephone", "opus")
 for sv, s in T.groupby("survey"): print(f"  telephone survey {sv} n {len(s)}: Opus {sp(s.opus, s.real_dk_pct):.2f}")
 G = S["gss2024_web"]; yg = G.real_dk_pct

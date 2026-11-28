@@ -101,7 +101,9 @@
 === F. Web and telephone questions (Table 6, section 8, Appendix C) ===
   EB web 101: opus 0.681 [0.49, 0.80]; sonnet 0.627 [0.44, 0.75]; flash_think 0.648 [0.47, 0.77]; flash 0.663 [0.47, 0.77]; qlen_text 0.370 [0.06, 0.62]; qlen_prompt 0.341 [0.02, 0.60]; n_options -0.242 [-0.47, 0.10];
   all web: opus minus question length +0.311 [-0.03, +0.64]
+  all web, matched prompt on the 52 (Appendix D.1): opus minus question length +0.353 [+0.07, +0.64]
   all web: sonnet minus question length +0.257 [-0.09, +0.56]
+  all web, matched prompt on the 52 (Appendix D.1): sonnet minus question length +0.312 [+0.04, +0.58]
   EB web inside blocks (87 questions, 24 blocks) opus: (a) 0.737 (b) 0.666 (c) 0.696
   EB web inside blocks (87 questions, 24 blocks) sonnet: (a) 0.607 (b) 0.477 (c) 0.507
   EB web inside blocks (87 questions, 24 blocks) qlen_text: (a) 0.058 (b) -0.026 (c) -0.127
@@ -111,6 +113,20 @@
   web survey FL564 n 27: Opus 0.83 | question length -0.20 | prompt length -0.20
   web survey FL576 n 27: Opus 0.57 | question length 0.59 | prompt length 0.47
   web survey FL584 n 19: Opus 0.70 | question length 0.74 | prompt length 0.68
+  -- matched prompt (Appendix D.1): FL015EP and FL576 name the option 'Don't know / no answer'; FL576 names employees, FL585 young people aged 15 to 30 --
+  52 questions of FL015EP, FL576, FL585 (52 questions, 23 blocks; question length 0.750):
+     opus     0.544 [0.28, 0.73] | minus question length -0.205 [-0.50, +0.12] | mean 8.03% (real 7.02%) error 2.78
+     opus_m   0.639 [0.38, 0.78] | minus question length -0.110 [-0.32, +0.09] | mean 6.81% (real 7.02%) error 2.48
+     sonnet   0.484 [0.21, 0.69] | minus question length -0.266 [-0.54, +0.04] | mean 7.48% (real 7.02%) error 3.12
+     sonnet_m 0.624 [0.34, 0.79] | minus question length -0.125 [-0.33, +0.09] | mean 6.53% (real 7.02%) error 2.65
+  all 101 (101 questions, 38 blocks; question length 0.370):
+     opus     0.681 [0.49, 0.80] | mean 7.51% (real 6.88%) error 2.28
+     opus_m   0.722 [0.55, 0.82] | mean 6.88% (real 6.88%) error 2.13
+     sonnet   0.627 [0.44, 0.75] | mean 7.30% (real 6.88%) error 2.61
+     sonnet_m 0.682 [0.51, 0.79] | mean 6.81% (real 6.88%) error 2.37
+  FL015EP n 19: question length 0.86 | Opus 0.61 -> 0.73 | Sonnet 0.65 -> 0.65 | Opus mean 7.98% -> 7.31% (real 7.58%), error 2.63 -> 2.44
+  FL576 n 27: question length 0.59 | Opus 0.57 -> 0.54 | Sonnet 0.46 -> 0.42 | Opus mean 7.90% -> 6.17% (real 5.56%), error 2.65 -> 2.23
+  FL585 n 6: question length -0.06 | Opus 0.50 -> 0.79 | Sonnet -0.06 -> 0.74 | Opus mean 8.81% -> 8.08% (real 11.83%), error 3.86 -> 3.75
   telephone survey FL566 n 13: Opus 0.93
   telephone survey FL567 n 14: Opus 0.27
   GSS 2024 web 47: opus 0.715; sonnet 0.689; haiku 0.523; flash_think 0.720; flash 0.653; flash_lite 0.635; Opus first call 0.730; question length 0.120; options -0.308

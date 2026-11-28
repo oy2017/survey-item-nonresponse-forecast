@@ -17,6 +17,7 @@ the real percentages on 908 questions from the World Values Survey, the General 
 | `data/prompts_main.csv` | the exact system and user message sent for each question |
 | `data/forecasts_main.csv` | every forecast, one row per question, model, setting and call |
 | `data/prompts_issp_supplement.csv`, `data/forecasts_issp_supplement.csv` | the re-run of the 47 General Social Survey 2024 interview questions from the ISSP self-completion supplement, with a prompt saying "Can't choose" is offered |
+| `data/prompts_web_matched_prompt.csv`, `data/forecasts_web_matched_prompt.csv` | the 52 Eurobarometer web questions of FL015EP, FL576 and FL585 asked again with a prompt matched to the questionnaire as fielded (Appendix D.1) |
 | `data/replies/` | the raw model replies the forecasts were read from |
 | `analysis/` | one script per section or table of the paper; each prints the paper's numbers |
 | `build/` | scripts that rebuild `data/` from the original sources (survey files and published reports) |
@@ -51,6 +52,11 @@ probably shown "Can't choose". Their re-run, with a prompt saying "Can't choose"
 `data/forecasts_issp_supplement.csv` (replies in `data/replies/issp_supplement_replies.jsonl`). `analysis/common.py`
 `forecasts()` uses the re-run by default (`issp="corrected"`); `issp="as run"` gives the first run, which section 6 and the
 examples check of Appendix D.3 use.
+
+The 52 Eurobarometer web questions of FL015EP, FL576 and FL585 were asked with a prompt naming adults and a plain "Don't know",
+while FL015EP and FL576 showed "Don't know / no answer", FL576 sampled employees and FL585 young people aged 15 to 30. Their
+re-run with a matched prompt is in `data/forecasts_web_matched_prompt.csv` (replies in `data/replies/web_matched_prompt_replies.jsonl`);
+only `analysis/level_and_weak.py` (part F) reads it. Every other script, and Table 6, keeps the original prompt.
 
 ## Reproducing the paper
 
